@@ -1,0 +1,169 @@
+syntax = "proto3";
+
+package PlatformCertificateFromProto;
+
+import "PlatformConfiguration.proto";
+
+// These objects are defined in the Trusted Computing Group's Platform Certificate
+// Found:
+//     v1.1 https://trustedcomputinggroup.org/resource/tcg-platform-certificate-profile/
+// and v1.0 https://trustedcomputinggroup.org/resource/tcg-platform-attribute-credential-profile/
+
+/* tcg OBJECT IDENTIFIER ::= { 
+            joint-iso-itu-t(2) international-organizations(23) tcg(133) } */
+			
+enum TCGAttribute {
+  TCGATTRIBUTE_UNSPECIFIED = 0;
+  /* tcg-attribute OBJECT IDENTIFIER ::= {tcg 2} */
+  // 2.23.133.2.
+  TPMMANUFACTURER = 1;
+  TPMMODEL = 2;
+  TPMVERSION = 3;
+  SECURITYQUALITIES = 10;
+  TPMPROTECTIONPROFILE = 11;
+  TPMSECURITYTARGET = 12;
+  TBBPROTECTIONPROFILE = 13;
+  TBBSECURITYTARGET = 14;
+  TPMIDLABEL = 15;
+  TPMSPECIFICATION = 16;
+  TCGPLATFORMSPECIFICATION = 17;
+  TPMSECURITYASSERTIONS = 18;
+  TBBSECURITYASSERTIONS = 19;
+  TCGCREDENTIALSPECIFICATION = 23;
+  TCGCREDENTIALTYPE = 25;
+}
+
+enum TCGCommonAttribute {
+  TCGCOMMONATTRIBUTE_UNSPECIFIED = 0;
+  /* tcg-platformClass OBJECT IDENTIFIER ::= {tcg 5} */
+  /* tcg-common OBJECT IDENTIFIER ::= {tcg-platformClass 1} */
+  // 2.23.133.5.1.
+  PLATFORMMANUFACTURERSTR = 1;
+  PLATFORMMANUFACTURERID = 2;
+  PLATFORMCONFIGURI = 3;
+  PLATFORMMODEL = 4;
+  PLATFORMVERSION = 5;
+  PLATFORMSERIAL = 6;
+  PLATFORMCONFIGURATION = 7;
+}
+
+message TCGSpecificationVersion {
+  int32 majorVersion = 1;
+  int32 minorVersion = 2;
+  int32 revision = 3;
+}
+
+message TCGPlatformSpecification {
+  TCGSpecificationVersion Version = 1;
+  string platformClass = 2;
+}
+
+enum CredentialType {
+  CREDENTIALTYPE_UNSPECIFIED = 0;
+  /* tcg-kp OBJECT IDENTIFIER ::= {tcg 8} */
+  // 2.23.133.8. 
+  EKCERTIFICATE = 1;
+  PLATFORMATTRIBUTECERTIFICATE = 2;
+  AIKCERTIFICATE = 3;
+  PLATFORMKEYCERTIFICATE = 4;
+  DELTAPLATFORMATTRIBUTECERTIFICATE = 5;
+}
+
+message TCGCredentialType {
+  CredentialType certificateType = 1;
+}
+
+message PlatformManufacturerStr {
+  string value = 1;
+}
+message PlatformModel {
+  string value = 1;
+}
+message PlatformVersion {
+  string value = 1;
+}
+message PlatformSerial {
+  string value = 1;
+}
+message ManufacturerId {
+  PrivateEnterpriseNumber ManufacturerId = 1;
+}
+message PlatformManufacturerId {
+  ManufacturerId value = 1;
+}
+
+message PlatformConfigUri {
+  URIReference value = 1;
+}
+
+enum EvaluationAssuranceLevel {
+  EVALUATIONASSURANCELEVEL_UNSPECIFIED = 0;
+  EVALUATIONASSURANCELEVEL1 = 1;
+  EVALUATIONASSURANCELEVEL2 = 2;
+  EVALUATIONASSURANCELEVEL3 = 3;
+  EVALUATIONASSURANCELEVEL4 = 4;
+  EVALUATIONASSURANCELEVEL5 = 5;
+  EVALUATIONASSURANCELEVEL6 = 6;
+  EVALUATIONASSURANCELEVEL7 = 7;
+}
+
+enum EvaluationStatus {
+  DESIGNEDTOMEET = 0;
+  EVALUATIONINPROGRESS = 1;
+  EVALUATIONCOMPLETED = 2;
+}
+
+enum StrengthOfFunction {
+  BASIC = 0;
+  MEDIUM = 1;
+  HIGH = 2;
+}
+
+message CommonCriteriaMeasures {
+  string version = 1;
+  EvaluationAssuranceLevel assuranceLevel = 2;
+  EvaluationStatus evaluationStatus = 3;
+  bool plus = 4;
+  StrengthOfFunction strengthofFunction = 5;
+  string profileOid = 6;
+  URIReference profileUri = 7;
+  string targetOid = 8;
+  URIReference targetUri = 9;
+}
+
+enum SecurityLevel {
+  FIPSSECURITYLEVEL_UNSPECIFIED = 0;
+  FIPSSECURITYLEVEL1 = 1;
+  FIPSSECURITYLEVEL2 = 2;
+  FIPSSECURITYLEVEL3 = 3;
+  FIPSSECURITYLEVEL4 = 4;
+}
+
+message FIPSLevel {
+  string version = 1;
+  SecurityLevel level = 2;
+  bool plus = 3;
+}
+
+enum MeasurementRootType {
+  STATIC = 0;
+  DYNAMIC = 1;
+  NONHOST = 2;
+  HYBRID = 3;
+  PHYSICAL = 4;
+  VIRTUAL = 5;
+}
+
+enum TBBVersion {
+  TBBVERSION_UNSPECIFIED = 0;
+  TBBVERSION1 = 1;
+}
+
+message TBBSecurityAssertions {
+  TBBVersion version = 1;
+  CommonCriteriaMeasures ccInfo = 2;
+  FIPSLevel fipsLevel = 3;
+  MeasurementRootType rtmType = 4;
+  bool iso9000Certified = 5;
+  string iso9000Uri = 6;
+}

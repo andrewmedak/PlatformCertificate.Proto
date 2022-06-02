@@ -1,0 +1,6 @@
+*.user
+*.cache
+**/.vs
+**/bin
+**/obj
+**/PublishProfiles

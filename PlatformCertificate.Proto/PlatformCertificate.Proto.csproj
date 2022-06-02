@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Andrew Medak</Authors>
+    <PackageProjectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</PackageProjectUrl>
+    <Description>This lightweight library offers a selection of sequences from the TCG Platform Certificate compiled as C# Objects. The sequences are compiled after I attempted to capture their ASN.1 definition into Google's Protobuf (Proto3) format.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</RepositoryUrl>
+    <PackageTags>platform; certificate; platform certificate; tcg; proto; protobuf;</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.20.1" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.20.1">
+        <PrivateAssets>all</PrivateAssets> <!-- These assets will be consumed but won't flow to the parent project -->
+    </PackageReference>
+  </ItemGroup>
+
+  <Target Name="BuildProto" BeforeTargets="PreBuildEvent">
+    <PropertyGroup>
+        <FOLDER_PROTO>$(ProjectDir)Resources</FOLDER_PROTO>
+        <FOLDER_OUT>$(ProjectDir)generated</FOLDER_OUT>
+    </PropertyGroup>
+    <PropertyGroup>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X64'">$(protoc_linux64)</protoc>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X86'">$(protoc_linux86)</protoc>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X64'">$(protoc_macosx64)</protoc>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X86'">$(protoc_macosx86)</protoc>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X64'">$(protoc_windows64)</protoc>
+        <protoc Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' And '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)'=='X86'">$(protoc_windows86)</protoc>
+    </PropertyGroup>
+    <Exec Condition="!Exists('$(FOLDER_OUT)')" Command="mkdir $(FOLDER_OUT)" />
+    <Exec Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))'" Command="for /f %%i in ('dir /s /b $(FOLDER_PROTO)\*.proto') do (  $(protoc) -I=$(FOLDER_PROTO) --csharp_out=$(FOLDER_OUT) %%i )" />
+    <Exec Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'" Command="for file in `ls -1R $(FOLDER_PROTO)/*.proto` ; do $(protoc) -I=$(FOLDER_PROTO) --csharp_out=$(FOLDER_OUT) $file; done " />
+	
+	<ItemGroup>
+      <GeneratedFiles Include="$(FOLDER_OUT)/*.cs;" />
+    </ItemGroup>
+	<Message Text="The protobuf compiler successfully generated:" Importance="high" />
+    <Message Text="    %(GeneratedFiles.Filename)%(GeneratedFiles.Extension)" Importance="high" />
+  </Target>
+
+</Project>
