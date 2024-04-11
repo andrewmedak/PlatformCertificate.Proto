@@ -26,4 +26,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Proto files package
       run: |
-        nuget pack .\PlatformCertificate.Proto.ProtoFiles.nuspec
+        nuget pack PlatformCertificate.Proto.ProtoFiles.nuspec
