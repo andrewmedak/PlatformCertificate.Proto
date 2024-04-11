@@ -31,7 +31,7 @@ namespace YourNamespace {
     public class YourClass {
 	    public void YourMethod {
 			string json = File.ReadAllText(PLATFORMATTRIBUTECERTIFICATE_A1_TRAITS_PATH);
-            PlatformAttributeCertificate result = PlatformAttributeCertificate.Parser.WithDiscardUnknownFields(true).ParseJson(json);
+			PlatformAttributeCertificate result = PlatformAttributeCertificate.Parser.WithDiscardUnknownFields(true).ParseJson(json);
 			...
 		}
 	}
