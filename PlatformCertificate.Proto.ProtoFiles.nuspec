@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <metadata>
+    <id>PlatformCertificate.Proto.ProtoFiles</id>
+    <version>2.0.7</version>
+    <authors>Andrew Medak</authors>
+    <projectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</projectUrl>
+    <description>This package contains the original proto files so that other projects can import them.</description>
+    <readme>README.md</readme>
+    <tags>platform; certificate; platform certificate; tcg; proto; protobuf;</tags>
+    <license type="expression">Apache-2.0</license>
+	<repository type="git" url="https://github.com/andrewmedak/PlatformCertificate.Proto" />
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="README.md" target="/" />
+    <file src="PlatformCertificate.Proto/Resources/ASN1.proto" target="platformcertificate/protos"/>
+	<file src="PlatformCertificate.Proto/Resources/PlatformCertificateIM.proto" target="platformcertificate/protos"/>
+	<file src="PlatformCertificate.Proto/Resources/Rfc5280.proto" target="platformcertificate/protos"/>
+	<file src="PlatformCertificate.Proto/Resources/Rfc5755.proto" target="platformcertificate/protos"/>
+	<file src="PlatformCertificate.Proto/Resources/Oids.proto" target="platformcertificate/protos"/>
+    <file src="PlatformCertificate.Proto.ProtoFiles.targets" target="build"/>
+  </files>
+</package>

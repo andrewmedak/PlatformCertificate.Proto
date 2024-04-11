@@ -1,5 +1,7 @@
 *.user
 *.cache
+*.nupkg
+**/.idea
 **/.vs
 **/bin
 **/obj

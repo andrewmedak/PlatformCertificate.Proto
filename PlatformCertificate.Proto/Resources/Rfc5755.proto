@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+import "ASN1.proto";
+import "Rfc5280.proto";
+
+message AttributeCertificate {
+  AttributeCertificateInfo acinfo = 1;
+  AlgorithmIdentifier signatureAlgorithm = 2;
+  bytes signatureValue = 3;                                // base64 encode the binary value
+}
+
+message AttributeCertificateInfo {
+  AttCertVersion version = 1;
+  Holder holder = 2;
+  AttCertIssuer issuer = 3;
+  AlgorithmIdentifier signature = 4;
+  AttCertValidityPeriod attrCertValidityPeriod = 5;
+  repeated Attribute attributes = 6;
+  UniqueIdentifier issuerUniqueID = 7;
+  repeated Extension extensions = 8;
+}
+
+enum AttCertVersion {
+  RFC5755_V1 = 0;
+  RFC5755_V2 = 1;
+}
+
+message Holder {
+  IssuerSerial baseCertificateID = 1;
+  repeated GeneralName entityName = 2;
+  ObjectDigestInfo objectDigestInfo = 3;
+}
+
+message ObjectDigestInfo {
+  DigestedObjectType digestedObjectType = 1;
+  ObjectIdentifier otherObjectTypeID = 2;
+  AlgorithmIdentifier digestAlgorithm = 3;
+  BitString objectDigest = 4;
+}
+
+enum DigestedObjectType {
+  DIGESTEDOBJECTTYPE_PUBLICKEY = 0;
+  DIGESTEDOBJECTTYPE_PUBLICKEYCERT = 1;
+  DIGESTEDOBJECTTYPE_OTHEROBJECTTYPES = 2;
+}
+
+message AttCertIssuer {
+  repeated GeneralName v1Form = 1;
+  V2Form v2Form = 2;
+}
+
+message V2Form {
+  repeated GeneralName issuerName = 1;
+  IssuerSerial baseCertificateID = 2;
+  ObjectDigestInfo objectDigestInfo = 3;
+}
+
+message IssuerSerial {
+  IssuerSerialDN issuer = 1;
+  CertificateSerialNumber serial = 2;
+  UniqueIdentifier issuerUID = 3;
+}
+
+message IssuerSerialDN {
+  repeated GeneralName generalName = 1;
+  string rdnShorthand = 2;
+}
+
+message AttCertValidityPeriod {
+  GeneralizedTime notBeforeTime = 1;
+  GeneralizedTime notAfterTime = 2;
+}

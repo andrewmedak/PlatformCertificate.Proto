@@ -1,0 +1,568 @@
+syntax = "proto3";
+
+import "ASN1.proto";
+import "Rfc5280.proto";
+import "Rfc5755.proto";
+
+package PlatformCertificateProto;
+
+message PlatformAttributeCertificate {
+  TcgCredentialType tCGCredentialType = 1;
+  DN issuer = 2;
+  AuthorityKeyIdentifier authorityKeyIdentifier = 3;
+  repeated AccessDescription authorityInfoAccess = 4;
+  TcgSpecificationVersion tCGCredentialSpecification = 5;
+  AttCertValidityPeriod attrCertValidityPeriod = 6;
+  AlgorithmIdentifier signature = 7;
+  AlgorithmIdentifier signatureAlgorithm = 8;
+  BitString signatureValue = 9;
+  repeated PolicyInformation certificatePolicies = 10;
+  repeated CertificateIdentifierTrait previousPlatformCertificates = 11;
+  repeated DistributionPoint cRLDistributionPoints = 12;
+  IssuerSerial holder = 13;
+  repeated CertificateIdentifierTrait cryptographicAnchors = 14;
+  PlatformIdentifierOtherName platformIdentifier = 15;
+  TcgPlatformSpecification tCGPlatformSpecification = 16;
+  TbbSecurityAssertions tBBSecurityAssertions = 17;
+  PlatformConfiguration platformConfiguration = 18;
+  repeated PlatformConfigUri platformConfigUri = 19;
+  repeated PlatformOwnership platformOwnership = 20;
+}
+
+message PlatformKeyCertificate {
+  TcgCredentialType tCGCredentialType = 1;
+  DN issuer = 2;
+  AuthorityKeyIdentifier authorityKeyIdentifier = 3;
+  repeated AccessDescription authorityInfoAccess = 4;
+  TcgSpecificationVersion tCGCredentialSpecification = 5;
+  Validity validity = 6;
+  AlgorithmIdentifier signature = 7;
+  AlgorithmIdentifier signatureAlgorithm = 8;
+  BitString signatureValue = 9;
+  repeated PolicyInformation certificatePolicies = 10;
+  repeated CertificateIdentifierTrait previousPlatformCertificates = 11;
+  repeated DistributionPoint cRLDistributionPoints = 12;
+  SubjectPublicKeyInfo subjectPublicKeyInfo = 13;
+  DN subject = 14;
+  SubjectKeyIdentifier subjectKeyIdentifier = 15;
+  repeated CertificateIdentifierTrait cryptographicAnchors = 16;
+  PlatformIdentifierOtherName platformIdentifier = 17;
+  TcgPlatformSpecification tCGPlatformSpecification = 18;
+  TbbSecurityAssertions tBBSecurityAssertions = 19;
+  PlatformConfiguration platformConfiguration = 20;
+  repeated PlatformConfigUri platformConfigUri = 21;
+  repeated PlatformOwnership platformOwnership = 22;
+}
+
+message TcgCredentialType {
+  // certificateType values: tcg-kp-PlatformAttributeCertificate, -PlatformKeyCertificate,
+  //                               -AdditionalPlatformAttributeCertificate, -AdditionalPlatformKeyCertificate,
+  //                               -DeltaPlatformAttributeCertificate, -DeltaPlatformKeyCertificate
+  ObjectIdentifier certificateType = 1;
+}
+
+message TcgSpecificationVersion {
+  int32 majorVersion = 1;
+  int32 minorVersion = 2;
+  int32 revision = 3;
+}
+
+message TcgPlatformSpecification {
+  TcgSpecificationVersion version = 1;
+  OctetString platformClass = 2;
+}
+
+message GenericTrait {
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  OctetString traitValue = 6;
+}
+
+message BooleanTrait {
+  // traitId: tcg-tr-ID-Boolean
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  Boolean traitValue = 6;
+}
+
+message CertificateIdentifierTrait {
+  // traitId: tcg-tr-ID-certificateIdentifier
+  // traitCategory values: tcg-tr-cat-EKCertificate, -IAKCertificate, -IDevIDCertificate, -DICECertificate,
+  //                                 -SPDMCertificate, -PlatformCertificate, -DeltaPlatformCertificate,
+  //                                 -RebasePlatformCertificate, -genericCertificate
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  CertificateIdentifier traitValue = 6;
+}
+
+message CommonCriteriaTrait {
+  // traitId: tcg-tr-ID-CommonCriteria
+  // traitCategory: tcg-tr-cat-CommonCriteria
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  CommonCriteriaEvaluation traitValue = 6;
+}
+
+message ComponentClassTrait {
+  // traitId: tcg-tr-ID-componentClass
+  // traitCategory: tcg-tr-cat-componentClass
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  OctetString traitValue = 6;                              // traitValue is exactly 4 bytes
+}
+message ComponentIdentifierV11Trait {
+  // traitId: tcg-tr-ID-componentIdentifierV11
+  // traitCategory: tcg-tr-cat-componentIdentifierV11
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  ComponentIdentifierV11 traitValue = 6;
+}
+
+message FipsLevelTrait {
+  // traitId: tcg-tr-ID-FIPSLevel
+  // traitCategory: tcg-tr-cat-FIPSLevel
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  FipsLevel traitValue = 6;
+}
+
+message Iso9000Trait {
+  // traitId: tcg-tr-ID-ISO9000
+  // traitCategory: tcg-tr-cat-ISO9000
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  Iso9000Certification traitValue = 6;
+}
+
+message NetworkMACTrait {
+  // traitId: tcg-tr-ID-networkMAC
+  // traitCategory: tcg-tr-cat-networkMAC
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  ComponentAddress traitValue = 6;
+}
+
+message OIDTrait {
+  // traitId: tcg-tr-ID-OID
+  // traitCategory: tcg-tr-cat-attestationProtocol
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  ObjectIdentifier traitValue = 6;
+}
+
+message PENTrait {
+  // traitId: tcg-tr-ID-PEN
+  // traitCategory: tcg-tr-cat-PEN
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  ObjectIdentifier traitValue = 6;
+}
+
+message PlatformFirmwareCapabilitiesTrait {
+  // traitId: tcg-tr-ID-platformFirmwareCapabilities
+  // traitCategory: tcg-tr-cat-platformFirmwareCapabilities
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  repeated PlatformFirmwareCapabilities traitValue = 6;
+}
+
+message PlatformFirmwareSignatureVerificationTrait {
+  // traitId: tcg-tr-ID-platformFirmwareSignatureVerification
+  // traitCategory: tcg-tr-cat-platformFirmwareSignatureVerification
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  repeated PlatformFirmwareSignatureVerification traitValue = 6;
+}
+
+message PlatformFirmwareUpdateComplianceTrait {
+  // traitId: tcg-tr-ID-platformFirmwareUpdateCompliance
+  // traitCategory: tcg-tr-cat-platformFirmwareUpdateCompliance
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  repeated PlatformFirmwareUpdateCompliance traitValue = 6;
+}
+
+message PlatformHardwareCapabilitiesTrait {
+  // traitId: tcg-tr-ID-platformHardwareCapabilities
+  // traitCategory: tcg-tr-cat-platformHardwareCapabilities
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  repeated PlatformHardwareCapabilities traitValue = 6;
+}
+
+message RTMTrait {
+  // traitId: tcg-tr-ID-RTM
+  // traitCategory: tcg-tr-cat-RTM
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  repeated RTMTypes traitValue = 6;
+}
+
+message StatusTrait {
+  // traitId: tcg-tr-ID-status
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  AttributeStatus traitValue = 6;
+}
+
+message URITrait {
+  // traitId: tcg-tr-ID-URI
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  URIReference traitValue = 6;
+}
+
+message UTF8StringTrait {
+  // traitId: tcg-tr-ID-UTF8String
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  UTF8String traitValue = 6;
+}
+
+message IA5StringTrait {
+  // traitId: tcg-tr-ID-IA5String
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  IA5String traitValue = 6;
+}
+
+message PEMCertString {
+  // traitId: tcg-tr-ID-PEMCertString
+  // traitCategory: tcg-tr-cat-PEMCertificate
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  UTF8String traitValue = 6;
+}
+
+message PublicKeyTrait {
+  // traitId: tcg-tr-ID-PublicKey
+  // traitCategory: tcg-tr-cat-PublicKey
+  ObjectIdentifier traitId = 1;
+  ObjectIdentifier traitCategory = 2;
+  ObjectIdentifier traitRegistry = 3;
+  UTF8String description = 4;
+  IA5String descriptionURI = 5;
+  SubjectPublicKeyInfo traitValue = 6;
+}
+
+message CertificateIdentifier {
+  HashedCertificateIdentifier hashedCertIdentifier = 1;
+  IssuerSerial genericCertIdentifier = 2;
+}
+
+message HashedCertificateIdentifier {
+  AlgorithmIdentifier hashAlgorithm = 1;
+  OctetString hashOverSignatureValue = 2;
+}
+
+message PlatformIdentifierOtherName {
+  // Default type-id: tcg-at-platformIdentifier
+  ObjectIdentifier type_id = 1;
+  PlatformIdentifier value = 2;
+}
+
+message PlatformIdentifier {
+  Manufacturer platformManufacturer = 1;                   // traitCategory: tcg-tr-cat-platformManufacturer
+  Model platformModel = 2;                                 // traitCategory: tcg-tr-cat-platformModel
+  Revision platformVersion = 3;                            // traitCategory: tcg-tr-cat-platformVersion
+  Serial platformSerial = 4;                               // traitCategory: tcg-tr-cat-platformSerial
+  PENTrait platformManufacturerIdentifier = 5;             // traitCategory: tcg-tr-cat-platformManufacturerIdentifier
+}
+
+message TbbSecurityAssertions {
+  CommonCriteriaTrait commonCriteria = 1;
+  FipsLevelTrait fipsLevel = 2;
+  Iso9000Trait iso9000 = 3;
+  PlatformFirmwareCapabilitiesTrait platformFirmwareCapabilities = 4;
+  PlatformFirmwareSignatureVerificationTrait platformFirmwareSignatureVerificationTrait = 5;
+  PlatformFirmwareUpdateComplianceTrait platformFirmwareUpdateComplianceTrait = 6;
+  PlatformHardwareCapabilitiesTrait platformHardwareCapabilitiesTrait = 7;
+  RTMTrait rTMTrait = 8;
+  URITrait uRITrait = 9;
+}
+
+message CommonCriteriaEvaluation {
+  CommonCriteriaMeasures commonCriteriaMeasures = 1;
+  UTF8String cCCertificateNumber = 2;
+  UTF8String cCCertificateAuthority = 3;
+  UTF8String evaluationScheme = 4;
+  GeneralizedTime cCCertificateIssuanceDate = 5;
+  GeneralizedTime cCCertificateExpiryDate = 6;
+}
+
+message CommonCriteriaMeasures {
+  IA5String version = 1;
+  EvaluationAssuranceLevel assuranceLevel = 2;
+  EvaluationStatus evaluationStatus = 3;
+  Boolean plus = 4;
+  StrengthOfFunction strengthOfFunction = 5;
+  ObjectIdentifier profileOid = 6;
+  URIReference profileUri = 7;
+  ObjectIdentifier targetOid = 8;
+  URIReference targetUri = 9;
+}
+
+enum EvaluationAssuranceLevel {
+  EVALUATIONASSURANCELEVEL_LEVEL0 = 0;
+  EVALUATIONASSURANCELEVEL_LEVEL1 = 1;
+  EVALUATIONASSURANCELEVEL_LEVEL2 = 2;
+  EVALUATIONASSURANCELEVEL_LEVEL3 = 3;
+  EVALUATIONASSURANCELEVEL_LEVEL4 = 4;
+  EVALUATIONASSURANCELEVEL_LEVEL5 = 5;
+  EVALUATIONASSURANCELEVEL_LEVEL6 = 6;
+  EVALUATIONASSURANCELEVEL_LEVEL7 = 7;
+}
+
+enum EvaluationStatus {
+  EVALUATIONSTATUS_DESIGNEDTOMEET = 0;
+  EVALUATIONSTATUS_EVALUATIONINPROGRESS = 1;
+  EVALUATIONSTATUS_EVALUATIONCOMPLETED = 2;
+}
+
+enum StrengthOfFunction {
+  STRENGTHOFFUNCTION_BASIC = 0;
+  STRENGTHOFFUNCTION_MEDIUM = 1;
+  STRENGTHOFFUNCTION_HIGH = 2;
+}
+
+message URIReference {
+  IA5String uniformResourceIdentifier = 1;
+  AlgorithmIdentifier hashAlgorithm = 2;
+  BitString hashValue = 3;
+}
+
+message FipsLevel {
+  IA5String version = 1;
+  SecurityLevel level = 2;
+  Boolean plus = 3;
+}
+
+enum SecurityLevel {
+  SECURITYLEVEL_LEVEL0 = 0;
+  SECURITYLEVEL_LEVEL1 = 1;
+  SECURITYLEVEL_LEVEL2 = 2;
+  SECURITYLEVEL_LEVEL3 = 3;
+  SECURITYLEVEL_LEVEL4 = 4;
+}
+
+message Iso9000Certification {
+  Boolean iso9000Certified = 1;
+  IA5String iso9000Uri = 2;
+}
+
+enum PlatformFirmwareCapabilities {
+  PLATFORMFIRMWARECAPABILITIES_FWSETUPAUTHLOCAL = 0;
+  PLATFORMFIRMWARECAPABILITIES_FWSETUPAUTHREMOTE = 1;
+  PLATFORMFIRMWARECAPABILITIES_SMMPROTECTION = 2;
+  PLATFORMFIRMWARECAPABILITIES_FWKERNELDMAPROTECTION = 3;
+}
+
+enum PlatformFirmwareSignatureVerification {
+  PLATFORMFIRMWARESIGNATUREVERIFICATION_HARDWARESRTM = 0;
+  PLATFORMFIRMWARESIGNATUREVERIFICATION_SECUREBOOT = 1;
+}
+
+enum PlatformFirmwareUpdateCompliance {
+  PLATFORMFIRMWAREUPDATECOMPLIANCE_SP800_147 = 0;
+  PLATFORMFIRMWAREUPDATECOMPLIANCE_SP800_147B = 1;
+  PLATFORMFIRMWAREUPDATECOMPLIANCE_SP800_193 = 2;
+}
+
+enum PlatformHardwareCapabilities {
+  PLATFORMHARDWARECAPABILITIES_IOMMUSUPPORT = 0;
+  PLATFORMHARDWARECAPABILITIES_TRUSTEDEXECUTIONENVIRONMENT = 1;
+  PLATFORMHARDWARECAPABILITIES_PHYSICALTAMPERPROTECTION = 2;
+  PLATFORMHARDWARECAPABILITIES_PHYSICALTAMPERDETECTION = 3;
+  PLATFORMHARDWARECAPABILITIES_FIRMWAREFLASHWP = 4;
+  PLATFORMHARDWARECAPABILITIES_EXTERNALDMASUPPORT = 5;
+}
+
+enum RTMTypes {
+  RTMTYPES_STATIC = 0;
+  RTMTYPES_DYNAMIC = 1;
+  RTMTYPES_NONHOST = 2;
+  RTMTYPES_VIRTUAL = 3;
+  RTMTYPES_HARDWARESTATIC = 4;
+  RTMTYPES_BMC = 5;
+}
+
+message PlatformConfiguration {
+  repeated ComponentIdentifierTrait platformComponents = 1;
+  repeated Property platformProperties = 2;
+}
+
+message ComponentIdentifierTrait {
+  oneof ComponentIdentifierTrait_oneof {
+    ComponentIdentifier componentIdentifier = 1;
+    ComponentIdentifierV11Trait componentIdentifierV11 = 2;
+  }
+}
+
+message ComponentIdentifier {
+  ComponentClassTrait componentClass = 1;
+  Manufacturer componentManufacturer = 2;
+  Model componentModel = 3;
+  Serial componentSerial = 4;
+  Revision componentRevision = 5;
+  FieldReplaceable componentFieldReplaceable = 6;
+  PENTrait componentManufacturerId = 8;
+  Location componentLocation = 9;
+  repeated NetworkMACTrait componentAddresses = 10;
+  repeated CertificateIdentifier componentCertificates = 11;
+  StatusTrait componentStatus = 12;
+  repeated GenericTrait additionalTraits = 13;
+}
+
+message Manufacturer {
+  oneof Manufacturer_oneof {
+    GenericTrait generic = 1;
+    UTF8StringTrait utf8 = 2;
+  }
+}
+
+message Model {
+  oneof Model_oneof {
+    GenericTrait generic = 1;
+    UTF8StringTrait utf8 = 2;
+  }
+}
+
+message Location {
+  oneof Location_oneof {
+    GenericTrait generic = 1;
+    UTF8StringTrait utf8 = 2;
+  }
+}
+
+message Serial {
+  oneof Serial_oneof {
+    GenericTrait generic = 1;
+    UTF8StringTrait utf8 = 2;
+  }
+}
+
+message Revision {
+  oneof Revision_oneof {
+    GenericTrait generic = 1;
+    UTF8StringTrait utf8 = 2;
+  }
+}
+
+message FieldReplaceable {
+  oneof FieldReplaceable_oneof {
+    GenericTrait generic = 1;
+    BooleanTrait bool = 2;
+  }
+}
+
+message ComponentIdentifierV11 {
+  ComponentClass componentClass = 1;
+  UTF8String componentManufacturer = 2;
+  UTF8String componentModel = 3;
+  UTF8String componentSerial = 4;
+  UTF8String componentRevision = 5;
+  ObjectIdentifier componentManufacturerId = 6;
+  Boolean fieldReplaceable = 7;
+  repeated ComponentAddress componentAddresses = 8;
+  CertificateIdentifier componentPlatformCert = 9;
+  URIReference componentPlatformCertUri = 10;
+  AttributeStatus status = 11;
+}
+
+message ComponentClass {
+  ObjectIdentifier componentClassRegistry = 1;
+  OctetString componentClassValue = 2;
+}
+
+message ComponentAddress {
+  ObjectIdentifier addressType = 1;                        // tcg-address-ethernetmac, -wlanmac, -bluetoothmac
+  UTF8String addressValue = 2;
+}
+
+message Property {
+  UTF8String propertyName = 1;
+  UTF8String propertyValue = 2;
+  AttributeStatus status = 3;
+}
+
+enum AttributeStatus {
+  ATTRIBUTESTATUS_ADDED = 0;
+  ATTRIBUTESTATUS_MODIFIED = 1;
+  ATTRIBUTESTATUS_REMOVED = 2;
+}
+
+message PlatformConfigUri {
+  oneof PlatformConfigUri_oneof {
+    GenericTrait generic = 1;
+    URITrait uri = 2;
+  }
+}
+
+message PlatformOwnership {
+  oneof PlatformOwnership_oneof {
+    GenericTrait generic = 1;
+  }
+}
