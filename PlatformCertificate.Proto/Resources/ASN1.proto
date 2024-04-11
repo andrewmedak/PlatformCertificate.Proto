@@ -1,0 +1,94 @@
+syntax = "proto3";
+
+message Boolean {
+  bool bool = 1;
+}
+
+message Integer {
+  sint64 int = 1;
+}
+
+message BMPString {
+  string string = 1;
+}
+
+message GeneralString {
+  string string = 1;
+}
+
+message GraphicString {
+  string string = 1;
+}
+
+message IA5String {
+  string string = 1;
+}
+
+message ISO646String {
+  string string = 1;
+}
+
+message NumericString {
+  string string = 1;
+}
+
+message PrintableString {
+  string string = 1;
+}
+
+message TeletexString {
+  string string = 1;
+}
+
+message T61String {
+  string string = 1;
+}
+
+message UniversalString {
+  string string = 1;
+}
+
+message UTF8String {
+  string string = 1;
+}
+
+message VideotexString {
+  string string = 1;
+}
+
+message VisibleString {
+  string string = 1;
+}
+
+message ObjectIdentifier {
+  string oid = 1;
+}
+
+message BitString {
+  bytes base64 = 1;                                        // base64 encode the binary value
+}
+
+message OctetString {
+  bytes base64 = 1;                                        // base64 encode the binary value
+}
+
+message Time {
+  oneof Time_oneof {
+    UtcTime utcTime = 1;
+    GeneralizedTime generalizedTime = 2;
+  }
+}
+
+message UtcTime {
+  string time = 1;                                         // Example format: YYMMDDHHMMSSZ
+}
+
+message GeneralizedTime {
+  string time = 1;                                         // Example format: YYYYMMDDHHMMSSZ
+}
+
+message Null {}                                            // Intentionally empty
+
+// RFC5280
+
+

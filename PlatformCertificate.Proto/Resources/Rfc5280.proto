@@ -1,0 +1,351 @@
+syntax = "proto3";
+
+import "ASN1.proto";
+
+message Certificate {
+  TBSCertificate tbsCertificate = 1;
+  AlgorithmIdentifier signatureAlgorithm = 2;
+  BitString signatureValue = 3;
+}
+
+message TBSCertificate {
+  Rfc5280Version version = 1;
+  CertificateSerialNumber serialNumber = 2;
+  AlgorithmIdentifier signature = 3;
+  Name issuer = 4;
+  Validity validity = 5;
+  Name subject = 6;
+  SubjectPublicKeyInfo subjectPublicKeyInfo = 7;
+  UniqueIdentifier issuerUniqueID = 8;
+  UniqueIdentifier subjectUniqueID = 9;
+  repeated Extension extensions = 10;
+}
+
+enum Rfc5280Version {
+  RFC5280_V1 = 0;
+  RFC5280_V2 = 1;
+  RFC5280_V3 = 2;
+}
+
+message CertificateSerialNumber {
+  Integer serialNumber = 1;
+}
+
+message AlgorithmIdentifier {
+  ObjectIdentifier algorithm = 1;
+  AlgorithmIdentifierParameters parameters = 2;
+}
+
+message AlgorithmIdentifierParameters {
+  oneof AlgorithmIdentifier_oneof {
+    Null null = 2;
+    bytes bytes = 3;                                       // base64 encode the binary value
+    string string = 4;
+  }
+}
+
+message Name {
+  oneof Name_oneof {
+    RDNSequence rdnSequence = 1;
+  }
+}
+
+message RDNSequence {
+  repeated RelativeDistinguishedName rdn = 1;
+}
+
+message RelativeDistinguishedName {
+  AttributeTypeAndValue AttributeTypeAndValue = 1;
+}
+
+message Attribute {
+  ObjectIdentifier type = 1;
+  repeated AttributeValue values = 2;
+}
+
+message AttributeTypeAndValue {
+  ObjectIdentifier type = 1;
+  AttributeValue value = 2;
+}
+
+message AttributeValue {
+  oneof AttributeValue_oneof {
+    UTF8String StringValue = 2;
+    OctetString ByteValue = 3;
+    Integer IntValue = 4;
+    ObjectIdentifier OidValue = 5;
+  }
+}
+
+message DN {
+  oneof DN_oneof {
+    Name name = 1;
+    string rdnShorthand = 2;
+  }
+}
+
+message AttributeTypeAndDirectoryStringValue {
+  ObjectIdentifier type = 1;
+  DirectoryString value = 2;
+}
+
+message DirectoryString {
+  oneof DirectoryString_oneof {
+    TeletexString teletexString = 1;
+    PrintableString printableString = 2;
+    UniversalString universalString = 3;
+    UTF8String utf8String = 4;
+    BMPString bmpString = 5;
+  }
+}
+
+message Validity {
+  Time notBefore = 1;
+  Time notAfter = 2;
+}
+
+message SubjectPublicKeyInfo {
+  AlgorithmIdentifier algorithm = 1;
+  BitString subjectPublicKey = 2;
+}
+
+message UniqueIdentifier {
+  BitString uid = 1;
+}
+
+// Extension = repeated Extension
+message Extension {
+  ObjectIdentifier extnID = 1;
+  Boolean critical = 2;
+  OctetString extnValue = 3;
+}
+
+// GeneralNames = repeated GeneralName
+message GeneralName {
+  oneof GeneralName_oneof {
+    OtherName otherName = 1;
+    IA5String rfc822Name = 2;
+    IA5String dNSName = 3;
+    OctetString x400Address = 4;                           // Chose not to include ORAddress at this time.
+    Name directoryName = 5;
+    OctetString ediPartyName = 6;                          // Chose not to include EDIPartyName at this time.
+    IA5String uniformResourceIdentifier = 7;
+    OctetString iPAddress = 8;
+    ObjectIdentifier registeredID = 9;
+  }
+}
+
+message OtherName {
+  ObjectIdentifier type_id = 1;
+  bytes value = 2;
+}
+
+message ORAddress {
+  BuiltInStandardAttributes builtInStandardAttributes = 1;
+  BuiltInDomainDefinedAttributes builtInDomainDefinedAttributes = 2;
+  ExtensionAttributes extensionAttributes = 3;
+}
+
+message EDIPartyName {
+  DirectoryString nameAssigner = 1;
+  DirectoryString partyName = 2;
+}
+
+message BuiltInStandardAttributes {
+  CountryName countryName = 1;
+  AdministrationDomainName administrationDomainName = 2;
+  NetworkAddress networkAddress = 3;
+  TerminalIdentifier terminalIdentifier = 4;
+  PrivateDomainName privateDomainName = 5;
+  OrganizationName organizationName = 6;
+  NumericUserIdentifier numericUserIdentifier = 7;
+  PersonalName personalName = 8;
+  OrganizationalUnitNames organizationalUnitNames = 9;
+}
+
+message CountryName {
+  string x121DccCode = 1;                                  // NumericString
+  string iso3166Alpha2Code = 2;                            // PrintableString
+}
+
+message AdministrationDomainName {
+  string numeric = 1;                                      // NumericString
+  string printable = 2;                                    // PrintableString
+}
+
+message NetworkAddress {
+  string x121Address = 1;                                  // NumericString
+}
+
+message TerminalIdentifier {
+  PrintableString printable = 1;
+}
+
+message PrivateDomainName {
+  oneof PrivateDomainName_oneof {
+    NumericString numeric = 1;
+    PrintableString printable = 2;
+  }
+}
+
+message OrganizationName {
+  PrintableString value = 1;
+}
+
+message NumericUserIdentifier {
+  NumericString value = 1;
+}
+
+message PersonalName {
+  PrintableString surname = 1;
+  PrintableString given_name = 2;
+  PrintableString initials = 3;
+  PrintableString generation_qualifier = 4;
+}
+
+message OrganizationalUnitNames {
+  repeated OrganizationalUnitName sequence = 1;
+}
+
+message OrganizationalUnitName {
+  PrintableString value = 1;
+}
+
+message BuiltInDomainDefinedAttributes {
+  repeated BuiltInDomainDefinedAttribute sequence = 1;
+}
+
+message BuiltInDomainDefinedAttribute {
+  PrintableString type = 1;
+  PrintableString value = 2;
+}
+
+message ExtensionAttributes {
+  repeated ExtensionAttribute sequence = 1;
+}
+
+message ExtensionAttribute {
+  Integer extension_attribute_type = 1;
+  OctetString extension_attribute_value = 2;
+}
+
+message AuthorityKeyIdentifierExtension {
+  Boolean critical = 1;
+  AuthorityKeyIdentifier extnValue = 2;
+}
+
+message AuthorityKeyIdentifier {
+  KeyIdentifier keyIdentifier = 1;
+  repeated GeneralName authorityCertIssuer = 2;
+  CertificateSerialNumber authoritySerialNumber = 3;
+}
+
+message SubjectKeyIdentifier {
+  KeyIdentifier keyIdentifier = 1;
+}
+
+message KeyIdentifier {
+  OctetString bytes = 1;
+}
+
+message KeyUsage {
+  repeated KeyUsageBits keyUsage = 1;
+}
+
+enum KeyUsageBits {
+  option allow_alias = true;
+  KEYUSAGE_DIGITALSIGNATURE = 0;
+  KEYUSAGE_NONREPUDIATION = 1;
+  KEYUSAGE_CONTENTCOMMITMENT = 1;
+  KEYUSAGE_KEYENCIPHERMENT = 2;
+  KEYUSAGE_DATAENCIPHERMENT = 3;
+  KEYUSAGE_KEYAGREEMENT = 4;
+  KEYUSAGE_KEYCERTSIGN = 5;
+  KEYUSAGE_CRLSIGN = 6;
+  KEYUSAGE_ENCIPHERONLY = 7;
+  KEYUSAGE_DECIPHERONLY = 8;
+}
+
+message CertificatePoliciesExtension {
+  Boolean critical = 1;
+  CertificatePolicies extnValue = 2;
+}
+
+message CertificatePolicies {
+  repeated PolicyInformation policyInformation = 1;
+}
+
+message PolicyInformation {
+  ObjectIdentifier policyIdentifier = 1;
+  repeated PolicyQualifierInfo policyQualifiers = 2;
+}
+
+message PolicyQualifierInfo {
+  ObjectIdentifier policyQualifierId = 1;                  // id-qt-cps | id-qt-unotice
+  oneof PolicyQualifierInfo_oneof {
+    IA5String cPSuri = 2;
+    UserNotice userNotice = 3;
+  }
+}
+
+message UserNotice {
+  NoticeReference noticeRef = 1;
+  DisplayText explicitText = 2;
+}
+
+message NoticeReference {
+  DisplayText organization = 1;
+  repeated Integer noticeNumbers = 2;
+}
+
+message DisplayText {
+  oneof DisplayText_oneof {
+    IA5String ia5String = 1;
+    VisibleString visibleString = 2;
+    BMPString bmpString = 3;
+    UTF8String utf8String = 4;
+  }
+}
+
+message AuthorityInfoAccessExtension {
+  Boolean critical = 1;
+  AuthorityInfoAccessSyntax extnValue = 2;
+}
+
+message AuthorityInfoAccessSyntax {
+  repeated AccessDescription sequence = 1;
+}
+
+message AccessDescription {
+  ObjectIdentifier accessMethod = 1;
+  GeneralName accessLocation = 2;
+}
+
+// CRLDistributionPoints = repeated DistributionPoint
+message DistributionPoint {
+  DistributionPointName distributionPoint = 1;
+  ReasonFlags reasons = 2;
+  repeated GeneralName cRLIssuer = 3;
+}
+
+message DistributionPointName {
+  repeated GeneralName fullName = 1;
+  RelativeDistinguishedName nameRelativeToCRLIssuer = 2;
+}
+
+message ReasonFlags {
+  repeated ReasonFlagsBits reasonFlags = 1;
+}
+
+enum ReasonFlagsBits {
+  REASONFLAGS_UNUSED = 0;
+  REASONFLAGS_KEYCOMPROMISE = 1;
+  REASONFLAGS_CACOMPROMISE = 2;
+  REASONFLAGS_AFFILIATIONCHANGED = 3;
+  REASONFLAGS_SUPERSEDED = 4;
+  REASONFLAGS_CESSATIONOFOPERATION = 5;
+  REASONFLAGS_CERTIFICATEHOLD = 6;
+  REASONFLAGS_PRIVILEGEWITHDRAWN = 7;
+  REASONFLAGS_AACOMPROMISE = 8;
+}
+

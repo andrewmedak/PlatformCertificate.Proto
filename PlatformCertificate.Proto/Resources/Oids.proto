@@ -1,0 +1,266 @@
+syntax = "proto3";
+import "google/protobuf/descriptor.proto";
+
+import "ASN1.proto";
+
+package OidsProto;
+
+extend google.protobuf.EnumValueOptions {
+  ObjectIdentifier oid = 50004;
+}
+
+/*  tcg OBJECT IDENTIFIER ::=  { joint-iso-itu-t(2) international-organizations(23) tcg(133) }
+    Each option can be appended to the OID 2.23.133.
+*/
+enum TCG_NODE {
+  TCG_UNKNOWN = 0                                          [(oid) = { oid: "2.23.133.0" }];
+  TCG_TCPASPECVERSION = 1                                  [(oid) = { oid: "2.23.133.1" }];
+  TCG_ATTRIBUTE = 2                                        [(oid) = { oid: "2.23.133.2" }];
+  TCG_PROTOCOL = 3                                         [(oid) = { oid: "2.23.133.3" }];
+  TCG_ALGORITHM = 4                                        [(oid) = { oid: "2.23.133.4" }];
+  TCG_PLATFORMCLASS = 5                                    [(oid) = { oid: "2.23.133.5" }];
+  TCG_CE = 6                                               [(oid) = { oid: "2.23.133.6" }];
+  TCG_KP = 8                                               [(oid) = { oid: "2.23.133.8" }];
+  TCG_CA = 11                                              [(oid) = { oid: "2.23.133.11" }];
+  TCG_ADDRESS = 17                                         [(oid) = { oid: "2.23.133.17" }];
+  TCG_REGISTRY = 18                                        [(oid) = { oid: "2.23.133.18" }];
+  TCG_TRAITS = 19                                          [(oid) = { oid: "2.23.133.19" }];
+}
+
+/*  tcg-attribute OBJECT IDENTIFIER ::= {tcg 2}
+    Each option can be appended to the OID 2.23.133.2.
+*/
+enum TCG_AT_NODE {
+  TCG_AT_UNKNOWN = 0                                       [(oid) = { oid: "2.23.133.2.0" }];
+  TCG_AT_TPMMANUFACTURER = 1                               [(oid) = { oid: "2.23.133.2.1" }];
+  TCG_AT_TPMMODEL = 2                                      [(oid) = { oid: "2.23.133.2.2" }];
+  TCG_AT_TPMVERSION = 3                                    [(oid) = { oid: "2.23.133.2.3" }];
+  TCG_AT_SECURITYQUALITIES = 10                            [(oid) = { oid: "2.23.133.2.10" }];
+  TCG_AT_TPMPROTECTIONPROFILE = 11                         [(oid) = { oid: "2.23.133.2.11" }];
+  TCG_AT_TPMSECURITYTARGET = 12                            [(oid) = { oid: "2.23.133.2.12" }];
+  TCG_AT_TBBPROTECTIONPROFILE = 13                         [(oid) = { oid: "2.23.133.2.13" }];
+  TCG_AT_TBBSECURITYTARGET = 14                            [(oid) = { oid: "2.23.133.2.14" }];
+  TCG_AT_TPMIDLABEL = 15                                   [(oid) = { oid: "2.23.133.2.15" }];
+  TCG_AT_TPMSPECIFICATION = 16                             [(oid) = { oid: "2.23.133.2.16" }];
+  TCG_AT_TCGPLATFORMSPECIFICATION = 17                     [(oid) = { oid: "2.23.133.2.17" }];
+  TCG_AT_TPMSECURITYASSERTIONS = 18                        [(oid) = { oid: "2.23.133.2.18" }];
+  TCG_AT_TBBSECURITYASSERTIONS = 19                        [(oid) = { oid: "2.23.133.2.19" }];
+  TCG_AT_TCGCREDENTIALSPECIFICATION = 23                   [(oid) = { oid: "2.23.133.2.23" }];
+  TCG_AT_TCGCREDENTIALTYPE = 25                            [(oid) = { oid: "2.23.133.2.25" }];
+  TCG_AT_PREVIOUSPLATFORMCERTIFICATES = 26                 [(oid) = { oid: "2.23.133.2.26" }];
+  TCG_AT_TBBSECURITYASSERTIONS_V3 = 27                     [(oid) = { oid: "2.23.133.2.27" }];
+  TCG_AT_CRYPTOGRAPHICANCHORS = 28                         [(oid) = { oid: "2.23.133.2.28" }];
+}
+
+/*  tcg-protocol OBJECT IDENTIFIER ::= {tcg 3}
+    Each option can be appended to the OID 2.23.133.3.
+*/
+enum TCG_PROTOCOL_NODE {
+  TCG_PROTOCOL_UNKNOWN = 0                                 [(oid) = { oid: "2.23.133.3.0" }];
+  TCG_PROTOCOL_TPMIDPROTOCOL = 1                           [(oid) = { oid: "2.23.133.3.1" }];
+}
+
+/* tcg-algorithm OBJECT IDENTIFIER ::= {tcg 4}
+   Each option can be appeneded to the OID 2.23.133.4.
+*/
+enum TCG_ALGORITHM_NODE {
+  TCG_ALGORITHM_UNKNOWN = 0                                [(oid) = { oid: "2.23.133.4.0" }];
+  TCG_ALGORITHM_NULL = 1                                   [(oid) = { oid: "2.23.133.4.1" }];
+}
+
+/*  tcg-platformClass OBJECT IDENTIFIER ::= {tcg 5}
+    Each option can be appended to the OID 2.23.133.5.
+*/
+enum TCG_PLATFORMCLASS_NODE {
+  TCG_PLATFORMCLASS_UNKNOWN = 0                            [(oid) = { oid: "2.23.133.5.0" }];
+  TCG_PLATFORMCLASS_COMMON = 1                             [(oid) = { oid: "2.23.133.5.1" }];
+}
+
+/* tcg-common OBJECT IDENTIFIER ::= {tcg-platformClass 1}
+   Each option can be appended to the OID 2.23.133.5.1.
+*/
+enum TCG_COMMON_NODE {
+  TCG_COMMON_UNKNOWN = 0                                   [(oid) = { oid: "2.23.133.5.1.0" }];
+  TCG_AT_PLATFORMMANUFACTURERSTR = 1                       [(oid) = { oid: "2.23.133.5.1.1" }];
+  TCG_AT_PLATFORMMANUFACTURERID = 2                        [(oid) = { oid: "2.23.133.5.1.2" }];
+  TCG_AT_PLATFORMCONFIGURI = 3                             [(oid) = { oid: "2.23.133.5.1.3" }];
+  TCG_AT_PLATFORMMODEL = 4                                 [(oid) = { oid: "2.23.133.5.1.4" }];
+  TCG_AT_PLATFORMVERSION = 5                               [(oid) = { oid: "2.23.133.5.1.5" }];
+  TCG_AT_PLATFORMSERIAL = 6                                [(oid) = { oid: "2.23.133.5.1.6" }];
+  TCG_AT_PLATFORMCONFIGURATION = 7                         [(oid) = { oid: "2.23.133.5.1.7" }];
+  TCG_AT_PLATFORMIDENTIFIER = 8                            [(oid) = { oid: "2.23.133.5.1.8" }];
+}
+
+/* tcg-at-platformconfiguration OBJECT IDENTIFIER ::= {tcg-common 7}
+   Each option can be appended to the OID 2.23.133.5.1.7.
+*/
+enum TCG_AT_PLATFORMCONFIGURATION_NODE {
+  TCG_AT_PLATFORMCONFIGURATION_UNKNOWN = 0                 [(oid) = { oid: "2.23.133.5.1.7.0" }];
+  TCG_AT_PLATFORMCONFIGURATION_V1 = 1                      [(oid) = { oid: "2.23.133.5.1.7.1" }];
+  TCG_AT_PLATFORMCONFIGURATION_V2 = 2                      [(oid) = { oid: "2.23.133.5.1.7.2" }];
+  TCG_AT_PLATFORMCONFIGURATION_V3 = 3                      [(oid) = { oid: "2.23.133.5.1.7.3" }];
+}
+
+/* tcg-ce OBJECT IDENTIFIER ::= {tcg 6}
+   Each option can be appeneded to the OID 2.23.133.6.
+*/
+enum TCG_CE_NODE {
+  TCG_CE_UNKNOWN = 0                                       [(oid) = { oid: "2.23.133.6.0" }];
+  TCG_CE_RELEVANTCREDENTIALS = 2                           [(oid) = {oid: "2.23.133.6.2"}];
+  TCG_CE_RELEVANTMANIFESTS = 3                             [(oid) = {oid: "2.23.133.6.3"}];
+  TCG_CE_VIRTUALPLATFORMATTESTATIONSERVICE = 4             [(oid) = {oid: "2.23.133.6.4"}];
+  TCG_CE_MIGRATIONCONTROLLERATTESTATIONSERVICE = 5         [(oid) = {oid: "2.23.133.6.5"}];
+  TCG_CE_MIGRATIONCONTROLLERREGISTRATIONSERVICE = 6        [(oid) = {oid: "2.23.133.6.6"}];
+  TCG_CE_VIRTUALPLATFORMBACKUPSERVICE = 7                  [(oid) = {oid: "2.23.133.6.7"}];
+}
+
+/*  tcg-kp OBJECT IDENTIFIER ::= {tcg 8}
+    Each option can be appended to the OID 2.23.133.8.
+*/
+enum TCG_KP_NODE {
+  TCG_KP_UNKNOWN = 0                                       [(oid) = { oid: "2.23.133.8.0" }];
+  TCG_KP_EKCERTIFICATE = 1                                 [(oid) = { oid: "2.23.133.8.1" }];
+  TCG_KP_PLATFORMATTRIBUTECERTIFICATE = 2                  [(oid) = { oid: "2.23.133.8.2" }];
+  TCG_KP_AIKCERTIFICATE = 3                                [(oid) = { oid: "2.23.133.8.3" }];
+  TCG_KP_PLATFORMKEYCERTIFICATE = 4                        [(oid) = { oid: "2.23.133.8.4" }];
+  TCG_KP_DELTAPLATFORMATTRIBUTECERTIFICATE = 5             [(oid) = { oid: "2.23.133.8.5" }];
+  TCG_KP_DELTAPLATFORMKEYCERTIFICATE = 6                   [(oid) = { oid: "2.23.133.8.6" }];
+  TCG_KP_ADDITIONALPLATFORMATTRIBUTECERTIFICATE = 7        [(oid) = { oid: "2.23.133.8.7" }];
+  TCG_KP_ADDITIONALPLATFORMKEYCERTIFICATE = 8              [(oid) = { oid: "2.23.133.8.8" }];
+}
+
+/*  tcg-ca OBJECT IDENTIFIER ::= {tcg 11}
+    Each option can be appended to the OID 2.23.133.11.
+*/
+enum TCG_CA_NODE {
+  TCG_CA_UNKNOWN = 0                                       [(oid) = { oid: "2.23.133.11.0" }];
+  TCG_CA_POLICY = 1                                        [(oid) = { oid: "2.23.133.11.1" }];
+}
+
+/*  tcg-ca-policy OBJECT IDENTIFIER ::= {tcg-ca 1}
+    Each option can be appended to the OID 2.23.133.11.1.
+*/
+enum TCG_CA_POLICY_NODE {
+  TCG_CAP_UNKNOWN = 0                                      [(oid) = {oid: "2.23.133.11.1.0"}];
+  TCG_CAP_VERIFIEDPLATFORMCERTIFICATE = 4                  [(oid) = {oid: "2.23.133.11.1.4"}];
+}
+
+/* tcg-address OBJECT IDENTIFIER ::= {tcg 17}
+   Each option can be appeneded to the OID 2.23.133.17.
+*/
+enum TCG_ADDRESS_NODE {
+  TCG_ADDRESS_UNKNOWN = 0                                  [(oid) = { oid: "2.23.133.17.0" }];
+  TCG_ADDRESS_ETHERNETMAC = 1                              [(oid) = { oid: "2.23.133.17.1" }];
+  TCG_ADDRESS_WLANMAC = 2                                  [(oid) = { oid: "2.23.133.17.2" }];
+  TCG_ADDRESS_BLUETOOTHMAC = 3                             [(oid) = { oid: "2.23.133.17.3" }];
+}
+
+/*  tcg-registry-platformClass OBJECT IDENTIFIER ::= {tcg-registry 1}
+    Each option can be appended to the OID 2.23.133.18.1.
+*/
+enum TCG_REGISTRY_PLATFORMCLASS_NODE {
+  TCG_REGISTRY_PLATFORMCLASS_UNKNOWN = 0                   [(oid) = { oid: "2.23.133.18.1.0" }];
+  TCG_REGISTRY_PLATFORMCLASS_TCG = 1                       [(oid) = { oid: "2.23.133.18.1.1" }];
+}
+
+/*  tcg-registry-vendorID OBJECT IDENTIFIER ::= {tcg-registry 2}
+    Each option can be appended to the OID 2.23.133.18.2.
+*/
+enum TCG_REGISTRY_VENDORID_NODE {
+  TCG_REGISTRY_VENDORID_UNKNOWN = 0                        [(oid) = { oid: "2.23.133.18.2.0" }];
+  TCG_REGISTRY_VENDORID_TCG = 1                            [(oid) = { oid: "2.23.133.18.2.1" }];
+  TCG_REGISTRY_VENDORID_IANA = 2                           [(oid) = { oid: "2.23.133.18.2.2" }];
+}
+
+
+/*  tcg-registry-componentClass OBJECT IDENTIFIER ::= {tcg-registry 3}
+    Each option can be appended to the OID 2.23.133.18.3.
+*/
+enum TCG_REGISTRY_COMPONENTCLASS_NODE {
+  TCG_REGISTRY_COMPONENTCLASS_UNKNOWN = 0                  [(oid) = { oid: "2.23.133.18.3.0" }];
+  TCG_REGISTRY_COMPONENTCLASS_TCG = 1                      [(oid) = { oid: "2.23.133.18.3.1" }];
+  TCG_REGISTRY_COMPONENTCLASS_IETF = 2                     [(oid) = { oid: "2.23.133.18.3.2" }];
+  TCG_REGISTRY_COMPONENTCLASS_DMTF = 3                     [(oid) = { oid: "2.23.133.18.3.3" }];
+  TCG_REGISTRY_COMPONENTCLASS_PCIE = 4                     [(oid) = { oid: "2.23.133.18.3.4" }];
+  TCG_REGISTRY_COMPONENTCLASS_DISK = 5                     [(oid) = { oid: "2.23.133.18.3.5" }];
+}
+
+/*  tcg-tr-id OBJECT IDENTIFIER ::= {tcg-traits 1}
+    Each option can be appended to the OID 2.23.133.19.1.
+*/
+enum TCG_TR_ID_NODE {
+  TCG_TR_ID_UNKNOWN = 0                                    [(oid) = { oid: "2.23.133.19.1.0" }];
+  TCG_TR_ID_BOOLEAN = 1                                    [(oid) = { oid: "2.23.133.19.1.1" }];
+  TCG_TR_ID_CERTIFICATEIDENTIFIER = 2                      [(oid) = { oid: "2.23.133.19.1.2" }];
+  TCG_TR_ID_COMMONCRITERIA = 3                             [(oid) = { oid: "2.23.133.19.1.3" }];
+  TCG_TR_ID_COMPONENTCLASS = 4                             [(oid) = { oid: "2.23.133.19.1.4" }];
+  TCG_TR_ID_COMPONENTIDENTIFIERV11 = 5                     [(oid) = { oid: "2.23.133.19.1.5" }];
+  TCG_TR_ID_FIPSLEVEL = 6                                  [(oid) = { oid: "2.23.133.19.1.6" }];
+  TCG_TR_ID_ISO9000LEVEL = 7                               [(oid) = { oid: "2.23.133.19.1.7" }];
+  TCG_TR_ID_NETWORKMAC = 8                                 [(oid) = { oid: "2.23.133.19.1.8" }];
+  TCG_TR_ID_OID = 9                                        [(oid) = { oid: "2.23.133.19.1.9" }];
+  TCG_TR_ID_PEN = 10                                       [(oid) = { oid: "2.23.133.19.1.10" }];
+  TCG_TR_ID_PLATFORMFIRMWARECAPABILITIES = 11              [(oid) = { oid: "2.23.133.19.1.11" }];
+  TCG_TR_ID_PLATFORMFIRMWARESIGNATUREVERIFICATION = 12     [(oid) = { oid: "2.23.133.19.1.12" }];
+  TCG_TR_ID_PLATFORMFIRMWAREUPDATECOMPLIANCE = 13          [(oid) = { oid: "2.23.133.19.1.13" }];
+  TCG_TR_ID_PLATFORMHARDWARECAPABILITIES = 14              [(oid) = { oid: "2.23.133.19.1.14" }];
+  TCG_TR_ID_RTM = 15                                       [(oid) = { oid: "2.23.133.19.1.15" }];
+  TCG_TR_ID_STATUS = 16                                    [(oid) = { oid: "2.23.133.19.1.16" }];
+  TCG_TR_ID_URI = 17                                       [(oid) = { oid: "2.23.133.19.1.17" }];
+  TCG_TR_ID_UTF8STRING = 18                                [(oid) = { oid: "2.23.133.19.1.18" }];
+  TCG_TR_ID_IA5STRING = 19                                 [(oid) = { oid: "2.23.133.19.1.19" }];
+  TCG_TR_ID_PEMCERTSTRING = 20                             [(oid) = { oid: "2.23.133.19.1.20" }];
+  TCG_TR_ID_PUBLICKEY = 21                                 [(oid) = { oid: "2.23.133.19.1.21" }];
+}
+
+/*  tcg-tr-cat OBJECT IDENTIFIER ::= {tcg-traits 2}
+    Each option can be appended to the OID 2.23.133.19.2.
+*/
+enum TCG_TR_CAT_NODE {
+  TCG_TR_CAT_UNKNOWN = 0                                   [(oid) = { oid: "2.23.133.19.2.0" }];
+  TCG_TR_CAT_PLATFORMMANUFACTURER = 1                      [(oid) = { oid: "2.23.133.19.2.1" }];
+  TCG_TR_CAT_PLATFORMMODEL = 2                             [(oid) = { oid: "2.23.133.19.2.2" }];
+  TCG_TR_CAT_PLATFORMVERSION = 3                           [(oid) = { oid: "2.23.133.19.2.3" }];
+  TCG_TR_CAT_PLATFORMSERIAL = 4                            [(oid) = { oid: "2.23.133.19.2.4" }];
+  TCG_TR_CAT_PLATFORMMANUFACTURERIDENTIFIER = 5            [(oid) = { oid: "2.23.133.19.2.5" }];
+  TCG_TR_CAT_PLATFORMOWNERSHIP = 6                         [(oid) = { oid: "2.23.133.19.2.6" }];
+  TCG_TR_CAT_COMPONENTCLASS = 7                            [(oid) = { oid: "2.23.133.19.2.7" }];
+  TCG_TR_CAT_COMPONENTMANUFACTURER = 8                     [(oid) = { oid: "2.23.133.19.2.8" }];
+  TCG_TR_CAT_COMPONENTMODEL = 9                            [(oid) = { oid: "2.23.133.19.2.9" }];
+  TCG_TR_CAT_COMPONENTSERIAL = 10                          [(oid) = { oid: "2.23.133.19.2.10" }];
+  TCG_TR_CAT_COMPONENTSTATUS = 11                          [(oid) = { oid: "2.23.133.19.2.11" }];
+  TCG_TR_CAT_COMPONENTLOCATION = 12                        [(oid) = { oid: "2.23.133.19.2.12" }];
+  TCG_TR_CAT_COMPONENTREVISION = 13                        [(oid) = { oid: "2.23.133.19.2.13" }];
+  TCG_TR_CAT_COMPONENTFIELDREPLACEABLE = 14                [(oid) = { oid: "2.23.133.19.2.14" }];
+  TCG_TR_CAT_EKCERTIFICATE = 15                            [(oid) = { oid: "2.23.133.19.2.15" }];
+  TCG_TR_CAT_IAKCERTIFICATE = 16                           [(oid) = { oid: "2.23.133.19.2.16" }];
+  TCG_TR_CAT_IDEVIDCERTIFICATE = 17                        [(oid) = { oid: "2.23.133.19.2.17" }];
+  TCG_TR_CAT_DICECERTIFICATE = 18                          [(oid) = { oid: "2.23.133.19.2.18" }];
+  TCG_TR_CAT_SPDMCERTIFICATE = 19                          [(oid) = { oid: "2.23.133.19.2.19" }];
+  TCG_TR_CAT_PEMCERTIFICATE = 20                           [(oid) = { oid: "2.23.133.19.2.20" }];
+  TCG_TR_CAT_PLATFORMCERTIFICATE = 21                      [(oid) = { oid: "2.23.133.19.2.21" }];
+  TCG_TR_CAT_DELTAPLATFORMCERTIFICATE = 22                 [(oid) = { oid: "2.23.133.19.2.22" }];
+  TCG_TR_CAT_REBASEPLATFORMCERTIFICATE = 23                [(oid) = { oid: "2.23.133.19.2.23" }];
+  TCG_TR_CAT_GENERICCERTIFICATE = 24                       [(oid) = { oid: "2.23.133.19.2.24" }];
+  TCG_TR_CAT_COMMONCRITERIA = 25                           [(oid) = { oid: "2.23.133.19.2.25" }];
+  TCG_TR_CAT_COMPONENTIDENTIFIERV11 = 26                   [(oid) = { oid: "2.23.133.19.2.26" }];
+  TCG_TR_CAT_FIPSLEVEL = 27                                [(oid) = { oid: "2.23.133.19.2.27" }];
+  TCG_TR_CAT_ISO9000 = 28                                  [(oid) = { oid: "2.23.133.19.2.28" }];
+  TCG_TR_CAT_NETWORKMAC = 29                               [(oid) = { oid: "2.23.133.19.2.29" }];
+  TCG_TR_CAT_ATTESTATIONPROTOCOL = 30                      [(oid) = { oid: "2.23.133.19.2.30" }];
+  TCG_TR_CAT_PEN = 31                                      [(oid) = { oid: "2.23.133.19.2.31" }];
+  TCG_TR_CAT_PLATFORMFIRMWARECAPABILITIES = 32             [(oid) = { oid: "2.23.133.19.2.32" }];
+  TCG_TR_CAT_PLATFORMHARDWARECAPABILITIES = 33             [(oid) = { oid: "2.23.133.19.2.33" }];
+  TCG_TR_CAT_PLATFORMFIRMWARESIGNATUREVERIFICATION = 34    [(oid) = { oid: "2.23.133.19.2.34" }];
+  TCG_TR_CAT_PLATFORMFIRMWAREUPDATECOMPLIANCE = 35         [(oid) = { oid: "2.23.133.19.2.35" }];
+  TCG_TR_CAT_RTM = 36                                      [(oid) = { oid: "2.23.133.19.2.36" }];
+  TCG_TR_CAT_PUBLICKEY = 37                                [(oid) = { oid: "2.23.133.19.2.37" }];
+}
+
+/*  tcg-tr-registry OBJECT IDENTIFIER ::= {tcg-traits 3}
+    Each option can be appended to the OID 2.23.133.19.3.
+*/
+enum TCG_TR_REG_NODE {
+  TCG_TR_REG_UNKNOWN = 0                                   [(oid) = { oid: "2.23.133.19.3.0" }];
+  TCG_TR_REG_NONE = 1                                      [(oid) = { oid: "2.23.133.19.3.1" }];
+}

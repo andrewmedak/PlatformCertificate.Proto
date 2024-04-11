@@ -20,4 +20,10 @@
     <ProjectReference Include="..\PlatformCertificate.Proto\PlatformCertificate.Proto.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Resources\*.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

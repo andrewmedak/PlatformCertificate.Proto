@@ -1,0 +1,5 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+	    <PlatformCertificateProtoFilesDir>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)/../platformcertificate/protos'))</PlatformCertificateProtoFilesDir>
+    </PropertyGroup>
+</Project>
