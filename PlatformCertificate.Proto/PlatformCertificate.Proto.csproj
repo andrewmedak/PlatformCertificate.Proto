@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.3</Version>
+    <Version>2.0.8</Version>
     <Authors>Andrew Medak</Authors>
     <PackageProjectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</PackageProjectUrl>
     <Description>This lightweight library offers a selection of sequences from the TCG Platform Certificate compiled as C# Objects. The sequences are compiled after I attempted to capture their ASN.1 definition into Google's Protobuf (Proto3) format.</Description>
@@ -23,11 +23,11 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.20.1" />
-    <PackageReference Include="Google.Protobuf.Tools" Version="3.20.1">
+    <PackageReference Include="Google.Protobuf" Version="3.28.3" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.28.3">
         <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="NuGet.CommandLine" Version="6.9.1">
+    <PackageReference Include="NuGet.CommandLine" Version="6.12.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

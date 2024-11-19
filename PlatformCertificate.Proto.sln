@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformCertificate.Proto", "PlatformCertificate.Proto\PlatformCertificate.Proto.csproj", "{4BEF0B71-1E28-4957-9A41-D31AC7E780A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformCertificate.ProtoTests", "PlatformCertificate.ProtoTests\PlatformCertificate.ProtoTests.csproj", "{5D93AB9D-D62D-4210-AA4E-DB67C4B5FD8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformCertificate.ProtoTests", "PlatformCertificate.ProtoTests\PlatformCertificate.ProtoTests.csproj", "{5D93AB9D-D62D-4210-AA4E-DB67C4B5FD8A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4BEF0B71-1E28-4957-9A41-D31AC7E780A8} = {4BEF0B71-1E28-4957-9A41-D31AC7E780A8}
 	EndProjectSection
