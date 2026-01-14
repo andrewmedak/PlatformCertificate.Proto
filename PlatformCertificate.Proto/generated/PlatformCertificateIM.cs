@@ -26,436 +26,261 @@ namespace PlatformCertificateProto {
           string.Concat(
             "ChtQbGF0Zm9ybUNlcnRpZmljYXRlSU0ucHJvdG8SGFBsYXRmb3JtQ2VydGlm",
             "aWNhdGVQcm90bxoKQVNOMS5wcm90bxoNUmZjNTI4MC5wcm90bxoNUmZjNTc1",
-            "NS5wcm90byL/CQocUGxhdGZvcm1BdHRyaWJ1dGVDZXJ0aWZpY2F0ZRJGChF0",
+            "NS5wcm90byLLCgocUGxhdGZvcm1BdHRyaWJ1dGVDZXJ0aWZpY2F0ZRJMChF0",
             "Q0dDcmVkZW50aWFsVHlwZRgBIAEoCzIrLlBsYXRmb3JtQ2VydGlmaWNhdGVQ",
-            "cm90by5UY2dDcmVkZW50aWFsVHlwZRITCgZpc3N1ZXIYAiABKAsyAy5EThI3",
-            "ChZhdXRob3JpdHlLZXlJZGVudGlmaWVyGAMgASgLMhcuQXV0aG9yaXR5S2V5",
-            "SWRlbnRpZmllchIvChNhdXRob3JpdHlJbmZvQWNjZXNzGAQgAygLMhIuQWNj",
-            "ZXNzRGVzY3JpcHRpb24SVQoadENHQ3JlZGVudGlhbFNwZWNpZmljYXRpb24Y",
-            "BSABKAsyMS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVGNnU3BlY2lmaWNh",
-            "dGlvblZlcnNpb24SNgoWYXR0ckNlcnRWYWxpZGl0eVBlcmlvZBgGIAEoCzIW",
-            "LkF0dENlcnRWYWxpZGl0eVBlcmlvZBInCglzaWduYXR1cmUYByABKAsyFC5B",
-            "bGdvcml0aG1JZGVudGlmaWVyEjAKEnNpZ25hdHVyZUFsZ29yaXRobRgIIAEo",
-            "CzIULkFsZ29yaXRobUlkZW50aWZpZXISIgoOc2lnbmF0dXJlVmFsdWUYCSAB",
-            "KAsyCi5CaXRTdHJpbmcSLwoTY2VydGlmaWNhdGVQb2xpY2llcxgKIAMoCzIS",
-            "LlBvbGljeUluZm9ybWF0aW9uEloKHHByZXZpb3VzUGxhdGZvcm1DZXJ0aWZp",
-            "Y2F0ZXMYCyADKAsyNC5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ2VydGlm",
-            "aWNhdGVJZGVudGlmaWVyVHJhaXQSMQoVY1JMRGlzdHJpYnV0aW9uUG9pbnRz",
-            "GAwgAygLMhIuRGlzdHJpYnV0aW9uUG9pbnQSHQoGaG9sZGVyGA0gASgLMg0u",
-            "SXNzdWVyU2VyaWFsElIKFGNyeXB0b2dyYXBoaWNBbmNob3JzGA4gAygLMjQu",
-            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNlcnRpZmljYXRlSWRlbnRpZmll",
-            "clRyYWl0ElEKEnBsYXRmb3JtSWRlbnRpZmllchgPIAEoCzI1LlBsYXRmb3Jt",
-            "Q2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUlkZW50aWZpZXJPdGhlck5hbWUS",
-            "VAoYdENHUGxhdGZvcm1TcGVjaWZpY2F0aW9uGBAgASgLMjIuUGxhdGZvcm1D",
-            "ZXJ0aWZpY2F0ZVByb3RvLlRjZ1BsYXRmb3JtU3BlY2lmaWNhdGlvbhJOChV0",
-            "QkJTZWN1cml0eUFzc2VydGlvbnMYESABKAsyLy5QbGF0Zm9ybUNlcnRpZmlj",
-            "YXRlUHJvdG8uVGJiU2VjdXJpdHlBc3NlcnRpb25zEk4KFXBsYXRmb3JtQ29u",
-            "ZmlndXJhdGlvbhgSIAEoCzIvLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5Q",
-            "bGF0Zm9ybUNvbmZpZ3VyYXRpb24SRgoRcGxhdGZvcm1Db25maWdVcmkYEyAD",
-            "KAsyKy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uUGxhdGZvcm1Db25maWdV",
-            "cmkSRgoRcGxhdGZvcm1Pd25lcnNoaXAYFCADKAsyKy5QbGF0Zm9ybUNlcnRp",
-            "ZmljYXRlUHJvdG8uUGxhdGZvcm1Pd25lcnNoaXAivwoKFlBsYXRmb3JtS2V5",
-            "Q2VydGlmaWNhdGUSRgoRdENHQ3JlZGVudGlhbFR5cGUYASABKAsyKy5QbGF0",
-            "Zm9ybUNlcnRpZmljYXRlUHJvdG8uVGNnQ3JlZGVudGlhbFR5cGUSEwoGaXNz",
-            "dWVyGAIgASgLMgMuRE4SNwoWYXV0aG9yaXR5S2V5SWRlbnRpZmllchgDIAEo",
-            "CzIXLkF1dGhvcml0eUtleUlkZW50aWZpZXISLwoTYXV0aG9yaXR5SW5mb0Fj",
-            "Y2VzcxgEIAMoCzISLkFjY2Vzc0Rlc2NyaXB0aW9uElUKGnRDR0NyZWRlbnRp",
-            "YWxTcGVjaWZpY2F0aW9uGAUgASgLMjEuUGxhdGZvcm1DZXJ0aWZpY2F0ZVBy",
-            "b3RvLlRjZ1NwZWNpZmljYXRpb25WZXJzaW9uEhsKCHZhbGlkaXR5GAYgASgL",
-            "MgkuVmFsaWRpdHkSJwoJc2lnbmF0dXJlGAcgASgLMhQuQWxnb3JpdGhtSWRl",
-            "bnRpZmllchIwChJzaWduYXR1cmVBbGdvcml0aG0YCCABKAsyFC5BbGdvcml0",
-            "aG1JZGVudGlmaWVyEiIKDnNpZ25hdHVyZVZhbHVlGAkgASgLMgouQml0U3Ry",
-            "aW5nEi8KE2NlcnRpZmljYXRlUG9saWNpZXMYCiADKAsyEi5Qb2xpY3lJbmZv",
-            "cm1hdGlvbhJaChxwcmV2aW91c1BsYXRmb3JtQ2VydGlmaWNhdGVzGAsgAygL",
-            "MjQuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNlcnRpZmljYXRlSWRlbnRp",
-            "ZmllclRyYWl0EjEKFWNSTERpc3RyaWJ1dGlvblBvaW50cxgMIAMoCzISLkRp",
-            "c3RyaWJ1dGlvblBvaW50EjMKFHN1YmplY3RQdWJsaWNLZXlJbmZvGA0gASgL",
-            "MhUuU3ViamVjdFB1YmxpY0tleUluZm8SFAoHc3ViamVjdBgOIAEoCzIDLkRO",
-            "EjMKFHN1YmplY3RLZXlJZGVudGlmaWVyGA8gASgLMhUuU3ViamVjdEtleUlk",
-            "ZW50aWZpZXISUgoUY3J5cHRvZ3JhcGhpY0FuY2hvcnMYECADKAsyNC5QbGF0",
-            "Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ2VydGlmaWNhdGVJZGVudGlmaWVyVHJh",
-            "aXQSUQoScGxhdGZvcm1JZGVudGlmaWVyGBEgASgLMjUuUGxhdGZvcm1DZXJ0",
-            "aWZpY2F0ZVByb3RvLlBsYXRmb3JtSWRlbnRpZmllck90aGVyTmFtZRJUChh0",
-            "Q0dQbGF0Zm9ybVNwZWNpZmljYXRpb24YEiABKAsyMi5QbGF0Zm9ybUNlcnRp",
-            "ZmljYXRlUHJvdG8uVGNnUGxhdGZvcm1TcGVjaWZpY2F0aW9uEk4KFXRCQlNl",
-            "Y3VyaXR5QXNzZXJ0aW9ucxgTIAEoCzIvLlBsYXRmb3JtQ2VydGlmaWNhdGVQ",
-            "cm90by5UYmJTZWN1cml0eUFzc2VydGlvbnMSTgoVcGxhdGZvcm1Db25maWd1",
-            "cmF0aW9uGBQgASgLMi8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlBsYXRm",
-            "b3JtQ29uZmlndXJhdGlvbhJGChFwbGF0Zm9ybUNvbmZpZ1VyaRgVIAMoCzIr",
-            "LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUNvbmZpZ1VyaRJG",
-            "ChFwbGF0Zm9ybU93bmVyc2hpcBgWIAMoCzIrLlBsYXRmb3JtQ2VydGlmaWNh",
-            "dGVQcm90by5QbGF0Zm9ybU93bmVyc2hpcCI/ChFUY2dDcmVkZW50aWFsVHlw",
-            "ZRIqCg9jZXJ0aWZpY2F0ZVR5cGUYASABKAsyES5PYmplY3RJZGVudGlmaWVy",
-            "IlcKF1RjZ1NwZWNpZmljYXRpb25WZXJzaW9uEhQKDG1ham9yVmVyc2lvbhgB",
-            "IAEoBRIUCgxtaW5vclZlcnNpb24YAiABKAUSEAoIcmV2aXNpb24YAyABKAUi",
-            "gwEKGFRjZ1BsYXRmb3JtU3BlY2lmaWNhdGlvbhJCCgd2ZXJzaW9uGAEgASgL",
-            "MjEuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlRjZ1NwZWNpZmljYXRpb25W",
-            "ZXJzaW9uEiMKDXBsYXRmb3JtQ2xhc3MYAiABKAsyDC5PY3RldFN0cmluZyLu",
-            "AQoMR2VuZXJpY1RyYWl0EiIKB3RyYWl0SWQYASABKAsyES5PYmplY3RJZGVu",
-            "dGlmaWVyEigKDXRyYWl0Q2F0ZWdvcnkYAiABKAsyES5PYmplY3RJZGVudGlm",
-            "aWVyEigKDXRyYWl0UmVnaXN0cnkYAyABKAsyES5PYmplY3RJZGVudGlmaWVy",
-            "EiAKC2Rlc2NyaXB0aW9uGAQgASgLMgsuVVRGOFN0cmluZxIiCg5kZXNjcmlw",
-            "dGlvblVSSRgFIAEoCzIKLklBNVN0cmluZxIgCgp0cmFpdFZhbHVlGAYgASgL",
-            "MgwuT2N0ZXRTdHJpbmci6gEKDEJvb2xlYW5UcmFpdBIiCgd0cmFpdElkGAEg",
-            "ASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdENhdGVnb3J5GAIgASgL",
-            "MhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdFJlZ2lzdHJ5GAMgASgLMhEu",
-            "T2JqZWN0SWRlbnRpZmllchIgCgtkZXNjcmlwdGlvbhgEIAEoCzILLlVURjhT",
-            "dHJpbmcSIgoOZGVzY3JpcHRpb25VUkkYBSABKAsyCi5JQTVTdHJpbmcSHAoK",
-            "dHJhaXRWYWx1ZRgGIAEoCzIILkJvb2xlYW4inwIKGkNlcnRpZmljYXRlSWRl",
-            "bnRpZmllclRyYWl0EiIKB3RyYWl0SWQYASABKAsyES5PYmplY3RJZGVudGlm",
-            "aWVyEigKDXRyYWl0Q2F0ZWdvcnkYAiABKAsyES5PYmplY3RJZGVudGlmaWVy",
-            "EigKDXRyYWl0UmVnaXN0cnkYAyABKAsyES5PYmplY3RJZGVudGlmaWVyEiAK",
-            "C2Rlc2NyaXB0aW9uGAQgASgLMgsuVVRGOFN0cmluZxIiCg5kZXNjcmlwdGlv",
-            "blVSSRgFIAEoCzIKLklBNVN0cmluZxJDCgp0cmFpdFZhbHVlGAYgASgLMi8u",
-            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNlcnRpZmljYXRlSWRlbnRpZmll",
-            "ciKbAgoTQ29tbW9uQ3JpdGVyaWFUcmFpdBIiCgd0cmFpdElkGAEgASgLMhEu",
-            "T2JqZWN0SWRlbnRpZmllchIoCg10cmFpdENhdGVnb3J5GAIgASgLMhEuT2Jq",
-            "ZWN0SWRlbnRpZmllchIoCg10cmFpdFJlZ2lzdHJ5GAMgASgLMhEuT2JqZWN0",
-            "SWRlbnRpZmllchIgCgtkZXNjcmlwdGlvbhgEIAEoCzILLlVURjhTdHJpbmcS",
-            "IgoOZGVzY3JpcHRpb25VUkkYBSABKAsyCi5JQTVTdHJpbmcSRgoKdHJhaXRW",
-            "YWx1ZRgGIAEoCzIyLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5Db21tb25D",
-            "cml0ZXJpYUV2YWx1YXRpb24i9QEKE0NvbXBvbmVudENsYXNzVHJhaXQSIgoH",
-            "dHJhaXRJZBgBIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRDYXRl",
-            "Z29yeRgCIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRSZWdpc3Ry",
-            "eRgDIAEoCzIRLk9iamVjdElkZW50aWZpZXISIAoLZGVzY3JpcHRpb24YBCAB",
-            "KAsyCy5VVEY4U3RyaW5nEiIKDmRlc2NyaXB0aW9uVVJJGAUgASgLMgouSUE1",
-            "U3RyaW5nEiAKCnRyYWl0VmFsdWUYBiABKAsyDC5PY3RldFN0cmluZyKhAgob",
-            "Q29tcG9uZW50SWRlbnRpZmllclYxMVRyYWl0EiIKB3RyYWl0SWQYASABKAsy",
-            "ES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0ZWdvcnkYAiABKAsyES5P",
-            "YmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0cnkYAyABKAsyES5PYmpl",
-            "Y3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQgASgLMgsuVVRGOFN0cmlu",
-            "ZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklBNVN0cmluZxJECgp0cmFp",
-            "dFZhbHVlGAYgASgLMjAuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbXBv",
-            "bmVudElkZW50aWZpZXJWMTEihwIKDkZpcHNMZXZlbFRyYWl0EiIKB3RyYWl0",
-            "SWQYASABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0ZWdvcnkY",
-            "AiABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0cnkYAyAB",
-            "KAsyES5PYmplY3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQgASgLMgsu",
-            "VVRGOFN0cmluZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklBNVN0cmlu",
-            "ZxI3Cgp0cmFpdFZhbHVlGAYgASgLMiMuUGxhdGZvcm1DZXJ0aWZpY2F0ZVBy",
-            "b3RvLkZpcHNMZXZlbCKQAgoMSXNvOTAwMFRyYWl0EiIKB3RyYWl0SWQYASAB",
-            "KAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0ZWdvcnkYAiABKAsy",
-            "ES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0cnkYAyABKAsyES5P",
-            "YmplY3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQgASgLMgsuVVRGOFN0",
-            "cmluZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklBNVN0cmluZxJCCgp0",
-            "cmFpdFZhbHVlGAYgASgLMi4uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLklz",
-            "bzkwMDBDZXJ0aWZpY2F0aW9uIo8CCg9OZXR3b3JrTUFDVHJhaXQSIgoHdHJh",
-            "aXRJZBgBIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRDYXRlZ29y",
-            "eRgCIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRSZWdpc3RyeRgD",
-            "IAEoCzIRLk9iamVjdElkZW50aWZpZXISIAoLZGVzY3JpcHRpb24YBCABKAsy",
-            "Cy5VVEY4U3RyaW5nEiIKDmRlc2NyaXB0aW9uVVJJGAUgASgLMgouSUE1U3Ry",
-            "aW5nEj4KCnRyYWl0VmFsdWUYBiABKAsyKi5QbGF0Zm9ybUNlcnRpZmljYXRl",
-            "UHJvdG8uQ29tcG9uZW50QWRkcmVzcyLvAQoIT0lEVHJhaXQSIgoHdHJhaXRJ",
-            "ZBgBIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRDYXRlZ29yeRgC",
-            "IAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRSZWdpc3RyeRgDIAEo",
-            "CzIRLk9iamVjdElkZW50aWZpZXISIAoLZGVzY3JpcHRpb24YBCABKAsyCy5V",
-            "VEY4U3RyaW5nEiIKDmRlc2NyaXB0aW9uVVJJGAUgASgLMgouSUE1U3RyaW5n",
-            "EiUKCnRyYWl0VmFsdWUYBiABKAsyES5PYmplY3RJZGVudGlmaWVyIu8BCghQ",
-            "RU5UcmFpdBIiCgd0cmFpdElkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchIo",
-            "Cg10cmFpdENhdGVnb3J5GAIgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10",
-            "cmFpdFJlZ2lzdHJ5GAMgASgLMhEuT2JqZWN0SWRlbnRpZmllchIgCgtkZXNj",
-            "cmlwdGlvbhgEIAEoCzILLlVURjhTdHJpbmcSIgoOZGVzY3JpcHRpb25VUkkY",
-            "BSABKAsyCi5JQTVTdHJpbmcSJQoKdHJhaXRWYWx1ZRgGIAEoCzIRLk9iamVj",
-            "dElkZW50aWZpZXIirQIKIVBsYXRmb3JtRmlybXdhcmVDYXBhYmlsaXRpZXNU",
-            "cmFpdBIiCgd0cmFpdElkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10",
-            "cmFpdENhdGVnb3J5GAIgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFp",
-            "dFJlZ2lzdHJ5GAMgASgLMhEuT2JqZWN0SWRlbnRpZmllchIgCgtkZXNjcmlw",
-            "dGlvbhgEIAEoCzILLlVURjhTdHJpbmcSIgoOZGVzY3JpcHRpb25VUkkYBSAB",
-            "KAsyCi5JQTVTdHJpbmcSSgoKdHJhaXRWYWx1ZRgGIAMoDjI2LlBsYXRmb3Jt",
-            "Q2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUZpcm13YXJlQ2FwYWJpbGl0aWVz",
-            "Ir8CCipQbGF0Zm9ybUZpcm13YXJlU2lnbmF0dXJlVmVyaWZpY2F0aW9uVHJh",
-            "aXQSIgoHdHJhaXRJZBgBIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJh",
-            "aXRDYXRlZ29yeRgCIAEoCzIRLk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRS",
-            "ZWdpc3RyeRgDIAEoCzIRLk9iamVjdElkZW50aWZpZXISIAoLZGVzY3JpcHRp",
-            "b24YBCABKAsyCy5VVEY4U3RyaW5nEiIKDmRlc2NyaXB0aW9uVVJJGAUgASgL",
-            "MgouSUE1U3RyaW5nElMKCnRyYWl0VmFsdWUYBiADKA4yPy5QbGF0Zm9ybUNl",
-            "cnRpZmljYXRlUHJvdG8uUGxhdGZvcm1GaXJtd2FyZVNpZ25hdHVyZVZlcmlm",
-            "aWNhdGlvbiK1AgolUGxhdGZvcm1GaXJtd2FyZVVwZGF0ZUNvbXBsaWFuY2VU",
-            "cmFpdBIiCgd0cmFpdElkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10",
-            "cmFpdENhdGVnb3J5GAIgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFp",
-            "dFJlZ2lzdHJ5GAMgASgLMhEuT2JqZWN0SWRlbnRpZmllchIgCgtkZXNjcmlw",
-            "dGlvbhgEIAEoCzILLlVURjhTdHJpbmcSIgoOZGVzY3JpcHRpb25VUkkYBSAB",
-            "KAsyCi5JQTVTdHJpbmcSTgoKdHJhaXRWYWx1ZRgGIAMoDjI6LlBsYXRmb3Jt",
-            "Q2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUZpcm13YXJlVXBkYXRlQ29tcGxp",
-            "YW5jZSKtAgohUGxhdGZvcm1IYXJkd2FyZUNhcGFiaWxpdGllc1RyYWl0EiIK",
-            "B3RyYWl0SWQYASABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0",
-            "ZWdvcnkYAiABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0",
-            "cnkYAyABKAsyES5PYmplY3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQg",
-            "ASgLMgsuVVRGOFN0cmluZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklB",
-            "NVN0cmluZxJKCgp0cmFpdFZhbHVlGAYgAygOMjYuUGxhdGZvcm1DZXJ0aWZp",
-            "Y2F0ZVByb3RvLlBsYXRmb3JtSGFyZHdhcmVDYXBhYmlsaXRpZXMigAIKCFJU",
-            "TVRyYWl0EiIKB3RyYWl0SWQYASABKAsyES5PYmplY3RJZGVudGlmaWVyEigK",
-            "DXRyYWl0Q2F0ZWdvcnkYAiABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRy",
-            "YWl0UmVnaXN0cnkYAyABKAsyES5PYmplY3RJZGVudGlmaWVyEiAKC2Rlc2Ny",
-            "aXB0aW9uGAQgASgLMgsuVVRGOFN0cmluZxIiCg5kZXNjcmlwdGlvblVSSRgF",
-            "IAEoCzIKLklBNVN0cmluZxI2Cgp0cmFpdFZhbHVlGAYgAygOMiIuUGxhdGZv",
-            "cm1DZXJ0aWZpY2F0ZVByb3RvLlJUTVR5cGVzIooCCgtTdGF0dXNUcmFpdBIi",
-            "Cgd0cmFpdElkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdENh",
-            "dGVnb3J5GAIgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdFJlZ2lz",
-            "dHJ5GAMgASgLMhEuT2JqZWN0SWRlbnRpZmllchIgCgtkZXNjcmlwdGlvbhgE",
-            "IAEoCzILLlVURjhTdHJpbmcSIgoOZGVzY3JpcHRpb25VUkkYBSABKAsyCi5J",
-            "QTVTdHJpbmcSPQoKdHJhaXRWYWx1ZRgGIAEoDjIpLlBsYXRmb3JtQ2VydGlm",
-            "aWNhdGVQcm90by5BdHRyaWJ1dGVTdGF0dXMihAIKCFVSSVRyYWl0EiIKB3Ry",
-            "YWl0SWQYASABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0ZWdv",
-            "cnkYAiABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0cnkY",
-            "AyABKAsyES5PYmplY3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQgASgL",
-            "MgsuVVRGOFN0cmluZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklBNVN0",
-            "cmluZxI6Cgp0cmFpdFZhbHVlGAYgASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0",
-            "ZVByb3RvLlVSSVJlZmVyZW5jZSLwAQoPVVRGOFN0cmluZ1RyYWl0EiIKB3Ry",
-            "YWl0SWQYASABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0Q2F0ZWdv",
-            "cnkYAiABKAsyES5PYmplY3RJZGVudGlmaWVyEigKDXRyYWl0UmVnaXN0cnkY",
-            "AyABKAsyES5PYmplY3RJZGVudGlmaWVyEiAKC2Rlc2NyaXB0aW9uGAQgASgL",
-            "MgsuVVRGOFN0cmluZxIiCg5kZXNjcmlwdGlvblVSSRgFIAEoCzIKLklBNVN0",
-            "cmluZxIfCgp0cmFpdFZhbHVlGAYgASgLMgsuVVRGOFN0cmluZyLuAQoOSUE1",
-            "U3RyaW5nVHJhaXQSIgoHdHJhaXRJZBgBIAEoCzIRLk9iamVjdElkZW50aWZp",
-            "ZXISKAoNdHJhaXRDYXRlZ29yeRgCIAEoCzIRLk9iamVjdElkZW50aWZpZXIS",
-            "KAoNdHJhaXRSZWdpc3RyeRgDIAEoCzIRLk9iamVjdElkZW50aWZpZXISIAoL",
-            "ZGVzY3JpcHRpb24YBCABKAsyCy5VVEY4U3RyaW5nEiIKDmRlc2NyaXB0aW9u",
-            "VVJJGAUgASgLMgouSUE1U3RyaW5nEh4KCnRyYWl0VmFsdWUYBiABKAsyCi5J",
-            "QTVTdHJpbmci7gEKDVBFTUNlcnRTdHJpbmcSIgoHdHJhaXRJZBgBIAEoCzIR",
-            "Lk9iamVjdElkZW50aWZpZXISKAoNdHJhaXRDYXRlZ29yeRgCIAEoCzIRLk9i",
-            "amVjdElkZW50aWZpZXISKAoNdHJhaXRSZWdpc3RyeRgDIAEoCzIRLk9iamVj",
-            "dElkZW50aWZpZXISIAoLZGVzY3JpcHRpb24YBCABKAsyCy5VVEY4U3RyaW5n",
-            "EiIKDmRlc2NyaXB0aW9uVVJJGAUgASgLMgouSUE1U3RyaW5nEh8KCnRyYWl0",
-            "VmFsdWUYBiABKAsyCy5VVEY4U3RyaW5nIvkBCg5QdWJsaWNLZXlUcmFpdBIi",
-            "Cgd0cmFpdElkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdENh",
-            "dGVnb3J5GAIgASgLMhEuT2JqZWN0SWRlbnRpZmllchIoCg10cmFpdFJlZ2lz",
-            "dHJ5GAMgASgLMhEuT2JqZWN0SWRlbnRpZmllchIgCgtkZXNjcmlwdGlvbhgE",
-            "IAEoCzILLlVURjhTdHJpbmcSIgoOZGVzY3JpcHRpb25VUkkYBSABKAsyCi5J",
-            "QTVTdHJpbmcSKQoKdHJhaXRWYWx1ZRgGIAEoCzIVLlN1YmplY3RQdWJsaWNL",
-            "ZXlJbmZvIpoBChVDZXJ0aWZpY2F0ZUlkZW50aWZpZXISUwoUaGFzaGVkQ2Vy",
-            "dElkZW50aWZpZXIYASABKAsyNS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8u",
-            "SGFzaGVkQ2VydGlmaWNhdGVJZGVudGlmaWVyEiwKFWdlbmVyaWNDZXJ0SWRl",
-            "bnRpZmllchgCIAEoCzINLklzc3VlclNlcmlhbCJ4ChtIYXNoZWRDZXJ0aWZp",
-            "Y2F0ZUlkZW50aWZpZXISKwoNaGFzaEFsZ29yaXRobRgBIAEoCzIULkFsZ29y",
-            "aXRobUlkZW50aWZpZXISLAoWaGFzaE92ZXJTaWduYXR1cmVWYWx1ZRgCIAEo",
-            "CzIMLk9jdGV0U3RyaW5nIn4KG1BsYXRmb3JtSWRlbnRpZmllck90aGVyTmFt",
-            "ZRIiCgd0eXBlX2lkGAEgASgLMhEuT2JqZWN0SWRlbnRpZmllchI7CgV2YWx1",
-            "ZRgCIAEoCzIsLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUlk",
-            "ZW50aWZpZXIi1QIKElBsYXRmb3JtSWRlbnRpZmllchJEChRwbGF0Zm9ybU1h",
-            "bnVmYWN0dXJlchgBIAEoCzImLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5N",
-            "YW51ZmFjdHVyZXISNgoNcGxhdGZvcm1Nb2RlbBgCIAEoCzIfLlBsYXRmb3Jt",
-            "Q2VydGlmaWNhdGVQcm90by5Nb2RlbBI7Cg9wbGF0Zm9ybVZlcnNpb24YAyAB",
-            "KAsyIi5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uUmV2aXNpb24SOAoOcGxh",
-            "dGZvcm1TZXJpYWwYBCABKAsyIC5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8u",
-            "U2VyaWFsEkoKHnBsYXRmb3JtTWFudWZhY3R1cmVySWRlbnRpZmllchgFIAEo",
-            "CzIiLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QRU5UcmFpdCL1BQoVVGJi",
-            "U2VjdXJpdHlBc3NlcnRpb25zEkUKDmNvbW1vbkNyaXRlcmlhGAEgASgLMi0u",
-            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbW1vbkNyaXRlcmlhVHJhaXQS",
-            "OwoJZmlwc0xldmVsGAIgASgLMiguUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3Rv",
-            "LkZpcHNMZXZlbFRyYWl0EjcKB2lzbzkwMDAYAyABKAsyJi5QbGF0Zm9ybUNl",
-            "cnRpZmljYXRlUHJvdG8uSXNvOTAwMFRyYWl0EmEKHHBsYXRmb3JtRmlybXdh",
-            "cmVDYXBhYmlsaXRpZXMYBCABKAsyOy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJv",
-            "dG8uUGxhdGZvcm1GaXJtd2FyZUNhcGFiaWxpdGllc1RyYWl0EngKKnBsYXRm",
-            "b3JtRmlybXdhcmVTaWduYXR1cmVWZXJpZmljYXRpb25UcmFpdBgFIAEoCzJE",
-            "LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUZpcm13YXJlU2ln",
-            "bmF0dXJlVmVyaWZpY2F0aW9uVHJhaXQSbgolcGxhdGZvcm1GaXJtd2FyZVVw",
-            "ZGF0ZUNvbXBsaWFuY2VUcmFpdBgGIAEoCzI/LlBsYXRmb3JtQ2VydGlmaWNh",
-            "dGVQcm90by5QbGF0Zm9ybUZpcm13YXJlVXBkYXRlQ29tcGxpYW5jZVRyYWl0",
-            "EmYKIXBsYXRmb3JtSGFyZHdhcmVDYXBhYmlsaXRpZXNUcmFpdBgHIAEoCzI7",
-            "LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUhhcmR3YXJlQ2Fw",
-            "YWJpbGl0aWVzVHJhaXQSNAoIclRNVHJhaXQYCCABKAsyIi5QbGF0Zm9ybUNl",
-            "cnRpZmljYXRlUHJvdG8uUlRNVHJhaXQSNAoIdVJJVHJhaXQYCSABKAsyIi5Q",
-            "bGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVVJJVHJhaXQi0gIKGENvbW1vbkNy",
-            "aXRlcmlhRXZhbHVhdGlvbhJQChZjb21tb25Dcml0ZXJpYU1lYXN1cmVzGAEg",
-            "ASgLMjAuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbW1vbkNyaXRlcmlh",
-            "TWVhc3VyZXMSKAoTY0NDZXJ0aWZpY2F0ZU51bWJlchgCIAEoCzILLlVURjhT",
-            "dHJpbmcSKwoWY0NDZXJ0aWZpY2F0ZUF1dGhvcml0eRgDIAEoCzILLlVURjhT",
-            "dHJpbmcSJQoQZXZhbHVhdGlvblNjaGVtZRgEIAEoCzILLlVURjhTdHJpbmcS",
-            "MwoZY0NDZXJ0aWZpY2F0ZUlzc3VhbmNlRGF0ZRgFIAEoCzIQLkdlbmVyYWxp",
-            "emVkVGltZRIxChdjQ0NlcnRpZmljYXRlRXhwaXJ5RGF0ZRgGIAEoCzIQLkdl",
-            "bmVyYWxpemVkVGltZSLtAwoWQ29tbW9uQ3JpdGVyaWFNZWFzdXJlcxIbCgd2",
-            "ZXJzaW9uGAEgASgLMgouSUE1U3RyaW5nEkoKDmFzc3VyYW5jZUxldmVsGAIg",
-            "ASgOMjIuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkV2YWx1YXRpb25Bc3N1",
-            "cmFuY2VMZXZlbBJEChBldmFsdWF0aW9uU3RhdHVzGAMgASgOMiouUGxhdGZv",
-            "cm1DZXJ0aWZpY2F0ZVByb3RvLkV2YWx1YXRpb25TdGF0dXMSFgoEcGx1cxgE",
-            "IAEoCzIILkJvb2xlYW4SSAoSc3RyZW5ndGhPZkZ1bmN0aW9uGAUgASgOMiwu",
-            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlN0cmVuZ3RoT2ZGdW5jdGlvbhIl",
-            "Cgpwcm9maWxlT2lkGAYgASgLMhEuT2JqZWN0SWRlbnRpZmllchI6Cgpwcm9m",
-            "aWxlVXJpGAcgASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlVSSVJl",
-            "ZmVyZW5jZRIkCgl0YXJnZXRPaWQYCCABKAsyES5PYmplY3RJZGVudGlmaWVy",
-            "EjkKCXRhcmdldFVyaRgJIAEoCzImLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
-            "by5VUklSZWZlcmVuY2UiiQEKDFVSSVJlZmVyZW5jZRItChl1bmlmb3JtUmVz",
-            "b3VyY2VJZGVudGlmaWVyGAEgASgLMgouSUE1U3RyaW5nEisKDWhhc2hBbGdv",
-            "cml0aG0YAiABKAsyFC5BbGdvcml0aG1JZGVudGlmaWVyEh0KCWhhc2hWYWx1",
-            "ZRgDIAEoCzIKLkJpdFN0cmluZyJ4CglGaXBzTGV2ZWwSGwoHdmVyc2lvbhgB",
-            "IAEoCzIKLklBNVN0cmluZxI2CgVsZXZlbBgCIAEoDjInLlBsYXRmb3JtQ2Vy",
-            "dGlmaWNhdGVQcm90by5TZWN1cml0eUxldmVsEhYKBHBsdXMYAyABKAsyCC5C",
-            "b29sZWFuIloKFElzbzkwMDBDZXJ0aWZpY2F0aW9uEiIKEGlzbzkwMDBDZXJ0",
-            "aWZpZWQYASABKAsyCC5Cb29sZWFuEh4KCmlzbzkwMDBVcmkYAiABKAsyCi5J",
-            "QTVTdHJpbmcipwEKFVBsYXRmb3JtQ29uZmlndXJhdGlvbhJOChJwbGF0Zm9y",
-            "bUNvbXBvbmVudHMYASADKAsyMi5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8u",
-            "Q29tcG9uZW50SWRlbnRpZmllclRyYWl0Ej4KEnBsYXRmb3JtUHJvcGVydGll",
-            "cxgCIAMoCzIiLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5Qcm9wZXJ0eSLj",
-            "AQoYQ29tcG9uZW50SWRlbnRpZmllclRyYWl0EkwKE2NvbXBvbmVudElkZW50",
-            "aWZpZXIYASABKAsyLS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ29tcG9u",
-            "ZW50SWRlbnRpZmllckgAElcKFmNvbXBvbmVudElkZW50aWZpZXJWMTEYAiAB",
-            "KAsyNS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ29tcG9uZW50SWRlbnRp",
-            "ZmllclYxMVRyYWl0SABCIAoeQ29tcG9uZW50SWRlbnRpZmllclRyYWl0X29u",
-            "ZW9mIsIGChNDb21wb25lbnRJZGVudGlmaWVyEkUKDmNvbXBvbmVudENsYXNz",
-            "GAEgASgLMi0uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbXBvbmVudENs",
-            "YXNzVHJhaXQSRQoVY29tcG9uZW50TWFudWZhY3R1cmVyGAIgASgLMiYuUGxh",
-            "dGZvcm1DZXJ0aWZpY2F0ZVByb3RvLk1hbnVmYWN0dXJlchI3Cg5jb21wb25l",
-            "bnRNb2RlbBgDIAEoCzIfLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5Nb2Rl",
-            "bBI5Cg9jb21wb25lbnRTZXJpYWwYBCABKAsyIC5QbGF0Zm9ybUNlcnRpZmlj",
-            "YXRlUHJvdG8uU2VyaWFsEj0KEWNvbXBvbmVudFJldmlzaW9uGAUgASgLMiIu",
-            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlJldmlzaW9uEk0KGWNvbXBvbmVu",
-            "dEZpZWxkUmVwbGFjZWFibGUYBiABKAsyKi5QbGF0Zm9ybUNlcnRpZmljYXRl",
-            "UHJvdG8uRmllbGRSZXBsYWNlYWJsZRJDChdjb21wb25lbnRNYW51ZmFjdHVy",
-            "ZXJJZBgIIAEoCzIiLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QRU5UcmFp",
-            "dBI9ChFjb21wb25lbnRMb2NhdGlvbhgJIAEoCzIiLlBsYXRmb3JtQ2VydGlm",
-            "aWNhdGVQcm90by5Mb2NhdGlvbhJFChJjb21wb25lbnRBZGRyZXNzZXMYCiAD",
-            "KAsyKS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uTmV0d29ya01BQ1RyYWl0",
-            "Ek4KFWNvbXBvbmVudENlcnRpZmljYXRlcxgLIAMoCzIvLlBsYXRmb3JtQ2Vy",
-            "dGlmaWNhdGVQcm90by5DZXJ0aWZpY2F0ZUlkZW50aWZpZXISPgoPY29tcG9u",
-            "ZW50U3RhdHVzGAwgASgLMiUuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlN0",
-            "YXR1c1RyYWl0EkAKEGFkZGl0aW9uYWxUcmFpdHMYDSADKAsyJi5QbGF0Zm9y",
-            "bUNlcnRpZmljYXRlUHJvdG8uR2VuZXJpY1RyYWl0IpoBCgxNYW51ZmFjdHVy",
-            "ZXISOQoHZ2VuZXJpYxgBIAEoCzImLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
-            "by5HZW5lcmljVHJhaXRIABI5CgR1dGY4GAIgASgLMikuUGxhdGZvcm1DZXJ0",
-            "aWZpY2F0ZVByb3RvLlVURjhTdHJpbmdUcmFpdEgAQhQKEk1hbnVmYWN0dXJl",
-            "cl9vbmVvZiKMAQoFTW9kZWwSOQoHZ2VuZXJpYxgBIAEoCzImLlBsYXRmb3Jt",
-            "Q2VydGlmaWNhdGVQcm90by5HZW5lcmljVHJhaXRIABI5CgR1dGY4GAIgASgL",
-            "MikuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlVURjhTdHJpbmdUcmFpdEgA",
-            "Qg0KC01vZGVsX29uZW9mIpIBCghMb2NhdGlvbhI5CgdnZW5lcmljGAEgASgL",
-            "MiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkdlbmVyaWNUcmFpdEgAEjkK",
-            "BHV0ZjgYAiABKAsyKS5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVVRGOFN0",
-            "cmluZ1RyYWl0SABCEAoOTG9jYXRpb25fb25lb2YijgEKBlNlcmlhbBI5Cgdn",
-            "ZW5lcmljGAEgASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkdlbmVy",
-            "aWNUcmFpdEgAEjkKBHV0ZjgYAiABKAsyKS5QbGF0Zm9ybUNlcnRpZmljYXRl",
-            "UHJvdG8uVVRGOFN0cmluZ1RyYWl0SABCDgoMU2VyaWFsX29uZW9mIpIBCghS",
-            "ZXZpc2lvbhI5CgdnZW5lcmljGAEgASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0",
-            "ZVByb3RvLkdlbmVyaWNUcmFpdEgAEjkKBHV0ZjgYAiABKAsyKS5QbGF0Zm9y",
-            "bUNlcnRpZmljYXRlUHJvdG8uVVRGOFN0cmluZ1RyYWl0SABCEAoOUmV2aXNp",
-            "b25fb25lb2YinwEKEEZpZWxkUmVwbGFjZWFibGUSOQoHZ2VuZXJpYxgBIAEo",
-            "CzImLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5HZW5lcmljVHJhaXRIABI2",
-            "CgRib29sGAIgASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkJvb2xl",
-            "YW5UcmFpdEgAQhgKFkZpZWxkUmVwbGFjZWFibGVfb25lb2Yi7gQKFkNvbXBv",
-            "bmVudElkZW50aWZpZXJWMTESQAoOY29tcG9uZW50Q2xhc3MYASABKAsyKC5Q",
-            "bGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ29tcG9uZW50Q2xhc3MSKgoVY29t",
-            "cG9uZW50TWFudWZhY3R1cmVyGAIgASgLMgsuVVRGOFN0cmluZxIjCg5jb21w",
-            "b25lbnRNb2RlbBgDIAEoCzILLlVURjhTdHJpbmcSJAoPY29tcG9uZW50U2Vy",
-            "aWFsGAQgASgLMgsuVVRGOFN0cmluZxImChFjb21wb25lbnRSZXZpc2lvbhgF",
-            "IAEoCzILLlVURjhTdHJpbmcSMgoXY29tcG9uZW50TWFudWZhY3R1cmVySWQY",
-            "BiABKAsyES5PYmplY3RJZGVudGlmaWVyEiIKEGZpZWxkUmVwbGFjZWFibGUY",
-            "ByABKAsyCC5Cb29sZWFuEkYKEmNvbXBvbmVudEFkZHJlc3NlcxgIIAMoCzIq",
-            "LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5Db21wb25lbnRBZGRyZXNzEk4K",
-            "FWNvbXBvbmVudFBsYXRmb3JtQ2VydBgJIAEoCzIvLlBsYXRmb3JtQ2VydGlm",
-            "aWNhdGVQcm90by5DZXJ0aWZpY2F0ZUlkZW50aWZpZXISSAoYY29tcG9uZW50",
-            "UGxhdGZvcm1DZXJ0VXJpGAogASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVBy",
-            "b3RvLlVSSVJlZmVyZW5jZRI5CgZzdGF0dXMYCyABKA4yKS5QbGF0Zm9ybUNl",
-            "cnRpZmljYXRlUHJvdG8uQXR0cmlidXRlU3RhdHVzIm4KDkNvbXBvbmVudENs",
-            "YXNzEjEKFmNvbXBvbmVudENsYXNzUmVnaXN0cnkYASABKAsyES5PYmplY3RJ",
-            "ZGVudGlmaWVyEikKE2NvbXBvbmVudENsYXNzVmFsdWUYAiABKAsyDC5PY3Rl",
-            "dFN0cmluZyJdChBDb21wb25lbnRBZGRyZXNzEiYKC2FkZHJlc3NUeXBlGAEg",
-            "ASgLMhEuT2JqZWN0SWRlbnRpZmllchIhCgxhZGRyZXNzVmFsdWUYAiABKAsy",
-            "Cy5VVEY4U3RyaW5nIowBCghQcm9wZXJ0eRIhCgxwcm9wZXJ0eU5hbWUYASAB",
-            "KAsyCy5VVEY4U3RyaW5nEiIKDXByb3BlcnR5VmFsdWUYAiABKAsyCy5VVEY4",
-            "U3RyaW5nEjkKBnN0YXR1cxgDIAEoDjIpLlBsYXRmb3JtQ2VydGlmaWNhdGVQ",
-            "cm90by5BdHRyaWJ1dGVTdGF0dXMinAEKEVBsYXRmb3JtQ29uZmlnVXJpEjkK",
-            "B2dlbmVyaWMYASABKAsyJi5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uR2Vu",
-            "ZXJpY1RyYWl0SAASMQoDdXJpGAIgASgLMiIuUGxhdGZvcm1DZXJ0aWZpY2F0",
-            "ZVByb3RvLlVSSVRyYWl0SABCGQoXUGxhdGZvcm1Db25maWdVcmlfb25lb2Yi",
-            "aQoRUGxhdGZvcm1Pd25lcnNoaXASOQoHZ2VuZXJpYxgBIAEoCzImLlBsYXRm",
-            "b3JtQ2VydGlmaWNhdGVQcm90by5HZW5lcmljVHJhaXRIAEIZChdQbGF0Zm9y",
-            "bU93bmVyc2hpcF9vbmVvZirCAgoYRXZhbHVhdGlvbkFzc3VyYW5jZUxldmVs",
-            "EiMKH0VWQUxVQVRJT05BU1NVUkFOQ0VMRVZFTF9MRVZFTDAQABIjCh9FVkFM",
-            "VUFUSU9OQVNTVVJBTkNFTEVWRUxfTEVWRUwxEAESIwofRVZBTFVBVElPTkFT",
-            "U1VSQU5DRUxFVkVMX0xFVkVMMhACEiMKH0VWQUxVQVRJT05BU1NVUkFOQ0VM",
-            "RVZFTF9MRVZFTDMQAxIjCh9FVkFMVUFUSU9OQVNTVVJBTkNFTEVWRUxfTEVW",
-            "RUw0EAQSIwofRVZBTFVBVElPTkFTU1VSQU5DRUxFVkVMX0xFVkVMNRAFEiMK",
-            "H0VWQUxVQVRJT05BU1NVUkFOQ0VMRVZFTF9MRVZFTDYQBhIjCh9FVkFMVUFU",
-            "SU9OQVNTVVJBTkNFTEVWRUxfTEVWRUw3EAcqjAEKEEV2YWx1YXRpb25TdGF0",
-            "dXMSIwofRVZBTFVBVElPTlNUQVRVU19ERVNJR05FRFRPTUVFVBAAEikKJUVW",
-            "QUxVQVRJT05TVEFUVVNfRVZBTFVBVElPTklOUFJPR1JFU1MQARIoCiRFVkFM",
-            "VUFUSU9OU1RBVFVTX0VWQUxVQVRJT05DT01QTEVURUQQAipuChJTdHJlbmd0",
-            "aE9mRnVuY3Rpb24SHAoYU1RSRU5HVEhPRkZVTkNUSU9OX0JBU0lDEAASHQoZ",
-            "U1RSRU5HVEhPRkZVTkNUSU9OX01FRElVTRABEhsKF1NUUkVOR1RIT0ZGVU5D",
-            "VElPTl9ISUdIEAIqkQEKDVNlY3VyaXR5TGV2ZWwSGAoUU0VDVVJJVFlMRVZF",
-            "TF9MRVZFTDAQABIYChRTRUNVUklUWUxFVkVMX0xFVkVMMRABEhgKFFNFQ1VS",
-            "SVRZTEVWRUxfTEVWRUwyEAISGAoUU0VDVVJJVFlMRVZFTF9MRVZFTDMQAxIY",
-            "ChRTRUNVUklUWUxFVkVMX0xFVkVMNBAEKu0BChxQbGF0Zm9ybUZpcm13YXJl",
-            "Q2FwYWJpbGl0aWVzEjEKLVBMQVRGT1JNRklSTVdBUkVDQVBBQklMSVRJRVNf",
-            "RldTRVRVUEFVVEhMT0NBTBAAEjIKLlBMQVRGT1JNRklSTVdBUkVDQVBBQklM",
-            "SVRJRVNfRldTRVRVUEFVVEhSRU1PVEUQARIuCipQTEFURk9STUZJUk1XQVJF",
-            "Q0FQQUJJTElUSUVTX1NNTVBST1RFQ1RJT04QAhI2CjJQTEFURk9STUZJUk1X",
-            "QVJFQ0FQQUJJTElUSUVTX0ZXS0VSTkVMRE1BUFJPVEVDVElPThADKpUBCiVQ",
-            "bGF0Zm9ybUZpcm13YXJlU2lnbmF0dXJlVmVyaWZpY2F0aW9uEjYKMlBMQVRG",
-            "T1JNRklSTVdBUkVTSUdOQVRVUkVWRVJJRklDQVRJT05fSEFSRFdBUkVTUlRN",
-            "EAASNAowUExBVEZPUk1GSVJNV0FSRVNJR05BVFVSRVZFUklGSUNBVElPTl9T",
-            "RUNVUkVCT09UEAEqswEKIFBsYXRmb3JtRmlybXdhcmVVcGRhdGVDb21wbGlh",
-            "bmNlEi4KKlBMQVRGT1JNRklSTVdBUkVVUERBVEVDT01QTElBTkNFX1NQODAw",
-            "XzE0NxAAEi8KK1BMQVRGT1JNRklSTVdBUkVVUERBVEVDT01QTElBTkNFX1NQ",
-            "ODAwXzE0N0IQARIuCipQTEFURk9STUZJUk1XQVJFVVBEQVRFQ09NUExJQU5D",
-            "RV9TUDgwMF8xOTMQAirnAgocUGxhdGZvcm1IYXJkd2FyZUNhcGFiaWxpdGll",
-            "cxItCilQTEFURk9STUhBUkRXQVJFQ0FQQUJJTElUSUVTX0lPTU1VU1VQUE9S",
-            "VBAAEjwKOFBMQVRGT1JNSEFSRFdBUkVDQVBBQklMSVRJRVNfVFJVU1RFREVY",
-            "RUNVVElPTkVOVklST05NRU5UEAESOQo1UExBVEZPUk1IQVJEV0FSRUNBUEFC",
-            "SUxJVElFU19QSFlTSUNBTFRBTVBFUlBST1RFQ1RJT04QAhI4CjRQTEFURk9S",
-            "TUhBUkRXQVJFQ0FQQUJJTElUSUVTX1BIWVNJQ0FMVEFNUEVSREVURUNUSU9O",
-            "EAMSMAosUExBVEZPUk1IQVJEV0FSRUNBUEFCSUxJVElFU19GSVJNV0FSRUZM",
-            "QVNIV1AQBBIzCi9QTEFURk9STUhBUkRXQVJFQ0FQQUJJTElUSUVTX0VYVEVS",
-            "TkFMRE1BU1VQUE9SVBAFKpABCghSVE1UeXBlcxITCg9SVE1UWVBFU19TVEFU",
-            "SUMQABIUChBSVE1UWVBFU19EWU5BTUlDEAESFAoQUlRNVFlQRVNfTk9OSE9T",
-            "VBACEhQKEFJUTVRZUEVTX1ZJUlRVQUwQAxIbChdSVE1UWVBFU19IQVJEV0FS",
-            "RVNUQVRJQxAEEhAKDFJUTVRZUEVTX0JNQxAFKmcKD0F0dHJpYnV0ZVN0YXR1",
-            "cxIZChVBVFRSSUJVVEVTVEFUVVNfQURERUQQABIcChhBVFRSSUJVVEVTVEFU",
-            "VVNfTU9ESUZJRUQQARIbChdBVFRSSUJVVEVTVEFUVVNfUkVNT1ZFRBACYgZw",
-            "cm90bzM="));
+            "cm90by5UY2dDcmVkZW50aWFsVHlwZUIEiLUYEBIZCgZpc3N1ZXIYAiABKAsy",
+            "Ay5ETkIEiLUYEBI9ChZhdXRob3JpdHlLZXlJZGVudGlmaWVyGAMgASgLMhcu",
+            "QXV0aG9yaXR5S2V5SWRlbnRpZmllckIEiLUYEBI1ChNhdXRob3JpdHlJbmZv",
+            "QWNjZXNzGAQgAygLMhIuQWNjZXNzRGVzY3JpcHRpb25CBIi1GBASWwoadENH",
+            "Q3JlZGVudGlhbFNwZWNpZmljYXRpb24YBSABKAsyMS5QbGF0Zm9ybUNlcnRp",
+            "ZmljYXRlUHJvdG8uVGNnU3BlY2lmaWNhdGlvblZlcnNpb25CBIi1GBASPAoW",
+            "YXR0ckNlcnRWYWxpZGl0eVBlcmlvZBgGIAEoCzIWLkF0dENlcnRWYWxpZGl0",
+            "eVBlcmlvZEIEiLUYEBItCglzaWduYXR1cmUYByABKAsyFC5BbGdvcml0aG1J",
+            "ZGVudGlmaWVyQgSItRgQEjYKEnNpZ25hdHVyZUFsZ29yaXRobRgIIAEoCzIU",
+            "LkFsZ29yaXRobUlkZW50aWZpZXJCBIi1GBASHAoOc2lnbmF0dXJlVmFsdWUY",
+            "CSABKAxCBIi1GAMSNQoTY2VydGlmaWNhdGVQb2xpY2llcxgKIAMoCzISLlBv",
+            "bGljeUluZm9ybWF0aW9uQgSItRgQEksKHHByZXZpb3VzUGxhdGZvcm1DZXJ0",
+            "aWZpY2F0ZXMYCyADKAsyHy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVHJh",
+            "aXRCBIi1GBASNwoVY1JMRGlzdHJpYnV0aW9uUG9pbnRzGAwgAygLMhIuRGlz",
+            "dHJpYnV0aW9uUG9pbnRCBIi1GBASIwoGaG9sZGVyGA0gASgLMg0uSXNzdWVy",
+            "U2VyaWFsQgSItRgQEkMKFGNyeXB0b2dyYXBoaWNBbmNob3JzGA4gAygLMh8u",
+            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlRyYWl0QgSItRgQEkEKEnBsYXRm",
+            "b3JtSWRlbnRpZmllchgPIAMoCzIfLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
+            "by5UcmFpdEIEiLUYEBJaChh0Q0dQbGF0Zm9ybVNwZWNpZmljYXRpb24YECAB",
+            "KAsyMi5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVGNnUGxhdGZvcm1TcGVj",
+            "aWZpY2F0aW9uQgSItRgQEkQKFXRCQlNlY3VyaXR5QXNzZXJ0aW9ucxgRIAMo",
+            "CzIfLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5UcmFpdEIEiLUYEBJUChVw",
+            "bGF0Zm9ybUNvbmZpZ3VyYXRpb24YEiABKAsyLy5QbGF0Zm9ybUNlcnRpZmlj",
+            "YXRlUHJvdG8uUGxhdGZvcm1Db25maWd1cmF0aW9uQgSItRgQEkAKEXBsYXRm",
+            "b3JtQ29uZmlnVXJpGBMgAygLMh8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3Rv",
+            "LlRyYWl0QgSItRgQEkAKEXBsYXRmb3JtT3duZXJzaGlwGBQgAygLMh8uUGxh",
+            "dGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlRyYWl0QgSItRgQEkYKF21hbnVmYWN0",
+            "dXJpbmdBc3NlcnRpb25zGBUgAygLMh8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVBy",
+            "b3RvLlRyYWl0QgSItRgQIpcLChZQbGF0Zm9ybUtleUNlcnRpZmljYXRlEkwK",
+            "EXRDR0NyZWRlbnRpYWxUeXBlGAEgASgLMisuUGxhdGZvcm1DZXJ0aWZpY2F0",
+            "ZVByb3RvLlRjZ0NyZWRlbnRpYWxUeXBlQgSItRgQEhkKBmlzc3VlchgCIAEo",
+            "CzIDLkROQgSItRgQEj0KFmF1dGhvcml0eUtleUlkZW50aWZpZXIYAyABKAsy",
+            "Fy5BdXRob3JpdHlLZXlJZGVudGlmaWVyQgSItRgQEjUKE2F1dGhvcml0eUlu",
+            "Zm9BY2Nlc3MYBCADKAsyEi5BY2Nlc3NEZXNjcmlwdGlvbkIEiLUYEBJbChp0",
+            "Q0dDcmVkZW50aWFsU3BlY2lmaWNhdGlvbhgFIAEoCzIxLlBsYXRmb3JtQ2Vy",
+            "dGlmaWNhdGVQcm90by5UY2dTcGVjaWZpY2F0aW9uVmVyc2lvbkIEiLUYEBIh",
+            "Cgh2YWxpZGl0eRgGIAEoCzIJLlZhbGlkaXR5QgSItRgQEi0KCXNpZ25hdHVy",
+            "ZRgHIAEoCzIULkFsZ29yaXRobUlkZW50aWZpZXJCBIi1GBASNgoSc2lnbmF0",
+            "dXJlQWxnb3JpdGhtGAggASgLMhQuQWxnb3JpdGhtSWRlbnRpZmllckIEiLUY",
+            "EBIcCg5zaWduYXR1cmVWYWx1ZRgJIAEoDEIEiLUYAxI1ChNjZXJ0aWZpY2F0",
+            "ZVBvbGljaWVzGAogAygLMhIuUG9saWN5SW5mb3JtYXRpb25CBIi1GBASSwoc",
+            "cHJldmlvdXNQbGF0Zm9ybUNlcnRpZmljYXRlcxgLIAMoCzIfLlBsYXRmb3Jt",
+            "Q2VydGlmaWNhdGVQcm90by5UcmFpdEIEiLUYEBI3ChVjUkxEaXN0cmlidXRp",
+            "b25Qb2ludHMYDCADKAsyEi5EaXN0cmlidXRpb25Qb2ludEIEiLUYEBI5ChRz",
+            "dWJqZWN0UHVibGljS2V5SW5mbxgNIAEoCzIVLlN1YmplY3RQdWJsaWNLZXlJ",
+            "bmZvQgSItRgQEhoKB3N1YmplY3QYDiABKAsyAy5ETkIEiLUYEBI5ChRzdWJq",
+            "ZWN0S2V5SWRlbnRpZmllchgPIAEoCzIVLlN1YmplY3RLZXlJZGVudGlmaWVy",
+            "QgSItRgQEkMKFGNyeXB0b2dyYXBoaWNBbmNob3JzGBAgAygLMh8uUGxhdGZv",
+            "cm1DZXJ0aWZpY2F0ZVByb3RvLlRyYWl0QgSItRgQEkEKEnBsYXRmb3JtSWRl",
+            "bnRpZmllchgRIAMoCzIfLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5UcmFp",
+            "dEIEiLUYEBJaChh0Q0dQbGF0Zm9ybVNwZWNpZmljYXRpb24YEiABKAsyMi5Q",
+            "bGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVGNnUGxhdGZvcm1TcGVjaWZpY2F0",
+            "aW9uQgSItRgQEkQKFXRCQlNlY3VyaXR5QXNzZXJ0aW9ucxgTIAMoCzIfLlBs",
+            "YXRmb3JtQ2VydGlmaWNhdGVQcm90by5UcmFpdEIEiLUYEBJUChVwbGF0Zm9y",
+            "bUNvbmZpZ3VyYXRpb24YFCABKAsyLy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJv",
+            "dG8uUGxhdGZvcm1Db25maWd1cmF0aW9uQgSItRgQEkAKEXBsYXRmb3JtQ29u",
+            "ZmlnVXJpGBUgAygLMh8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlRyYWl0",
+            "QgSItRgQEkAKEXBsYXRmb3JtT3duZXJzaGlwGBYgAygLMh8uUGxhdGZvcm1D",
+            "ZXJ0aWZpY2F0ZVByb3RvLlRyYWl0QgSItRgQEkYKF21hbnVmYWN0dXJpbmdB",
+            "c3NlcnRpb25zGBcgAygLMh8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlRy",
+            "YWl0QgSItRgQIjIKEVRjZ0NyZWRlbnRpYWxUeXBlEh0KD2NlcnRpZmljYXRl",
+            "VHlwZRgBIAEoCUIEiLUYBiJpChdUY2dTcGVjaWZpY2F0aW9uVmVyc2lvbhIa",
+            "CgxtYWpvclZlcnNpb24YASABKBJCBIi1GAISGgoMbWlub3JWZXJzaW9uGAIg",
+            "ASgSQgSItRgCEhYKCHJldmlzaW9uGAMgASgSQgSItRgCIoEBChhUY2dQbGF0",
+            "Zm9ybVNwZWNpZmljYXRpb24SSAoHdmVyc2lvbhgBIAEoCzIxLlBsYXRmb3Jt",
+            "Q2VydGlmaWNhdGVQcm90by5UY2dTcGVjaWZpY2F0aW9uVmVyc2lvbkIEiLUY",
+            "EBIbCg1wbGF0Zm9ybUNsYXNzGAIgASgMQgSItRgEIkIKCVRyYWl0TGlzdBI1",
+            "CgZ0cmFpdHMYASADKAsyHy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVHJh",
+            "aXRCBIi1GBAirw0KBVRyYWl0EhUKB3RyYWl0SWQYASABKAlCBIi1GAYSGwoN",
+            "dHJhaXRDYXRlZ29yeRgCIAEoCUIEiLUYBhIbCg10cmFpdFJlZ2lzdHJ5GAMg",
+            "ASgJQgSItRgGEhkKC2Rlc2NyaXB0aW9uGAQgASgJQgSItRgMEhwKDmRlc2Ny",
+            "aXB0aW9uVVJJGAUgASgJQgSItRgWEg4KBGFzbjEYBiABKAxIABISCghpbnRW",
+            "YWx1ZRgHIAEoEkgAEhUKC3N0cmluZ1ZhbHVlGAggASgJSAASHAoMYm9vbGVh",
+            "blZhbHVlGAkgASgIQgSItRgBSAASVgoVY2VydGlmaWNhdGVJZGVudGlmaWVy",
+            "GAogASgLMi8uUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNlcnRpZmljYXRl",
+            "SWRlbnRpZmllckIEiLUYEEgAElIKDmNvbW1vbkNyaXRlcmlhGAsgASgLMjIu",
+            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbW1vbkNyaXRlcmlhRXZhbHVh",
+            "dGlvbkIEiLUYEEgAEiMKE2NvbXBvbmVudENsYXNzVmFsdWUYDCABKAxCBIi1",
+            "GARIABJYChZjb21wb25lbnRJZGVudGlmaWVyVjExGA0gASgLMjAuUGxhdGZv",
+            "cm1DZXJ0aWZpY2F0ZVByb3RvLkNvbXBvbmVudElkZW50aWZpZXJWMTFCBIi1",
+            "GBBIABI+CglmaXBzTGV2ZWwYDiABKAsyIy5QbGF0Zm9ybUNlcnRpZmljYXRl",
+            "UHJvdG8uRmlwc0xldmVsQgSItRgQSAASRwoHaXNvOTAwMBgPIAEoCzIuLlBs",
+            "YXRmb3JtQ2VydGlmaWNhdGVQcm90by5Jc285MDAwQ2VydGlmaWNhdGlvbkIE",
+            "iLUYEEgAEkYKCm5ldHdvcmtNQUMYECABKAsyKi5QbGF0Zm9ybUNlcnRpZmlj",
+            "YXRlUHJvdG8uQ29tcG9uZW50QWRkcmVzc0IEiLUYEEgAEhMKA29pZBgRIAEo",
+            "CUIEiLUYBkgAEhMKA3BlbhgSIAEoCUIEiLUYBkgAEmgKHHBsYXRmb3JtRmly",
+            "bXdhcmVDYXBhYmlsaXRpZXMYEyABKAsyOi5QbGF0Zm9ybUNlcnRpZmljYXRl",
+            "UHJvdG8uUGxhdGZvcm1GaXJtd2FyZUNhcGFiaWxpdGllc0xpc3RCBIi1GANI",
+            "ABJ6CiVwbGF0Zm9ybUZpcm13YXJlU2lnbmF0dXJlVmVyaWZpY2F0aW9uGBQg",
+            "ASgLMkMuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlBsYXRmb3JtRmlybXdh",
+            "cmVTaWduYXR1cmVWZXJpZmljYXRpb25MaXN0QgSItRgDSAAScAogcGxhdGZv",
+            "cm1GaXJtd2FyZVVwZGF0ZUNvbXBsaWFuY2UYFSABKAsyPi5QbGF0Zm9ybUNl",
+            "cnRpZmljYXRlUHJvdG8uUGxhdGZvcm1GaXJtd2FyZVVwZGF0ZUNvbXBsaWFu",
+            "Y2VMaXN0QgSItRgDSAASaAoccGxhdGZvcm1IYXJkd2FyZUNhcGFiaWxpdGll",
+            "cxgWIAEoCzI6LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5QbGF0Zm9ybUhh",
+            "cmR3YXJlQ2FwYWJpbGl0aWVzTGlzdEIEiLUYA0gAEkAKCHJUTVR5cGVzGBcg",
+            "ASgLMiYuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlJUTVR5cGVzTGlzdEIE",
+            "iLUYA0gAEkEKBnN0YXR1cxgYIAEoDjIpLlBsYXRmb3JtQ2VydGlmaWNhdGVQ",
+            "cm90by5BdHRyaWJ1dGVTdGF0dXNCBIi1GApIABI7CgN1cmkYGSABKAsyJi5Q",
+            "bGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uVVJJUmVmZXJlbmNlQgSItRgQSAAS",
+            "FAoEdXRmOBgaIAEoCUIEiLUYDEgAEhMKA2lhNRgbIAEoCUIEiLUYFkgAEhMK",
+            "A3BlbRgcIAEoCUIEiLUYDEgAEjAKCXB1YmxpY0tleRgdIAEoCzIVLlN1Ympl",
+            "Y3RQdWJsaWNLZXlJbmZvQgSItRgQSAASSwoOZW50R2VvTG9jYXRpb24YHiAB",
+            "KAsyKy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uRW50aXR5R2VvTG9jYXRp",
+            "b25CBIi1GBBIABJMCg9jb3VudHJ5T2ZPcmlnaW4YHyABKAsyKy5QbGF0Zm9y",
+            "bUNlcnRpZmljYXRlUHJvdG8uT3JpZ2luQ29tcG9zaXRpb25CBIi1GBBIAEIM",
+            "Cgp0cmFpdFZhbHVlInAKIFBsYXRmb3JtRmlybXdhcmVDYXBhYmlsaXRpZXNM",
+            "aXN0EkwKBnZhbHVlcxgGIAMoDjI2LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
+            "by5QbGF0Zm9ybUZpcm13YXJlQ2FwYWJpbGl0aWVzQgSItRgDIoIBCilQbGF0",
+            "Zm9ybUZpcm13YXJlU2lnbmF0dXJlVmVyaWZpY2F0aW9uTGlzdBJVCgZ2YWx1",
+            "ZXMYBiADKA4yPy5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uUGxhdGZvcm1G",
+            "aXJtd2FyZVNpZ25hdHVyZVZlcmlmaWNhdGlvbkIEiLUYAyJ4CiRQbGF0Zm9y",
+            "bUZpcm13YXJlVXBkYXRlQ29tcGxpYW5jZUxpc3QSUAoGdmFsdWVzGAYgAygO",
+            "MjouUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlBsYXRmb3JtRmlybXdhcmVV",
+            "cGRhdGVDb21wbGlhbmNlQgSItRgDInAKIFBsYXRmb3JtSGFyZHdhcmVDYXBh",
+            "YmlsaXRpZXNMaXN0EkwKBnZhbHVlcxgGIAMoDjI2LlBsYXRmb3JtQ2VydGlm",
+            "aWNhdGVQcm90by5QbGF0Zm9ybUhhcmR3YXJlQ2FwYWJpbGl0aWVzQgSItRgD",
+            "IkgKDFJUTVR5cGVzTGlzdBI4CgZ2YWx1ZXMYBiADKA4yIi5QbGF0Zm9ybUNl",
+            "cnRpZmljYXRlUHJvdG8uUlRNVHlwZXNCBIi1GAMipgEKFUNlcnRpZmljYXRl",
+            "SWRlbnRpZmllchJZChRoYXNoZWRDZXJ0SWRlbnRpZmllchgBIAEoCzI1LlBs",
+            "YXRmb3JtQ2VydGlmaWNhdGVQcm90by5IYXNoZWRDZXJ0aWZpY2F0ZUlkZW50",
+            "aWZpZXJCBIi1GBASMgoVZ2VuZXJpY0NlcnRJZGVudGlmaWVyGAIgASgLMg0u",
+            "SXNzdWVyU2VyaWFsQgSItRgQInYKG0hhc2hlZENlcnRpZmljYXRlSWRlbnRp",
+            "ZmllchIxCg1oYXNoQWxnb3JpdGhtGAEgASgLMhQuQWxnb3JpdGhtSWRlbnRp",
+            "ZmllckIEiLUYEBIkChZoYXNoT3ZlclNpZ25hdHVyZVZhbHVlGAIgASgMQgSI",
+            "tRgEIqsCChhDb21tb25Dcml0ZXJpYUV2YWx1YXRpb24SVgoWY29tbW9uQ3Jp",
+            "dGVyaWFNZWFzdXJlcxgBIAEoCzIwLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
+            "by5Db21tb25Dcml0ZXJpYU1lYXN1cmVzQgSItRgQEiEKE2NDQ2VydGlmaWNh",
+            "dGVOdW1iZXIYAiABKAlCBIi1GAwSJAoWY0NDZXJ0aWZpY2F0ZUF1dGhvcml0",
+            "eRgDIAEoCUIEiLUYDBIeChBldmFsdWF0aW9uU2NoZW1lGAQgASgJQgSItRgM",
+            "EicKGWNDQ2VydGlmaWNhdGVJc3N1YW5jZURhdGUYBSABKAlCBIi1GBgSJQoX",
+            "Y0NDZXJ0aWZpY2F0ZUV4cGlyeURhdGUYBiABKAlCBIi1GBgi5wMKFkNvbW1v",
+            "bkNyaXRlcmlhTWVhc3VyZXMSFQoHdmVyc2lvbhgBIAEoCUIEiLUYFhJQCg5h",
+            "c3N1cmFuY2VMZXZlbBgCIAEoDjIyLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90",
+            "by5FdmFsdWF0aW9uQXNzdXJhbmNlTGV2ZWxCBIi1GAoSSgoQZXZhbHVhdGlv",
+            "blN0YXR1cxgDIAEoDjIqLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5FdmFs",
+            "dWF0aW9uU3RhdHVzQgSItRgKEhIKBHBsdXMYBCABKAhCBIi1GAESTgoSc3Ry",
+            "ZW5ndGhPZkZ1bmN0aW9uGAUgASgOMiwuUGxhdGZvcm1DZXJ0aWZpY2F0ZVBy",
+            "b3RvLlN0cmVuZ3RoT2ZGdW5jdGlvbkIEiLUYChIYCgpwcm9maWxlT2lkGAYg",
+            "ASgJQgSItRgGEkAKCnByb2ZpbGVVcmkYByABKAsyJi5QbGF0Zm9ybUNlcnRp",
+            "ZmljYXRlUHJvdG8uVVJJUmVmZXJlbmNlQgSItRgQEhcKCXRhcmdldE9pZBgI",
+            "IAEoCUIEiLUYBhI/Cgl0YXJnZXRVcmkYCSABKAsyJi5QbGF0Zm9ybUNlcnRp",
+            "ZmljYXRlUHJvdG8uVVJJUmVmZXJlbmNlQgSItRgQIoMBCgxVUklSZWZlcmVu",
+            "Y2USJwoZdW5pZm9ybVJlc291cmNlSWRlbnRpZmllchgBIAEoCUIEiLUYFhIx",
+            "Cg1oYXNoQWxnb3JpdGhtGAIgASgLMhQuQWxnb3JpdGhtSWRlbnRpZmllckIE",
+            "iLUYEBIXCgloYXNoVmFsdWUYAyABKAxCBIi1GAMidAoJRmlwc0xldmVsEhUK",
+            "B3ZlcnNpb24YASABKAlCBIi1GBYSPAoFbGV2ZWwYAiABKA4yJy5QbGF0Zm9y",
+            "bUNlcnRpZmljYXRlUHJvdG8uU2VjdXJpdHlMZXZlbEIEiLUYChISCgRwbHVz",
+            "GAMgASgIQgSItRgBIlAKFElzbzkwMDBDZXJ0aWZpY2F0aW9uEh4KEGlzbzkw",
+            "MDBDZXJ0aWZpZWQYASABKAhCBIi1GAESGAoKaXNvOTAwMFVyaRgCIAEoCUIE",
+            "iLUYFiKkAQoVUGxhdGZvcm1Db25maWd1cmF0aW9uEkUKEnBsYXRmb3JtQ29t",
+            "cG9uZW50cxgEIAMoCzIjLlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5UcmFp",
+            "dExpc3RCBIi1GBASRAoScGxhdGZvcm1Qcm9wZXJ0aWVzGAIgAygLMiIuUGxh",
+            "dGZvcm1DZXJ0aWZpY2F0ZVByb3RvLlByb3BlcnR5QgSItRgQIt8EChZDb21w",
+            "b25lbnRJZGVudGlmaWVyVjExEkYKDmNvbXBvbmVudENsYXNzGAEgASgLMigu",
+            "UGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkNvbXBvbmVudENsYXNzQgSItRgQ",
+            "EiMKFWNvbXBvbmVudE1hbnVmYWN0dXJlchgCIAEoCUIEiLUYDBIcCg5jb21w",
+            "b25lbnRNb2RlbBgDIAEoCUIEiLUYDBIdCg9jb21wb25lbnRTZXJpYWwYBCAB",
+            "KAlCBIi1GAwSHwoRY29tcG9uZW50UmV2aXNpb24YBSABKAlCBIi1GAwSJQoX",
+            "Y29tcG9uZW50TWFudWZhY3R1cmVySWQYBiABKAlCBIi1GAYSHgoQZmllbGRS",
+            "ZXBsYWNlYWJsZRgHIAEoCEIEiLUYARJMChJjb21wb25lbnRBZGRyZXNzZXMY",
+            "CCADKAsyKi5QbGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ29tcG9uZW50QWRk",
+            "cmVzc0IEiLUYEBJUChVjb21wb25lbnRQbGF0Zm9ybUNlcnQYCSABKAsyLy5Q",
+            "bGF0Zm9ybUNlcnRpZmljYXRlUHJvdG8uQ2VydGlmaWNhdGVJZGVudGlmaWVy",
+            "QgSItRgQEk4KGGNvbXBvbmVudFBsYXRmb3JtQ2VydFVyaRgKIAEoCzImLlBs",
+            "YXRmb3JtQ2VydGlmaWNhdGVQcm90by5VUklSZWZlcmVuY2VCBIi1GBASPwoG",
+            "c3RhdHVzGAsgASgOMikuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkF0dHJp",
+            "YnV0ZVN0YXR1c0IEiLUYCiJZCg5Db21wb25lbnRDbGFzcxIkChZjb21wb25l",
+            "bnRDbGFzc1JlZ2lzdHJ5GAEgASgJQgSItRgGEiEKE2NvbXBvbmVudENsYXNz",
+            "VmFsdWUYAiABKAxCBIi1GAQiSQoQQ29tcG9uZW50QWRkcmVzcxIZCgthZGRy",
+            "ZXNzVHlwZRgBIAEoCUIEiLUYBhIaCgxhZGRyZXNzVmFsdWUYAiABKAlCBIi1",
+            "GAwihAEKCFByb3BlcnR5EhoKDHByb3BlcnR5TmFtZRgBIAEoCUIEiLUYDBIb",
+            "Cg1wcm9wZXJ0eVZhbHVlGAIgASgJQgSItRgMEj8KBnN0YXR1cxgDIAEoDjIp",
+            "LlBsYXRmb3JtQ2VydGlmaWNhdGVQcm90by5BdHRyaWJ1dGVTdGF0dXNCBIi1",
+            "GAoivgEKEUVudGl0eUdlb0xvY2F0aW9uEhkKC2NvdW50cnlDb2RlGAEgASgJ",
+            "QgSItRgTEh0KD3N0YXRlT3JQcm92aW5jZRgCIAEoCUIEiLUYExIaCgxsb2Nh",
+            "bGl0eU5hbWUYAyABKAlCBIi1GAwSGwoNc3RyZWV0QWRkcmVzcxgEIAEoCUIE",
+            "iLUYDBIcCg5sb2NhdGlvbkNvb3JkcxgFIAEoCUIEiLUYExIYCgpwb3N0YWxD",
+            "b2RlGAYgASgJQgSItRgMInUKEU9yaWdpbkNvbXBvc2l0aW9uEkMKCGxvY2F0",
+            "aW9uGAEgASgLMisuUGxhdGZvcm1DZXJ0aWZpY2F0ZVByb3RvLkVudGl0eUdl",
+            "b0xvY2F0aW9uQgSItRgQEhsKDWhhc0NvbXBvbmVudHMYAiABKAhCBIi1GAEq",
+            "wgIKGEV2YWx1YXRpb25Bc3N1cmFuY2VMZXZlbBIjCh9FVkFMVUFUSU9OQVNT",
+            "VVJBTkNFTEVWRUxfTEVWRUwwEAASIwofRVZBTFVBVElPTkFTU1VSQU5DRUxF",
+            "VkVMX0xFVkVMMRABEiMKH0VWQUxVQVRJT05BU1NVUkFOQ0VMRVZFTF9MRVZF",
+            "TDIQAhIjCh9FVkFMVUFUSU9OQVNTVVJBTkNFTEVWRUxfTEVWRUwzEAMSIwof",
+            "RVZBTFVBVElPTkFTU1VSQU5DRUxFVkVMX0xFVkVMNBAEEiMKH0VWQUxVQVRJ",
+            "T05BU1NVUkFOQ0VMRVZFTF9MRVZFTDUQBRIjCh9FVkFMVUFUSU9OQVNTVVJB",
+            "TkNFTEVWRUxfTEVWRUw2EAYSIwofRVZBTFVBVElPTkFTU1VSQU5DRUxFVkVM",
+            "X0xFVkVMNxAHKowBChBFdmFsdWF0aW9uU3RhdHVzEiMKH0VWQUxVQVRJT05T",
+            "VEFUVVNfREVTSUdORURUT01FRVQQABIpCiVFVkFMVUFUSU9OU1RBVFVTX0VW",
+            "QUxVQVRJT05JTlBST0dSRVNTEAESKAokRVZBTFVBVElPTlNUQVRVU19FVkFM",
+            "VUFUSU9OQ09NUExFVEVEEAIqbgoSU3RyZW5ndGhPZkZ1bmN0aW9uEhwKGFNU",
+            "UkVOR1RIT0ZGVU5DVElPTl9CQVNJQxAAEh0KGVNUUkVOR1RIT0ZGVU5DVElP",
+            "Tl9NRURJVU0QARIbChdTVFJFTkdUSE9GRlVOQ1RJT05fSElHSBACKpEBCg1T",
+            "ZWN1cml0eUxldmVsEhgKFFNFQ1VSSVRZTEVWRUxfTEVWRUwwEAASGAoUU0VD",
+            "VVJJVFlMRVZFTF9MRVZFTDEQARIYChRTRUNVUklUWUxFVkVMX0xFVkVMMhAC",
+            "EhgKFFNFQ1VSSVRZTEVWRUxfTEVWRUwzEAMSGAoUU0VDVVJJVFlMRVZFTF9M",
+            "RVZFTDQQBCrtAQocUGxhdGZvcm1GaXJtd2FyZUNhcGFiaWxpdGllcxIxCi1Q",
+            "TEFURk9STUZJUk1XQVJFQ0FQQUJJTElUSUVTX0ZXU0VUVVBBVVRITE9DQUwQ",
+            "ABIyCi5QTEFURk9STUZJUk1XQVJFQ0FQQUJJTElUSUVTX0ZXU0VUVVBBVVRI",
+            "UkVNT1RFEAESLgoqUExBVEZPUk1GSVJNV0FSRUNBUEFCSUxJVElFU19TTU1Q",
+            "Uk9URUNUSU9OEAISNgoyUExBVEZPUk1GSVJNV0FSRUNBUEFCSUxJVElFU19G",
+            "V0tFUk5FTERNQVBST1RFQ1RJT04QAyqVAQolUGxhdGZvcm1GaXJtd2FyZVNp",
+            "Z25hdHVyZVZlcmlmaWNhdGlvbhI2CjJQTEFURk9STUZJUk1XQVJFU0lHTkFU",
+            "VVJFVkVSSUZJQ0FUSU9OX0hBUkRXQVJFU1JUTRAAEjQKMFBMQVRGT1JNRklS",
+            "TVdBUkVTSUdOQVRVUkVWRVJJRklDQVRJT05fU0VDVVJFQk9PVBABKrMBCiBQ",
+            "bGF0Zm9ybUZpcm13YXJlVXBkYXRlQ29tcGxpYW5jZRIuCipQTEFURk9STUZJ",
+            "Uk1XQVJFVVBEQVRFQ09NUExJQU5DRV9TUDgwMF8xNDcQABIvCitQTEFURk9S",
+            "TUZJUk1XQVJFVVBEQVRFQ09NUExJQU5DRV9TUDgwMF8xNDdCEAESLgoqUExB",
+            "VEZPUk1GSVJNV0FSRVVQREFURUNPTVBMSUFOQ0VfU1A4MDBfMTkzEAIq5wIK",
+            "HFBsYXRmb3JtSGFyZHdhcmVDYXBhYmlsaXRpZXMSLQopUExBVEZPUk1IQVJE",
+            "V0FSRUNBUEFCSUxJVElFU19JT01NVVNVUFBPUlQQABI8CjhQTEFURk9STUhB",
+            "UkRXQVJFQ0FQQUJJTElUSUVTX1RSVVNURURFWEVDVVRJT05FTlZJUk9OTUVO",
+            "VBABEjkKNVBMQVRGT1JNSEFSRFdBUkVDQVBBQklMSVRJRVNfUEhZU0lDQUxU",
+            "QU1QRVJQUk9URUNUSU9OEAISOAo0UExBVEZPUk1IQVJEV0FSRUNBUEFCSUxJ",
+            "VElFU19QSFlTSUNBTFRBTVBFUkRFVEVDVElPThADEjAKLFBMQVRGT1JNSEFS",
+            "RFdBUkVDQVBBQklMSVRJRVNfRklSTVdBUkVGTEFTSFdQEAQSMwovUExBVEZP",
+            "Uk1IQVJEV0FSRUNBUEFCSUxJVElFU19FWFRFUk5BTERNQVNVUFBPUlQQBSqQ",
+            "AQoIUlRNVHlwZXMSEwoPUlRNVFlQRVNfU1RBVElDEAASFAoQUlRNVFlQRVNf",
+            "RFlOQU1JQxABEhQKEFJUTVRZUEVTX05PTkhPU1QQAhIUChBSVE1UWVBFU19W",
+            "SVJUVUFMEAMSGwoXUlRNVFlQRVNfSEFSRFdBUkVTVEFUSUMQBBIQCgxSVE1U",
+            "WVBFU19CTUMQBSpnCg9BdHRyaWJ1dGVTdGF0dXMSGQoVQVRUUklCVVRFU1RB",
+            "VFVTX0FEREVEEAASHAoYQVRUUklCVVRFU1RBVFVTX01PRElGSUVEEAESGwoX",
+            "QVRUUklCVVRFU1RBVFVTX1JFTU9WRUQQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::ASN1Reflection.Descriptor, global::Rfc5280Reflection.Descriptor, global::Rfc5755Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::ASN1.ASN1Reflection.Descriptor, global::Rfc5280Reflection.Descriptor, global::Rfc5755Reflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::PlatformCertificateProto.EvaluationAssuranceLevel), typeof(global::PlatformCertificateProto.EvaluationStatus), typeof(global::PlatformCertificateProto.StrengthOfFunction), typeof(global::PlatformCertificateProto.SecurityLevel), typeof(global::PlatformCertificateProto.PlatformFirmwareCapabilities), typeof(global::PlatformCertificateProto.PlatformFirmwareSignatureVerification), typeof(global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance), typeof(global::PlatformCertificateProto.PlatformHardwareCapabilities), typeof(global::PlatformCertificateProto.RTMTypes), typeof(global::PlatformCertificateProto.AttributeStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformAttributeCertificate), global::PlatformCertificateProto.PlatformAttributeCertificate.Parser, new[]{ "TCGCredentialType", "Issuer", "AuthorityKeyIdentifier", "AuthorityInfoAccess", "TCGCredentialSpecification", "AttrCertValidityPeriod", "Signature", "SignatureAlgorithm", "SignatureValue", "CertificatePolicies", "PreviousPlatformCertificates", "CRLDistributionPoints", "Holder", "CryptographicAnchors", "PlatformIdentifier", "TCGPlatformSpecification", "TBBSecurityAssertions", "PlatformConfiguration", "PlatformConfigUri", "PlatformOwnership" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformKeyCertificate), global::PlatformCertificateProto.PlatformKeyCertificate.Parser, new[]{ "TCGCredentialType", "Issuer", "AuthorityKeyIdentifier", "AuthorityInfoAccess", "TCGCredentialSpecification", "Validity", "Signature", "SignatureAlgorithm", "SignatureValue", "CertificatePolicies", "PreviousPlatformCertificates", "CRLDistributionPoints", "SubjectPublicKeyInfo", "Subject", "SubjectKeyIdentifier", "CryptographicAnchors", "PlatformIdentifier", "TCGPlatformSpecification", "TBBSecurityAssertions", "PlatformConfiguration", "PlatformConfigUri", "PlatformOwnership" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformAttributeCertificate), global::PlatformCertificateProto.PlatformAttributeCertificate.Parser, new[]{ "TCGCredentialType", "Issuer", "AuthorityKeyIdentifier", "AuthorityInfoAccess", "TCGCredentialSpecification", "AttrCertValidityPeriod", "Signature", "SignatureAlgorithm", "SignatureValue", "CertificatePolicies", "PreviousPlatformCertificates", "CRLDistributionPoints", "Holder", "CryptographicAnchors", "PlatformIdentifier", "TCGPlatformSpecification", "TBBSecurityAssertions", "PlatformConfiguration", "PlatformConfigUri", "PlatformOwnership", "ManufacturingAssertions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformKeyCertificate), global::PlatformCertificateProto.PlatformKeyCertificate.Parser, new[]{ "TCGCredentialType", "Issuer", "AuthorityKeyIdentifier", "AuthorityInfoAccess", "TCGCredentialSpecification", "Validity", "Signature", "SignatureAlgorithm", "SignatureValue", "CertificatePolicies", "PreviousPlatformCertificates", "CRLDistributionPoints", "SubjectPublicKeyInfo", "Subject", "SubjectKeyIdentifier", "CryptographicAnchors", "PlatformIdentifier", "TCGPlatformSpecification", "TBBSecurityAssertions", "PlatformConfiguration", "PlatformConfigUri", "PlatformOwnership", "ManufacturingAssertions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.TcgCredentialType), global::PlatformCertificateProto.TcgCredentialType.Parser, new[]{ "CertificateType" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.TcgSpecificationVersion), global::PlatformCertificateProto.TcgSpecificationVersion.Parser, new[]{ "MajorVersion", "MinorVersion", "Revision" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.TcgPlatformSpecification), global::PlatformCertificateProto.TcgPlatformSpecification.Parser, new[]{ "Version", "PlatformClass" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.GenericTrait), global::PlatformCertificateProto.GenericTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.BooleanTrait), global::PlatformCertificateProto.BooleanTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.CertificateIdentifierTrait), global::PlatformCertificateProto.CertificateIdentifierTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.CommonCriteriaTrait), global::PlatformCertificateProto.CommonCriteriaTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentClassTrait), global::PlatformCertificateProto.ComponentClassTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentIdentifierV11Trait), global::PlatformCertificateProto.ComponentIdentifierV11Trait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.FipsLevelTrait), global::PlatformCertificateProto.FipsLevelTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Iso9000Trait), global::PlatformCertificateProto.Iso9000Trait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.NetworkMACTrait), global::PlatformCertificateProto.NetworkMACTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.OIDTrait), global::PlatformCertificateProto.OIDTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PENTrait), global::PlatformCertificateProto.PENTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait), global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait), global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait), global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait), global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.RTMTrait), global::PlatformCertificateProto.RTMTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.StatusTrait), global::PlatformCertificateProto.StatusTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.URITrait), global::PlatformCertificateProto.URITrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.UTF8StringTrait), global::PlatformCertificateProto.UTF8StringTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.IA5StringTrait), global::PlatformCertificateProto.IA5StringTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PEMCertString), global::PlatformCertificateProto.PEMCertString.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PublicKeyTrait), global::PlatformCertificateProto.PublicKeyTrait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "TraitValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.TraitList), global::PlatformCertificateProto.TraitList.Parser, new[]{ "Traits" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Trait), global::PlatformCertificateProto.Trait.Parser, new[]{ "TraitId", "TraitCategory", "TraitRegistry", "Description", "DescriptionURI", "Asn1", "IntValue", "StringValue", "BooleanValue", "CertificateIdentifier", "CommonCriteria", "ComponentClassValue", "ComponentIdentifierV11", "FipsLevel", "Iso9000", "NetworkMAC", "Oid", "Pen", "PlatformFirmwareCapabilities", "PlatformFirmwareSignatureVerification", "PlatformFirmwareUpdateCompliance", "PlatformHardwareCapabilities", "RTMTypes", "Status", "Uri", "Utf8", "Ia5", "Pem", "PublicKey", "EntGeoLocation", "CountryOfOrigin" }, new[]{ "TraitValue" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList), global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList.Parser, new[]{ "Values" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList), global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList.Parser, new[]{ "Values" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList), global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList.Parser, new[]{ "Values" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformHardwareCapabilitiesList), global::PlatformCertificateProto.PlatformHardwareCapabilitiesList.Parser, new[]{ "Values" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.RTMTypesList), global::PlatformCertificateProto.RTMTypesList.Parser, new[]{ "Values" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.CertificateIdentifier), global::PlatformCertificateProto.CertificateIdentifier.Parser, new[]{ "HashedCertIdentifier", "GenericCertIdentifier" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.HashedCertificateIdentifier), global::PlatformCertificateProto.HashedCertificateIdentifier.Parser, new[]{ "HashAlgorithm", "HashOverSignatureValue" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformIdentifierOtherName), global::PlatformCertificateProto.PlatformIdentifierOtherName.Parser, new[]{ "TypeId", "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformIdentifier), global::PlatformCertificateProto.PlatformIdentifier.Parser, new[]{ "PlatformManufacturer", "PlatformModel", "PlatformVersion", "PlatformSerial", "PlatformManufacturerIdentifier" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.TbbSecurityAssertions), global::PlatformCertificateProto.TbbSecurityAssertions.Parser, new[]{ "CommonCriteria", "FipsLevel", "Iso9000", "PlatformFirmwareCapabilities", "PlatformFirmwareSignatureVerificationTrait", "PlatformFirmwareUpdateComplianceTrait", "PlatformHardwareCapabilitiesTrait", "RTMTrait", "URITrait" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.CommonCriteriaEvaluation), global::PlatformCertificateProto.CommonCriteriaEvaluation.Parser, new[]{ "CommonCriteriaMeasures", "CCCertificateNumber", "CCCertificateAuthority", "EvaluationScheme", "CCCertificateIssuanceDate", "CCCertificateExpiryDate" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.CommonCriteriaMeasures), global::PlatformCertificateProto.CommonCriteriaMeasures.Parser, new[]{ "Version", "AssuranceLevel", "EvaluationStatus", "Plus", "StrengthOfFunction", "ProfileOid", "ProfileUri", "TargetOid", "TargetUri" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.URIReference), global::PlatformCertificateProto.URIReference.Parser, new[]{ "UniformResourceIdentifier", "HashAlgorithm", "HashValue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.FipsLevel), global::PlatformCertificateProto.FipsLevel.Parser, new[]{ "Version", "Level", "Plus" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Iso9000Certification), global::PlatformCertificateProto.Iso9000Certification.Parser, new[]{ "Iso9000Certified", "Iso9000Uri" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformConfiguration), global::PlatformCertificateProto.PlatformConfiguration.Parser, new[]{ "PlatformComponents", "PlatformProperties" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentIdentifierTrait), global::PlatformCertificateProto.ComponentIdentifierTrait.Parser, new[]{ "ComponentIdentifier", "ComponentIdentifierV11" }, new[]{ "ComponentIdentifierTraitOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentIdentifier), global::PlatformCertificateProto.ComponentIdentifier.Parser, new[]{ "ComponentClass", "ComponentManufacturer", "ComponentModel", "ComponentSerial", "ComponentRevision", "ComponentFieldReplaceable", "ComponentManufacturerId", "ComponentLocation", "ComponentAddresses", "ComponentCertificates", "ComponentStatus", "AdditionalTraits" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Manufacturer), global::PlatformCertificateProto.Manufacturer.Parser, new[]{ "Generic", "Utf8" }, new[]{ "ManufacturerOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Model), global::PlatformCertificateProto.Model.Parser, new[]{ "Generic", "Utf8" }, new[]{ "ModelOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Location), global::PlatformCertificateProto.Location.Parser, new[]{ "Generic", "Utf8" }, new[]{ "LocationOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Serial), global::PlatformCertificateProto.Serial.Parser, new[]{ "Generic", "Utf8" }, new[]{ "SerialOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Revision), global::PlatformCertificateProto.Revision.Parser, new[]{ "Generic", "Utf8" }, new[]{ "RevisionOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.FieldReplaceable), global::PlatformCertificateProto.FieldReplaceable.Parser, new[]{ "Generic", "Bool" }, new[]{ "FieldReplaceableOneof" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentIdentifierV11), global::PlatformCertificateProto.ComponentIdentifierV11.Parser, new[]{ "ComponentClass", "ComponentManufacturer", "ComponentModel", "ComponentSerial", "ComponentRevision", "ComponentManufacturerId", "FieldReplaceable", "ComponentAddresses", "ComponentPlatformCert", "ComponentPlatformCertUri", "Status" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentClass), global::PlatformCertificateProto.ComponentClass.Parser, new[]{ "ComponentClassRegistry", "ComponentClassValue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.ComponentAddress), global::PlatformCertificateProto.ComponentAddress.Parser, new[]{ "AddressType", "AddressValue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.Property), global::PlatformCertificateProto.Property.Parser, new[]{ "PropertyName", "PropertyValue", "Status" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformConfigUri), global::PlatformCertificateProto.PlatformConfigUri.Parser, new[]{ "Generic", "Uri" }, new[]{ "PlatformConfigUriOneof" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.PlatformOwnership), global::PlatformCertificateProto.PlatformOwnership.Parser, new[]{ "Generic" }, new[]{ "PlatformOwnershipOneof" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.EntityGeoLocation), global::PlatformCertificateProto.EntityGeoLocation.Parser, new[]{ "CountryCode", "StateOrProvince", "LocalityName", "StreetAddress", "LocationCoords", "PostalCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PlatformCertificateProto.OriginComposition), global::PlatformCertificateProto.OriginComposition.Parser, new[]{ "Location", "HasComponents" }, null, null, null, null)
           }));
     }
     #endregion
@@ -581,18 +406,19 @@ namespace PlatformCertificateProto {
       attrCertValidityPeriod_ = other.attrCertValidityPeriod_ != null ? other.attrCertValidityPeriod_.Clone() : null;
       signature_ = other.signature_ != null ? other.signature_.Clone() : null;
       signatureAlgorithm_ = other.signatureAlgorithm_ != null ? other.signatureAlgorithm_.Clone() : null;
-      signatureValue_ = other.signatureValue_ != null ? other.signatureValue_.Clone() : null;
+      signatureValue_ = other.signatureValue_;
       certificatePolicies_ = other.certificatePolicies_.Clone();
       previousPlatformCertificates_ = other.previousPlatformCertificates_.Clone();
       cRLDistributionPoints_ = other.cRLDistributionPoints_.Clone();
       holder_ = other.holder_ != null ? other.holder_.Clone() : null;
       cryptographicAnchors_ = other.cryptographicAnchors_.Clone();
-      platformIdentifier_ = other.platformIdentifier_ != null ? other.platformIdentifier_.Clone() : null;
+      platformIdentifier_ = other.platformIdentifier_.Clone();
       tCGPlatformSpecification_ = other.tCGPlatformSpecification_ != null ? other.tCGPlatformSpecification_.Clone() : null;
-      tBBSecurityAssertions_ = other.tBBSecurityAssertions_ != null ? other.tBBSecurityAssertions_.Clone() : null;
+      tBBSecurityAssertions_ = other.tBBSecurityAssertions_.Clone();
       platformConfiguration_ = other.platformConfiguration_ != null ? other.platformConfiguration_.Clone() : null;
       platformConfigUri_ = other.platformConfigUri_.Clone();
       platformOwnership_ = other.platformOwnership_.Clone();
+      manufacturingAssertions_ = other.manufacturingAssertions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -699,13 +525,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "signatureValue" field.</summary>
     public const int SignatureValueFieldNumber = 9;
-    private global::BitString signatureValue_;
+    private pb::ByteString signatureValue_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::BitString SignatureValue {
+    public pb::ByteString SignatureValue {
       get { return signatureValue_; }
       set {
-        signatureValue_ = value;
+        signatureValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -722,12 +548,12 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "previousPlatformCertificates" field.</summary>
     public const int PreviousPlatformCertificatesFieldNumber = 11;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.CertificateIdentifierTrait> _repeated_previousPlatformCertificates_codec
-        = pb::FieldCodec.ForMessage(90, global::PlatformCertificateProto.CertificateIdentifierTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> previousPlatformCertificates_ = new pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_previousPlatformCertificates_codec
+        = pb::FieldCodec.ForMessage(90, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> previousPlatformCertificates_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> PreviousPlatformCertificates {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PreviousPlatformCertificates {
       get { return previousPlatformCertificates_; }
     }
 
@@ -756,25 +582,24 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "cryptographicAnchors" field.</summary>
     public const int CryptographicAnchorsFieldNumber = 14;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.CertificateIdentifierTrait> _repeated_cryptographicAnchors_codec
-        = pb::FieldCodec.ForMessage(114, global::PlatformCertificateProto.CertificateIdentifierTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> cryptographicAnchors_ = new pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_cryptographicAnchors_codec
+        = pb::FieldCodec.ForMessage(114, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> cryptographicAnchors_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> CryptographicAnchors {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> CryptographicAnchors {
       get { return cryptographicAnchors_; }
     }
 
     /// <summary>Field number for the "platformIdentifier" field.</summary>
     public const int PlatformIdentifierFieldNumber = 15;
-    private global::PlatformCertificateProto.PlatformIdentifierOtherName platformIdentifier_;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformIdentifier_codec
+        = pb::FieldCodec.ForMessage(122, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformIdentifier_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformIdentifierOtherName PlatformIdentifier {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformIdentifier {
       get { return platformIdentifier_; }
-      set {
-        platformIdentifier_ = value;
-      }
     }
 
     /// <summary>Field number for the "tCGPlatformSpecification" field.</summary>
@@ -791,14 +616,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "tBBSecurityAssertions" field.</summary>
     public const int TBBSecurityAssertionsFieldNumber = 17;
-    private global::PlatformCertificateProto.TbbSecurityAssertions tBBSecurityAssertions_;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_tBBSecurityAssertions_codec
+        = pb::FieldCodec.ForMessage(138, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> tBBSecurityAssertions_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.TbbSecurityAssertions TBBSecurityAssertions {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> TBBSecurityAssertions {
       get { return tBBSecurityAssertions_; }
-      set {
-        tBBSecurityAssertions_ = value;
-      }
     }
 
     /// <summary>Field number for the "platformConfiguration" field.</summary>
@@ -815,24 +639,35 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "platformConfigUri" field.</summary>
     public const int PlatformConfigUriFieldNumber = 19;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformConfigUri> _repeated_platformConfigUri_codec
-        = pb::FieldCodec.ForMessage(154, global::PlatformCertificateProto.PlatformConfigUri.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri> platformConfigUri_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformConfigUri_codec
+        = pb::FieldCodec.ForMessage(154, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformConfigUri_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri> PlatformConfigUri {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformConfigUri {
       get { return platformConfigUri_; }
     }
 
     /// <summary>Field number for the "platformOwnership" field.</summary>
     public const int PlatformOwnershipFieldNumber = 20;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformOwnership> _repeated_platformOwnership_codec
-        = pb::FieldCodec.ForMessage(162, global::PlatformCertificateProto.PlatformOwnership.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership> platformOwnership_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformOwnership_codec
+        = pb::FieldCodec.ForMessage(162, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformOwnership_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership> PlatformOwnership {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformOwnership {
       get { return platformOwnership_; }
+    }
+
+    /// <summary>Field number for the "manufacturingAssertions" field.</summary>
+    public const int ManufacturingAssertionsFieldNumber = 21;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_manufacturingAssertions_codec
+        = pb::FieldCodec.ForMessage(170, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> manufacturingAssertions_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> ManufacturingAssertions {
+      get { return manufacturingAssertions_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -858,18 +693,19 @@ namespace PlatformCertificateProto {
       if (!object.Equals(AttrCertValidityPeriod, other.AttrCertValidityPeriod)) return false;
       if (!object.Equals(Signature, other.Signature)) return false;
       if (!object.Equals(SignatureAlgorithm, other.SignatureAlgorithm)) return false;
-      if (!object.Equals(SignatureValue, other.SignatureValue)) return false;
+      if (SignatureValue != other.SignatureValue) return false;
       if(!certificatePolicies_.Equals(other.certificatePolicies_)) return false;
       if(!previousPlatformCertificates_.Equals(other.previousPlatformCertificates_)) return false;
       if(!cRLDistributionPoints_.Equals(other.cRLDistributionPoints_)) return false;
       if (!object.Equals(Holder, other.Holder)) return false;
       if(!cryptographicAnchors_.Equals(other.cryptographicAnchors_)) return false;
-      if (!object.Equals(PlatformIdentifier, other.PlatformIdentifier)) return false;
+      if(!platformIdentifier_.Equals(other.platformIdentifier_)) return false;
       if (!object.Equals(TCGPlatformSpecification, other.TCGPlatformSpecification)) return false;
-      if (!object.Equals(TBBSecurityAssertions, other.TBBSecurityAssertions)) return false;
+      if(!tBBSecurityAssertions_.Equals(other.tBBSecurityAssertions_)) return false;
       if (!object.Equals(PlatformConfiguration, other.PlatformConfiguration)) return false;
       if(!platformConfigUri_.Equals(other.platformConfigUri_)) return false;
       if(!platformOwnership_.Equals(other.platformOwnership_)) return false;
+      if(!manufacturingAssertions_.Equals(other.manufacturingAssertions_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -885,18 +721,19 @@ namespace PlatformCertificateProto {
       if (attrCertValidityPeriod_ != null) hash ^= AttrCertValidityPeriod.GetHashCode();
       if (signature_ != null) hash ^= Signature.GetHashCode();
       if (signatureAlgorithm_ != null) hash ^= SignatureAlgorithm.GetHashCode();
-      if (signatureValue_ != null) hash ^= SignatureValue.GetHashCode();
+      if (SignatureValue.Length != 0) hash ^= SignatureValue.GetHashCode();
       hash ^= certificatePolicies_.GetHashCode();
       hash ^= previousPlatformCertificates_.GetHashCode();
       hash ^= cRLDistributionPoints_.GetHashCode();
       if (holder_ != null) hash ^= Holder.GetHashCode();
       hash ^= cryptographicAnchors_.GetHashCode();
-      if (platformIdentifier_ != null) hash ^= PlatformIdentifier.GetHashCode();
+      hash ^= platformIdentifier_.GetHashCode();
       if (tCGPlatformSpecification_ != null) hash ^= TCGPlatformSpecification.GetHashCode();
-      if (tBBSecurityAssertions_ != null) hash ^= TBBSecurityAssertions.GetHashCode();
+      hash ^= tBBSecurityAssertions_.GetHashCode();
       if (platformConfiguration_ != null) hash ^= PlatformConfiguration.GetHashCode();
       hash ^= platformConfigUri_.GetHashCode();
       hash ^= platformOwnership_.GetHashCode();
+      hash ^= manufacturingAssertions_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -944,9 +781,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(66);
         output.WriteMessage(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
+      if (SignatureValue.Length != 0) {
         output.WriteRawTag(74);
-        output.WriteMessage(SignatureValue);
+        output.WriteBytes(SignatureValue);
       }
       certificatePolicies_.WriteTo(output, _repeated_certificatePolicies_codec);
       previousPlatformCertificates_.WriteTo(output, _repeated_previousPlatformCertificates_codec);
@@ -956,24 +793,19 @@ namespace PlatformCertificateProto {
         output.WriteMessage(Holder);
       }
       cryptographicAnchors_.WriteTo(output, _repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        output.WriteRawTag(122);
-        output.WriteMessage(PlatformIdentifier);
-      }
+      platformIdentifier_.WriteTo(output, _repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         output.WriteRawTag(130, 1);
         output.WriteMessage(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        output.WriteRawTag(138, 1);
-        output.WriteMessage(TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.WriteTo(output, _repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         output.WriteRawTag(146, 1);
         output.WriteMessage(PlatformConfiguration);
       }
       platformConfigUri_.WriteTo(output, _repeated_platformConfigUri_codec);
       platformOwnership_.WriteTo(output, _repeated_platformOwnership_codec);
+      manufacturingAssertions_.WriteTo(output, _repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1013,9 +845,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(66);
         output.WriteMessage(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
+      if (SignatureValue.Length != 0) {
         output.WriteRawTag(74);
-        output.WriteMessage(SignatureValue);
+        output.WriteBytes(SignatureValue);
       }
       certificatePolicies_.WriteTo(ref output, _repeated_certificatePolicies_codec);
       previousPlatformCertificates_.WriteTo(ref output, _repeated_previousPlatformCertificates_codec);
@@ -1025,24 +857,19 @@ namespace PlatformCertificateProto {
         output.WriteMessage(Holder);
       }
       cryptographicAnchors_.WriteTo(ref output, _repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        output.WriteRawTag(122);
-        output.WriteMessage(PlatformIdentifier);
-      }
+      platformIdentifier_.WriteTo(ref output, _repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         output.WriteRawTag(130, 1);
         output.WriteMessage(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        output.WriteRawTag(138, 1);
-        output.WriteMessage(TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.WriteTo(ref output, _repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         output.WriteRawTag(146, 1);
         output.WriteMessage(PlatformConfiguration);
       }
       platformConfigUri_.WriteTo(ref output, _repeated_platformConfigUri_codec);
       platformOwnership_.WriteTo(ref output, _repeated_platformOwnership_codec);
+      manufacturingAssertions_.WriteTo(ref output, _repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1075,8 +902,8 @@ namespace PlatformCertificateProto {
       if (signatureAlgorithm_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignatureValue);
+      if (SignatureValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(SignatureValue);
       }
       size += certificatePolicies_.CalculateSize(_repeated_certificatePolicies_codec);
       size += previousPlatformCertificates_.CalculateSize(_repeated_previousPlatformCertificates_codec);
@@ -1085,20 +912,17 @@ namespace PlatformCertificateProto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Holder);
       }
       size += cryptographicAnchors_.CalculateSize(_repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformIdentifier);
-      }
+      size += platformIdentifier_.CalculateSize(_repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(TBBSecurityAssertions);
-      }
+      size += tBBSecurityAssertions_.CalculateSize(_repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformConfiguration);
       }
       size += platformConfigUri_.CalculateSize(_repeated_platformConfigUri_codec);
       size += platformOwnership_.CalculateSize(_repeated_platformOwnership_codec);
+      size += manufacturingAssertions_.CalculateSize(_repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1154,11 +978,8 @@ namespace PlatformCertificateProto {
         }
         SignatureAlgorithm.MergeFrom(other.SignatureAlgorithm);
       }
-      if (other.signatureValue_ != null) {
-        if (signatureValue_ == null) {
-          SignatureValue = new global::BitString();
-        }
-        SignatureValue.MergeFrom(other.SignatureValue);
+      if (other.SignatureValue.Length != 0) {
+        SignatureValue = other.SignatureValue;
       }
       certificatePolicies_.Add(other.certificatePolicies_);
       previousPlatformCertificates_.Add(other.previousPlatformCertificates_);
@@ -1170,24 +991,14 @@ namespace PlatformCertificateProto {
         Holder.MergeFrom(other.Holder);
       }
       cryptographicAnchors_.Add(other.cryptographicAnchors_);
-      if (other.platformIdentifier_ != null) {
-        if (platformIdentifier_ == null) {
-          PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-        }
-        PlatformIdentifier.MergeFrom(other.PlatformIdentifier);
-      }
+      platformIdentifier_.Add(other.platformIdentifier_);
       if (other.tCGPlatformSpecification_ != null) {
         if (tCGPlatformSpecification_ == null) {
           TCGPlatformSpecification = new global::PlatformCertificateProto.TcgPlatformSpecification();
         }
         TCGPlatformSpecification.MergeFrom(other.TCGPlatformSpecification);
       }
-      if (other.tBBSecurityAssertions_ != null) {
-        if (tBBSecurityAssertions_ == null) {
-          TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-        }
-        TBBSecurityAssertions.MergeFrom(other.TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.Add(other.tBBSecurityAssertions_);
       if (other.platformConfiguration_ != null) {
         if (platformConfiguration_ == null) {
           PlatformConfiguration = new global::PlatformCertificateProto.PlatformConfiguration();
@@ -1196,6 +1007,7 @@ namespace PlatformCertificateProto {
       }
       platformConfigUri_.Add(other.platformConfigUri_);
       platformOwnership_.Add(other.platformOwnership_);
+      manufacturingAssertions_.Add(other.manufacturingAssertions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1269,10 +1081,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 74: {
-            if (signatureValue_ == null) {
-              SignatureValue = new global::BitString();
-            }
-            input.ReadMessage(SignatureValue);
+            SignatureValue = input.ReadBytes();
             break;
           }
           case 82: {
@@ -1299,10 +1108,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 122: {
-            if (platformIdentifier_ == null) {
-              PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-            }
-            input.ReadMessage(PlatformIdentifier);
+            platformIdentifier_.AddEntriesFrom(input, _repeated_platformIdentifier_codec);
             break;
           }
           case 130: {
@@ -1313,10 +1119,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 138: {
-            if (tBBSecurityAssertions_ == null) {
-              TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-            }
-            input.ReadMessage(TBBSecurityAssertions);
+            tBBSecurityAssertions_.AddEntriesFrom(input, _repeated_tBBSecurityAssertions_codec);
             break;
           }
           case 146: {
@@ -1332,6 +1135,10 @@ namespace PlatformCertificateProto {
           }
           case 162: {
             platformOwnership_.AddEntriesFrom(input, _repeated_platformOwnership_codec);
+            break;
+          }
+          case 170: {
+            manufacturingAssertions_.AddEntriesFrom(input, _repeated_manufacturingAssertions_codec);
             break;
           }
         }
@@ -1407,10 +1214,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 74: {
-            if (signatureValue_ == null) {
-              SignatureValue = new global::BitString();
-            }
-            input.ReadMessage(SignatureValue);
+            SignatureValue = input.ReadBytes();
             break;
           }
           case 82: {
@@ -1437,10 +1241,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 122: {
-            if (platformIdentifier_ == null) {
-              PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-            }
-            input.ReadMessage(PlatformIdentifier);
+            platformIdentifier_.AddEntriesFrom(ref input, _repeated_platformIdentifier_codec);
             break;
           }
           case 130: {
@@ -1451,10 +1252,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 138: {
-            if (tBBSecurityAssertions_ == null) {
-              TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-            }
-            input.ReadMessage(TBBSecurityAssertions);
+            tBBSecurityAssertions_.AddEntriesFrom(ref input, _repeated_tBBSecurityAssertions_codec);
             break;
           }
           case 146: {
@@ -1470,6 +1268,10 @@ namespace PlatformCertificateProto {
           }
           case 162: {
             platformOwnership_.AddEntriesFrom(ref input, _repeated_platformOwnership_codec);
+            break;
+          }
+          case 170: {
+            manufacturingAssertions_.AddEntriesFrom(ref input, _repeated_manufacturingAssertions_codec);
             break;
           }
         }
@@ -1522,7 +1324,7 @@ namespace PlatformCertificateProto {
       validity_ = other.validity_ != null ? other.validity_.Clone() : null;
       signature_ = other.signature_ != null ? other.signature_.Clone() : null;
       signatureAlgorithm_ = other.signatureAlgorithm_ != null ? other.signatureAlgorithm_.Clone() : null;
-      signatureValue_ = other.signatureValue_ != null ? other.signatureValue_.Clone() : null;
+      signatureValue_ = other.signatureValue_;
       certificatePolicies_ = other.certificatePolicies_.Clone();
       previousPlatformCertificates_ = other.previousPlatformCertificates_.Clone();
       cRLDistributionPoints_ = other.cRLDistributionPoints_.Clone();
@@ -1530,12 +1332,13 @@ namespace PlatformCertificateProto {
       subject_ = other.subject_ != null ? other.subject_.Clone() : null;
       subjectKeyIdentifier_ = other.subjectKeyIdentifier_ != null ? other.subjectKeyIdentifier_.Clone() : null;
       cryptographicAnchors_ = other.cryptographicAnchors_.Clone();
-      platformIdentifier_ = other.platformIdentifier_ != null ? other.platformIdentifier_.Clone() : null;
+      platformIdentifier_ = other.platformIdentifier_.Clone();
       tCGPlatformSpecification_ = other.tCGPlatformSpecification_ != null ? other.tCGPlatformSpecification_.Clone() : null;
-      tBBSecurityAssertions_ = other.tBBSecurityAssertions_ != null ? other.tBBSecurityAssertions_.Clone() : null;
+      tBBSecurityAssertions_ = other.tBBSecurityAssertions_.Clone();
       platformConfiguration_ = other.platformConfiguration_ != null ? other.platformConfiguration_.Clone() : null;
       platformConfigUri_ = other.platformConfigUri_.Clone();
       platformOwnership_ = other.platformOwnership_.Clone();
+      manufacturingAssertions_ = other.manufacturingAssertions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1642,13 +1445,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "signatureValue" field.</summary>
     public const int SignatureValueFieldNumber = 9;
-    private global::BitString signatureValue_;
+    private pb::ByteString signatureValue_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::BitString SignatureValue {
+    public pb::ByteString SignatureValue {
       get { return signatureValue_; }
       set {
-        signatureValue_ = value;
+        signatureValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -1665,12 +1468,12 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "previousPlatformCertificates" field.</summary>
     public const int PreviousPlatformCertificatesFieldNumber = 11;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.CertificateIdentifierTrait> _repeated_previousPlatformCertificates_codec
-        = pb::FieldCodec.ForMessage(90, global::PlatformCertificateProto.CertificateIdentifierTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> previousPlatformCertificates_ = new pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_previousPlatformCertificates_codec
+        = pb::FieldCodec.ForMessage(90, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> previousPlatformCertificates_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> PreviousPlatformCertificates {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PreviousPlatformCertificates {
       get { return previousPlatformCertificates_; }
     }
 
@@ -1723,25 +1526,24 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "cryptographicAnchors" field.</summary>
     public const int CryptographicAnchorsFieldNumber = 16;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.CertificateIdentifierTrait> _repeated_cryptographicAnchors_codec
-        = pb::FieldCodec.ForMessage(130, global::PlatformCertificateProto.CertificateIdentifierTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> cryptographicAnchors_ = new pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_cryptographicAnchors_codec
+        = pb::FieldCodec.ForMessage(130, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> cryptographicAnchors_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifierTrait> CryptographicAnchors {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> CryptographicAnchors {
       get { return cryptographicAnchors_; }
     }
 
     /// <summary>Field number for the "platformIdentifier" field.</summary>
     public const int PlatformIdentifierFieldNumber = 17;
-    private global::PlatformCertificateProto.PlatformIdentifierOtherName platformIdentifier_;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformIdentifier_codec
+        = pb::FieldCodec.ForMessage(138, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformIdentifier_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformIdentifierOtherName PlatformIdentifier {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformIdentifier {
       get { return platformIdentifier_; }
-      set {
-        platformIdentifier_ = value;
-      }
     }
 
     /// <summary>Field number for the "tCGPlatformSpecification" field.</summary>
@@ -1758,14 +1560,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "tBBSecurityAssertions" field.</summary>
     public const int TBBSecurityAssertionsFieldNumber = 19;
-    private global::PlatformCertificateProto.TbbSecurityAssertions tBBSecurityAssertions_;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_tBBSecurityAssertions_codec
+        = pb::FieldCodec.ForMessage(154, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> tBBSecurityAssertions_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.TbbSecurityAssertions TBBSecurityAssertions {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> TBBSecurityAssertions {
       get { return tBBSecurityAssertions_; }
-      set {
-        tBBSecurityAssertions_ = value;
-      }
     }
 
     /// <summary>Field number for the "platformConfiguration" field.</summary>
@@ -1782,24 +1583,35 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "platformConfigUri" field.</summary>
     public const int PlatformConfigUriFieldNumber = 21;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformConfigUri> _repeated_platformConfigUri_codec
-        = pb::FieldCodec.ForMessage(170, global::PlatformCertificateProto.PlatformConfigUri.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri> platformConfigUri_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformConfigUri_codec
+        = pb::FieldCodec.ForMessage(170, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformConfigUri_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformConfigUri> PlatformConfigUri {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformConfigUri {
       get { return platformConfigUri_; }
     }
 
     /// <summary>Field number for the "platformOwnership" field.</summary>
     public const int PlatformOwnershipFieldNumber = 22;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformOwnership> _repeated_platformOwnership_codec
-        = pb::FieldCodec.ForMessage(178, global::PlatformCertificateProto.PlatformOwnership.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership> platformOwnership_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership>();
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_platformOwnership_codec
+        = pb::FieldCodec.ForMessage(178, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> platformOwnership_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformOwnership> PlatformOwnership {
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> PlatformOwnership {
       get { return platformOwnership_; }
+    }
+
+    /// <summary>Field number for the "manufacturingAssertions" field.</summary>
+    public const int ManufacturingAssertionsFieldNumber = 23;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_manufacturingAssertions_codec
+        = pb::FieldCodec.ForMessage(186, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> manufacturingAssertions_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> ManufacturingAssertions {
+      get { return manufacturingAssertions_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1825,7 +1637,7 @@ namespace PlatformCertificateProto {
       if (!object.Equals(Validity, other.Validity)) return false;
       if (!object.Equals(Signature, other.Signature)) return false;
       if (!object.Equals(SignatureAlgorithm, other.SignatureAlgorithm)) return false;
-      if (!object.Equals(SignatureValue, other.SignatureValue)) return false;
+      if (SignatureValue != other.SignatureValue) return false;
       if(!certificatePolicies_.Equals(other.certificatePolicies_)) return false;
       if(!previousPlatformCertificates_.Equals(other.previousPlatformCertificates_)) return false;
       if(!cRLDistributionPoints_.Equals(other.cRLDistributionPoints_)) return false;
@@ -1833,12 +1645,13 @@ namespace PlatformCertificateProto {
       if (!object.Equals(Subject, other.Subject)) return false;
       if (!object.Equals(SubjectKeyIdentifier, other.SubjectKeyIdentifier)) return false;
       if(!cryptographicAnchors_.Equals(other.cryptographicAnchors_)) return false;
-      if (!object.Equals(PlatformIdentifier, other.PlatformIdentifier)) return false;
+      if(!platformIdentifier_.Equals(other.platformIdentifier_)) return false;
       if (!object.Equals(TCGPlatformSpecification, other.TCGPlatformSpecification)) return false;
-      if (!object.Equals(TBBSecurityAssertions, other.TBBSecurityAssertions)) return false;
+      if(!tBBSecurityAssertions_.Equals(other.tBBSecurityAssertions_)) return false;
       if (!object.Equals(PlatformConfiguration, other.PlatformConfiguration)) return false;
       if(!platformConfigUri_.Equals(other.platformConfigUri_)) return false;
       if(!platformOwnership_.Equals(other.platformOwnership_)) return false;
+      if(!manufacturingAssertions_.Equals(other.manufacturingAssertions_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1854,7 +1667,7 @@ namespace PlatformCertificateProto {
       if (validity_ != null) hash ^= Validity.GetHashCode();
       if (signature_ != null) hash ^= Signature.GetHashCode();
       if (signatureAlgorithm_ != null) hash ^= SignatureAlgorithm.GetHashCode();
-      if (signatureValue_ != null) hash ^= SignatureValue.GetHashCode();
+      if (SignatureValue.Length != 0) hash ^= SignatureValue.GetHashCode();
       hash ^= certificatePolicies_.GetHashCode();
       hash ^= previousPlatformCertificates_.GetHashCode();
       hash ^= cRLDistributionPoints_.GetHashCode();
@@ -1862,12 +1675,13 @@ namespace PlatformCertificateProto {
       if (subject_ != null) hash ^= Subject.GetHashCode();
       if (subjectKeyIdentifier_ != null) hash ^= SubjectKeyIdentifier.GetHashCode();
       hash ^= cryptographicAnchors_.GetHashCode();
-      if (platformIdentifier_ != null) hash ^= PlatformIdentifier.GetHashCode();
+      hash ^= platformIdentifier_.GetHashCode();
       if (tCGPlatformSpecification_ != null) hash ^= TCGPlatformSpecification.GetHashCode();
-      if (tBBSecurityAssertions_ != null) hash ^= TBBSecurityAssertions.GetHashCode();
+      hash ^= tBBSecurityAssertions_.GetHashCode();
       if (platformConfiguration_ != null) hash ^= PlatformConfiguration.GetHashCode();
       hash ^= platformConfigUri_.GetHashCode();
       hash ^= platformOwnership_.GetHashCode();
+      hash ^= manufacturingAssertions_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1915,9 +1729,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(66);
         output.WriteMessage(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
+      if (SignatureValue.Length != 0) {
         output.WriteRawTag(74);
-        output.WriteMessage(SignatureValue);
+        output.WriteBytes(SignatureValue);
       }
       certificatePolicies_.WriteTo(output, _repeated_certificatePolicies_codec);
       previousPlatformCertificates_.WriteTo(output, _repeated_previousPlatformCertificates_codec);
@@ -1935,24 +1749,19 @@ namespace PlatformCertificateProto {
         output.WriteMessage(SubjectKeyIdentifier);
       }
       cryptographicAnchors_.WriteTo(output, _repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        output.WriteRawTag(138, 1);
-        output.WriteMessage(PlatformIdentifier);
-      }
+      platformIdentifier_.WriteTo(output, _repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         output.WriteRawTag(146, 1);
         output.WriteMessage(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        output.WriteRawTag(154, 1);
-        output.WriteMessage(TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.WriteTo(output, _repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         output.WriteRawTag(162, 1);
         output.WriteMessage(PlatformConfiguration);
       }
       platformConfigUri_.WriteTo(output, _repeated_platformConfigUri_codec);
       platformOwnership_.WriteTo(output, _repeated_platformOwnership_codec);
+      manufacturingAssertions_.WriteTo(output, _repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1992,9 +1801,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(66);
         output.WriteMessage(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
+      if (SignatureValue.Length != 0) {
         output.WriteRawTag(74);
-        output.WriteMessage(SignatureValue);
+        output.WriteBytes(SignatureValue);
       }
       certificatePolicies_.WriteTo(ref output, _repeated_certificatePolicies_codec);
       previousPlatformCertificates_.WriteTo(ref output, _repeated_previousPlatformCertificates_codec);
@@ -2012,24 +1821,19 @@ namespace PlatformCertificateProto {
         output.WriteMessage(SubjectKeyIdentifier);
       }
       cryptographicAnchors_.WriteTo(ref output, _repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        output.WriteRawTag(138, 1);
-        output.WriteMessage(PlatformIdentifier);
-      }
+      platformIdentifier_.WriteTo(ref output, _repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         output.WriteRawTag(146, 1);
         output.WriteMessage(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        output.WriteRawTag(154, 1);
-        output.WriteMessage(TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.WriteTo(ref output, _repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         output.WriteRawTag(162, 1);
         output.WriteMessage(PlatformConfiguration);
       }
       platformConfigUri_.WriteTo(ref output, _repeated_platformConfigUri_codec);
       platformOwnership_.WriteTo(ref output, _repeated_platformOwnership_codec);
+      manufacturingAssertions_.WriteTo(ref output, _repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2062,8 +1866,8 @@ namespace PlatformCertificateProto {
       if (signatureAlgorithm_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignatureAlgorithm);
       }
-      if (signatureValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignatureValue);
+      if (SignatureValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(SignatureValue);
       }
       size += certificatePolicies_.CalculateSize(_repeated_certificatePolicies_codec);
       size += previousPlatformCertificates_.CalculateSize(_repeated_previousPlatformCertificates_codec);
@@ -2078,20 +1882,17 @@ namespace PlatformCertificateProto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SubjectKeyIdentifier);
       }
       size += cryptographicAnchors_.CalculateSize(_repeated_cryptographicAnchors_codec);
-      if (platformIdentifier_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformIdentifier);
-      }
+      size += platformIdentifier_.CalculateSize(_repeated_platformIdentifier_codec);
       if (tCGPlatformSpecification_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(TCGPlatformSpecification);
       }
-      if (tBBSecurityAssertions_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(TBBSecurityAssertions);
-      }
+      size += tBBSecurityAssertions_.CalculateSize(_repeated_tBBSecurityAssertions_codec);
       if (platformConfiguration_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformConfiguration);
       }
       size += platformConfigUri_.CalculateSize(_repeated_platformConfigUri_codec);
       size += platformOwnership_.CalculateSize(_repeated_platformOwnership_codec);
+      size += manufacturingAssertions_.CalculateSize(_repeated_manufacturingAssertions_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2147,11 +1948,8 @@ namespace PlatformCertificateProto {
         }
         SignatureAlgorithm.MergeFrom(other.SignatureAlgorithm);
       }
-      if (other.signatureValue_ != null) {
-        if (signatureValue_ == null) {
-          SignatureValue = new global::BitString();
-        }
-        SignatureValue.MergeFrom(other.SignatureValue);
+      if (other.SignatureValue.Length != 0) {
+        SignatureValue = other.SignatureValue;
       }
       certificatePolicies_.Add(other.certificatePolicies_);
       previousPlatformCertificates_.Add(other.previousPlatformCertificates_);
@@ -2175,24 +1973,14 @@ namespace PlatformCertificateProto {
         SubjectKeyIdentifier.MergeFrom(other.SubjectKeyIdentifier);
       }
       cryptographicAnchors_.Add(other.cryptographicAnchors_);
-      if (other.platformIdentifier_ != null) {
-        if (platformIdentifier_ == null) {
-          PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-        }
-        PlatformIdentifier.MergeFrom(other.PlatformIdentifier);
-      }
+      platformIdentifier_.Add(other.platformIdentifier_);
       if (other.tCGPlatformSpecification_ != null) {
         if (tCGPlatformSpecification_ == null) {
           TCGPlatformSpecification = new global::PlatformCertificateProto.TcgPlatformSpecification();
         }
         TCGPlatformSpecification.MergeFrom(other.TCGPlatformSpecification);
       }
-      if (other.tBBSecurityAssertions_ != null) {
-        if (tBBSecurityAssertions_ == null) {
-          TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-        }
-        TBBSecurityAssertions.MergeFrom(other.TBBSecurityAssertions);
-      }
+      tBBSecurityAssertions_.Add(other.tBBSecurityAssertions_);
       if (other.platformConfiguration_ != null) {
         if (platformConfiguration_ == null) {
           PlatformConfiguration = new global::PlatformCertificateProto.PlatformConfiguration();
@@ -2201,6 +1989,7 @@ namespace PlatformCertificateProto {
       }
       platformConfigUri_.Add(other.platformConfigUri_);
       platformOwnership_.Add(other.platformOwnership_);
+      manufacturingAssertions_.Add(other.manufacturingAssertions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2274,10 +2063,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 74: {
-            if (signatureValue_ == null) {
-              SignatureValue = new global::BitString();
-            }
-            input.ReadMessage(SignatureValue);
+            SignatureValue = input.ReadBytes();
             break;
           }
           case 82: {
@@ -2318,10 +2104,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 138: {
-            if (platformIdentifier_ == null) {
-              PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-            }
-            input.ReadMessage(PlatformIdentifier);
+            platformIdentifier_.AddEntriesFrom(input, _repeated_platformIdentifier_codec);
             break;
           }
           case 146: {
@@ -2332,10 +2115,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 154: {
-            if (tBBSecurityAssertions_ == null) {
-              TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-            }
-            input.ReadMessage(TBBSecurityAssertions);
+            tBBSecurityAssertions_.AddEntriesFrom(input, _repeated_tBBSecurityAssertions_codec);
             break;
           }
           case 162: {
@@ -2351,6 +2131,10 @@ namespace PlatformCertificateProto {
           }
           case 178: {
             platformOwnership_.AddEntriesFrom(input, _repeated_platformOwnership_codec);
+            break;
+          }
+          case 186: {
+            manufacturingAssertions_.AddEntriesFrom(input, _repeated_manufacturingAssertions_codec);
             break;
           }
         }
@@ -2426,10 +2210,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 74: {
-            if (signatureValue_ == null) {
-              SignatureValue = new global::BitString();
-            }
-            input.ReadMessage(SignatureValue);
+            SignatureValue = input.ReadBytes();
             break;
           }
           case 82: {
@@ -2470,10 +2251,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 138: {
-            if (platformIdentifier_ == null) {
-              PlatformIdentifier = new global::PlatformCertificateProto.PlatformIdentifierOtherName();
-            }
-            input.ReadMessage(PlatformIdentifier);
+            platformIdentifier_.AddEntriesFrom(ref input, _repeated_platformIdentifier_codec);
             break;
           }
           case 146: {
@@ -2484,10 +2262,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 154: {
-            if (tBBSecurityAssertions_ == null) {
-              TBBSecurityAssertions = new global::PlatformCertificateProto.TbbSecurityAssertions();
-            }
-            input.ReadMessage(TBBSecurityAssertions);
+            tBBSecurityAssertions_.AddEntriesFrom(ref input, _repeated_tBBSecurityAssertions_codec);
             break;
           }
           case 162: {
@@ -2503,6 +2278,10 @@ namespace PlatformCertificateProto {
           }
           case 178: {
             platformOwnership_.AddEntriesFrom(ref input, _repeated_platformOwnership_codec);
+            break;
+          }
+          case 186: {
+            manufacturingAssertions_.AddEntriesFrom(ref input, _repeated_manufacturingAssertions_codec);
             break;
           }
         }
@@ -2547,7 +2326,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TcgCredentialType(TcgCredentialType other) : this() {
-      certificateType_ = other.certificateType_ != null ? other.certificateType_.Clone() : null;
+      certificateType_ = other.certificateType_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2559,7 +2338,7 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "certificateType" field.</summary>
     public const int CertificateTypeFieldNumber = 1;
-    private global::ObjectIdentifier certificateType_;
+    private string certificateType_ = "";
     /// <summary>
     /// certificateType values: tcg-kp-PlatformAttributeCertificate, -PlatformKeyCertificate,
     ///                               -AdditionalPlatformAttributeCertificate, -AdditionalPlatformKeyCertificate,
@@ -2567,10 +2346,10 @@ namespace PlatformCertificateProto {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier CertificateType {
+    public string CertificateType {
       get { return certificateType_; }
       set {
-        certificateType_ = value;
+        certificateType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2589,7 +2368,7 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(CertificateType, other.CertificateType)) return false;
+      if (CertificateType != other.CertificateType) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2597,7 +2376,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (certificateType_ != null) hash ^= CertificateType.GetHashCode();
+      if (CertificateType.Length != 0) hash ^= CertificateType.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2616,9 +2395,9 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (certificateType_ != null) {
+      if (CertificateType.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(CertificateType);
+        output.WriteString(CertificateType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2630,9 +2409,9 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (certificateType_ != null) {
+      if (CertificateType.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(CertificateType);
+        output.WriteString(CertificateType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2644,8 +2423,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (certificateType_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CertificateType);
+      if (CertificateType.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CertificateType);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2659,11 +2438,8 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.certificateType_ != null) {
-        if (certificateType_ == null) {
-          CertificateType = new global::ObjectIdentifier();
-        }
-        CertificateType.MergeFrom(other.CertificateType);
+      if (other.CertificateType.Length != 0) {
+        CertificateType = other.CertificateType;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2685,10 +2461,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (certificateType_ == null) {
-              CertificateType = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(CertificateType);
+            CertificateType = input.ReadString();
             break;
           }
         }
@@ -2711,10 +2484,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (certificateType_ == null) {
-              CertificateType = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(CertificateType);
+            CertificateType = input.ReadString();
             break;
           }
         }
@@ -2773,10 +2543,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "majorVersion" field.</summary>
     public const int MajorVersionFieldNumber = 1;
-    private int majorVersion_;
+    private long majorVersion_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int MajorVersion {
+    public long MajorVersion {
       get { return majorVersion_; }
       set {
         majorVersion_ = value;
@@ -2785,10 +2555,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "minorVersion" field.</summary>
     public const int MinorVersionFieldNumber = 2;
-    private int minorVersion_;
+    private long minorVersion_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int MinorVersion {
+    public long MinorVersion {
       get { return minorVersion_; }
       set {
         minorVersion_ = value;
@@ -2797,10 +2567,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "revision" field.</summary>
     public const int RevisionFieldNumber = 3;
-    private int revision_;
+    private long revision_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Revision {
+    public long Revision {
       get { return revision_; }
       set {
         revision_ = value;
@@ -2832,9 +2602,9 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (MajorVersion != 0) hash ^= MajorVersion.GetHashCode();
-      if (MinorVersion != 0) hash ^= MinorVersion.GetHashCode();
-      if (Revision != 0) hash ^= Revision.GetHashCode();
+      if (MajorVersion != 0L) hash ^= MajorVersion.GetHashCode();
+      if (MinorVersion != 0L) hash ^= MinorVersion.GetHashCode();
+      if (Revision != 0L) hash ^= Revision.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2853,17 +2623,17 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (MajorVersion != 0) {
+      if (MajorVersion != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt32(MajorVersion);
+        output.WriteSInt64(MajorVersion);
       }
-      if (MinorVersion != 0) {
+      if (MinorVersion != 0L) {
         output.WriteRawTag(16);
-        output.WriteInt32(MinorVersion);
+        output.WriteSInt64(MinorVersion);
       }
-      if (Revision != 0) {
+      if (Revision != 0L) {
         output.WriteRawTag(24);
-        output.WriteInt32(Revision);
+        output.WriteSInt64(Revision);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -2875,17 +2645,17 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (MajorVersion != 0) {
+      if (MajorVersion != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt32(MajorVersion);
+        output.WriteSInt64(MajorVersion);
       }
-      if (MinorVersion != 0) {
+      if (MinorVersion != 0L) {
         output.WriteRawTag(16);
-        output.WriteInt32(MinorVersion);
+        output.WriteSInt64(MinorVersion);
       }
-      if (Revision != 0) {
+      if (Revision != 0L) {
         output.WriteRawTag(24);
-        output.WriteInt32(Revision);
+        output.WriteSInt64(Revision);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -2897,14 +2667,14 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (MajorVersion != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MajorVersion);
+      if (MajorVersion != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeSInt64Size(MajorVersion);
       }
-      if (MinorVersion != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MinorVersion);
+      if (MinorVersion != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeSInt64Size(MinorVersion);
       }
-      if (Revision != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Revision);
+      if (Revision != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeSInt64Size(Revision);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2918,13 +2688,13 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.MajorVersion != 0) {
+      if (other.MajorVersion != 0L) {
         MajorVersion = other.MajorVersion;
       }
-      if (other.MinorVersion != 0) {
+      if (other.MinorVersion != 0L) {
         MinorVersion = other.MinorVersion;
       }
-      if (other.Revision != 0) {
+      if (other.Revision != 0L) {
         Revision = other.Revision;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2947,15 +2717,15 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            MajorVersion = input.ReadInt32();
+            MajorVersion = input.ReadSInt64();
             break;
           }
           case 16: {
-            MinorVersion = input.ReadInt32();
+            MinorVersion = input.ReadSInt64();
             break;
           }
           case 24: {
-            Revision = input.ReadInt32();
+            Revision = input.ReadSInt64();
             break;
           }
         }
@@ -2978,15 +2748,15 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            MajorVersion = input.ReadInt32();
+            MajorVersion = input.ReadSInt64();
             break;
           }
           case 16: {
-            MinorVersion = input.ReadInt32();
+            MinorVersion = input.ReadSInt64();
             break;
           }
           case 24: {
-            Revision = input.ReadInt32();
+            Revision = input.ReadSInt64();
             break;
           }
         }
@@ -3032,7 +2802,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TcgPlatformSpecification(TcgPlatformSpecification other) : this() {
       version_ = other.version_ != null ? other.version_.Clone() : null;
-      platformClass_ = other.platformClass_ != null ? other.platformClass_.Clone() : null;
+      platformClass_ = other.platformClass_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3056,13 +2826,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "platformClass" field.</summary>
     public const int PlatformClassFieldNumber = 2;
-    private global::OctetString platformClass_;
+    private pb::ByteString platformClass_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OctetString PlatformClass {
+    public pb::ByteString PlatformClass {
       get { return platformClass_; }
       set {
-        platformClass_ = value;
+        platformClass_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -3082,7 +2852,7 @@ namespace PlatformCertificateProto {
         return true;
       }
       if (!object.Equals(Version, other.Version)) return false;
-      if (!object.Equals(PlatformClass, other.PlatformClass)) return false;
+      if (PlatformClass != other.PlatformClass) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3091,7 +2861,7 @@ namespace PlatformCertificateProto {
     public override int GetHashCode() {
       int hash = 1;
       if (version_ != null) hash ^= Version.GetHashCode();
-      if (platformClass_ != null) hash ^= PlatformClass.GetHashCode();
+      if (PlatformClass.Length != 0) hash ^= PlatformClass.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3114,9 +2884,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(Version);
       }
-      if (platformClass_ != null) {
+      if (PlatformClass.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(PlatformClass);
+        output.WriteBytes(PlatformClass);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -3132,9 +2902,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(Version);
       }
-      if (platformClass_ != null) {
+      if (PlatformClass.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(PlatformClass);
+        output.WriteBytes(PlatformClass);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -3149,8 +2919,8 @@ namespace PlatformCertificateProto {
       if (version_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Version);
       }
-      if (platformClass_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformClass);
+      if (PlatformClass.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(PlatformClass);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3170,11 +2940,8 @@ namespace PlatformCertificateProto {
         }
         Version.MergeFrom(other.Version);
       }
-      if (other.platformClass_ != null) {
-        if (platformClass_ == null) {
-          PlatformClass = new global::OctetString();
-        }
-        PlatformClass.MergeFrom(other.PlatformClass);
+      if (other.PlatformClass.Length != 0) {
+        PlatformClass = other.PlatformClass;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3203,10 +2970,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (platformClass_ == null) {
-              PlatformClass = new global::OctetString();
-            }
-            input.ReadMessage(PlatformClass);
+            PlatformClass = input.ReadBytes();
             break;
           }
         }
@@ -3236,10 +3000,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (platformClass_ == null) {
-              PlatformClass = new global::OctetString();
-            }
-            input.ReadMessage(PlatformClass);
+            PlatformClass = input.ReadBytes();
             break;
           }
         }
@@ -3250,16 +3011,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GenericTrait : pb::IMessage<GenericTrait>
+  public sealed partial class TraitList : pb::IMessage<TraitList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GenericTrait> _parser = new pb::MessageParser<GenericTrait>(() => new GenericTrait());
+    private static readonly pb::MessageParser<TraitList> _parser = new pb::MessageParser<TraitList>(() => new TraitList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GenericTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<TraitList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3275,7 +3036,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GenericTrait() {
+    public TraitList() {
       OnConstruction();
     }
 
@@ -3283,115 +3044,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GenericTrait(GenericTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public TraitList(TraitList other) : this() {
+      traits_ = other.traits_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GenericTrait Clone() {
-      return new GenericTrait(this);
+    public TraitList Clone() {
+      return new TraitList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
+    /// <summary>Field number for the "traits" field.</summary>
+    public const int TraitsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.Trait> _repeated_traits_codec
+        = pb::FieldCodec.ForMessage(10, global::PlatformCertificateProto.Trait.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.Trait> traits_ = new pbc::RepeatedField<global::PlatformCertificateProto.Trait>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::OctetString traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OctetString TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
+    public pbc::RepeatedField<global::PlatformCertificateProto.Trait> Traits {
+      get { return traits_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GenericTrait);
+      return Equals(other as TraitList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GenericTrait other) {
+    public bool Equals(TraitList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if(!traits_.Equals(other.traits_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3399,12 +3089,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      hash ^= traits_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3423,30 +3108,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      traits_.WriteTo(output, _repeated_traits_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3457,30 +3119,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      traits_.WriteTo(ref output, _repeated_traits_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3491,24 +3130,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
+      size += traits_.CalculateSize(_repeated_traits_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3517,46 +3139,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GenericTrait other) {
+    public void MergeFrom(TraitList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::OctetString();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
+      traits_.Add(other.traits_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3577,45 +3164,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::OctetString();
-            }
-            input.ReadMessage(TraitValue);
+            traits_.AddEntriesFrom(input, _repeated_traits_codec);
             break;
           }
         }
@@ -3638,45 +3187,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::OctetString();
-            }
-            input.ReadMessage(TraitValue);
+            traits_.AddEntriesFrom(ref input, _repeated_traits_codec);
             break;
           }
         }
@@ -3687,16 +3198,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class BooleanTrait : pb::IMessage<BooleanTrait>
+  public sealed partial class Trait : pb::IMessage<Trait>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<BooleanTrait> _parser = new pb::MessageParser<BooleanTrait>(() => new BooleanTrait());
+    private static readonly pb::MessageParser<Trait> _parser = new pb::MessageParser<Trait>(() => new Trait());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<BooleanTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<Trait> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3712,7 +3223,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BooleanTrait() {
+    public Trait() {
       OnConstruction();
     }
 
@@ -3720,118 +3231,812 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BooleanTrait(BooleanTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public Trait(Trait other) : this() {
+      traitId_ = other.traitId_;
+      traitCategory_ = other.traitCategory_;
+      traitRegistry_ = other.traitRegistry_;
+      description_ = other.description_;
+      descriptionURI_ = other.descriptionURI_;
+      switch (other.TraitValueCase) {
+        case TraitValueOneofCase.Asn1:
+          Asn1 = other.Asn1;
+          break;
+        case TraitValueOneofCase.IntValue:
+          IntValue = other.IntValue;
+          break;
+        case TraitValueOneofCase.StringValue:
+          StringValue = other.StringValue;
+          break;
+        case TraitValueOneofCase.BooleanValue:
+          BooleanValue = other.BooleanValue;
+          break;
+        case TraitValueOneofCase.CertificateIdentifier:
+          CertificateIdentifier = other.CertificateIdentifier.Clone();
+          break;
+        case TraitValueOneofCase.CommonCriteria:
+          CommonCriteria = other.CommonCriteria.Clone();
+          break;
+        case TraitValueOneofCase.ComponentClassValue:
+          ComponentClassValue = other.ComponentClassValue;
+          break;
+        case TraitValueOneofCase.ComponentIdentifierV11:
+          ComponentIdentifierV11 = other.ComponentIdentifierV11.Clone();
+          break;
+        case TraitValueOneofCase.FipsLevel:
+          FipsLevel = other.FipsLevel.Clone();
+          break;
+        case TraitValueOneofCase.Iso9000:
+          Iso9000 = other.Iso9000.Clone();
+          break;
+        case TraitValueOneofCase.NetworkMAC:
+          NetworkMAC = other.NetworkMAC.Clone();
+          break;
+        case TraitValueOneofCase.Oid:
+          Oid = other.Oid;
+          break;
+        case TraitValueOneofCase.Pen:
+          Pen = other.Pen;
+          break;
+        case TraitValueOneofCase.PlatformFirmwareCapabilities:
+          PlatformFirmwareCapabilities = other.PlatformFirmwareCapabilities.Clone();
+          break;
+        case TraitValueOneofCase.PlatformFirmwareSignatureVerification:
+          PlatformFirmwareSignatureVerification = other.PlatformFirmwareSignatureVerification.Clone();
+          break;
+        case TraitValueOneofCase.PlatformFirmwareUpdateCompliance:
+          PlatformFirmwareUpdateCompliance = other.PlatformFirmwareUpdateCompliance.Clone();
+          break;
+        case TraitValueOneofCase.PlatformHardwareCapabilities:
+          PlatformHardwareCapabilities = other.PlatformHardwareCapabilities.Clone();
+          break;
+        case TraitValueOneofCase.RTMTypes:
+          RTMTypes = other.RTMTypes.Clone();
+          break;
+        case TraitValueOneofCase.Status:
+          Status = other.Status;
+          break;
+        case TraitValueOneofCase.Uri:
+          Uri = other.Uri.Clone();
+          break;
+        case TraitValueOneofCase.Utf8:
+          Utf8 = other.Utf8;
+          break;
+        case TraitValueOneofCase.Ia5:
+          Ia5 = other.Ia5;
+          break;
+        case TraitValueOneofCase.Pem:
+          Pem = other.Pem;
+          break;
+        case TraitValueOneofCase.PublicKey:
+          PublicKey = other.PublicKey.Clone();
+          break;
+        case TraitValueOneofCase.EntGeoLocation:
+          EntGeoLocation = other.EntGeoLocation.Clone();
+          break;
+        case TraitValueOneofCase.CountryOfOrigin:
+          CountryOfOrigin = other.CountryOfOrigin.Clone();
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BooleanTrait Clone() {
-      return new BooleanTrait(this);
+    public Trait Clone() {
+      return new Trait(this);
     }
 
     /// <summary>Field number for the "traitId" field.</summary>
     public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-Boolean
-    /// </summary>
+    private string traitId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
+    public string TraitId {
       get { return traitId_; }
       set {
-        traitId_ = value;
+        traitId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "traitCategory" field.</summary>
     public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
+    private string traitCategory_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
+    public string TraitCategory {
       get { return traitCategory_; }
       set {
-        traitCategory_ = value;
+        traitCategory_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "traitRegistry" field.</summary>
     public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
+    private string traitRegistry_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
+    public string TraitRegistry {
       get { return traitRegistry_; }
       set {
-        traitRegistry_ = value;
+        traitRegistry_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
+    private string description_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
+    public string Description {
       get { return description_; }
       set {
-        description_ = value;
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "descriptionURI" field.</summary>
     public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
+    private string descriptionURI_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
+    public string DescriptionURI {
       get { return descriptionURI_; }
       set {
-        descriptionURI_ = value;
+        descriptionURI_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::Boolean traitValue_;
+    /// <summary>Field number for the "asn1" field.</summary>
+    public const int Asn1FieldNumber = 6;
+    /// <summary>
+    /// Generic buckets to pass data. Trait ID, category, and registry will determine how to interpret any traitValue.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Boolean TraitValue {
-      get { return traitValue_; }
+    public pb::ByteString Asn1 {
+      get { return HasAsn1 ? (pb::ByteString) traitValue_ : pb::ByteString.Empty; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Asn1;
+      }
+    }
+    /// <summary>Gets whether the "asn1" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAsn1 {
+      get { return traitValueCase_ == TraitValueOneofCase.Asn1; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "asn1" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAsn1() {
+      if (HasAsn1) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "intValue" field.</summary>
+    public const int IntValueFieldNumber = 7;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long IntValue {
+      get { return HasIntValue ? (long) traitValue_ : 0L; }
       set {
         traitValue_ = value;
+        traitValueCase_ = TraitValueOneofCase.IntValue;
       }
+    }
+    /// <summary>Gets whether the "intValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIntValue {
+      get { return traitValueCase_ == TraitValueOneofCase.IntValue; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "intValue" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIntValue() {
+      if (HasIntValue) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "stringValue" field.</summary>
+    public const int StringValueFieldNumber = 8;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string StringValue {
+      get { return HasStringValue ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.StringValue;
+      }
+    }
+    /// <summary>Gets whether the "stringValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasStringValue {
+      get { return traitValueCase_ == TraitValueOneofCase.StringValue; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "stringValue" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearStringValue() {
+      if (HasStringValue) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "booleanValue" field.</summary>
+    public const int BooleanValueFieldNumber = 9;
+    /// <summary>
+    /// traitId: tcg-tr-ID-Boolean
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool BooleanValue {
+      get { return HasBooleanValue ? (bool) traitValue_ : false; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = TraitValueOneofCase.BooleanValue;
+      }
+    }
+    /// <summary>Gets whether the "booleanValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasBooleanValue {
+      get { return traitValueCase_ == TraitValueOneofCase.BooleanValue; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "booleanValue" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearBooleanValue() {
+      if (HasBooleanValue) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "certificateIdentifier" field.</summary>
+    public const int CertificateIdentifierFieldNumber = 10;
+    /// <summary>
+    /// traitId: tcg-tr-ID-certificateIdentifier
+    /// traitCategory values: tcg-tr-cat-EKCertificate, -IAKCertificate, -IDevIDCertificate, -DICECertificate,
+    ///                                 -SPDMCertificate, -PlatformCertificate, -DeltaPlatformCertificate,
+    ///                                 -RebasePlatformCertificate, -genericCertificate
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.CertificateIdentifier CertificateIdentifier {
+      get { return traitValueCase_ == TraitValueOneofCase.CertificateIdentifier ? (global::PlatformCertificateProto.CertificateIdentifier) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.CertificateIdentifier;
+      }
+    }
+
+    /// <summary>Field number for the "commonCriteria" field.</summary>
+    public const int CommonCriteriaFieldNumber = 11;
+    /// <summary>
+    /// traitId: tcg-tr-ID-CommonCriteria
+    /// traitCategory: tcg-tr-cat-CommonCriteria
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.CommonCriteriaEvaluation CommonCriteria {
+      get { return traitValueCase_ == TraitValueOneofCase.CommonCriteria ? (global::PlatformCertificateProto.CommonCriteriaEvaluation) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.CommonCriteria;
+      }
+    }
+
+    /// <summary>Field number for the "componentClassValue" field.</summary>
+    public const int ComponentClassValueFieldNumber = 12;
+    /// <summary>
+    /// traitId: tcg-tr-ID-componentClass
+    /// traitCategory: tcg-tr-cat-componentClass
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString ComponentClassValue {
+      get { return HasComponentClassValue ? (pb::ByteString) traitValue_ : pb::ByteString.Empty; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.ComponentClassValue;
+      }
+    }
+    /// <summary>Gets whether the "componentClassValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasComponentClassValue {
+      get { return traitValueCase_ == TraitValueOneofCase.ComponentClassValue; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "componentClassValue" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearComponentClassValue() {
+      if (HasComponentClassValue) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "componentIdentifierV11" field.</summary>
+    public const int ComponentIdentifierV11FieldNumber = 13;
+    /// <summary>
+    /// traitId: tcg-tr-ID-componentIdentifierV11
+    /// traitCategory: tcg-tr-cat-componentIdentifierV11
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.ComponentIdentifierV11 ComponentIdentifierV11 {
+      get { return traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11 ? (global::PlatformCertificateProto.ComponentIdentifierV11) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.ComponentIdentifierV11;
+      }
+    }
+
+    /// <summary>Field number for the "fipsLevel" field.</summary>
+    public const int FipsLevelFieldNumber = 14;
+    /// <summary>
+    /// traitId: tcg-tr-ID-FIPSLevel
+    /// traitCategory: tcg-tr-cat-FIPSLevel
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.FipsLevel FipsLevel {
+      get { return traitValueCase_ == TraitValueOneofCase.FipsLevel ? (global::PlatformCertificateProto.FipsLevel) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.FipsLevel;
+      }
+    }
+
+    /// <summary>Field number for the "iso9000" field.</summary>
+    public const int Iso9000FieldNumber = 15;
+    /// <summary>
+    /// traitId: tcg-tr-ID-ISO9000
+    /// traitCategory: tcg-tr-cat-ISO9000
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.Iso9000Certification Iso9000 {
+      get { return traitValueCase_ == TraitValueOneofCase.Iso9000 ? (global::PlatformCertificateProto.Iso9000Certification) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.Iso9000;
+      }
+    }
+
+    /// <summary>Field number for the "networkMAC" field.</summary>
+    public const int NetworkMACFieldNumber = 16;
+    /// <summary>
+    /// traitId: tcg-tr-ID-networkMAC
+    /// traitCategory: tcg-tr-cat-networkMAC
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.ComponentAddress NetworkMAC {
+      get { return traitValueCase_ == TraitValueOneofCase.NetworkMAC ? (global::PlatformCertificateProto.ComponentAddress) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.NetworkMAC;
+      }
+    }
+
+    /// <summary>Field number for the "oid" field.</summary>
+    public const int OidFieldNumber = 17;
+    /// <summary>
+    /// traitId: tcg-tr-ID-OID
+    /// traitCategory: tcg-tr-cat-OID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Oid {
+      get { return HasOid ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Oid;
+      }
+    }
+    /// <summary>Gets whether the "oid" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasOid {
+      get { return traitValueCase_ == TraitValueOneofCase.Oid; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "oid" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearOid() {
+      if (HasOid) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "pen" field.</summary>
+    public const int PenFieldNumber = 18;
+    /// <summary>
+    /// traitId: tcg-tr-ID-PEN
+    /// traitCategory: tcg-tr-cat-PEN
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Pen {
+      get { return HasPen ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Pen;
+      }
+    }
+    /// <summary>Gets whether the "pen" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPen {
+      get { return traitValueCase_ == TraitValueOneofCase.Pen; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "pen" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPen() {
+      if (HasPen) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "platformFirmwareCapabilities" field.</summary>
+    public const int PlatformFirmwareCapabilitiesFieldNumber = 19;
+    /// <summary>
+    /// traitId: tcg-tr-ID-platformFirmwareCapabilities
+    /// traitCategory: tcg-tr-cat-platformFirmwareCapabilities
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList PlatformFirmwareCapabilities {
+      get { return traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities ? (global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.PlatformFirmwareCapabilities;
+      }
+    }
+
+    /// <summary>Field number for the "platformFirmwareSignatureVerification" field.</summary>
+    public const int PlatformFirmwareSignatureVerificationFieldNumber = 20;
+    /// <summary>
+    /// traitId: tcg-tr-ID-platformFirmwareSignatureVerification
+    /// traitCategory: tcg-tr-cat-platformFirmwareSignatureVerification
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList PlatformFirmwareSignatureVerification {
+      get { return traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification ? (global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.PlatformFirmwareSignatureVerification;
+      }
+    }
+
+    /// <summary>Field number for the "platformFirmwareUpdateCompliance" field.</summary>
+    public const int PlatformFirmwareUpdateComplianceFieldNumber = 21;
+    /// <summary>
+    /// traitId: tcg-tr-ID-platformFirmwareUpdateCompliance
+    /// traitCategory: tcg-tr-cat-platformFirmwareUpdateCompliance
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList PlatformFirmwareUpdateCompliance {
+      get { return traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance ? (global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.PlatformFirmwareUpdateCompliance;
+      }
+    }
+
+    /// <summary>Field number for the "platformHardwareCapabilities" field.</summary>
+    public const int PlatformHardwareCapabilitiesFieldNumber = 22;
+    /// <summary>
+    /// traitId: tcg-tr-ID-platformHardwareCapabilities
+    /// traitCategory: tcg-tr-cat-platformHardwareCapabilities
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.PlatformHardwareCapabilitiesList PlatformHardwareCapabilities {
+      get { return traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities ? (global::PlatformCertificateProto.PlatformHardwareCapabilitiesList) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.PlatformHardwareCapabilities;
+      }
+    }
+
+    /// <summary>Field number for the "rTMTypes" field.</summary>
+    public const int RTMTypesFieldNumber = 23;
+    /// <summary>
+    /// traitId: tcg-tr-ID-RTM
+    /// traitCategory: tcg-tr-cat-RTM
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.RTMTypesList RTMTypes {
+      get { return traitValueCase_ == TraitValueOneofCase.RTMTypes ? (global::PlatformCertificateProto.RTMTypesList) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.RTMTypes;
+      }
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 24;
+    /// <summary>
+    /// traitId: tcg-tr-ID-status
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.AttributeStatus Status {
+      get { return HasStatus ? (global::PlatformCertificateProto.AttributeStatus) traitValue_ : global::PlatformCertificateProto.AttributeStatus.Added; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = TraitValueOneofCase.Status;
+      }
+    }
+    /// <summary>Gets whether the "status" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasStatus {
+      get { return traitValueCase_ == TraitValueOneofCase.Status; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "status" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearStatus() {
+      if (HasStatus) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "uri" field.</summary>
+    public const int UriFieldNumber = 25;
+    /// <summary>
+    /// traitId: tcg-tr-ID-URI
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.URIReference Uri {
+      get { return traitValueCase_ == TraitValueOneofCase.Uri ? (global::PlatformCertificateProto.URIReference) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.Uri;
+      }
+    }
+
+    /// <summary>Field number for the "utf8" field.</summary>
+    public const int Utf8FieldNumber = 26;
+    /// <summary>
+    /// traitId: tcg-tr-ID-UTF8String
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Utf8 {
+      get { return HasUtf8 ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Utf8;
+      }
+    }
+    /// <summary>Gets whether the "utf8" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasUtf8 {
+      get { return traitValueCase_ == TraitValueOneofCase.Utf8; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "utf8" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearUtf8() {
+      if (HasUtf8) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "ia5" field.</summary>
+    public const int Ia5FieldNumber = 27;
+    /// <summary>
+    /// traitId: tcg-tr-ID-IA5String
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Ia5 {
+      get { return HasIa5 ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Ia5;
+      }
+    }
+    /// <summary>Gets whether the "ia5" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIa5 {
+      get { return traitValueCase_ == TraitValueOneofCase.Ia5; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "ia5" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIa5() {
+      if (HasIa5) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "pem" field.</summary>
+    public const int PemFieldNumber = 28;
+    /// <summary>
+    /// traitId: tcg-tr-ID-PEMCertString
+    /// traitCategory: tcg-tr-cat-PEMCertificate
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Pem {
+      get { return HasPem ? (string) traitValue_ : ""; }
+      set {
+        traitValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        traitValueCase_ = TraitValueOneofCase.Pem;
+      }
+    }
+    /// <summary>Gets whether the "pem" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPem {
+      get { return traitValueCase_ == TraitValueOneofCase.Pem; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "pem" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPem() {
+      if (HasPem) {
+        ClearTraitValue();
+      }
+    }
+
+    /// <summary>Field number for the "publicKey" field.</summary>
+    public const int PublicKeyFieldNumber = 29;
+    /// <summary>
+    /// traitId: tcg-tr-ID-PublicKey
+    /// traitCategory: tcg-tr-cat-PublicKey
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::SubjectPublicKeyInfo PublicKey {
+      get { return traitValueCase_ == TraitValueOneofCase.PublicKey ? (global::SubjectPublicKeyInfo) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.PublicKey;
+      }
+    }
+
+    /// <summary>Field number for the "entGeoLocation" field.</summary>
+    public const int EntGeoLocationFieldNumber = 30;
+    /// <summary>
+    /// traitId: tcg-tr-ID-entGeoLocation
+    /// traitCategory: tcg-tr-cat-entGeoLocation
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.EntityGeoLocation EntGeoLocation {
+      get { return traitValueCase_ == TraitValueOneofCase.EntGeoLocation ? (global::PlatformCertificateProto.EntityGeoLocation) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.EntGeoLocation;
+      }
+    }
+
+    /// <summary>Field number for the "countryOfOrigin" field.</summary>
+    public const int CountryOfOriginFieldNumber = 31;
+    /// <summary>
+    /// traitId: tcg-tr-ID-countryOfOrigin
+    /// traitCategory: tcg-tr-cat-countryOfOrigin
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::PlatformCertificateProto.OriginComposition CountryOfOrigin {
+      get { return traitValueCase_ == TraitValueOneofCase.CountryOfOrigin ? (global::PlatformCertificateProto.OriginComposition) traitValue_ : null; }
+      set {
+        traitValue_ = value;
+        traitValueCase_ = value == null ? TraitValueOneofCase.None : TraitValueOneofCase.CountryOfOrigin;
+      }
+    }
+
+    private object traitValue_;
+    /// <summary>Enum of possible cases for the "traitValue" oneof.</summary>
+    public enum TraitValueOneofCase {
+      None = 0,
+      Asn1 = 6,
+      IntValue = 7,
+      StringValue = 8,
+      BooleanValue = 9,
+      CertificateIdentifier = 10,
+      CommonCriteria = 11,
+      ComponentClassValue = 12,
+      ComponentIdentifierV11 = 13,
+      FipsLevel = 14,
+      Iso9000 = 15,
+      NetworkMAC = 16,
+      Oid = 17,
+      Pen = 18,
+      PlatformFirmwareCapabilities = 19,
+      PlatformFirmwareSignatureVerification = 20,
+      PlatformFirmwareUpdateCompliance = 21,
+      PlatformHardwareCapabilities = 22,
+      RTMTypes = 23,
+      Status = 24,
+      Uri = 25,
+      Utf8 = 26,
+      Ia5 = 27,
+      Pem = 28,
+      PublicKey = 29,
+      EntGeoLocation = 30,
+      CountryOfOrigin = 31,
+    }
+    private TraitValueOneofCase traitValueCase_ = TraitValueOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TraitValueOneofCase TraitValueCase {
+      get { return traitValueCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTraitValue() {
+      traitValueCase_ = TraitValueOneofCase.None;
+      traitValue_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as BooleanTrait);
+      return Equals(other as Trait);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(BooleanTrait other) {
+    public bool Equals(Trait other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if (TraitId != other.TraitId) return false;
+      if (TraitCategory != other.TraitCategory) return false;
+      if (TraitRegistry != other.TraitRegistry) return false;
+      if (Description != other.Description) return false;
+      if (DescriptionURI != other.DescriptionURI) return false;
+      if (Asn1 != other.Asn1) return false;
+      if (IntValue != other.IntValue) return false;
+      if (StringValue != other.StringValue) return false;
+      if (BooleanValue != other.BooleanValue) return false;
+      if (!object.Equals(CertificateIdentifier, other.CertificateIdentifier)) return false;
+      if (!object.Equals(CommonCriteria, other.CommonCriteria)) return false;
+      if (ComponentClassValue != other.ComponentClassValue) return false;
+      if (!object.Equals(ComponentIdentifierV11, other.ComponentIdentifierV11)) return false;
+      if (!object.Equals(FipsLevel, other.FipsLevel)) return false;
+      if (!object.Equals(Iso9000, other.Iso9000)) return false;
+      if (!object.Equals(NetworkMAC, other.NetworkMAC)) return false;
+      if (Oid != other.Oid) return false;
+      if (Pen != other.Pen) return false;
+      if (!object.Equals(PlatformFirmwareCapabilities, other.PlatformFirmwareCapabilities)) return false;
+      if (!object.Equals(PlatformFirmwareSignatureVerification, other.PlatformFirmwareSignatureVerification)) return false;
+      if (!object.Equals(PlatformFirmwareUpdateCompliance, other.PlatformFirmwareUpdateCompliance)) return false;
+      if (!object.Equals(PlatformHardwareCapabilities, other.PlatformHardwareCapabilities)) return false;
+      if (!object.Equals(RTMTypes, other.RTMTypes)) return false;
+      if (Status != other.Status) return false;
+      if (!object.Equals(Uri, other.Uri)) return false;
+      if (Utf8 != other.Utf8) return false;
+      if (Ia5 != other.Ia5) return false;
+      if (Pem != other.Pem) return false;
+      if (!object.Equals(PublicKey, other.PublicKey)) return false;
+      if (!object.Equals(EntGeoLocation, other.EntGeoLocation)) return false;
+      if (!object.Equals(CountryOfOrigin, other.CountryOfOrigin)) return false;
+      if (TraitValueCase != other.TraitValueCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3839,12 +4044,38 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      if (TraitId.Length != 0) hash ^= TraitId.GetHashCode();
+      if (TraitCategory.Length != 0) hash ^= TraitCategory.GetHashCode();
+      if (TraitRegistry.Length != 0) hash ^= TraitRegistry.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      if (DescriptionURI.Length != 0) hash ^= DescriptionURI.GetHashCode();
+      if (HasAsn1) hash ^= Asn1.GetHashCode();
+      if (HasIntValue) hash ^= IntValue.GetHashCode();
+      if (HasStringValue) hash ^= StringValue.GetHashCode();
+      if (HasBooleanValue) hash ^= BooleanValue.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) hash ^= CertificateIdentifier.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) hash ^= CommonCriteria.GetHashCode();
+      if (HasComponentClassValue) hash ^= ComponentClassValue.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) hash ^= ComponentIdentifierV11.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.FipsLevel) hash ^= FipsLevel.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.Iso9000) hash ^= Iso9000.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) hash ^= NetworkMAC.GetHashCode();
+      if (HasOid) hash ^= Oid.GetHashCode();
+      if (HasPen) hash ^= Pen.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) hash ^= PlatformFirmwareCapabilities.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) hash ^= PlatformFirmwareSignatureVerification.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) hash ^= PlatformFirmwareUpdateCompliance.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) hash ^= PlatformHardwareCapabilities.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.RTMTypes) hash ^= RTMTypes.GetHashCode();
+      if (HasStatus) hash ^= Status.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.Uri) hash ^= Uri.GetHashCode();
+      if (HasUtf8) hash ^= Utf8.GetHashCode();
+      if (HasIa5) hash ^= Ia5.GetHashCode();
+      if (HasPem) hash ^= Pem.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.PublicKey) hash ^= PublicKey.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) hash ^= EntGeoLocation.GetHashCode();
+      if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) hash ^= CountryOfOrigin.GetHashCode();
+      hash ^= (int) traitValueCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3863,29 +4094,129 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
+      if (TraitId.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
+        output.WriteString(TraitId);
       }
-      if (traitCategory_ != null) {
+      if (TraitCategory.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
+        output.WriteString(TraitCategory);
       }
-      if (traitRegistry_ != null) {
+      if (TraitRegistry.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
+        output.WriteString(TraitRegistry);
       }
-      if (description_ != null) {
+      if (Description.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(Description);
+        output.WriteString(Description);
       }
-      if (descriptionURI_ != null) {
+      if (DescriptionURI.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
+        output.WriteString(DescriptionURI);
       }
-      if (traitValue_ != null) {
+      if (HasAsn1) {
         output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
+        output.WriteBytes(Asn1);
+      }
+      if (HasIntValue) {
+        output.WriteRawTag(56);
+        output.WriteSInt64(IntValue);
+      }
+      if (HasStringValue) {
+        output.WriteRawTag(66);
+        output.WriteString(StringValue);
+      }
+      if (HasBooleanValue) {
+        output.WriteRawTag(72);
+        output.WriteBool(BooleanValue);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) {
+        output.WriteRawTag(82);
+        output.WriteMessage(CertificateIdentifier);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) {
+        output.WriteRawTag(90);
+        output.WriteMessage(CommonCriteria);
+      }
+      if (HasComponentClassValue) {
+        output.WriteRawTag(98);
+        output.WriteBytes(ComponentClassValue);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) {
+        output.WriteRawTag(106);
+        output.WriteMessage(ComponentIdentifierV11);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.FipsLevel) {
+        output.WriteRawTag(114);
+        output.WriteMessage(FipsLevel);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Iso9000) {
+        output.WriteRawTag(122);
+        output.WriteMessage(Iso9000);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(NetworkMAC);
+      }
+      if (HasOid) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Oid);
+      }
+      if (HasPen) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(Pen);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(PlatformFirmwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) {
+        output.WriteRawTag(162, 1);
+        output.WriteMessage(PlatformFirmwareSignatureVerification);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) {
+        output.WriteRawTag(170, 1);
+        output.WriteMessage(PlatformFirmwareUpdateCompliance);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) {
+        output.WriteRawTag(178, 1);
+        output.WriteMessage(PlatformHardwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.RTMTypes) {
+        output.WriteRawTag(186, 1);
+        output.WriteMessage(RTMTypes);
+      }
+      if (HasStatus) {
+        output.WriteRawTag(192, 1);
+        output.WriteEnum((int) Status);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Uri) {
+        output.WriteRawTag(202, 1);
+        output.WriteMessage(Uri);
+      }
+      if (HasUtf8) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(Utf8);
+      }
+      if (HasIa5) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(Ia5);
+      }
+      if (HasPem) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(Pem);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PublicKey) {
+        output.WriteRawTag(234, 1);
+        output.WriteMessage(PublicKey);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) {
+        output.WriteRawTag(242, 1);
+        output.WriteMessage(EntGeoLocation);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) {
+        output.WriteRawTag(250, 1);
+        output.WriteMessage(CountryOfOrigin);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -3897,29 +4228,129 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
+      if (TraitId.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
+        output.WriteString(TraitId);
       }
-      if (traitCategory_ != null) {
+      if (TraitCategory.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
+        output.WriteString(TraitCategory);
       }
-      if (traitRegistry_ != null) {
+      if (TraitRegistry.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
+        output.WriteString(TraitRegistry);
       }
-      if (description_ != null) {
+      if (Description.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(Description);
+        output.WriteString(Description);
       }
-      if (descriptionURI_ != null) {
+      if (DescriptionURI.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
+        output.WriteString(DescriptionURI);
       }
-      if (traitValue_ != null) {
+      if (HasAsn1) {
         output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
+        output.WriteBytes(Asn1);
+      }
+      if (HasIntValue) {
+        output.WriteRawTag(56);
+        output.WriteSInt64(IntValue);
+      }
+      if (HasStringValue) {
+        output.WriteRawTag(66);
+        output.WriteString(StringValue);
+      }
+      if (HasBooleanValue) {
+        output.WriteRawTag(72);
+        output.WriteBool(BooleanValue);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) {
+        output.WriteRawTag(82);
+        output.WriteMessage(CertificateIdentifier);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) {
+        output.WriteRawTag(90);
+        output.WriteMessage(CommonCriteria);
+      }
+      if (HasComponentClassValue) {
+        output.WriteRawTag(98);
+        output.WriteBytes(ComponentClassValue);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) {
+        output.WriteRawTag(106);
+        output.WriteMessage(ComponentIdentifierV11);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.FipsLevel) {
+        output.WriteRawTag(114);
+        output.WriteMessage(FipsLevel);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Iso9000) {
+        output.WriteRawTag(122);
+        output.WriteMessage(Iso9000);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(NetworkMAC);
+      }
+      if (HasOid) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Oid);
+      }
+      if (HasPen) {
+        output.WriteRawTag(146, 1);
+        output.WriteString(Pen);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(PlatformFirmwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) {
+        output.WriteRawTag(162, 1);
+        output.WriteMessage(PlatformFirmwareSignatureVerification);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) {
+        output.WriteRawTag(170, 1);
+        output.WriteMessage(PlatformFirmwareUpdateCompliance);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) {
+        output.WriteRawTag(178, 1);
+        output.WriteMessage(PlatformHardwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.RTMTypes) {
+        output.WriteRawTag(186, 1);
+        output.WriteMessage(RTMTypes);
+      }
+      if (HasStatus) {
+        output.WriteRawTag(192, 1);
+        output.WriteEnum((int) Status);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Uri) {
+        output.WriteRawTag(202, 1);
+        output.WriteMessage(Uri);
+      }
+      if (HasUtf8) {
+        output.WriteRawTag(210, 1);
+        output.WriteString(Utf8);
+      }
+      if (HasIa5) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(Ia5);
+      }
+      if (HasPem) {
+        output.WriteRawTag(226, 1);
+        output.WriteString(Pem);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PublicKey) {
+        output.WriteRawTag(234, 1);
+        output.WriteMessage(PublicKey);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) {
+        output.WriteRawTag(242, 1);
+        output.WriteMessage(EntGeoLocation);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) {
+        output.WriteRawTag(250, 1);
+        output.WriteMessage(CountryOfOrigin);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -3931,23 +4362,98 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
+      if (TraitId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraitId);
       }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
+      if (TraitCategory.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraitCategory);
       }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
+      if (TraitRegistry.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraitRegistry);
       }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
+      if (DescriptionURI.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DescriptionURI);
       }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
+      if (HasAsn1) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Asn1);
+      }
+      if (HasIntValue) {
+        size += 1 + pb::CodedOutputStream.ComputeSInt64Size(IntValue);
+      }
+      if (HasStringValue) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StringValue);
+      }
+      if (HasBooleanValue) {
+        size += 1 + 1;
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CertificateIdentifier);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CommonCriteria);
+      }
+      if (HasComponentClassValue) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(ComponentClassValue);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentIdentifierV11);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.FipsLevel) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FipsLevel);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Iso9000) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Iso9000);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(NetworkMAC);
+      }
+      if (HasOid) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Oid);
+      }
+      if (HasPen) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Pen);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareSignatureVerification);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareUpdateCompliance);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PlatformHardwareCapabilities);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.RTMTypes) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(RTMTypes);
+      }
+      if (HasStatus) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.Uri) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Uri);
+      }
+      if (HasUtf8) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Utf8);
+      }
+      if (HasIa5) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Ia5);
+      }
+      if (HasPem) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Pem);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.PublicKey) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PublicKey);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(EntGeoLocation);
+      }
+      if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(CountryOfOrigin);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3957,46 +4463,151 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(BooleanTrait other) {
+    public void MergeFrom(Trait other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
+      if (other.TraitId.Length != 0) {
+        TraitId = other.TraitId;
       }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
+      if (other.TraitCategory.Length != 0) {
+        TraitCategory = other.TraitCategory;
       }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
+      if (other.TraitRegistry.Length != 0) {
+        TraitRegistry = other.TraitRegistry;
       }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
+      if (other.Description.Length != 0) {
+        Description = other.Description;
       }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
+      if (other.DescriptionURI.Length != 0) {
+        DescriptionURI = other.DescriptionURI;
       }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::Boolean();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
+      switch (other.TraitValueCase) {
+        case TraitValueOneofCase.Asn1:
+          Asn1 = other.Asn1;
+          break;
+        case TraitValueOneofCase.IntValue:
+          IntValue = other.IntValue;
+          break;
+        case TraitValueOneofCase.StringValue:
+          StringValue = other.StringValue;
+          break;
+        case TraitValueOneofCase.BooleanValue:
+          BooleanValue = other.BooleanValue;
+          break;
+        case TraitValueOneofCase.CertificateIdentifier:
+          if (CertificateIdentifier == null) {
+            CertificateIdentifier = new global::PlatformCertificateProto.CertificateIdentifier();
+          }
+          CertificateIdentifier.MergeFrom(other.CertificateIdentifier);
+          break;
+        case TraitValueOneofCase.CommonCriteria:
+          if (CommonCriteria == null) {
+            CommonCriteria = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
+          }
+          CommonCriteria.MergeFrom(other.CommonCriteria);
+          break;
+        case TraitValueOneofCase.ComponentClassValue:
+          ComponentClassValue = other.ComponentClassValue;
+          break;
+        case TraitValueOneofCase.ComponentIdentifierV11:
+          if (ComponentIdentifierV11 == null) {
+            ComponentIdentifierV11 = new global::PlatformCertificateProto.ComponentIdentifierV11();
+          }
+          ComponentIdentifierV11.MergeFrom(other.ComponentIdentifierV11);
+          break;
+        case TraitValueOneofCase.FipsLevel:
+          if (FipsLevel == null) {
+            FipsLevel = new global::PlatformCertificateProto.FipsLevel();
+          }
+          FipsLevel.MergeFrom(other.FipsLevel);
+          break;
+        case TraitValueOneofCase.Iso9000:
+          if (Iso9000 == null) {
+            Iso9000 = new global::PlatformCertificateProto.Iso9000Certification();
+          }
+          Iso9000.MergeFrom(other.Iso9000);
+          break;
+        case TraitValueOneofCase.NetworkMAC:
+          if (NetworkMAC == null) {
+            NetworkMAC = new global::PlatformCertificateProto.ComponentAddress();
+          }
+          NetworkMAC.MergeFrom(other.NetworkMAC);
+          break;
+        case TraitValueOneofCase.Oid:
+          Oid = other.Oid;
+          break;
+        case TraitValueOneofCase.Pen:
+          Pen = other.Pen;
+          break;
+        case TraitValueOneofCase.PlatformFirmwareCapabilities:
+          if (PlatformFirmwareCapabilities == null) {
+            PlatformFirmwareCapabilities = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList();
+          }
+          PlatformFirmwareCapabilities.MergeFrom(other.PlatformFirmwareCapabilities);
+          break;
+        case TraitValueOneofCase.PlatformFirmwareSignatureVerification:
+          if (PlatformFirmwareSignatureVerification == null) {
+            PlatformFirmwareSignatureVerification = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList();
+          }
+          PlatformFirmwareSignatureVerification.MergeFrom(other.PlatformFirmwareSignatureVerification);
+          break;
+        case TraitValueOneofCase.PlatformFirmwareUpdateCompliance:
+          if (PlatformFirmwareUpdateCompliance == null) {
+            PlatformFirmwareUpdateCompliance = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList();
+          }
+          PlatformFirmwareUpdateCompliance.MergeFrom(other.PlatformFirmwareUpdateCompliance);
+          break;
+        case TraitValueOneofCase.PlatformHardwareCapabilities:
+          if (PlatformHardwareCapabilities == null) {
+            PlatformHardwareCapabilities = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesList();
+          }
+          PlatformHardwareCapabilities.MergeFrom(other.PlatformHardwareCapabilities);
+          break;
+        case TraitValueOneofCase.RTMTypes:
+          if (RTMTypes == null) {
+            RTMTypes = new global::PlatformCertificateProto.RTMTypesList();
+          }
+          RTMTypes.MergeFrom(other.RTMTypes);
+          break;
+        case TraitValueOneofCase.Status:
+          Status = other.Status;
+          break;
+        case TraitValueOneofCase.Uri:
+          if (Uri == null) {
+            Uri = new global::PlatformCertificateProto.URIReference();
+          }
+          Uri.MergeFrom(other.Uri);
+          break;
+        case TraitValueOneofCase.Utf8:
+          Utf8 = other.Utf8;
+          break;
+        case TraitValueOneofCase.Ia5:
+          Ia5 = other.Ia5;
+          break;
+        case TraitValueOneofCase.Pem:
+          Pem = other.Pem;
+          break;
+        case TraitValueOneofCase.PublicKey:
+          if (PublicKey == null) {
+            PublicKey = new global::SubjectPublicKeyInfo();
+          }
+          PublicKey.MergeFrom(other.PublicKey);
+          break;
+        case TraitValueOneofCase.EntGeoLocation:
+          if (EntGeoLocation == null) {
+            EntGeoLocation = new global::PlatformCertificateProto.EntityGeoLocation();
+          }
+          EntGeoLocation.MergeFrom(other.EntGeoLocation);
+          break;
+        case TraitValueOneofCase.CountryOfOrigin:
+          if (CountryOfOrigin == null) {
+            CountryOfOrigin = new global::PlatformCertificateProto.OriginComposition();
+          }
+          CountryOfOrigin.MergeFrom(other.CountryOfOrigin);
+          break;
       }
+
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4017,45 +4628,203 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
+            TraitId = input.ReadString();
             break;
           }
           case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
+            TraitCategory = input.ReadString();
             break;
           }
           case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
+            TraitRegistry = input.ReadString();
             break;
           }
           case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
+            Description = input.ReadString();
             break;
           }
           case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
+            DescriptionURI = input.ReadString();
             break;
           }
           case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::Boolean();
+            Asn1 = input.ReadBytes();
+            break;
+          }
+          case 56: {
+            IntValue = input.ReadSInt64();
+            break;
+          }
+          case 66: {
+            StringValue = input.ReadString();
+            break;
+          }
+          case 72: {
+            BooleanValue = input.ReadBool();
+            break;
+          }
+          case 82: {
+            global::PlatformCertificateProto.CertificateIdentifier subBuilder = new global::PlatformCertificateProto.CertificateIdentifier();
+            if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) {
+              subBuilder.MergeFrom(CertificateIdentifier);
             }
-            input.ReadMessage(TraitValue);
+            input.ReadMessage(subBuilder);
+            CertificateIdentifier = subBuilder;
+            break;
+          }
+          case 90: {
+            global::PlatformCertificateProto.CommonCriteriaEvaluation subBuilder = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
+            if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) {
+              subBuilder.MergeFrom(CommonCriteria);
+            }
+            input.ReadMessage(subBuilder);
+            CommonCriteria = subBuilder;
+            break;
+          }
+          case 98: {
+            ComponentClassValue = input.ReadBytes();
+            break;
+          }
+          case 106: {
+            global::PlatformCertificateProto.ComponentIdentifierV11 subBuilder = new global::PlatformCertificateProto.ComponentIdentifierV11();
+            if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) {
+              subBuilder.MergeFrom(ComponentIdentifierV11);
+            }
+            input.ReadMessage(subBuilder);
+            ComponentIdentifierV11 = subBuilder;
+            break;
+          }
+          case 114: {
+            global::PlatformCertificateProto.FipsLevel subBuilder = new global::PlatformCertificateProto.FipsLevel();
+            if (traitValueCase_ == TraitValueOneofCase.FipsLevel) {
+              subBuilder.MergeFrom(FipsLevel);
+            }
+            input.ReadMessage(subBuilder);
+            FipsLevel = subBuilder;
+            break;
+          }
+          case 122: {
+            global::PlatformCertificateProto.Iso9000Certification subBuilder = new global::PlatformCertificateProto.Iso9000Certification();
+            if (traitValueCase_ == TraitValueOneofCase.Iso9000) {
+              subBuilder.MergeFrom(Iso9000);
+            }
+            input.ReadMessage(subBuilder);
+            Iso9000 = subBuilder;
+            break;
+          }
+          case 130: {
+            global::PlatformCertificateProto.ComponentAddress subBuilder = new global::PlatformCertificateProto.ComponentAddress();
+            if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) {
+              subBuilder.MergeFrom(NetworkMAC);
+            }
+            input.ReadMessage(subBuilder);
+            NetworkMAC = subBuilder;
+            break;
+          }
+          case 138: {
+            Oid = input.ReadString();
+            break;
+          }
+          case 146: {
+            Pen = input.ReadString();
+            break;
+          }
+          case 154: {
+            global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) {
+              subBuilder.MergeFrom(PlatformFirmwareCapabilities);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareCapabilities = subBuilder;
+            break;
+          }
+          case 162: {
+            global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) {
+              subBuilder.MergeFrom(PlatformFirmwareSignatureVerification);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareSignatureVerification = subBuilder;
+            break;
+          }
+          case 170: {
+            global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) {
+              subBuilder.MergeFrom(PlatformFirmwareUpdateCompliance);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareUpdateCompliance = subBuilder;
+            break;
+          }
+          case 178: {
+            global::PlatformCertificateProto.PlatformHardwareCapabilitiesList subBuilder = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) {
+              subBuilder.MergeFrom(PlatformHardwareCapabilities);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformHardwareCapabilities = subBuilder;
+            break;
+          }
+          case 186: {
+            global::PlatformCertificateProto.RTMTypesList subBuilder = new global::PlatformCertificateProto.RTMTypesList();
+            if (traitValueCase_ == TraitValueOneofCase.RTMTypes) {
+              subBuilder.MergeFrom(RTMTypes);
+            }
+            input.ReadMessage(subBuilder);
+            RTMTypes = subBuilder;
+            break;
+          }
+          case 192: {
+            traitValue_ = input.ReadEnum();
+            traitValueCase_ = TraitValueOneofCase.Status;
+            break;
+          }
+          case 202: {
+            global::PlatformCertificateProto.URIReference subBuilder = new global::PlatformCertificateProto.URIReference();
+            if (traitValueCase_ == TraitValueOneofCase.Uri) {
+              subBuilder.MergeFrom(Uri);
+            }
+            input.ReadMessage(subBuilder);
+            Uri = subBuilder;
+            break;
+          }
+          case 210: {
+            Utf8 = input.ReadString();
+            break;
+          }
+          case 218: {
+            Ia5 = input.ReadString();
+            break;
+          }
+          case 226: {
+            Pem = input.ReadString();
+            break;
+          }
+          case 234: {
+            global::SubjectPublicKeyInfo subBuilder = new global::SubjectPublicKeyInfo();
+            if (traitValueCase_ == TraitValueOneofCase.PublicKey) {
+              subBuilder.MergeFrom(PublicKey);
+            }
+            input.ReadMessage(subBuilder);
+            PublicKey = subBuilder;
+            break;
+          }
+          case 242: {
+            global::PlatformCertificateProto.EntityGeoLocation subBuilder = new global::PlatformCertificateProto.EntityGeoLocation();
+            if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) {
+              subBuilder.MergeFrom(EntGeoLocation);
+            }
+            input.ReadMessage(subBuilder);
+            EntGeoLocation = subBuilder;
+            break;
+          }
+          case 250: {
+            global::PlatformCertificateProto.OriginComposition subBuilder = new global::PlatformCertificateProto.OriginComposition();
+            if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) {
+              subBuilder.MergeFrom(CountryOfOrigin);
+            }
+            input.ReadMessage(subBuilder);
+            CountryOfOrigin = subBuilder;
             break;
           }
         }
@@ -4078,45 +4847,203 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
+            TraitId = input.ReadString();
             break;
           }
           case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
+            TraitCategory = input.ReadString();
             break;
           }
           case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
+            TraitRegistry = input.ReadString();
             break;
           }
           case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
+            Description = input.ReadString();
             break;
           }
           case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
+            DescriptionURI = input.ReadString();
             break;
           }
           case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::Boolean();
+            Asn1 = input.ReadBytes();
+            break;
+          }
+          case 56: {
+            IntValue = input.ReadSInt64();
+            break;
+          }
+          case 66: {
+            StringValue = input.ReadString();
+            break;
+          }
+          case 72: {
+            BooleanValue = input.ReadBool();
+            break;
+          }
+          case 82: {
+            global::PlatformCertificateProto.CertificateIdentifier subBuilder = new global::PlatformCertificateProto.CertificateIdentifier();
+            if (traitValueCase_ == TraitValueOneofCase.CertificateIdentifier) {
+              subBuilder.MergeFrom(CertificateIdentifier);
             }
-            input.ReadMessage(TraitValue);
+            input.ReadMessage(subBuilder);
+            CertificateIdentifier = subBuilder;
+            break;
+          }
+          case 90: {
+            global::PlatformCertificateProto.CommonCriteriaEvaluation subBuilder = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
+            if (traitValueCase_ == TraitValueOneofCase.CommonCriteria) {
+              subBuilder.MergeFrom(CommonCriteria);
+            }
+            input.ReadMessage(subBuilder);
+            CommonCriteria = subBuilder;
+            break;
+          }
+          case 98: {
+            ComponentClassValue = input.ReadBytes();
+            break;
+          }
+          case 106: {
+            global::PlatformCertificateProto.ComponentIdentifierV11 subBuilder = new global::PlatformCertificateProto.ComponentIdentifierV11();
+            if (traitValueCase_ == TraitValueOneofCase.ComponentIdentifierV11) {
+              subBuilder.MergeFrom(ComponentIdentifierV11);
+            }
+            input.ReadMessage(subBuilder);
+            ComponentIdentifierV11 = subBuilder;
+            break;
+          }
+          case 114: {
+            global::PlatformCertificateProto.FipsLevel subBuilder = new global::PlatformCertificateProto.FipsLevel();
+            if (traitValueCase_ == TraitValueOneofCase.FipsLevel) {
+              subBuilder.MergeFrom(FipsLevel);
+            }
+            input.ReadMessage(subBuilder);
+            FipsLevel = subBuilder;
+            break;
+          }
+          case 122: {
+            global::PlatformCertificateProto.Iso9000Certification subBuilder = new global::PlatformCertificateProto.Iso9000Certification();
+            if (traitValueCase_ == TraitValueOneofCase.Iso9000) {
+              subBuilder.MergeFrom(Iso9000);
+            }
+            input.ReadMessage(subBuilder);
+            Iso9000 = subBuilder;
+            break;
+          }
+          case 130: {
+            global::PlatformCertificateProto.ComponentAddress subBuilder = new global::PlatformCertificateProto.ComponentAddress();
+            if (traitValueCase_ == TraitValueOneofCase.NetworkMAC) {
+              subBuilder.MergeFrom(NetworkMAC);
+            }
+            input.ReadMessage(subBuilder);
+            NetworkMAC = subBuilder;
+            break;
+          }
+          case 138: {
+            Oid = input.ReadString();
+            break;
+          }
+          case 146: {
+            Pen = input.ReadString();
+            break;
+          }
+          case 154: {
+            global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareCapabilities) {
+              subBuilder.MergeFrom(PlatformFirmwareCapabilities);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareCapabilities = subBuilder;
+            break;
+          }
+          case 162: {
+            global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareSignatureVerification) {
+              subBuilder.MergeFrom(PlatformFirmwareSignatureVerification);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareSignatureVerification = subBuilder;
+            break;
+          }
+          case 170: {
+            global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList subBuilder = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformFirmwareUpdateCompliance) {
+              subBuilder.MergeFrom(PlatformFirmwareUpdateCompliance);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformFirmwareUpdateCompliance = subBuilder;
+            break;
+          }
+          case 178: {
+            global::PlatformCertificateProto.PlatformHardwareCapabilitiesList subBuilder = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesList();
+            if (traitValueCase_ == TraitValueOneofCase.PlatformHardwareCapabilities) {
+              subBuilder.MergeFrom(PlatformHardwareCapabilities);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformHardwareCapabilities = subBuilder;
+            break;
+          }
+          case 186: {
+            global::PlatformCertificateProto.RTMTypesList subBuilder = new global::PlatformCertificateProto.RTMTypesList();
+            if (traitValueCase_ == TraitValueOneofCase.RTMTypes) {
+              subBuilder.MergeFrom(RTMTypes);
+            }
+            input.ReadMessage(subBuilder);
+            RTMTypes = subBuilder;
+            break;
+          }
+          case 192: {
+            traitValue_ = input.ReadEnum();
+            traitValueCase_ = TraitValueOneofCase.Status;
+            break;
+          }
+          case 202: {
+            global::PlatformCertificateProto.URIReference subBuilder = new global::PlatformCertificateProto.URIReference();
+            if (traitValueCase_ == TraitValueOneofCase.Uri) {
+              subBuilder.MergeFrom(Uri);
+            }
+            input.ReadMessage(subBuilder);
+            Uri = subBuilder;
+            break;
+          }
+          case 210: {
+            Utf8 = input.ReadString();
+            break;
+          }
+          case 218: {
+            Ia5 = input.ReadString();
+            break;
+          }
+          case 226: {
+            Pem = input.ReadString();
+            break;
+          }
+          case 234: {
+            global::SubjectPublicKeyInfo subBuilder = new global::SubjectPublicKeyInfo();
+            if (traitValueCase_ == TraitValueOneofCase.PublicKey) {
+              subBuilder.MergeFrom(PublicKey);
+            }
+            input.ReadMessage(subBuilder);
+            PublicKey = subBuilder;
+            break;
+          }
+          case 242: {
+            global::PlatformCertificateProto.EntityGeoLocation subBuilder = new global::PlatformCertificateProto.EntityGeoLocation();
+            if (traitValueCase_ == TraitValueOneofCase.EntGeoLocation) {
+              subBuilder.MergeFrom(EntGeoLocation);
+            }
+            input.ReadMessage(subBuilder);
+            EntGeoLocation = subBuilder;
+            break;
+          }
+          case 250: {
+            global::PlatformCertificateProto.OriginComposition subBuilder = new global::PlatformCertificateProto.OriginComposition();
+            if (traitValueCase_ == TraitValueOneofCase.CountryOfOrigin) {
+              subBuilder.MergeFrom(CountryOfOrigin);
+            }
+            input.ReadMessage(subBuilder);
+            CountryOfOrigin = subBuilder;
             break;
           }
         }
@@ -4127,16 +5054,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class CertificateIdentifierTrait : pb::IMessage<CertificateIdentifierTrait>
+  public sealed partial class PlatformFirmwareCapabilitiesList : pb::IMessage<PlatformFirmwareCapabilitiesList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<CertificateIdentifierTrait> _parser = new pb::MessageParser<CertificateIdentifierTrait>(() => new CertificateIdentifierTrait());
+    private static readonly pb::MessageParser<PlatformFirmwareCapabilitiesList> _parser = new pb::MessageParser<PlatformFirmwareCapabilitiesList>(() => new PlatformFirmwareCapabilitiesList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CertificateIdentifierTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<PlatformFirmwareCapabilitiesList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4152,7 +5079,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CertificateIdentifierTrait() {
+    public PlatformFirmwareCapabilitiesList() {
       OnConstruction();
     }
 
@@ -4160,121 +5087,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CertificateIdentifierTrait(CertificateIdentifierTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public PlatformFirmwareCapabilitiesList(PlatformFirmwareCapabilitiesList other) : this() {
+      values_ = other.values_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CertificateIdentifierTrait Clone() {
-      return new CertificateIdentifierTrait(this);
+    public PlatformFirmwareCapabilitiesList Clone() {
+      return new PlatformFirmwareCapabilitiesList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-certificateIdentifier
-    /// traitCategory values: tcg-tr-cat-EKCertificate, -IAKCertificate, -IDevIDCertificate, -DICECertificate,
-    ///                                 -SPDMCertificate, -PlatformCertificate, -DeltaPlatformCertificate,
-    ///                                 -RebasePlatformCertificate, -genericCertificate
-    /// </summary>
+    /// <summary>Field number for the "values" field.</summary>
+    public const int ValuesFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareCapabilities> _repeated_values_codec
+        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareCapabilities) x);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities> values_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.CertificateIdentifier traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.CertificateIdentifier TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
+    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities> Values {
+      get { return values_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as CertificateIdentifierTrait);
+      return Equals(other as PlatformFirmwareCapabilitiesList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CertificateIdentifierTrait other) {
+    public bool Equals(PlatformFirmwareCapabilitiesList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if(!values_.Equals(other.values_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4282,12 +5132,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      hash ^= values_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4306,30 +5151,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4340,30 +5162,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(ref output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4374,24 +5173,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
+      size += values_.CalculateSize(_repeated_values_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4400,46 +5182,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CertificateIdentifierTrait other) {
+    public void MergeFrom(PlatformFirmwareCapabilitiesList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.CertificateIdentifier();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
+      values_.Add(other.values_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4459,46 +5206,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.CertificateIdentifier();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(input, _repeated_values_codec);
             break;
           }
         }
@@ -4520,46 +5230,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.CertificateIdentifier();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(ref input, _repeated_values_codec);
             break;
           }
         }
@@ -4570,16 +5243,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class CommonCriteriaTrait : pb::IMessage<CommonCriteriaTrait>
+  public sealed partial class PlatformFirmwareSignatureVerificationList : pb::IMessage<PlatformFirmwareSignatureVerificationList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<CommonCriteriaTrait> _parser = new pb::MessageParser<CommonCriteriaTrait>(() => new CommonCriteriaTrait());
+    private static readonly pb::MessageParser<PlatformFirmwareSignatureVerificationList> _parser = new pb::MessageParser<PlatformFirmwareSignatureVerificationList>(() => new PlatformFirmwareSignatureVerificationList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CommonCriteriaTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<PlatformFirmwareSignatureVerificationList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4595,7 +5268,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CommonCriteriaTrait() {
+    public PlatformFirmwareSignatureVerificationList() {
       OnConstruction();
     }
 
@@ -4603,119 +5276,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CommonCriteriaTrait(CommonCriteriaTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public PlatformFirmwareSignatureVerificationList(PlatformFirmwareSignatureVerificationList other) : this() {
+      values_ = other.values_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CommonCriteriaTrait Clone() {
-      return new CommonCriteriaTrait(this);
+    public PlatformFirmwareSignatureVerificationList Clone() {
+      return new PlatformFirmwareSignatureVerificationList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-CommonCriteria
-    /// traitCategory: tcg-tr-cat-CommonCriteria
-    /// </summary>
+    /// <summary>Field number for the "values" field.</summary>
+    public const int ValuesFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> _repeated_values_codec
+        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareSignatureVerification) x);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> values_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.CommonCriteriaEvaluation traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.CommonCriteriaEvaluation TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
+    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> Values {
+      get { return values_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as CommonCriteriaTrait);
+      return Equals(other as PlatformFirmwareSignatureVerificationList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CommonCriteriaTrait other) {
+    public bool Equals(PlatformFirmwareSignatureVerificationList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if(!values_.Equals(other.values_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4723,12 +5321,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      hash ^= values_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4747,30 +5340,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4781,30 +5351,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(ref output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4815,24 +5362,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
+      size += values_.CalculateSize(_repeated_values_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4841,46 +5371,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CommonCriteriaTrait other) {
+    public void MergeFrom(PlatformFirmwareSignatureVerificationList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
+      values_.Add(other.values_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4900,46 +5395,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(input, _repeated_values_codec);
             break;
           }
         }
@@ -4961,46 +5419,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.CommonCriteriaEvaluation();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(ref input, _repeated_values_codec);
             break;
           }
         }
@@ -5011,16 +5432,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class ComponentClassTrait : pb::IMessage<ComponentClassTrait>
+  public sealed partial class PlatformFirmwareUpdateComplianceList : pb::IMessage<PlatformFirmwareUpdateComplianceList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ComponentClassTrait> _parser = new pb::MessageParser<ComponentClassTrait>(() => new ComponentClassTrait());
+    private static readonly pb::MessageParser<PlatformFirmwareUpdateComplianceList> _parser = new pb::MessageParser<PlatformFirmwareUpdateComplianceList>(() => new PlatformFirmwareUpdateComplianceList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ComponentClassTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<PlatformFirmwareUpdateComplianceList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5036,7 +5457,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentClassTrait() {
+    public PlatformFirmwareUpdateComplianceList() {
       OnConstruction();
     }
 
@@ -5044,122 +5465,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentClassTrait(ComponentClassTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public PlatformFirmwareUpdateComplianceList(PlatformFirmwareUpdateComplianceList other) : this() {
+      values_ = other.values_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentClassTrait Clone() {
-      return new ComponentClassTrait(this);
+    public PlatformFirmwareUpdateComplianceList Clone() {
+      return new PlatformFirmwareUpdateComplianceList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-componentClass
-    /// traitCategory: tcg-tr-cat-componentClass
-    /// </summary>
+    /// <summary>Field number for the "values" field.</summary>
+    public const int ValuesFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> _repeated_values_codec
+        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance) x);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> values_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::OctetString traitValue_;
-    /// <summary>
-    /// traitValue is exactly 4 bytes
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OctetString TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
+    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> Values {
+      get { return values_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ComponentClassTrait);
+      return Equals(other as PlatformFirmwareUpdateComplianceList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ComponentClassTrait other) {
+    public bool Equals(PlatformFirmwareUpdateComplianceList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if(!values_.Equals(other.values_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5167,12 +5510,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      hash ^= values_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5191,30 +5529,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5225,30 +5540,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(ref output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5259,24 +5551,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
+      size += values_.CalculateSize(_repeated_values_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5285,46 +5560,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ComponentClassTrait other) {
+    public void MergeFrom(PlatformFirmwareUpdateComplianceList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::OctetString();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
+      values_.Add(other.values_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5344,46 +5584,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::OctetString();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(input, _repeated_values_codec);
             break;
           }
         }
@@ -5405,46 +5608,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::OctetString();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(ref input, _repeated_values_codec);
             break;
           }
         }
@@ -5455,16 +5621,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class ComponentIdentifierV11Trait : pb::IMessage<ComponentIdentifierV11Trait>
+  public sealed partial class PlatformHardwareCapabilitiesList : pb::IMessage<PlatformHardwareCapabilitiesList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ComponentIdentifierV11Trait> _parser = new pb::MessageParser<ComponentIdentifierV11Trait>(() => new ComponentIdentifierV11Trait());
+    private static readonly pb::MessageParser<PlatformHardwareCapabilitiesList> _parser = new pb::MessageParser<PlatformHardwareCapabilitiesList>(() => new PlatformHardwareCapabilitiesList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ComponentIdentifierV11Trait> Parser { get { return _parser; } }
+    public static pb::MessageParser<PlatformHardwareCapabilitiesList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5480,7 +5646,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierV11Trait() {
+    public PlatformHardwareCapabilitiesList() {
       OnConstruction();
     }
 
@@ -5488,119 +5654,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierV11Trait(ComponentIdentifierV11Trait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public PlatformHardwareCapabilitiesList(PlatformHardwareCapabilitiesList other) : this() {
+      values_ = other.values_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierV11Trait Clone() {
-      return new ComponentIdentifierV11Trait(this);
+    public PlatformHardwareCapabilitiesList Clone() {
+      return new PlatformHardwareCapabilitiesList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-componentIdentifierV11
-    /// traitCategory: tcg-tr-cat-componentIdentifierV11
-    /// </summary>
+    /// <summary>Field number for the "values" field.</summary>
+    public const int ValuesFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformHardwareCapabilities> _repeated_values_codec
+        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformHardwareCapabilities) x);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities> values_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.ComponentIdentifierV11 traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.ComponentIdentifierV11 TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
+    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities> Values {
+      get { return values_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ComponentIdentifierV11Trait);
+      return Equals(other as PlatformHardwareCapabilitiesList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ComponentIdentifierV11Trait other) {
+    public bool Equals(PlatformHardwareCapabilitiesList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
+      if(!values_.Equals(other.values_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5608,12 +5699,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
+      hash ^= values_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5632,30 +5718,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5666,30 +5729,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
+      values_.WriteTo(ref output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5700,24 +5740,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
+      size += values_.CalculateSize(_repeated_values_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5726,46 +5749,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ComponentIdentifierV11Trait other) {
+    public void MergeFrom(PlatformHardwareCapabilitiesList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.ComponentIdentifierV11();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
+      values_.Add(other.values_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5785,46 +5773,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.ComponentIdentifierV11();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(input, _repeated_values_codec);
             break;
           }
         }
@@ -5846,46 +5797,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.ComponentIdentifierV11();
-            }
-            input.ReadMessage(TraitValue);
+          case 50:
+          case 48: {
+            values_.AddEntriesFrom(ref input, _repeated_values_codec);
             break;
           }
         }
@@ -5896,16 +5810,16 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class FipsLevelTrait : pb::IMessage<FipsLevelTrait>
+  public sealed partial class RTMTypesList : pb::IMessage<RTMTypesList>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FipsLevelTrait> _parser = new pb::MessageParser<FipsLevelTrait>(() => new FipsLevelTrait());
+    private static readonly pb::MessageParser<RTMTypesList> _parser = new pb::MessageParser<RTMTypesList>(() => new RTMTypesList());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<FipsLevelTrait> Parser { get { return _parser; } }
+    public static pb::MessageParser<RTMTypesList> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5921,7 +5835,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FipsLevelTrait() {
+    public RTMTypesList() {
       OnConstruction();
     }
 
@@ -5929,4015 +5843,44 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FipsLevelTrait(FipsLevelTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
+    public RTMTypesList(RTMTypesList other) : this() {
+      values_ = other.values_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FipsLevelTrait Clone() {
-      return new FipsLevelTrait(this);
+    public RTMTypesList Clone() {
+      return new RTMTypesList(this);
     }
 
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-FIPSLevel
-    /// traitCategory: tcg-tr-cat-FIPSLevel
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.FipsLevel traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.FipsLevel TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as FipsLevelTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(FipsLevelTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(FipsLevelTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.FipsLevel();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.FipsLevel();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.FipsLevel();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Iso9000Trait : pb::IMessage<Iso9000Trait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Iso9000Trait> _parser = new pb::MessageParser<Iso9000Trait>(() => new Iso9000Trait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Iso9000Trait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[12]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Iso9000Trait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Iso9000Trait(Iso9000Trait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Iso9000Trait Clone() {
-      return new Iso9000Trait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-ISO9000
-    /// traitCategory: tcg-tr-cat-ISO9000
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.Iso9000Certification traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Iso9000Certification TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Iso9000Trait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Iso9000Trait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Iso9000Trait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.Iso9000Certification();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.Iso9000Certification();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.Iso9000Certification();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class NetworkMACTrait : pb::IMessage<NetworkMACTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<NetworkMACTrait> _parser = new pb::MessageParser<NetworkMACTrait>(() => new NetworkMACTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<NetworkMACTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[13]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NetworkMACTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NetworkMACTrait(NetworkMACTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NetworkMACTrait Clone() {
-      return new NetworkMACTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-networkMAC
-    /// traitCategory: tcg-tr-cat-networkMAC
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.ComponentAddress traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.ComponentAddress TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as NetworkMACTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(NetworkMACTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(NetworkMACTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.ComponentAddress();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.ComponentAddress();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.ComponentAddress();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class OIDTrait : pb::IMessage<OIDTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<OIDTrait> _parser = new pb::MessageParser<OIDTrait>(() => new OIDTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<OIDTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[14]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OIDTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OIDTrait(OIDTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OIDTrait Clone() {
-      return new OIDTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-OID
-    /// traitCategory: tcg-tr-cat-attestationProtocol
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::ObjectIdentifier traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as OIDTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(OIDTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(OIDTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::ObjectIdentifier();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PENTrait : pb::IMessage<PENTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PENTrait> _parser = new pb::MessageParser<PENTrait>(() => new PENTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PENTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[15]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PENTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PENTrait(PENTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PENTrait Clone() {
-      return new PENTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-PEN
-    /// traitCategory: tcg-tr-cat-PEN
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::ObjectIdentifier traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PENTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PENTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PENTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::ObjectIdentifier();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformFirmwareCapabilitiesTrait : pb::IMessage<PlatformFirmwareCapabilitiesTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformFirmwareCapabilitiesTrait> _parser = new pb::MessageParser<PlatformFirmwareCapabilitiesTrait>(() => new PlatformFirmwareCapabilitiesTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformFirmwareCapabilitiesTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[16]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareCapabilitiesTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareCapabilitiesTrait(PlatformFirmwareCapabilitiesTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareCapabilitiesTrait Clone() {
-      return new PlatformFirmwareCapabilitiesTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-platformFirmwareCapabilities
-    /// traitCategory: tcg-tr-cat-platformFirmwareCapabilities
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareCapabilities> _repeated_traitValue_codec
-        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareCapabilities) x);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities> traitValue_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareCapabilities> TraitValue {
-      get { return traitValue_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformFirmwareCapabilitiesTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformFirmwareCapabilitiesTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if(!traitValue_.Equals(other.traitValue_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      hash ^= traitValue_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(ref output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      size += traitValue_.CalculateSize(_repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformFirmwareCapabilitiesTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      traitValue_.Add(other.traitValue_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(ref input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformFirmwareSignatureVerificationTrait : pb::IMessage<PlatformFirmwareSignatureVerificationTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformFirmwareSignatureVerificationTrait> _parser = new pb::MessageParser<PlatformFirmwareSignatureVerificationTrait>(() => new PlatformFirmwareSignatureVerificationTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformFirmwareSignatureVerificationTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[17]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareSignatureVerificationTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareSignatureVerificationTrait(PlatformFirmwareSignatureVerificationTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareSignatureVerificationTrait Clone() {
-      return new PlatformFirmwareSignatureVerificationTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-platformFirmwareSignatureVerification
-    /// traitCategory: tcg-tr-cat-platformFirmwareSignatureVerification
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> _repeated_traitValue_codec
-        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareSignatureVerification) x);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> traitValue_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareSignatureVerification> TraitValue {
-      get { return traitValue_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformFirmwareSignatureVerificationTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformFirmwareSignatureVerificationTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if(!traitValue_.Equals(other.traitValue_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      hash ^= traitValue_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(ref output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      size += traitValue_.CalculateSize(_repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformFirmwareSignatureVerificationTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      traitValue_.Add(other.traitValue_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(ref input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformFirmwareUpdateComplianceTrait : pb::IMessage<PlatformFirmwareUpdateComplianceTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformFirmwareUpdateComplianceTrait> _parser = new pb::MessageParser<PlatformFirmwareUpdateComplianceTrait>(() => new PlatformFirmwareUpdateComplianceTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformFirmwareUpdateComplianceTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[18]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareUpdateComplianceTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareUpdateComplianceTrait(PlatformFirmwareUpdateComplianceTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformFirmwareUpdateComplianceTrait Clone() {
-      return new PlatformFirmwareUpdateComplianceTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-platformFirmwareUpdateCompliance
-    /// traitCategory: tcg-tr-cat-platformFirmwareUpdateCompliance
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> _repeated_traitValue_codec
-        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance) x);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> traitValue_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformFirmwareUpdateCompliance> TraitValue {
-      get { return traitValue_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformFirmwareUpdateComplianceTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformFirmwareUpdateComplianceTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if(!traitValue_.Equals(other.traitValue_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      hash ^= traitValue_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(ref output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      size += traitValue_.CalculateSize(_repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformFirmwareUpdateComplianceTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      traitValue_.Add(other.traitValue_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(ref input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformHardwareCapabilitiesTrait : pb::IMessage<PlatformHardwareCapabilitiesTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformHardwareCapabilitiesTrait> _parser = new pb::MessageParser<PlatformHardwareCapabilitiesTrait>(() => new PlatformHardwareCapabilitiesTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformHardwareCapabilitiesTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[19]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformHardwareCapabilitiesTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformHardwareCapabilitiesTrait(PlatformHardwareCapabilitiesTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformHardwareCapabilitiesTrait Clone() {
-      return new PlatformHardwareCapabilitiesTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-platformHardwareCapabilities
-    /// traitCategory: tcg-tr-cat-platformHardwareCapabilities
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.PlatformHardwareCapabilities> _repeated_traitValue_codec
-        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.PlatformHardwareCapabilities) x);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities> traitValue_ = new pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.PlatformHardwareCapabilities> TraitValue {
-      get { return traitValue_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformHardwareCapabilitiesTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformHardwareCapabilitiesTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if(!traitValue_.Equals(other.traitValue_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      hash ^= traitValue_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(ref output, _repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      size += traitValue_.CalculateSize(_repeated_traitValue_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformHardwareCapabilitiesTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      traitValue_.Add(other.traitValue_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50:
-          case 48: {
-            traitValue_.AddEntriesFrom(ref input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class RTMTrait : pb::IMessage<RTMTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<RTMTrait> _parser = new pb::MessageParser<RTMTrait>(() => new RTMTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<RTMTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[20]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RTMTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RTMTrait(RTMTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RTMTrait Clone() {
-      return new RTMTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-RTM
-    /// traitCategory: tcg-tr-cat-RTM
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.RTMTypes> _repeated_traitValue_codec
+    /// <summary>Field number for the "values" field.</summary>
+    public const int ValuesFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.RTMTypes> _repeated_values_codec
         = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::PlatformCertificateProto.RTMTypes) x);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes> traitValue_ = new pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes>();
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes> values_ = new pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes> TraitValue {
-      get { return traitValue_; }
+    public pbc::RepeatedField<global::PlatformCertificateProto.RTMTypes> Values {
+      get { return values_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as RTMTrait);
+      return Equals(other as RTMTypesList);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(RTMTrait other) {
+    public bool Equals(RTMTypesList other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if(!traitValue_.Equals(other.traitValue_)) return false;
+      if(!values_.Equals(other.values_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -9945,12 +5888,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      hash ^= traitValue_.GetHashCode();
+      hash ^= values_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -9969,27 +5907,7 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(output, _repeated_traitValue_codec);
+      values_.WriteTo(output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10000,27 +5918,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      traitValue_.WriteTo(ref output, _repeated_traitValue_codec);
+      values_.WriteTo(ref output, _repeated_values_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10031,22 +5929,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      size += traitValue_.CalculateSize(_repeated_traitValue_codec);
+      size += values_.CalculateSize(_repeated_values_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -10055,41 +5938,11 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(RTMTrait other) {
+    public void MergeFrom(RTMTypesList other) {
       if (other == null) {
         return;
       }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      traitValue_.Add(other.traitValue_);
+      values_.Add(other.values_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -10109,44 +5962,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
           case 50:
           case 48: {
-            traitValue_.AddEntriesFrom(input, _repeated_traitValue_codec);
+            values_.AddEntriesFrom(input, _repeated_values_codec);
             break;
           }
         }
@@ -10168,2677 +5986,9 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
           case 50:
           case 48: {
-            traitValue_.AddEntriesFrom(ref input, _repeated_traitValue_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class StatusTrait : pb::IMessage<StatusTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StatusTrait> _parser = new pb::MessageParser<StatusTrait>(() => new StatusTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StatusTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[21]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StatusTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StatusTrait(StatusTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StatusTrait Clone() {
-      return new StatusTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-status
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.AttributeStatus traitValue_ = global::PlatformCertificateProto.AttributeStatus.Added;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.AttributeStatus TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StatusTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StatusTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (TraitValue != other.TraitValue) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (TraitValue != global::PlatformCertificateProto.AttributeStatus.Added) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (TraitValue != global::PlatformCertificateProto.AttributeStatus.Added) {
-        output.WriteRawTag(48);
-        output.WriteEnum((int) TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (TraitValue != global::PlatformCertificateProto.AttributeStatus.Added) {
-        output.WriteRawTag(48);
-        output.WriteEnum((int) TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (TraitValue != global::PlatformCertificateProto.AttributeStatus.Added) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StatusTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.TraitValue != global::PlatformCertificateProto.AttributeStatus.Added) {
-        TraitValue = other.TraitValue;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 48: {
-            TraitValue = (global::PlatformCertificateProto.AttributeStatus) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 48: {
-            TraitValue = (global::PlatformCertificateProto.AttributeStatus) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class URITrait : pb::IMessage<URITrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<URITrait> _parser = new pb::MessageParser<URITrait>(() => new URITrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<URITrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[22]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public URITrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public URITrait(URITrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public URITrait Clone() {
-      return new URITrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-URI
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::PlatformCertificateProto.URIReference traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.URIReference TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as URITrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(URITrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(URITrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::PlatformCertificateProto.URIReference();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.URIReference();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::PlatformCertificateProto.URIReference();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class UTF8StringTrait : pb::IMessage<UTF8StringTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UTF8StringTrait> _parser = new pb::MessageParser<UTF8StringTrait>(() => new UTF8StringTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UTF8StringTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[23]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UTF8StringTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UTF8StringTrait(UTF8StringTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UTF8StringTrait Clone() {
-      return new UTF8StringTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-UTF8String
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::UTF8String traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as UTF8StringTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UTF8StringTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UTF8StringTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::UTF8String();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::UTF8String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::UTF8String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class IA5StringTrait : pb::IMessage<IA5StringTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<IA5StringTrait> _parser = new pb::MessageParser<IA5StringTrait>(() => new IA5StringTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<IA5StringTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[24]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public IA5StringTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public IA5StringTrait(IA5StringTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public IA5StringTrait Clone() {
-      return new IA5StringTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-IA5String
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::IA5String traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as IA5StringTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(IA5StringTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(IA5StringTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::IA5String();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::IA5String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::IA5String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PEMCertString : pb::IMessage<PEMCertString>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PEMCertString> _parser = new pb::MessageParser<PEMCertString>(() => new PEMCertString());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PEMCertString> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[25]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PEMCertString() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PEMCertString(PEMCertString other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PEMCertString Clone() {
-      return new PEMCertString(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-PEMCertString
-    /// traitCategory: tcg-tr-cat-PEMCertificate
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::UTF8String traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PEMCertString);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PEMCertString other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PEMCertString other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::UTF8String();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::UTF8String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::UTF8String();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PublicKeyTrait : pb::IMessage<PublicKeyTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PublicKeyTrait> _parser = new pb::MessageParser<PublicKeyTrait>(() => new PublicKeyTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PublicKeyTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[26]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PublicKeyTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PublicKeyTrait(PublicKeyTrait other) : this() {
-      traitId_ = other.traitId_ != null ? other.traitId_.Clone() : null;
-      traitCategory_ = other.traitCategory_ != null ? other.traitCategory_.Clone() : null;
-      traitRegistry_ = other.traitRegistry_ != null ? other.traitRegistry_.Clone() : null;
-      description_ = other.description_ != null ? other.description_.Clone() : null;
-      descriptionURI_ = other.descriptionURI_ != null ? other.descriptionURI_.Clone() : null;
-      traitValue_ = other.traitValue_ != null ? other.traitValue_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PublicKeyTrait Clone() {
-      return new PublicKeyTrait(this);
-    }
-
-    /// <summary>Field number for the "traitId" field.</summary>
-    public const int TraitIdFieldNumber = 1;
-    private global::ObjectIdentifier traitId_;
-    /// <summary>
-    /// traitId: tcg-tr-ID-PublicKey
-    /// traitCategory: tcg-tr-cat-PublicKey
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitId {
-      get { return traitId_; }
-      set {
-        traitId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitCategory" field.</summary>
-    public const int TraitCategoryFieldNumber = 2;
-    private global::ObjectIdentifier traitCategory_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitCategory {
-      get { return traitCategory_; }
-      set {
-        traitCategory_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitRegistry" field.</summary>
-    public const int TraitRegistryFieldNumber = 3;
-    private global::ObjectIdentifier traitRegistry_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TraitRegistry {
-      get { return traitRegistry_; }
-      set {
-        traitRegistry_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "description" field.</summary>
-    public const int DescriptionFieldNumber = 4;
-    private global::UTF8String description_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String Description {
-      get { return description_; }
-      set {
-        description_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "descriptionURI" field.</summary>
-    public const int DescriptionURIFieldNumber = 5;
-    private global::IA5String descriptionURI_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String DescriptionURI {
-      get { return descriptionURI_; }
-      set {
-        descriptionURI_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "traitValue" field.</summary>
-    public const int TraitValueFieldNumber = 6;
-    private global::SubjectPublicKeyInfo traitValue_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::SubjectPublicKeyInfo TraitValue {
-      get { return traitValue_; }
-      set {
-        traitValue_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PublicKeyTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PublicKeyTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TraitId, other.TraitId)) return false;
-      if (!object.Equals(TraitCategory, other.TraitCategory)) return false;
-      if (!object.Equals(TraitRegistry, other.TraitRegistry)) return false;
-      if (!object.Equals(Description, other.Description)) return false;
-      if (!object.Equals(DescriptionURI, other.DescriptionURI)) return false;
-      if (!object.Equals(TraitValue, other.TraitValue)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (traitId_ != null) hash ^= TraitId.GetHashCode();
-      if (traitCategory_ != null) hash ^= TraitCategory.GetHashCode();
-      if (traitRegistry_ != null) hash ^= TraitRegistry.GetHashCode();
-      if (description_ != null) hash ^= Description.GetHashCode();
-      if (descriptionURI_ != null) hash ^= DescriptionURI.GetHashCode();
-      if (traitValue_ != null) hash ^= TraitValue.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (traitId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TraitId);
-      }
-      if (traitCategory_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(TraitRegistry);
-      }
-      if (description_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Description);
-      }
-      if (descriptionURI_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(TraitValue);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (traitId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitId);
-      }
-      if (traitCategory_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitCategory);
-      }
-      if (traitRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitRegistry);
-      }
-      if (description_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Description);
-      }
-      if (descriptionURI_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DescriptionURI);
-      }
-      if (traitValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TraitValue);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PublicKeyTrait other) {
-      if (other == null) {
-        return;
-      }
-      if (other.traitId_ != null) {
-        if (traitId_ == null) {
-          TraitId = new global::ObjectIdentifier();
-        }
-        TraitId.MergeFrom(other.TraitId);
-      }
-      if (other.traitCategory_ != null) {
-        if (traitCategory_ == null) {
-          TraitCategory = new global::ObjectIdentifier();
-        }
-        TraitCategory.MergeFrom(other.TraitCategory);
-      }
-      if (other.traitRegistry_ != null) {
-        if (traitRegistry_ == null) {
-          TraitRegistry = new global::ObjectIdentifier();
-        }
-        TraitRegistry.MergeFrom(other.TraitRegistry);
-      }
-      if (other.description_ != null) {
-        if (description_ == null) {
-          Description = new global::UTF8String();
-        }
-        Description.MergeFrom(other.Description);
-      }
-      if (other.descriptionURI_ != null) {
-        if (descriptionURI_ == null) {
-          DescriptionURI = new global::IA5String();
-        }
-        DescriptionURI.MergeFrom(other.DescriptionURI);
-      }
-      if (other.traitValue_ != null) {
-        if (traitValue_ == null) {
-          TraitValue = new global::SubjectPublicKeyInfo();
-        }
-        TraitValue.MergeFrom(other.TraitValue);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::SubjectPublicKeyInfo();
-            }
-            input.ReadMessage(TraitValue);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (traitId_ == null) {
-              TraitId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitId);
-            break;
-          }
-          case 18: {
-            if (traitCategory_ == null) {
-              TraitCategory = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitCategory);
-            break;
-          }
-          case 26: {
-            if (traitRegistry_ == null) {
-              TraitRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TraitRegistry);
-            break;
-          }
-          case 34: {
-            if (description_ == null) {
-              Description = new global::UTF8String();
-            }
-            input.ReadMessage(Description);
-            break;
-          }
-          case 42: {
-            if (descriptionURI_ == null) {
-              DescriptionURI = new global::IA5String();
-            }
-            input.ReadMessage(DescriptionURI);
-            break;
-          }
-          case 50: {
-            if (traitValue_ == null) {
-              TraitValue = new global::SubjectPublicKeyInfo();
-            }
-            input.ReadMessage(TraitValue);
+            values_.AddEntriesFrom(ref input, _repeated_values_codec);
             break;
           }
         }
@@ -12863,7 +6013,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[27]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13116,7 +6266,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[28]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13137,7 +6287,7 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public HashedCertificateIdentifier(HashedCertificateIdentifier other) : this() {
       hashAlgorithm_ = other.hashAlgorithm_ != null ? other.hashAlgorithm_.Clone() : null;
-      hashOverSignatureValue_ = other.hashOverSignatureValue_ != null ? other.hashOverSignatureValue_.Clone() : null;
+      hashOverSignatureValue_ = other.hashOverSignatureValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -13161,13 +6311,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "hashOverSignatureValue" field.</summary>
     public const int HashOverSignatureValueFieldNumber = 2;
-    private global::OctetString hashOverSignatureValue_;
+    private pb::ByteString hashOverSignatureValue_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OctetString HashOverSignatureValue {
+    public pb::ByteString HashOverSignatureValue {
       get { return hashOverSignatureValue_; }
       set {
-        hashOverSignatureValue_ = value;
+        hashOverSignatureValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -13187,7 +6337,7 @@ namespace PlatformCertificateProto {
         return true;
       }
       if (!object.Equals(HashAlgorithm, other.HashAlgorithm)) return false;
-      if (!object.Equals(HashOverSignatureValue, other.HashOverSignatureValue)) return false;
+      if (HashOverSignatureValue != other.HashOverSignatureValue) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -13196,7 +6346,7 @@ namespace PlatformCertificateProto {
     public override int GetHashCode() {
       int hash = 1;
       if (hashAlgorithm_ != null) hash ^= HashAlgorithm.GetHashCode();
-      if (hashOverSignatureValue_ != null) hash ^= HashOverSignatureValue.GetHashCode();
+      if (HashOverSignatureValue.Length != 0) hash ^= HashOverSignatureValue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -13219,9 +6369,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(HashAlgorithm);
       }
-      if (hashOverSignatureValue_ != null) {
+      if (HashOverSignatureValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(HashOverSignatureValue);
+        output.WriteBytes(HashOverSignatureValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -13237,9 +6387,9 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(HashAlgorithm);
       }
-      if (hashOverSignatureValue_ != null) {
+      if (HashOverSignatureValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(HashOverSignatureValue);
+        output.WriteBytes(HashOverSignatureValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -13254,8 +6404,8 @@ namespace PlatformCertificateProto {
       if (hashAlgorithm_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(HashAlgorithm);
       }
-      if (hashOverSignatureValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(HashOverSignatureValue);
+      if (HashOverSignatureValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(HashOverSignatureValue);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -13275,11 +6425,8 @@ namespace PlatformCertificateProto {
         }
         HashAlgorithm.MergeFrom(other.HashAlgorithm);
       }
-      if (other.hashOverSignatureValue_ != null) {
-        if (hashOverSignatureValue_ == null) {
-          HashOverSignatureValue = new global::OctetString();
-        }
-        HashOverSignatureValue.MergeFrom(other.HashOverSignatureValue);
+      if (other.HashOverSignatureValue.Length != 0) {
+        HashOverSignatureValue = other.HashOverSignatureValue;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -13308,10 +6455,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (hashOverSignatureValue_ == null) {
-              HashOverSignatureValue = new global::OctetString();
-            }
-            input.ReadMessage(HashOverSignatureValue);
+            HashOverSignatureValue = input.ReadBytes();
             break;
           }
         }
@@ -13341,1247 +6485,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (hashOverSignatureValue_ == null) {
-              HashOverSignatureValue = new global::OctetString();
-            }
-            input.ReadMessage(HashOverSignatureValue);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformIdentifierOtherName : pb::IMessage<PlatformIdentifierOtherName>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformIdentifierOtherName> _parser = new pb::MessageParser<PlatformIdentifierOtherName>(() => new PlatformIdentifierOtherName());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformIdentifierOtherName> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[29]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifierOtherName() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifierOtherName(PlatformIdentifierOtherName other) : this() {
-      typeId_ = other.typeId_ != null ? other.typeId_.Clone() : null;
-      value_ = other.value_ != null ? other.value_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifierOtherName Clone() {
-      return new PlatformIdentifierOtherName(this);
-    }
-
-    /// <summary>Field number for the "type_id" field.</summary>
-    public const int TypeIdFieldNumber = 1;
-    private global::ObjectIdentifier typeId_;
-    /// <summary>
-    /// Default type-id: tcg-at-platformIdentifier
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TypeId {
-      get { return typeId_; }
-      set {
-        typeId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "value" field.</summary>
-    public const int ValueFieldNumber = 2;
-    private global::PlatformCertificateProto.PlatformIdentifier value_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformIdentifier Value {
-      get { return value_; }
-      set {
-        value_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformIdentifierOtherName);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformIdentifierOtherName other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(TypeId, other.TypeId)) return false;
-      if (!object.Equals(Value, other.Value)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (typeId_ != null) hash ^= TypeId.GetHashCode();
-      if (value_ != null) hash ^= Value.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (typeId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TypeId);
-      }
-      if (value_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Value);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (typeId_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(TypeId);
-      }
-      if (value_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Value);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (typeId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TypeId);
-      }
-      if (value_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Value);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformIdentifierOtherName other) {
-      if (other == null) {
-        return;
-      }
-      if (other.typeId_ != null) {
-        if (typeId_ == null) {
-          TypeId = new global::ObjectIdentifier();
-        }
-        TypeId.MergeFrom(other.TypeId);
-      }
-      if (other.value_ != null) {
-        if (value_ == null) {
-          Value = new global::PlatformCertificateProto.PlatformIdentifier();
-        }
-        Value.MergeFrom(other.Value);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (typeId_ == null) {
-              TypeId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TypeId);
-            break;
-          }
-          case 18: {
-            if (value_ == null) {
-              Value = new global::PlatformCertificateProto.PlatformIdentifier();
-            }
-            input.ReadMessage(Value);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (typeId_ == null) {
-              TypeId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TypeId);
-            break;
-          }
-          case 18: {
-            if (value_ == null) {
-              Value = new global::PlatformCertificateProto.PlatformIdentifier();
-            }
-            input.ReadMessage(Value);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformIdentifier : pb::IMessage<PlatformIdentifier>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<PlatformIdentifier> _parser = new pb::MessageParser<PlatformIdentifier>(() => new PlatformIdentifier());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformIdentifier> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[30]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifier() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifier(PlatformIdentifier other) : this() {
-      platformManufacturer_ = other.platformManufacturer_ != null ? other.platformManufacturer_.Clone() : null;
-      platformModel_ = other.platformModel_ != null ? other.platformModel_.Clone() : null;
-      platformVersion_ = other.platformVersion_ != null ? other.platformVersion_.Clone() : null;
-      platformSerial_ = other.platformSerial_ != null ? other.platformSerial_.Clone() : null;
-      platformManufacturerIdentifier_ = other.platformManufacturerIdentifier_ != null ? other.platformManufacturerIdentifier_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformIdentifier Clone() {
-      return new PlatformIdentifier(this);
-    }
-
-    /// <summary>Field number for the "platformManufacturer" field.</summary>
-    public const int PlatformManufacturerFieldNumber = 1;
-    private global::PlatformCertificateProto.Manufacturer platformManufacturer_;
-    /// <summary>
-    /// traitCategory: tcg-tr-cat-platformManufacturer
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Manufacturer PlatformManufacturer {
-      get { return platformManufacturer_; }
-      set {
-        platformManufacturer_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformModel" field.</summary>
-    public const int PlatformModelFieldNumber = 2;
-    private global::PlatformCertificateProto.Model platformModel_;
-    /// <summary>
-    /// traitCategory: tcg-tr-cat-platformModel
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Model PlatformModel {
-      get { return platformModel_; }
-      set {
-        platformModel_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformVersion" field.</summary>
-    public const int PlatformVersionFieldNumber = 3;
-    private global::PlatformCertificateProto.Revision platformVersion_;
-    /// <summary>
-    /// traitCategory: tcg-tr-cat-platformVersion
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Revision PlatformVersion {
-      get { return platformVersion_; }
-      set {
-        platformVersion_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformSerial" field.</summary>
-    public const int PlatformSerialFieldNumber = 4;
-    private global::PlatformCertificateProto.Serial platformSerial_;
-    /// <summary>
-    /// traitCategory: tcg-tr-cat-platformSerial
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Serial PlatformSerial {
-      get { return platformSerial_; }
-      set {
-        platformSerial_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformManufacturerIdentifier" field.</summary>
-    public const int PlatformManufacturerIdentifierFieldNumber = 5;
-    private global::PlatformCertificateProto.PENTrait platformManufacturerIdentifier_;
-    /// <summary>
-    /// traitCategory: tcg-tr-cat-platformManufacturerIdentifier
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PENTrait PlatformManufacturerIdentifier {
-      get { return platformManufacturerIdentifier_; }
-      set {
-        platformManufacturerIdentifier_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as PlatformIdentifier);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformIdentifier other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(PlatformManufacturer, other.PlatformManufacturer)) return false;
-      if (!object.Equals(PlatformModel, other.PlatformModel)) return false;
-      if (!object.Equals(PlatformVersion, other.PlatformVersion)) return false;
-      if (!object.Equals(PlatformSerial, other.PlatformSerial)) return false;
-      if (!object.Equals(PlatformManufacturerIdentifier, other.PlatformManufacturerIdentifier)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (platformManufacturer_ != null) hash ^= PlatformManufacturer.GetHashCode();
-      if (platformModel_ != null) hash ^= PlatformModel.GetHashCode();
-      if (platformVersion_ != null) hash ^= PlatformVersion.GetHashCode();
-      if (platformSerial_ != null) hash ^= PlatformSerial.GetHashCode();
-      if (platformManufacturerIdentifier_ != null) hash ^= PlatformManufacturerIdentifier.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (platformManufacturer_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(PlatformManufacturer);
-      }
-      if (platformModel_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(PlatformModel);
-      }
-      if (platformVersion_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(PlatformVersion);
-      }
-      if (platformSerial_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(PlatformSerial);
-      }
-      if (platformManufacturerIdentifier_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(PlatformManufacturerIdentifier);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (platformManufacturer_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(PlatformManufacturer);
-      }
-      if (platformModel_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(PlatformModel);
-      }
-      if (platformVersion_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(PlatformVersion);
-      }
-      if (platformSerial_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(PlatformSerial);
-      }
-      if (platformManufacturerIdentifier_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(PlatformManufacturerIdentifier);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (platformManufacturer_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformManufacturer);
-      }
-      if (platformModel_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformModel);
-      }
-      if (platformVersion_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformVersion);
-      }
-      if (platformSerial_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformSerial);
-      }
-      if (platformManufacturerIdentifier_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformManufacturerIdentifier);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformIdentifier other) {
-      if (other == null) {
-        return;
-      }
-      if (other.platformManufacturer_ != null) {
-        if (platformManufacturer_ == null) {
-          PlatformManufacturer = new global::PlatformCertificateProto.Manufacturer();
-        }
-        PlatformManufacturer.MergeFrom(other.PlatformManufacturer);
-      }
-      if (other.platformModel_ != null) {
-        if (platformModel_ == null) {
-          PlatformModel = new global::PlatformCertificateProto.Model();
-        }
-        PlatformModel.MergeFrom(other.PlatformModel);
-      }
-      if (other.platformVersion_ != null) {
-        if (platformVersion_ == null) {
-          PlatformVersion = new global::PlatformCertificateProto.Revision();
-        }
-        PlatformVersion.MergeFrom(other.PlatformVersion);
-      }
-      if (other.platformSerial_ != null) {
-        if (platformSerial_ == null) {
-          PlatformSerial = new global::PlatformCertificateProto.Serial();
-        }
-        PlatformSerial.MergeFrom(other.PlatformSerial);
-      }
-      if (other.platformManufacturerIdentifier_ != null) {
-        if (platformManufacturerIdentifier_ == null) {
-          PlatformManufacturerIdentifier = new global::PlatformCertificateProto.PENTrait();
-        }
-        PlatformManufacturerIdentifier.MergeFrom(other.PlatformManufacturerIdentifier);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (platformManufacturer_ == null) {
-              PlatformManufacturer = new global::PlatformCertificateProto.Manufacturer();
-            }
-            input.ReadMessage(PlatformManufacturer);
-            break;
-          }
-          case 18: {
-            if (platformModel_ == null) {
-              PlatformModel = new global::PlatformCertificateProto.Model();
-            }
-            input.ReadMessage(PlatformModel);
-            break;
-          }
-          case 26: {
-            if (platformVersion_ == null) {
-              PlatformVersion = new global::PlatformCertificateProto.Revision();
-            }
-            input.ReadMessage(PlatformVersion);
-            break;
-          }
-          case 34: {
-            if (platformSerial_ == null) {
-              PlatformSerial = new global::PlatformCertificateProto.Serial();
-            }
-            input.ReadMessage(PlatformSerial);
-            break;
-          }
-          case 42: {
-            if (platformManufacturerIdentifier_ == null) {
-              PlatformManufacturerIdentifier = new global::PlatformCertificateProto.PENTrait();
-            }
-            input.ReadMessage(PlatformManufacturerIdentifier);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (platformManufacturer_ == null) {
-              PlatformManufacturer = new global::PlatformCertificateProto.Manufacturer();
-            }
-            input.ReadMessage(PlatformManufacturer);
-            break;
-          }
-          case 18: {
-            if (platformModel_ == null) {
-              PlatformModel = new global::PlatformCertificateProto.Model();
-            }
-            input.ReadMessage(PlatformModel);
-            break;
-          }
-          case 26: {
-            if (platformVersion_ == null) {
-              PlatformVersion = new global::PlatformCertificateProto.Revision();
-            }
-            input.ReadMessage(PlatformVersion);
-            break;
-          }
-          case 34: {
-            if (platformSerial_ == null) {
-              PlatformSerial = new global::PlatformCertificateProto.Serial();
-            }
-            input.ReadMessage(PlatformSerial);
-            break;
-          }
-          case 42: {
-            if (platformManufacturerIdentifier_ == null) {
-              PlatformManufacturerIdentifier = new global::PlatformCertificateProto.PENTrait();
-            }
-            input.ReadMessage(PlatformManufacturerIdentifier);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class TbbSecurityAssertions : pb::IMessage<TbbSecurityAssertions>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<TbbSecurityAssertions> _parser = new pb::MessageParser<TbbSecurityAssertions>(() => new TbbSecurityAssertions());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<TbbSecurityAssertions> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[31]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public TbbSecurityAssertions() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public TbbSecurityAssertions(TbbSecurityAssertions other) : this() {
-      commonCriteria_ = other.commonCriteria_ != null ? other.commonCriteria_.Clone() : null;
-      fipsLevel_ = other.fipsLevel_ != null ? other.fipsLevel_.Clone() : null;
-      iso9000_ = other.iso9000_ != null ? other.iso9000_.Clone() : null;
-      platformFirmwareCapabilities_ = other.platformFirmwareCapabilities_ != null ? other.platformFirmwareCapabilities_.Clone() : null;
-      platformFirmwareSignatureVerificationTrait_ = other.platformFirmwareSignatureVerificationTrait_ != null ? other.platformFirmwareSignatureVerificationTrait_.Clone() : null;
-      platformFirmwareUpdateComplianceTrait_ = other.platformFirmwareUpdateComplianceTrait_ != null ? other.platformFirmwareUpdateComplianceTrait_.Clone() : null;
-      platformHardwareCapabilitiesTrait_ = other.platformHardwareCapabilitiesTrait_ != null ? other.platformHardwareCapabilitiesTrait_.Clone() : null;
-      rTMTrait_ = other.rTMTrait_ != null ? other.rTMTrait_.Clone() : null;
-      uRITrait_ = other.uRITrait_ != null ? other.uRITrait_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public TbbSecurityAssertions Clone() {
-      return new TbbSecurityAssertions(this);
-    }
-
-    /// <summary>Field number for the "commonCriteria" field.</summary>
-    public const int CommonCriteriaFieldNumber = 1;
-    private global::PlatformCertificateProto.CommonCriteriaTrait commonCriteria_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.CommonCriteriaTrait CommonCriteria {
-      get { return commonCriteria_; }
-      set {
-        commonCriteria_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fipsLevel" field.</summary>
-    public const int FipsLevelFieldNumber = 2;
-    private global::PlatformCertificateProto.FipsLevelTrait fipsLevel_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.FipsLevelTrait FipsLevel {
-      get { return fipsLevel_; }
-      set {
-        fipsLevel_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "iso9000" field.</summary>
-    public const int Iso9000FieldNumber = 3;
-    private global::PlatformCertificateProto.Iso9000Trait iso9000_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Iso9000Trait Iso9000 {
-      get { return iso9000_; }
-      set {
-        iso9000_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformFirmwareCapabilities" field.</summary>
-    public const int PlatformFirmwareCapabilitiesFieldNumber = 4;
-    private global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait platformFirmwareCapabilities_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait PlatformFirmwareCapabilities {
-      get { return platformFirmwareCapabilities_; }
-      set {
-        platformFirmwareCapabilities_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformFirmwareSignatureVerificationTrait" field.</summary>
-    public const int PlatformFirmwareSignatureVerificationTraitFieldNumber = 5;
-    private global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait platformFirmwareSignatureVerificationTrait_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait PlatformFirmwareSignatureVerificationTrait {
-      get { return platformFirmwareSignatureVerificationTrait_; }
-      set {
-        platformFirmwareSignatureVerificationTrait_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformFirmwareUpdateComplianceTrait" field.</summary>
-    public const int PlatformFirmwareUpdateComplianceTraitFieldNumber = 6;
-    private global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait platformFirmwareUpdateComplianceTrait_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait PlatformFirmwareUpdateComplianceTrait {
-      get { return platformFirmwareUpdateComplianceTrait_; }
-      set {
-        platformFirmwareUpdateComplianceTrait_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "platformHardwareCapabilitiesTrait" field.</summary>
-    public const int PlatformHardwareCapabilitiesTraitFieldNumber = 7;
-    private global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait platformHardwareCapabilitiesTrait_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait PlatformHardwareCapabilitiesTrait {
-      get { return platformHardwareCapabilitiesTrait_; }
-      set {
-        platformHardwareCapabilitiesTrait_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "rTMTrait" field.</summary>
-    public const int RTMTraitFieldNumber = 8;
-    private global::PlatformCertificateProto.RTMTrait rTMTrait_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.RTMTrait RTMTrait {
-      get { return rTMTrait_; }
-      set {
-        rTMTrait_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "uRITrait" field.</summary>
-    public const int URITraitFieldNumber = 9;
-    private global::PlatformCertificateProto.URITrait uRITrait_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.URITrait URITrait {
-      get { return uRITrait_; }
-      set {
-        uRITrait_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as TbbSecurityAssertions);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(TbbSecurityAssertions other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(CommonCriteria, other.CommonCriteria)) return false;
-      if (!object.Equals(FipsLevel, other.FipsLevel)) return false;
-      if (!object.Equals(Iso9000, other.Iso9000)) return false;
-      if (!object.Equals(PlatformFirmwareCapabilities, other.PlatformFirmwareCapabilities)) return false;
-      if (!object.Equals(PlatformFirmwareSignatureVerificationTrait, other.PlatformFirmwareSignatureVerificationTrait)) return false;
-      if (!object.Equals(PlatformFirmwareUpdateComplianceTrait, other.PlatformFirmwareUpdateComplianceTrait)) return false;
-      if (!object.Equals(PlatformHardwareCapabilitiesTrait, other.PlatformHardwareCapabilitiesTrait)) return false;
-      if (!object.Equals(RTMTrait, other.RTMTrait)) return false;
-      if (!object.Equals(URITrait, other.URITrait)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (commonCriteria_ != null) hash ^= CommonCriteria.GetHashCode();
-      if (fipsLevel_ != null) hash ^= FipsLevel.GetHashCode();
-      if (iso9000_ != null) hash ^= Iso9000.GetHashCode();
-      if (platformFirmwareCapabilities_ != null) hash ^= PlatformFirmwareCapabilities.GetHashCode();
-      if (platformFirmwareSignatureVerificationTrait_ != null) hash ^= PlatformFirmwareSignatureVerificationTrait.GetHashCode();
-      if (platformFirmwareUpdateComplianceTrait_ != null) hash ^= PlatformFirmwareUpdateComplianceTrait.GetHashCode();
-      if (platformHardwareCapabilitiesTrait_ != null) hash ^= PlatformHardwareCapabilitiesTrait.GetHashCode();
-      if (rTMTrait_ != null) hash ^= RTMTrait.GetHashCode();
-      if (uRITrait_ != null) hash ^= URITrait.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (commonCriteria_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(CommonCriteria);
-      }
-      if (fipsLevel_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(FipsLevel);
-      }
-      if (iso9000_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Iso9000);
-      }
-      if (platformFirmwareCapabilities_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(PlatformFirmwareCapabilities);
-      }
-      if (platformFirmwareSignatureVerificationTrait_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(PlatformFirmwareSignatureVerificationTrait);
-      }
-      if (platformFirmwareUpdateComplianceTrait_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(PlatformFirmwareUpdateComplianceTrait);
-      }
-      if (platformHardwareCapabilitiesTrait_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(PlatformHardwareCapabilitiesTrait);
-      }
-      if (rTMTrait_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(RTMTrait);
-      }
-      if (uRITrait_ != null) {
-        output.WriteRawTag(74);
-        output.WriteMessage(URITrait);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (commonCriteria_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(CommonCriteria);
-      }
-      if (fipsLevel_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(FipsLevel);
-      }
-      if (iso9000_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Iso9000);
-      }
-      if (platformFirmwareCapabilities_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(PlatformFirmwareCapabilities);
-      }
-      if (platformFirmwareSignatureVerificationTrait_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(PlatformFirmwareSignatureVerificationTrait);
-      }
-      if (platformFirmwareUpdateComplianceTrait_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(PlatformFirmwareUpdateComplianceTrait);
-      }
-      if (platformHardwareCapabilitiesTrait_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(PlatformHardwareCapabilitiesTrait);
-      }
-      if (rTMTrait_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(RTMTrait);
-      }
-      if (uRITrait_ != null) {
-        output.WriteRawTag(74);
-        output.WriteMessage(URITrait);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (commonCriteria_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CommonCriteria);
-      }
-      if (fipsLevel_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FipsLevel);
-      }
-      if (iso9000_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Iso9000);
-      }
-      if (platformFirmwareCapabilities_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareCapabilities);
-      }
-      if (platformFirmwareSignatureVerificationTrait_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareSignatureVerificationTrait);
-      }
-      if (platformFirmwareUpdateComplianceTrait_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformFirmwareUpdateComplianceTrait);
-      }
-      if (platformHardwareCapabilitiesTrait_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformHardwareCapabilitiesTrait);
-      }
-      if (rTMTrait_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RTMTrait);
-      }
-      if (uRITrait_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(URITrait);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(TbbSecurityAssertions other) {
-      if (other == null) {
-        return;
-      }
-      if (other.commonCriteria_ != null) {
-        if (commonCriteria_ == null) {
-          CommonCriteria = new global::PlatformCertificateProto.CommonCriteriaTrait();
-        }
-        CommonCriteria.MergeFrom(other.CommonCriteria);
-      }
-      if (other.fipsLevel_ != null) {
-        if (fipsLevel_ == null) {
-          FipsLevel = new global::PlatformCertificateProto.FipsLevelTrait();
-        }
-        FipsLevel.MergeFrom(other.FipsLevel);
-      }
-      if (other.iso9000_ != null) {
-        if (iso9000_ == null) {
-          Iso9000 = new global::PlatformCertificateProto.Iso9000Trait();
-        }
-        Iso9000.MergeFrom(other.Iso9000);
-      }
-      if (other.platformFirmwareCapabilities_ != null) {
-        if (platformFirmwareCapabilities_ == null) {
-          PlatformFirmwareCapabilities = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait();
-        }
-        PlatformFirmwareCapabilities.MergeFrom(other.PlatformFirmwareCapabilities);
-      }
-      if (other.platformFirmwareSignatureVerificationTrait_ != null) {
-        if (platformFirmwareSignatureVerificationTrait_ == null) {
-          PlatformFirmwareSignatureVerificationTrait = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait();
-        }
-        PlatformFirmwareSignatureVerificationTrait.MergeFrom(other.PlatformFirmwareSignatureVerificationTrait);
-      }
-      if (other.platformFirmwareUpdateComplianceTrait_ != null) {
-        if (platformFirmwareUpdateComplianceTrait_ == null) {
-          PlatformFirmwareUpdateComplianceTrait = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait();
-        }
-        PlatformFirmwareUpdateComplianceTrait.MergeFrom(other.PlatformFirmwareUpdateComplianceTrait);
-      }
-      if (other.platformHardwareCapabilitiesTrait_ != null) {
-        if (platformHardwareCapabilitiesTrait_ == null) {
-          PlatformHardwareCapabilitiesTrait = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait();
-        }
-        PlatformHardwareCapabilitiesTrait.MergeFrom(other.PlatformHardwareCapabilitiesTrait);
-      }
-      if (other.rTMTrait_ != null) {
-        if (rTMTrait_ == null) {
-          RTMTrait = new global::PlatformCertificateProto.RTMTrait();
-        }
-        RTMTrait.MergeFrom(other.RTMTrait);
-      }
-      if (other.uRITrait_ != null) {
-        if (uRITrait_ == null) {
-          URITrait = new global::PlatformCertificateProto.URITrait();
-        }
-        URITrait.MergeFrom(other.URITrait);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (commonCriteria_ == null) {
-              CommonCriteria = new global::PlatformCertificateProto.CommonCriteriaTrait();
-            }
-            input.ReadMessage(CommonCriteria);
-            break;
-          }
-          case 18: {
-            if (fipsLevel_ == null) {
-              FipsLevel = new global::PlatformCertificateProto.FipsLevelTrait();
-            }
-            input.ReadMessage(FipsLevel);
-            break;
-          }
-          case 26: {
-            if (iso9000_ == null) {
-              Iso9000 = new global::PlatformCertificateProto.Iso9000Trait();
-            }
-            input.ReadMessage(Iso9000);
-            break;
-          }
-          case 34: {
-            if (platformFirmwareCapabilities_ == null) {
-              PlatformFirmwareCapabilities = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait();
-            }
-            input.ReadMessage(PlatformFirmwareCapabilities);
-            break;
-          }
-          case 42: {
-            if (platformFirmwareSignatureVerificationTrait_ == null) {
-              PlatformFirmwareSignatureVerificationTrait = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait();
-            }
-            input.ReadMessage(PlatformFirmwareSignatureVerificationTrait);
-            break;
-          }
-          case 50: {
-            if (platformFirmwareUpdateComplianceTrait_ == null) {
-              PlatformFirmwareUpdateComplianceTrait = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait();
-            }
-            input.ReadMessage(PlatformFirmwareUpdateComplianceTrait);
-            break;
-          }
-          case 58: {
-            if (platformHardwareCapabilitiesTrait_ == null) {
-              PlatformHardwareCapabilitiesTrait = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait();
-            }
-            input.ReadMessage(PlatformHardwareCapabilitiesTrait);
-            break;
-          }
-          case 66: {
-            if (rTMTrait_ == null) {
-              RTMTrait = new global::PlatformCertificateProto.RTMTrait();
-            }
-            input.ReadMessage(RTMTrait);
-            break;
-          }
-          case 74: {
-            if (uRITrait_ == null) {
-              URITrait = new global::PlatformCertificateProto.URITrait();
-            }
-            input.ReadMessage(URITrait);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (commonCriteria_ == null) {
-              CommonCriteria = new global::PlatformCertificateProto.CommonCriteriaTrait();
-            }
-            input.ReadMessage(CommonCriteria);
-            break;
-          }
-          case 18: {
-            if (fipsLevel_ == null) {
-              FipsLevel = new global::PlatformCertificateProto.FipsLevelTrait();
-            }
-            input.ReadMessage(FipsLevel);
-            break;
-          }
-          case 26: {
-            if (iso9000_ == null) {
-              Iso9000 = new global::PlatformCertificateProto.Iso9000Trait();
-            }
-            input.ReadMessage(Iso9000);
-            break;
-          }
-          case 34: {
-            if (platformFirmwareCapabilities_ == null) {
-              PlatformFirmwareCapabilities = new global::PlatformCertificateProto.PlatformFirmwareCapabilitiesTrait();
-            }
-            input.ReadMessage(PlatformFirmwareCapabilities);
-            break;
-          }
-          case 42: {
-            if (platformFirmwareSignatureVerificationTrait_ == null) {
-              PlatformFirmwareSignatureVerificationTrait = new global::PlatformCertificateProto.PlatformFirmwareSignatureVerificationTrait();
-            }
-            input.ReadMessage(PlatformFirmwareSignatureVerificationTrait);
-            break;
-          }
-          case 50: {
-            if (platformFirmwareUpdateComplianceTrait_ == null) {
-              PlatformFirmwareUpdateComplianceTrait = new global::PlatformCertificateProto.PlatformFirmwareUpdateComplianceTrait();
-            }
-            input.ReadMessage(PlatformFirmwareUpdateComplianceTrait);
-            break;
-          }
-          case 58: {
-            if (platformHardwareCapabilitiesTrait_ == null) {
-              PlatformHardwareCapabilitiesTrait = new global::PlatformCertificateProto.PlatformHardwareCapabilitiesTrait();
-            }
-            input.ReadMessage(PlatformHardwareCapabilitiesTrait);
-            break;
-          }
-          case 66: {
-            if (rTMTrait_ == null) {
-              RTMTrait = new global::PlatformCertificateProto.RTMTrait();
-            }
-            input.ReadMessage(RTMTrait);
-            break;
-          }
-          case 74: {
-            if (uRITrait_ == null) {
-              URITrait = new global::PlatformCertificateProto.URITrait();
-            }
-            input.ReadMessage(URITrait);
+            HashOverSignatureValue = input.ReadBytes();
             break;
           }
         }
@@ -14606,7 +6510,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[32]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14627,11 +6531,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CommonCriteriaEvaluation(CommonCriteriaEvaluation other) : this() {
       commonCriteriaMeasures_ = other.commonCriteriaMeasures_ != null ? other.commonCriteriaMeasures_.Clone() : null;
-      cCCertificateNumber_ = other.cCCertificateNumber_ != null ? other.cCCertificateNumber_.Clone() : null;
-      cCCertificateAuthority_ = other.cCCertificateAuthority_ != null ? other.cCCertificateAuthority_.Clone() : null;
-      evaluationScheme_ = other.evaluationScheme_ != null ? other.evaluationScheme_.Clone() : null;
-      cCCertificateIssuanceDate_ = other.cCCertificateIssuanceDate_ != null ? other.cCCertificateIssuanceDate_.Clone() : null;
-      cCCertificateExpiryDate_ = other.cCCertificateExpiryDate_ != null ? other.cCCertificateExpiryDate_.Clone() : null;
+      cCCertificateNumber_ = other.cCCertificateNumber_;
+      cCCertificateAuthority_ = other.cCCertificateAuthority_;
+      evaluationScheme_ = other.evaluationScheme_;
+      cCCertificateIssuanceDate_ = other.cCCertificateIssuanceDate_;
+      cCCertificateExpiryDate_ = other.cCCertificateExpiryDate_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -14655,61 +6559,61 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "cCCertificateNumber" field.</summary>
     public const int CCCertificateNumberFieldNumber = 2;
-    private global::UTF8String cCCertificateNumber_;
+    private string cCCertificateNumber_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String CCCertificateNumber {
+    public string CCCertificateNumber {
       get { return cCCertificateNumber_; }
       set {
-        cCCertificateNumber_ = value;
+        cCCertificateNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "cCCertificateAuthority" field.</summary>
     public const int CCCertificateAuthorityFieldNumber = 3;
-    private global::UTF8String cCCertificateAuthority_;
+    private string cCCertificateAuthority_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String CCCertificateAuthority {
+    public string CCCertificateAuthority {
       get { return cCCertificateAuthority_; }
       set {
-        cCCertificateAuthority_ = value;
+        cCCertificateAuthority_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "evaluationScheme" field.</summary>
     public const int EvaluationSchemeFieldNumber = 4;
-    private global::UTF8String evaluationScheme_;
+    private string evaluationScheme_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String EvaluationScheme {
+    public string EvaluationScheme {
       get { return evaluationScheme_; }
       set {
-        evaluationScheme_ = value;
+        evaluationScheme_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "cCCertificateIssuanceDate" field.</summary>
     public const int CCCertificateIssuanceDateFieldNumber = 5;
-    private global::GeneralizedTime cCCertificateIssuanceDate_;
+    private string cCCertificateIssuanceDate_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::GeneralizedTime CCCertificateIssuanceDate {
+    public string CCCertificateIssuanceDate {
       get { return cCCertificateIssuanceDate_; }
       set {
-        cCCertificateIssuanceDate_ = value;
+        cCCertificateIssuanceDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "cCCertificateExpiryDate" field.</summary>
     public const int CCCertificateExpiryDateFieldNumber = 6;
-    private global::GeneralizedTime cCCertificateExpiryDate_;
+    private string cCCertificateExpiryDate_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::GeneralizedTime CCCertificateExpiryDate {
+    public string CCCertificateExpiryDate {
       get { return cCCertificateExpiryDate_; }
       set {
-        cCCertificateExpiryDate_ = value;
+        cCCertificateExpiryDate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -14729,11 +6633,11 @@ namespace PlatformCertificateProto {
         return true;
       }
       if (!object.Equals(CommonCriteriaMeasures, other.CommonCriteriaMeasures)) return false;
-      if (!object.Equals(CCCertificateNumber, other.CCCertificateNumber)) return false;
-      if (!object.Equals(CCCertificateAuthority, other.CCCertificateAuthority)) return false;
-      if (!object.Equals(EvaluationScheme, other.EvaluationScheme)) return false;
-      if (!object.Equals(CCCertificateIssuanceDate, other.CCCertificateIssuanceDate)) return false;
-      if (!object.Equals(CCCertificateExpiryDate, other.CCCertificateExpiryDate)) return false;
+      if (CCCertificateNumber != other.CCCertificateNumber) return false;
+      if (CCCertificateAuthority != other.CCCertificateAuthority) return false;
+      if (EvaluationScheme != other.EvaluationScheme) return false;
+      if (CCCertificateIssuanceDate != other.CCCertificateIssuanceDate) return false;
+      if (CCCertificateExpiryDate != other.CCCertificateExpiryDate) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -14742,11 +6646,11 @@ namespace PlatformCertificateProto {
     public override int GetHashCode() {
       int hash = 1;
       if (commonCriteriaMeasures_ != null) hash ^= CommonCriteriaMeasures.GetHashCode();
-      if (cCCertificateNumber_ != null) hash ^= CCCertificateNumber.GetHashCode();
-      if (cCCertificateAuthority_ != null) hash ^= CCCertificateAuthority.GetHashCode();
-      if (evaluationScheme_ != null) hash ^= EvaluationScheme.GetHashCode();
-      if (cCCertificateIssuanceDate_ != null) hash ^= CCCertificateIssuanceDate.GetHashCode();
-      if (cCCertificateExpiryDate_ != null) hash ^= CCCertificateExpiryDate.GetHashCode();
+      if (CCCertificateNumber.Length != 0) hash ^= CCCertificateNumber.GetHashCode();
+      if (CCCertificateAuthority.Length != 0) hash ^= CCCertificateAuthority.GetHashCode();
+      if (EvaluationScheme.Length != 0) hash ^= EvaluationScheme.GetHashCode();
+      if (CCCertificateIssuanceDate.Length != 0) hash ^= CCCertificateIssuanceDate.GetHashCode();
+      if (CCCertificateExpiryDate.Length != 0) hash ^= CCCertificateExpiryDate.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -14769,25 +6673,25 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(CommonCriteriaMeasures);
       }
-      if (cCCertificateNumber_ != null) {
+      if (CCCertificateNumber.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(CCCertificateNumber);
+        output.WriteString(CCCertificateNumber);
       }
-      if (cCCertificateAuthority_ != null) {
+      if (CCCertificateAuthority.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(CCCertificateAuthority);
+        output.WriteString(CCCertificateAuthority);
       }
-      if (evaluationScheme_ != null) {
+      if (EvaluationScheme.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(EvaluationScheme);
+        output.WriteString(EvaluationScheme);
       }
-      if (cCCertificateIssuanceDate_ != null) {
+      if (CCCertificateIssuanceDate.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(CCCertificateIssuanceDate);
+        output.WriteString(CCCertificateIssuanceDate);
       }
-      if (cCCertificateExpiryDate_ != null) {
+      if (CCCertificateExpiryDate.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(CCCertificateExpiryDate);
+        output.WriteString(CCCertificateExpiryDate);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -14803,25 +6707,25 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(CommonCriteriaMeasures);
       }
-      if (cCCertificateNumber_ != null) {
+      if (CCCertificateNumber.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(CCCertificateNumber);
+        output.WriteString(CCCertificateNumber);
       }
-      if (cCCertificateAuthority_ != null) {
+      if (CCCertificateAuthority.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(CCCertificateAuthority);
+        output.WriteString(CCCertificateAuthority);
       }
-      if (evaluationScheme_ != null) {
+      if (EvaluationScheme.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(EvaluationScheme);
+        output.WriteString(EvaluationScheme);
       }
-      if (cCCertificateIssuanceDate_ != null) {
+      if (CCCertificateIssuanceDate.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(CCCertificateIssuanceDate);
+        output.WriteString(CCCertificateIssuanceDate);
       }
-      if (cCCertificateExpiryDate_ != null) {
+      if (CCCertificateExpiryDate.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(CCCertificateExpiryDate);
+        output.WriteString(CCCertificateExpiryDate);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -14836,20 +6740,20 @@ namespace PlatformCertificateProto {
       if (commonCriteriaMeasures_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CommonCriteriaMeasures);
       }
-      if (cCCertificateNumber_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CCCertificateNumber);
+      if (CCCertificateNumber.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CCCertificateNumber);
       }
-      if (cCCertificateAuthority_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CCCertificateAuthority);
+      if (CCCertificateAuthority.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CCCertificateAuthority);
       }
-      if (evaluationScheme_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EvaluationScheme);
+      if (EvaluationScheme.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EvaluationScheme);
       }
-      if (cCCertificateIssuanceDate_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CCCertificateIssuanceDate);
+      if (CCCertificateIssuanceDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CCCertificateIssuanceDate);
       }
-      if (cCCertificateExpiryDate_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CCCertificateExpiryDate);
+      if (CCCertificateExpiryDate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CCCertificateExpiryDate);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -14869,35 +6773,20 @@ namespace PlatformCertificateProto {
         }
         CommonCriteriaMeasures.MergeFrom(other.CommonCriteriaMeasures);
       }
-      if (other.cCCertificateNumber_ != null) {
-        if (cCCertificateNumber_ == null) {
-          CCCertificateNumber = new global::UTF8String();
-        }
-        CCCertificateNumber.MergeFrom(other.CCCertificateNumber);
+      if (other.CCCertificateNumber.Length != 0) {
+        CCCertificateNumber = other.CCCertificateNumber;
       }
-      if (other.cCCertificateAuthority_ != null) {
-        if (cCCertificateAuthority_ == null) {
-          CCCertificateAuthority = new global::UTF8String();
-        }
-        CCCertificateAuthority.MergeFrom(other.CCCertificateAuthority);
+      if (other.CCCertificateAuthority.Length != 0) {
+        CCCertificateAuthority = other.CCCertificateAuthority;
       }
-      if (other.evaluationScheme_ != null) {
-        if (evaluationScheme_ == null) {
-          EvaluationScheme = new global::UTF8String();
-        }
-        EvaluationScheme.MergeFrom(other.EvaluationScheme);
+      if (other.EvaluationScheme.Length != 0) {
+        EvaluationScheme = other.EvaluationScheme;
       }
-      if (other.cCCertificateIssuanceDate_ != null) {
-        if (cCCertificateIssuanceDate_ == null) {
-          CCCertificateIssuanceDate = new global::GeneralizedTime();
-        }
-        CCCertificateIssuanceDate.MergeFrom(other.CCCertificateIssuanceDate);
+      if (other.CCCertificateIssuanceDate.Length != 0) {
+        CCCertificateIssuanceDate = other.CCCertificateIssuanceDate;
       }
-      if (other.cCCertificateExpiryDate_ != null) {
-        if (cCCertificateExpiryDate_ == null) {
-          CCCertificateExpiryDate = new global::GeneralizedTime();
-        }
-        CCCertificateExpiryDate.MergeFrom(other.CCCertificateExpiryDate);
+      if (other.CCCertificateExpiryDate.Length != 0) {
+        CCCertificateExpiryDate = other.CCCertificateExpiryDate;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -14926,38 +6815,23 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (cCCertificateNumber_ == null) {
-              CCCertificateNumber = new global::UTF8String();
-            }
-            input.ReadMessage(CCCertificateNumber);
+            CCCertificateNumber = input.ReadString();
             break;
           }
           case 26: {
-            if (cCCertificateAuthority_ == null) {
-              CCCertificateAuthority = new global::UTF8String();
-            }
-            input.ReadMessage(CCCertificateAuthority);
+            CCCertificateAuthority = input.ReadString();
             break;
           }
           case 34: {
-            if (evaluationScheme_ == null) {
-              EvaluationScheme = new global::UTF8String();
-            }
-            input.ReadMessage(EvaluationScheme);
+            EvaluationScheme = input.ReadString();
             break;
           }
           case 42: {
-            if (cCCertificateIssuanceDate_ == null) {
-              CCCertificateIssuanceDate = new global::GeneralizedTime();
-            }
-            input.ReadMessage(CCCertificateIssuanceDate);
+            CCCertificateIssuanceDate = input.ReadString();
             break;
           }
           case 50: {
-            if (cCCertificateExpiryDate_ == null) {
-              CCCertificateExpiryDate = new global::GeneralizedTime();
-            }
-            input.ReadMessage(CCCertificateExpiryDate);
+            CCCertificateExpiryDate = input.ReadString();
             break;
           }
         }
@@ -14987,38 +6861,23 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (cCCertificateNumber_ == null) {
-              CCCertificateNumber = new global::UTF8String();
-            }
-            input.ReadMessage(CCCertificateNumber);
+            CCCertificateNumber = input.ReadString();
             break;
           }
           case 26: {
-            if (cCCertificateAuthority_ == null) {
-              CCCertificateAuthority = new global::UTF8String();
-            }
-            input.ReadMessage(CCCertificateAuthority);
+            CCCertificateAuthority = input.ReadString();
             break;
           }
           case 34: {
-            if (evaluationScheme_ == null) {
-              EvaluationScheme = new global::UTF8String();
-            }
-            input.ReadMessage(EvaluationScheme);
+            EvaluationScheme = input.ReadString();
             break;
           }
           case 42: {
-            if (cCCertificateIssuanceDate_ == null) {
-              CCCertificateIssuanceDate = new global::GeneralizedTime();
-            }
-            input.ReadMessage(CCCertificateIssuanceDate);
+            CCCertificateIssuanceDate = input.ReadString();
             break;
           }
           case 50: {
-            if (cCCertificateExpiryDate_ == null) {
-              CCCertificateExpiryDate = new global::GeneralizedTime();
-            }
-            input.ReadMessage(CCCertificateExpiryDate);
+            CCCertificateExpiryDate = input.ReadString();
             break;
           }
         }
@@ -15043,7 +6902,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[33]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15063,14 +6922,14 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CommonCriteriaMeasures(CommonCriteriaMeasures other) : this() {
-      version_ = other.version_ != null ? other.version_.Clone() : null;
+      version_ = other.version_;
       assuranceLevel_ = other.assuranceLevel_;
       evaluationStatus_ = other.evaluationStatus_;
-      plus_ = other.plus_ != null ? other.plus_.Clone() : null;
+      plus_ = other.plus_;
       strengthOfFunction_ = other.strengthOfFunction_;
-      profileOid_ = other.profileOid_ != null ? other.profileOid_.Clone() : null;
+      profileOid_ = other.profileOid_;
       profileUri_ = other.profileUri_ != null ? other.profileUri_.Clone() : null;
-      targetOid_ = other.targetOid_ != null ? other.targetOid_.Clone() : null;
+      targetOid_ = other.targetOid_;
       targetUri_ = other.targetUri_ != null ? other.targetUri_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -15083,13 +6942,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
-    private global::IA5String version_;
+    private string version_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String Version {
+    public string Version {
       get { return version_; }
       set {
-        version_ = value;
+        version_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15119,10 +6978,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "plus" field.</summary>
     public const int PlusFieldNumber = 4;
-    private global::Boolean plus_;
+    private bool plus_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Boolean Plus {
+    public bool Plus {
       get { return plus_; }
       set {
         plus_ = value;
@@ -15143,13 +7002,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "profileOid" field.</summary>
     public const int ProfileOidFieldNumber = 6;
-    private global::ObjectIdentifier profileOid_;
+    private string profileOid_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier ProfileOid {
+    public string ProfileOid {
       get { return profileOid_; }
       set {
-        profileOid_ = value;
+        profileOid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15167,13 +7026,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "targetOid" field.</summary>
     public const int TargetOidFieldNumber = 8;
-    private global::ObjectIdentifier targetOid_;
+    private string targetOid_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier TargetOid {
+    public string TargetOid {
       get { return targetOid_; }
       set {
-        targetOid_ = value;
+        targetOid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15204,14 +7063,14 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Version, other.Version)) return false;
+      if (Version != other.Version) return false;
       if (AssuranceLevel != other.AssuranceLevel) return false;
       if (EvaluationStatus != other.EvaluationStatus) return false;
-      if (!object.Equals(Plus, other.Plus)) return false;
+      if (Plus != other.Plus) return false;
       if (StrengthOfFunction != other.StrengthOfFunction) return false;
-      if (!object.Equals(ProfileOid, other.ProfileOid)) return false;
+      if (ProfileOid != other.ProfileOid) return false;
       if (!object.Equals(ProfileUri, other.ProfileUri)) return false;
-      if (!object.Equals(TargetOid, other.TargetOid)) return false;
+      if (TargetOid != other.TargetOid) return false;
       if (!object.Equals(TargetUri, other.TargetUri)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -15220,14 +7079,14 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (version_ != null) hash ^= Version.GetHashCode();
+      if (Version.Length != 0) hash ^= Version.GetHashCode();
       if (AssuranceLevel != global::PlatformCertificateProto.EvaluationAssuranceLevel.Level0) hash ^= AssuranceLevel.GetHashCode();
       if (EvaluationStatus != global::PlatformCertificateProto.EvaluationStatus.Designedtomeet) hash ^= EvaluationStatus.GetHashCode();
-      if (plus_ != null) hash ^= Plus.GetHashCode();
+      if (Plus != false) hash ^= Plus.GetHashCode();
       if (StrengthOfFunction != global::PlatformCertificateProto.StrengthOfFunction.Basic) hash ^= StrengthOfFunction.GetHashCode();
-      if (profileOid_ != null) hash ^= ProfileOid.GetHashCode();
+      if (ProfileOid.Length != 0) hash ^= ProfileOid.GetHashCode();
       if (profileUri_ != null) hash ^= ProfileUri.GetHashCode();
-      if (targetOid_ != null) hash ^= TargetOid.GetHashCode();
+      if (TargetOid.Length != 0) hash ^= TargetOid.GetHashCode();
       if (targetUri_ != null) hash ^= TargetUri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -15247,9 +7106,9 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (version_ != null) {
+      if (Version.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Version);
+        output.WriteString(Version);
       }
       if (AssuranceLevel != global::PlatformCertificateProto.EvaluationAssuranceLevel.Level0) {
         output.WriteRawTag(16);
@@ -15259,25 +7118,25 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(24);
         output.WriteEnum((int) EvaluationStatus);
       }
-      if (plus_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Plus);
+      if (Plus != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Plus);
       }
       if (StrengthOfFunction != global::PlatformCertificateProto.StrengthOfFunction.Basic) {
         output.WriteRawTag(40);
         output.WriteEnum((int) StrengthOfFunction);
       }
-      if (profileOid_ != null) {
+      if (ProfileOid.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(ProfileOid);
+        output.WriteString(ProfileOid);
       }
       if (profileUri_ != null) {
         output.WriteRawTag(58);
         output.WriteMessage(ProfileUri);
       }
-      if (targetOid_ != null) {
+      if (TargetOid.Length != 0) {
         output.WriteRawTag(66);
-        output.WriteMessage(TargetOid);
+        output.WriteString(TargetOid);
       }
       if (targetUri_ != null) {
         output.WriteRawTag(74);
@@ -15293,9 +7152,9 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (version_ != null) {
+      if (Version.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Version);
+        output.WriteString(Version);
       }
       if (AssuranceLevel != global::PlatformCertificateProto.EvaluationAssuranceLevel.Level0) {
         output.WriteRawTag(16);
@@ -15305,25 +7164,25 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(24);
         output.WriteEnum((int) EvaluationStatus);
       }
-      if (plus_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Plus);
+      if (Plus != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(Plus);
       }
       if (StrengthOfFunction != global::PlatformCertificateProto.StrengthOfFunction.Basic) {
         output.WriteRawTag(40);
         output.WriteEnum((int) StrengthOfFunction);
       }
-      if (profileOid_ != null) {
+      if (ProfileOid.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(ProfileOid);
+        output.WriteString(ProfileOid);
       }
       if (profileUri_ != null) {
         output.WriteRawTag(58);
         output.WriteMessage(ProfileUri);
       }
-      if (targetOid_ != null) {
+      if (TargetOid.Length != 0) {
         output.WriteRawTag(66);
-        output.WriteMessage(TargetOid);
+        output.WriteString(TargetOid);
       }
       if (targetUri_ != null) {
         output.WriteRawTag(74);
@@ -15339,8 +7198,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (version_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Version);
+      if (Version.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Version);
       }
       if (AssuranceLevel != global::PlatformCertificateProto.EvaluationAssuranceLevel.Level0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AssuranceLevel);
@@ -15348,20 +7207,20 @@ namespace PlatformCertificateProto {
       if (EvaluationStatus != global::PlatformCertificateProto.EvaluationStatus.Designedtomeet) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) EvaluationStatus);
       }
-      if (plus_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Plus);
+      if (Plus != false) {
+        size += 1 + 1;
       }
       if (StrengthOfFunction != global::PlatformCertificateProto.StrengthOfFunction.Basic) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) StrengthOfFunction);
       }
-      if (profileOid_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ProfileOid);
+      if (ProfileOid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProfileOid);
       }
       if (profileUri_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ProfileUri);
       }
-      if (targetOid_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TargetOid);
+      if (TargetOid.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TargetOid);
       }
       if (targetUri_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(TargetUri);
@@ -15378,11 +7237,8 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.version_ != null) {
-        if (version_ == null) {
-          Version = new global::IA5String();
-        }
-        Version.MergeFrom(other.Version);
+      if (other.Version.Length != 0) {
+        Version = other.Version;
       }
       if (other.AssuranceLevel != global::PlatformCertificateProto.EvaluationAssuranceLevel.Level0) {
         AssuranceLevel = other.AssuranceLevel;
@@ -15390,20 +7246,14 @@ namespace PlatformCertificateProto {
       if (other.EvaluationStatus != global::PlatformCertificateProto.EvaluationStatus.Designedtomeet) {
         EvaluationStatus = other.EvaluationStatus;
       }
-      if (other.plus_ != null) {
-        if (plus_ == null) {
-          Plus = new global::Boolean();
-        }
-        Plus.MergeFrom(other.Plus);
+      if (other.Plus != false) {
+        Plus = other.Plus;
       }
       if (other.StrengthOfFunction != global::PlatformCertificateProto.StrengthOfFunction.Basic) {
         StrengthOfFunction = other.StrengthOfFunction;
       }
-      if (other.profileOid_ != null) {
-        if (profileOid_ == null) {
-          ProfileOid = new global::ObjectIdentifier();
-        }
-        ProfileOid.MergeFrom(other.ProfileOid);
+      if (other.ProfileOid.Length != 0) {
+        ProfileOid = other.ProfileOid;
       }
       if (other.profileUri_ != null) {
         if (profileUri_ == null) {
@@ -15411,11 +7261,8 @@ namespace PlatformCertificateProto {
         }
         ProfileUri.MergeFrom(other.ProfileUri);
       }
-      if (other.targetOid_ != null) {
-        if (targetOid_ == null) {
-          TargetOid = new global::ObjectIdentifier();
-        }
-        TargetOid.MergeFrom(other.TargetOid);
+      if (other.TargetOid.Length != 0) {
+        TargetOid = other.TargetOid;
       }
       if (other.targetUri_ != null) {
         if (targetUri_ == null) {
@@ -15443,10 +7290,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (version_ == null) {
-              Version = new global::IA5String();
-            }
-            input.ReadMessage(Version);
+            Version = input.ReadString();
             break;
           }
           case 16: {
@@ -15457,11 +7301,8 @@ namespace PlatformCertificateProto {
             EvaluationStatus = (global::PlatformCertificateProto.EvaluationStatus) input.ReadEnum();
             break;
           }
-          case 34: {
-            if (plus_ == null) {
-              Plus = new global::Boolean();
-            }
-            input.ReadMessage(Plus);
+          case 32: {
+            Plus = input.ReadBool();
             break;
           }
           case 40: {
@@ -15469,10 +7310,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 50: {
-            if (profileOid_ == null) {
-              ProfileOid = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ProfileOid);
+            ProfileOid = input.ReadString();
             break;
           }
           case 58: {
@@ -15483,10 +7321,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 66: {
-            if (targetOid_ == null) {
-              TargetOid = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TargetOid);
+            TargetOid = input.ReadString();
             break;
           }
           case 74: {
@@ -15516,10 +7351,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (version_ == null) {
-              Version = new global::IA5String();
-            }
-            input.ReadMessage(Version);
+            Version = input.ReadString();
             break;
           }
           case 16: {
@@ -15530,11 +7362,8 @@ namespace PlatformCertificateProto {
             EvaluationStatus = (global::PlatformCertificateProto.EvaluationStatus) input.ReadEnum();
             break;
           }
-          case 34: {
-            if (plus_ == null) {
-              Plus = new global::Boolean();
-            }
-            input.ReadMessage(Plus);
+          case 32: {
+            Plus = input.ReadBool();
             break;
           }
           case 40: {
@@ -15542,10 +7371,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 50: {
-            if (profileOid_ == null) {
-              ProfileOid = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ProfileOid);
+            ProfileOid = input.ReadString();
             break;
           }
           case 58: {
@@ -15556,10 +7382,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 66: {
-            if (targetOid_ == null) {
-              TargetOid = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(TargetOid);
+            TargetOid = input.ReadString();
             break;
           }
           case 74: {
@@ -15591,7 +7414,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[34]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15611,9 +7434,9 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public URIReference(URIReference other) : this() {
-      uniformResourceIdentifier_ = other.uniformResourceIdentifier_ != null ? other.uniformResourceIdentifier_.Clone() : null;
+      uniformResourceIdentifier_ = other.uniformResourceIdentifier_;
       hashAlgorithm_ = other.hashAlgorithm_ != null ? other.hashAlgorithm_.Clone() : null;
-      hashValue_ = other.hashValue_ != null ? other.hashValue_.Clone() : null;
+      hashValue_ = other.hashValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -15625,13 +7448,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "uniformResourceIdentifier" field.</summary>
     public const int UniformResourceIdentifierFieldNumber = 1;
-    private global::IA5String uniformResourceIdentifier_;
+    private string uniformResourceIdentifier_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String UniformResourceIdentifier {
+    public string UniformResourceIdentifier {
       get { return uniformResourceIdentifier_; }
       set {
-        uniformResourceIdentifier_ = value;
+        uniformResourceIdentifier_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15649,13 +7472,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "hashValue" field.</summary>
     public const int HashValueFieldNumber = 3;
-    private global::BitString hashValue_;
+    private pb::ByteString hashValue_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::BitString HashValue {
+    public pb::ByteString HashValue {
       get { return hashValue_; }
       set {
-        hashValue_ = value;
+        hashValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15674,9 +7497,9 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(UniformResourceIdentifier, other.UniformResourceIdentifier)) return false;
+      if (UniformResourceIdentifier != other.UniformResourceIdentifier) return false;
       if (!object.Equals(HashAlgorithm, other.HashAlgorithm)) return false;
-      if (!object.Equals(HashValue, other.HashValue)) return false;
+      if (HashValue != other.HashValue) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -15684,9 +7507,9 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (uniformResourceIdentifier_ != null) hash ^= UniformResourceIdentifier.GetHashCode();
+      if (UniformResourceIdentifier.Length != 0) hash ^= UniformResourceIdentifier.GetHashCode();
       if (hashAlgorithm_ != null) hash ^= HashAlgorithm.GetHashCode();
-      if (hashValue_ != null) hash ^= HashValue.GetHashCode();
+      if (HashValue.Length != 0) hash ^= HashValue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -15705,17 +7528,17 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (uniformResourceIdentifier_ != null) {
+      if (UniformResourceIdentifier.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(UniformResourceIdentifier);
+        output.WriteString(UniformResourceIdentifier);
       }
       if (hashAlgorithm_ != null) {
         output.WriteRawTag(18);
         output.WriteMessage(HashAlgorithm);
       }
-      if (hashValue_ != null) {
+      if (HashValue.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(HashValue);
+        output.WriteBytes(HashValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -15727,17 +7550,17 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (uniformResourceIdentifier_ != null) {
+      if (UniformResourceIdentifier.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(UniformResourceIdentifier);
+        output.WriteString(UniformResourceIdentifier);
       }
       if (hashAlgorithm_ != null) {
         output.WriteRawTag(18);
         output.WriteMessage(HashAlgorithm);
       }
-      if (hashValue_ != null) {
+      if (HashValue.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(HashValue);
+        output.WriteBytes(HashValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -15749,14 +7572,14 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (uniformResourceIdentifier_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UniformResourceIdentifier);
+      if (UniformResourceIdentifier.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UniformResourceIdentifier);
       }
       if (hashAlgorithm_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(HashAlgorithm);
       }
-      if (hashValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(HashValue);
+      if (HashValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(HashValue);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -15770,11 +7593,8 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.uniformResourceIdentifier_ != null) {
-        if (uniformResourceIdentifier_ == null) {
-          UniformResourceIdentifier = new global::IA5String();
-        }
-        UniformResourceIdentifier.MergeFrom(other.UniformResourceIdentifier);
+      if (other.UniformResourceIdentifier.Length != 0) {
+        UniformResourceIdentifier = other.UniformResourceIdentifier;
       }
       if (other.hashAlgorithm_ != null) {
         if (hashAlgorithm_ == null) {
@@ -15782,11 +7602,8 @@ namespace PlatformCertificateProto {
         }
         HashAlgorithm.MergeFrom(other.HashAlgorithm);
       }
-      if (other.hashValue_ != null) {
-        if (hashValue_ == null) {
-          HashValue = new global::BitString();
-        }
-        HashValue.MergeFrom(other.HashValue);
+      if (other.HashValue.Length != 0) {
+        HashValue = other.HashValue;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -15808,10 +7625,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (uniformResourceIdentifier_ == null) {
-              UniformResourceIdentifier = new global::IA5String();
-            }
-            input.ReadMessage(UniformResourceIdentifier);
+            UniformResourceIdentifier = input.ReadString();
             break;
           }
           case 18: {
@@ -15822,10 +7636,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 26: {
-            if (hashValue_ == null) {
-              HashValue = new global::BitString();
-            }
-            input.ReadMessage(HashValue);
+            HashValue = input.ReadBytes();
             break;
           }
         }
@@ -15848,10 +7659,7 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (uniformResourceIdentifier_ == null) {
-              UniformResourceIdentifier = new global::IA5String();
-            }
-            input.ReadMessage(UniformResourceIdentifier);
+            UniformResourceIdentifier = input.ReadString();
             break;
           }
           case 18: {
@@ -15862,10 +7670,7 @@ namespace PlatformCertificateProto {
             break;
           }
           case 26: {
-            if (hashValue_ == null) {
-              HashValue = new global::BitString();
-            }
-            input.ReadMessage(HashValue);
+            HashValue = input.ReadBytes();
             break;
           }
         }
@@ -15890,7 +7695,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[35]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15910,9 +7715,9 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public FipsLevel(FipsLevel other) : this() {
-      version_ = other.version_ != null ? other.version_.Clone() : null;
+      version_ = other.version_;
       level_ = other.level_;
-      plus_ = other.plus_ != null ? other.plus_.Clone() : null;
+      plus_ = other.plus_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -15924,13 +7729,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
-    private global::IA5String version_;
+    private string version_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String Version {
+    public string Version {
       get { return version_; }
       set {
-        version_ = value;
+        version_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -15948,10 +7753,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "plus" field.</summary>
     public const int PlusFieldNumber = 3;
-    private global::Boolean plus_;
+    private bool plus_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Boolean Plus {
+    public bool Plus {
       get { return plus_; }
       set {
         plus_ = value;
@@ -15973,9 +7778,9 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Version, other.Version)) return false;
+      if (Version != other.Version) return false;
       if (Level != other.Level) return false;
-      if (!object.Equals(Plus, other.Plus)) return false;
+      if (Plus != other.Plus) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -15983,9 +7788,9 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (version_ != null) hash ^= Version.GetHashCode();
+      if (Version.Length != 0) hash ^= Version.GetHashCode();
       if (Level != global::PlatformCertificateProto.SecurityLevel.Level0) hash ^= Level.GetHashCode();
-      if (plus_ != null) hash ^= Plus.GetHashCode();
+      if (Plus != false) hash ^= Plus.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -16004,17 +7809,17 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (version_ != null) {
+      if (Version.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Version);
+        output.WriteString(Version);
       }
       if (Level != global::PlatformCertificateProto.SecurityLevel.Level0) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Level);
       }
-      if (plus_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Plus);
+      if (Plus != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Plus);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -16026,17 +7831,17 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (version_ != null) {
+      if (Version.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Version);
+        output.WriteString(Version);
       }
       if (Level != global::PlatformCertificateProto.SecurityLevel.Level0) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Level);
       }
-      if (plus_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(Plus);
+      if (Plus != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Plus);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -16048,14 +7853,14 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (version_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Version);
+      if (Version.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Version);
       }
       if (Level != global::PlatformCertificateProto.SecurityLevel.Level0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Level);
       }
-      if (plus_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Plus);
+      if (Plus != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -16069,20 +7874,14 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.version_ != null) {
-        if (version_ == null) {
-          Version = new global::IA5String();
-        }
-        Version.MergeFrom(other.Version);
+      if (other.Version.Length != 0) {
+        Version = other.Version;
       }
       if (other.Level != global::PlatformCertificateProto.SecurityLevel.Level0) {
         Level = other.Level;
       }
-      if (other.plus_ != null) {
-        if (plus_ == null) {
-          Plus = new global::Boolean();
-        }
-        Plus.MergeFrom(other.Plus);
+      if (other.Plus != false) {
+        Plus = other.Plus;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -16104,21 +7903,15 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (version_ == null) {
-              Version = new global::IA5String();
-            }
-            input.ReadMessage(Version);
+            Version = input.ReadString();
             break;
           }
           case 16: {
             Level = (global::PlatformCertificateProto.SecurityLevel) input.ReadEnum();
             break;
           }
-          case 26: {
-            if (plus_ == null) {
-              Plus = new global::Boolean();
-            }
-            input.ReadMessage(Plus);
+          case 24: {
+            Plus = input.ReadBool();
             break;
           }
         }
@@ -16141,21 +7934,15 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (version_ == null) {
-              Version = new global::IA5String();
-            }
-            input.ReadMessage(Version);
+            Version = input.ReadString();
             break;
           }
           case 16: {
             Level = (global::PlatformCertificateProto.SecurityLevel) input.ReadEnum();
             break;
           }
-          case 26: {
-            if (plus_ == null) {
-              Plus = new global::Boolean();
-            }
-            input.ReadMessage(Plus);
+          case 24: {
+            Plus = input.ReadBool();
             break;
           }
         }
@@ -16180,7 +7967,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[36]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16200,8 +7987,8 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Iso9000Certification(Iso9000Certification other) : this() {
-      iso9000Certified_ = other.iso9000Certified_ != null ? other.iso9000Certified_.Clone() : null;
-      iso9000Uri_ = other.iso9000Uri_ != null ? other.iso9000Uri_.Clone() : null;
+      iso9000Certified_ = other.iso9000Certified_;
+      iso9000Uri_ = other.iso9000Uri_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -16213,10 +8000,10 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "iso9000Certified" field.</summary>
     public const int Iso9000CertifiedFieldNumber = 1;
-    private global::Boolean iso9000Certified_;
+    private bool iso9000Certified_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Boolean Iso9000Certified {
+    public bool Iso9000Certified {
       get { return iso9000Certified_; }
       set {
         iso9000Certified_ = value;
@@ -16225,13 +8012,13 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "iso9000Uri" field.</summary>
     public const int Iso9000UriFieldNumber = 2;
-    private global::IA5String iso9000Uri_;
+    private string iso9000Uri_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::IA5String Iso9000Uri {
+    public string Iso9000Uri {
       get { return iso9000Uri_; }
       set {
-        iso9000Uri_ = value;
+        iso9000Uri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -16250,8 +8037,8 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Iso9000Certified, other.Iso9000Certified)) return false;
-      if (!object.Equals(Iso9000Uri, other.Iso9000Uri)) return false;
+      if (Iso9000Certified != other.Iso9000Certified) return false;
+      if (Iso9000Uri != other.Iso9000Uri) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -16259,8 +8046,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (iso9000Certified_ != null) hash ^= Iso9000Certified.GetHashCode();
-      if (iso9000Uri_ != null) hash ^= Iso9000Uri.GetHashCode();
+      if (Iso9000Certified != false) hash ^= Iso9000Certified.GetHashCode();
+      if (Iso9000Uri.Length != 0) hash ^= Iso9000Uri.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -16279,13 +8066,13 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (iso9000Certified_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Iso9000Certified);
+      if (Iso9000Certified != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Iso9000Certified);
       }
-      if (iso9000Uri_ != null) {
+      if (Iso9000Uri.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(Iso9000Uri);
+        output.WriteString(Iso9000Uri);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -16297,13 +8084,13 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (iso9000Certified_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Iso9000Certified);
+      if (Iso9000Certified != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Iso9000Certified);
       }
-      if (iso9000Uri_ != null) {
+      if (Iso9000Uri.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(Iso9000Uri);
+        output.WriteString(Iso9000Uri);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -16315,11 +8102,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (iso9000Certified_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Iso9000Certified);
+      if (Iso9000Certified != false) {
+        size += 1 + 1;
       }
-      if (iso9000Uri_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Iso9000Uri);
+      if (Iso9000Uri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Iso9000Uri);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -16333,17 +8120,11 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.iso9000Certified_ != null) {
-        if (iso9000Certified_ == null) {
-          Iso9000Certified = new global::Boolean();
-        }
-        Iso9000Certified.MergeFrom(other.Iso9000Certified);
+      if (other.Iso9000Certified != false) {
+        Iso9000Certified = other.Iso9000Certified;
       }
-      if (other.iso9000Uri_ != null) {
-        if (iso9000Uri_ == null) {
-          Iso9000Uri = new global::IA5String();
-        }
-        Iso9000Uri.MergeFrom(other.Iso9000Uri);
+      if (other.Iso9000Uri.Length != 0) {
+        Iso9000Uri = other.Iso9000Uri;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -16364,18 +8145,12 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            if (iso9000Certified_ == null) {
-              Iso9000Certified = new global::Boolean();
-            }
-            input.ReadMessage(Iso9000Certified);
+          case 8: {
+            Iso9000Certified = input.ReadBool();
             break;
           }
           case 18: {
-            if (iso9000Uri_ == null) {
-              Iso9000Uri = new global::IA5String();
-            }
-            input.ReadMessage(Iso9000Uri);
+            Iso9000Uri = input.ReadString();
             break;
           }
         }
@@ -16397,18 +8172,12 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            if (iso9000Certified_ == null) {
-              Iso9000Certified = new global::Boolean();
-            }
-            input.ReadMessage(Iso9000Certified);
+          case 8: {
+            Iso9000Certified = input.ReadBool();
             break;
           }
           case 18: {
-            if (iso9000Uri_ == null) {
-              Iso9000Uri = new global::IA5String();
-            }
-            input.ReadMessage(Iso9000Uri);
+            Iso9000Uri = input.ReadString();
             break;
           }
         }
@@ -16433,7 +8202,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[37]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16465,13 +8234,13 @@ namespace PlatformCertificateProto {
     }
 
     /// <summary>Field number for the "platformComponents" field.</summary>
-    public const int PlatformComponentsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.ComponentIdentifierTrait> _repeated_platformComponents_codec
-        = pb::FieldCodec.ForMessage(10, global::PlatformCertificateProto.ComponentIdentifierTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.ComponentIdentifierTrait> platformComponents_ = new pbc::RepeatedField<global::PlatformCertificateProto.ComponentIdentifierTrait>();
+    public const int PlatformComponentsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::PlatformCertificateProto.TraitList> _repeated_platformComponents_codec
+        = pb::FieldCodec.ForMessage(34, global::PlatformCertificateProto.TraitList.Parser);
+    private readonly pbc::RepeatedField<global::PlatformCertificateProto.TraitList> platformComponents_ = new pbc::RepeatedField<global::PlatformCertificateProto.TraitList>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.ComponentIdentifierTrait> PlatformComponents {
+    public pbc::RepeatedField<global::PlatformCertificateProto.TraitList> PlatformComponents {
       get { return platformComponents_; }
     }
 
@@ -16530,8 +8299,8 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      platformComponents_.WriteTo(output, _repeated_platformComponents_codec);
       platformProperties_.WriteTo(output, _repeated_platformProperties_codec);
+      platformComponents_.WriteTo(output, _repeated_platformComponents_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -16542,8 +8311,8 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      platformComponents_.WriteTo(ref output, _repeated_platformComponents_codec);
       platformProperties_.WriteTo(ref output, _repeated_platformProperties_codec);
+      platformComponents_.WriteTo(ref output, _repeated_platformComponents_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -16589,14 +8358,14 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            platformComponents_.AddEntriesFrom(input, _repeated_platformComponents_codec);
-            break;
-          }
           case 18: {
             platformProperties_.AddEntriesFrom(input, _repeated_platformProperties_codec);
             break;
           }
+          case 34: {
+            platformComponents_.AddEntriesFrom(input, _repeated_platformComponents_codec);
+            break;
+          }
         }
       }
     #endif
@@ -16616,2723 +8385,12 @@ namespace PlatformCertificateProto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            platformComponents_.AddEntriesFrom(ref input, _repeated_platformComponents_codec);
-            break;
-          }
           case 18: {
             platformProperties_.AddEntriesFrom(ref input, _repeated_platformProperties_codec);
             break;
           }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class ComponentIdentifierTrait : pb::IMessage<ComponentIdentifierTrait>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ComponentIdentifierTrait> _parser = new pb::MessageParser<ComponentIdentifierTrait>(() => new ComponentIdentifierTrait());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ComponentIdentifierTrait> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[38]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierTrait() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierTrait(ComponentIdentifierTrait other) : this() {
-      switch (other.ComponentIdentifierTraitOneofCase) {
-        case ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier:
-          ComponentIdentifier = other.ComponentIdentifier.Clone();
-          break;
-        case ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11:
-          ComponentIdentifierV11 = other.ComponentIdentifierV11.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierTrait Clone() {
-      return new ComponentIdentifierTrait(this);
-    }
-
-    /// <summary>Field number for the "componentIdentifier" field.</summary>
-    public const int ComponentIdentifierFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.ComponentIdentifier ComponentIdentifier {
-      get { return componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier ? (global::PlatformCertificateProto.ComponentIdentifier) componentIdentifierTraitOneof_ : null; }
-      set {
-        componentIdentifierTraitOneof_ = value;
-        componentIdentifierTraitOneofCase_ = value == null ? ComponentIdentifierTraitOneofOneofCase.None : ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier;
-      }
-    }
-
-    /// <summary>Field number for the "componentIdentifierV11" field.</summary>
-    public const int ComponentIdentifierV11FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.ComponentIdentifierV11Trait ComponentIdentifierV11 {
-      get { return componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11 ? (global::PlatformCertificateProto.ComponentIdentifierV11Trait) componentIdentifierTraitOneof_ : null; }
-      set {
-        componentIdentifierTraitOneof_ = value;
-        componentIdentifierTraitOneofCase_ = value == null ? ComponentIdentifierTraitOneofOneofCase.None : ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11;
-      }
-    }
-
-    private object componentIdentifierTraitOneof_;
-    /// <summary>Enum of possible cases for the "ComponentIdentifierTrait_oneof" oneof.</summary>
-    public enum ComponentIdentifierTraitOneofOneofCase {
-      None = 0,
-      ComponentIdentifier = 1,
-      ComponentIdentifierV11 = 2,
-    }
-    private ComponentIdentifierTraitOneofOneofCase componentIdentifierTraitOneofCase_ = ComponentIdentifierTraitOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifierTraitOneofOneofCase ComponentIdentifierTraitOneofCase {
-      get { return componentIdentifierTraitOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearComponentIdentifierTraitOneof() {
-      componentIdentifierTraitOneofCase_ = ComponentIdentifierTraitOneofOneofCase.None;
-      componentIdentifierTraitOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as ComponentIdentifierTrait);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ComponentIdentifierTrait other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(ComponentIdentifier, other.ComponentIdentifier)) return false;
-      if (!object.Equals(ComponentIdentifierV11, other.ComponentIdentifierV11)) return false;
-      if (ComponentIdentifierTraitOneofCase != other.ComponentIdentifierTraitOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) hash ^= ComponentIdentifier.GetHashCode();
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) hash ^= ComponentIdentifierV11.GetHashCode();
-      hash ^= (int) componentIdentifierTraitOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) {
-        output.WriteRawTag(10);
-        output.WriteMessage(ComponentIdentifier);
-      }
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) {
-        output.WriteRawTag(18);
-        output.WriteMessage(ComponentIdentifierV11);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) {
-        output.WriteRawTag(10);
-        output.WriteMessage(ComponentIdentifier);
-      }
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) {
-        output.WriteRawTag(18);
-        output.WriteMessage(ComponentIdentifierV11);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentIdentifier);
-      }
-      if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentIdentifierV11);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ComponentIdentifierTrait other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.ComponentIdentifierTraitOneofCase) {
-        case ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier:
-          if (ComponentIdentifier == null) {
-            ComponentIdentifier = new global::PlatformCertificateProto.ComponentIdentifier();
-          }
-          ComponentIdentifier.MergeFrom(other.ComponentIdentifier);
-          break;
-        case ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11:
-          if (ComponentIdentifierV11 == null) {
-            ComponentIdentifierV11 = new global::PlatformCertificateProto.ComponentIdentifierV11Trait();
-          }
-          ComponentIdentifierV11.MergeFrom(other.ComponentIdentifierV11);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.ComponentIdentifier subBuilder = new global::PlatformCertificateProto.ComponentIdentifier();
-            if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) {
-              subBuilder.MergeFrom(ComponentIdentifier);
-            }
-            input.ReadMessage(subBuilder);
-            ComponentIdentifier = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.ComponentIdentifierV11Trait subBuilder = new global::PlatformCertificateProto.ComponentIdentifierV11Trait();
-            if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) {
-              subBuilder.MergeFrom(ComponentIdentifierV11);
-            }
-            input.ReadMessage(subBuilder);
-            ComponentIdentifierV11 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.ComponentIdentifier subBuilder = new global::PlatformCertificateProto.ComponentIdentifier();
-            if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifier) {
-              subBuilder.MergeFrom(ComponentIdentifier);
-            }
-            input.ReadMessage(subBuilder);
-            ComponentIdentifier = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.ComponentIdentifierV11Trait subBuilder = new global::PlatformCertificateProto.ComponentIdentifierV11Trait();
-            if (componentIdentifierTraitOneofCase_ == ComponentIdentifierTraitOneofOneofCase.ComponentIdentifierV11) {
-              subBuilder.MergeFrom(ComponentIdentifierV11);
-            }
-            input.ReadMessage(subBuilder);
-            ComponentIdentifierV11 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class ComponentIdentifier : pb::IMessage<ComponentIdentifier>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ComponentIdentifier> _parser = new pb::MessageParser<ComponentIdentifier>(() => new ComponentIdentifier());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ComponentIdentifier> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[39]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifier() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifier(ComponentIdentifier other) : this() {
-      componentClass_ = other.componentClass_ != null ? other.componentClass_.Clone() : null;
-      componentManufacturer_ = other.componentManufacturer_ != null ? other.componentManufacturer_.Clone() : null;
-      componentModel_ = other.componentModel_ != null ? other.componentModel_.Clone() : null;
-      componentSerial_ = other.componentSerial_ != null ? other.componentSerial_.Clone() : null;
-      componentRevision_ = other.componentRevision_ != null ? other.componentRevision_.Clone() : null;
-      componentFieldReplaceable_ = other.componentFieldReplaceable_ != null ? other.componentFieldReplaceable_.Clone() : null;
-      componentManufacturerId_ = other.componentManufacturerId_ != null ? other.componentManufacturerId_.Clone() : null;
-      componentLocation_ = other.componentLocation_ != null ? other.componentLocation_.Clone() : null;
-      componentAddresses_ = other.componentAddresses_.Clone();
-      componentCertificates_ = other.componentCertificates_.Clone();
-      componentStatus_ = other.componentStatus_ != null ? other.componentStatus_.Clone() : null;
-      additionalTraits_ = other.additionalTraits_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ComponentIdentifier Clone() {
-      return new ComponentIdentifier(this);
-    }
-
-    /// <summary>Field number for the "componentClass" field.</summary>
-    public const int ComponentClassFieldNumber = 1;
-    private global::PlatformCertificateProto.ComponentClassTrait componentClass_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.ComponentClassTrait ComponentClass {
-      get { return componentClass_; }
-      set {
-        componentClass_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentManufacturer" field.</summary>
-    public const int ComponentManufacturerFieldNumber = 2;
-    private global::PlatformCertificateProto.Manufacturer componentManufacturer_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Manufacturer ComponentManufacturer {
-      get { return componentManufacturer_; }
-      set {
-        componentManufacturer_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentModel" field.</summary>
-    public const int ComponentModelFieldNumber = 3;
-    private global::PlatformCertificateProto.Model componentModel_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Model ComponentModel {
-      get { return componentModel_; }
-      set {
-        componentModel_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentSerial" field.</summary>
-    public const int ComponentSerialFieldNumber = 4;
-    private global::PlatformCertificateProto.Serial componentSerial_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Serial ComponentSerial {
-      get { return componentSerial_; }
-      set {
-        componentSerial_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentRevision" field.</summary>
-    public const int ComponentRevisionFieldNumber = 5;
-    private global::PlatformCertificateProto.Revision componentRevision_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Revision ComponentRevision {
-      get { return componentRevision_; }
-      set {
-        componentRevision_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentFieldReplaceable" field.</summary>
-    public const int ComponentFieldReplaceableFieldNumber = 6;
-    private global::PlatformCertificateProto.FieldReplaceable componentFieldReplaceable_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.FieldReplaceable ComponentFieldReplaceable {
-      get { return componentFieldReplaceable_; }
-      set {
-        componentFieldReplaceable_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentManufacturerId" field.</summary>
-    public const int ComponentManufacturerIdFieldNumber = 8;
-    private global::PlatformCertificateProto.PENTrait componentManufacturerId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.PENTrait ComponentManufacturerId {
-      get { return componentManufacturerId_; }
-      set {
-        componentManufacturerId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentLocation" field.</summary>
-    public const int ComponentLocationFieldNumber = 9;
-    private global::PlatformCertificateProto.Location componentLocation_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.Location ComponentLocation {
-      get { return componentLocation_; }
-      set {
-        componentLocation_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "componentAddresses" field.</summary>
-    public const int ComponentAddressesFieldNumber = 10;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.NetworkMACTrait> _repeated_componentAddresses_codec
-        = pb::FieldCodec.ForMessage(82, global::PlatformCertificateProto.NetworkMACTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.NetworkMACTrait> componentAddresses_ = new pbc::RepeatedField<global::PlatformCertificateProto.NetworkMACTrait>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.NetworkMACTrait> ComponentAddresses {
-      get { return componentAddresses_; }
-    }
-
-    /// <summary>Field number for the "componentCertificates" field.</summary>
-    public const int ComponentCertificatesFieldNumber = 11;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.CertificateIdentifier> _repeated_componentCertificates_codec
-        = pb::FieldCodec.ForMessage(90, global::PlatformCertificateProto.CertificateIdentifier.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifier> componentCertificates_ = new pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifier>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.CertificateIdentifier> ComponentCertificates {
-      get { return componentCertificates_; }
-    }
-
-    /// <summary>Field number for the "componentStatus" field.</summary>
-    public const int ComponentStatusFieldNumber = 12;
-    private global::PlatformCertificateProto.StatusTrait componentStatus_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.StatusTrait ComponentStatus {
-      get { return componentStatus_; }
-      set {
-        componentStatus_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "additionalTraits" field.</summary>
-    public const int AdditionalTraitsFieldNumber = 13;
-    private static readonly pb::FieldCodec<global::PlatformCertificateProto.GenericTrait> _repeated_additionalTraits_codec
-        = pb::FieldCodec.ForMessage(106, global::PlatformCertificateProto.GenericTrait.Parser);
-    private readonly pbc::RepeatedField<global::PlatformCertificateProto.GenericTrait> additionalTraits_ = new pbc::RepeatedField<global::PlatformCertificateProto.GenericTrait>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PlatformCertificateProto.GenericTrait> AdditionalTraits {
-      get { return additionalTraits_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as ComponentIdentifier);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ComponentIdentifier other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(ComponentClass, other.ComponentClass)) return false;
-      if (!object.Equals(ComponentManufacturer, other.ComponentManufacturer)) return false;
-      if (!object.Equals(ComponentModel, other.ComponentModel)) return false;
-      if (!object.Equals(ComponentSerial, other.ComponentSerial)) return false;
-      if (!object.Equals(ComponentRevision, other.ComponentRevision)) return false;
-      if (!object.Equals(ComponentFieldReplaceable, other.ComponentFieldReplaceable)) return false;
-      if (!object.Equals(ComponentManufacturerId, other.ComponentManufacturerId)) return false;
-      if (!object.Equals(ComponentLocation, other.ComponentLocation)) return false;
-      if(!componentAddresses_.Equals(other.componentAddresses_)) return false;
-      if(!componentCertificates_.Equals(other.componentCertificates_)) return false;
-      if (!object.Equals(ComponentStatus, other.ComponentStatus)) return false;
-      if(!additionalTraits_.Equals(other.additionalTraits_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (componentClass_ != null) hash ^= ComponentClass.GetHashCode();
-      if (componentManufacturer_ != null) hash ^= ComponentManufacturer.GetHashCode();
-      if (componentModel_ != null) hash ^= ComponentModel.GetHashCode();
-      if (componentSerial_ != null) hash ^= ComponentSerial.GetHashCode();
-      if (componentRevision_ != null) hash ^= ComponentRevision.GetHashCode();
-      if (componentFieldReplaceable_ != null) hash ^= ComponentFieldReplaceable.GetHashCode();
-      if (componentManufacturerId_ != null) hash ^= ComponentManufacturerId.GetHashCode();
-      if (componentLocation_ != null) hash ^= ComponentLocation.GetHashCode();
-      hash ^= componentAddresses_.GetHashCode();
-      hash ^= componentCertificates_.GetHashCode();
-      if (componentStatus_ != null) hash ^= ComponentStatus.GetHashCode();
-      hash ^= additionalTraits_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (componentClass_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(ComponentClass);
-      }
-      if (componentManufacturer_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(ComponentManufacturer);
-      }
-      if (componentModel_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(ComponentModel);
-      }
-      if (componentSerial_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(ComponentSerial);
-      }
-      if (componentRevision_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(ComponentRevision);
-      }
-      if (componentFieldReplaceable_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(ComponentFieldReplaceable);
-      }
-      if (componentManufacturerId_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(ComponentManufacturerId);
-      }
-      if (componentLocation_ != null) {
-        output.WriteRawTag(74);
-        output.WriteMessage(ComponentLocation);
-      }
-      componentAddresses_.WriteTo(output, _repeated_componentAddresses_codec);
-      componentCertificates_.WriteTo(output, _repeated_componentCertificates_codec);
-      if (componentStatus_ != null) {
-        output.WriteRawTag(98);
-        output.WriteMessage(ComponentStatus);
-      }
-      additionalTraits_.WriteTo(output, _repeated_additionalTraits_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (componentClass_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(ComponentClass);
-      }
-      if (componentManufacturer_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(ComponentManufacturer);
-      }
-      if (componentModel_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(ComponentModel);
-      }
-      if (componentSerial_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(ComponentSerial);
-      }
-      if (componentRevision_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(ComponentRevision);
-      }
-      if (componentFieldReplaceable_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(ComponentFieldReplaceable);
-      }
-      if (componentManufacturerId_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(ComponentManufacturerId);
-      }
-      if (componentLocation_ != null) {
-        output.WriteRawTag(74);
-        output.WriteMessage(ComponentLocation);
-      }
-      componentAddresses_.WriteTo(ref output, _repeated_componentAddresses_codec);
-      componentCertificates_.WriteTo(ref output, _repeated_componentCertificates_codec);
-      if (componentStatus_ != null) {
-        output.WriteRawTag(98);
-        output.WriteMessage(ComponentStatus);
-      }
-      additionalTraits_.WriteTo(ref output, _repeated_additionalTraits_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (componentClass_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentClass);
-      }
-      if (componentManufacturer_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentManufacturer);
-      }
-      if (componentModel_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentModel);
-      }
-      if (componentSerial_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentSerial);
-      }
-      if (componentRevision_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentRevision);
-      }
-      if (componentFieldReplaceable_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentFieldReplaceable);
-      }
-      if (componentManufacturerId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentManufacturerId);
-      }
-      if (componentLocation_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentLocation);
-      }
-      size += componentAddresses_.CalculateSize(_repeated_componentAddresses_codec);
-      size += componentCertificates_.CalculateSize(_repeated_componentCertificates_codec);
-      if (componentStatus_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentStatus);
-      }
-      size += additionalTraits_.CalculateSize(_repeated_additionalTraits_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ComponentIdentifier other) {
-      if (other == null) {
-        return;
-      }
-      if (other.componentClass_ != null) {
-        if (componentClass_ == null) {
-          ComponentClass = new global::PlatformCertificateProto.ComponentClassTrait();
-        }
-        ComponentClass.MergeFrom(other.ComponentClass);
-      }
-      if (other.componentManufacturer_ != null) {
-        if (componentManufacturer_ == null) {
-          ComponentManufacturer = new global::PlatformCertificateProto.Manufacturer();
-        }
-        ComponentManufacturer.MergeFrom(other.ComponentManufacturer);
-      }
-      if (other.componentModel_ != null) {
-        if (componentModel_ == null) {
-          ComponentModel = new global::PlatformCertificateProto.Model();
-        }
-        ComponentModel.MergeFrom(other.ComponentModel);
-      }
-      if (other.componentSerial_ != null) {
-        if (componentSerial_ == null) {
-          ComponentSerial = new global::PlatformCertificateProto.Serial();
-        }
-        ComponentSerial.MergeFrom(other.ComponentSerial);
-      }
-      if (other.componentRevision_ != null) {
-        if (componentRevision_ == null) {
-          ComponentRevision = new global::PlatformCertificateProto.Revision();
-        }
-        ComponentRevision.MergeFrom(other.ComponentRevision);
-      }
-      if (other.componentFieldReplaceable_ != null) {
-        if (componentFieldReplaceable_ == null) {
-          ComponentFieldReplaceable = new global::PlatformCertificateProto.FieldReplaceable();
-        }
-        ComponentFieldReplaceable.MergeFrom(other.ComponentFieldReplaceable);
-      }
-      if (other.componentManufacturerId_ != null) {
-        if (componentManufacturerId_ == null) {
-          ComponentManufacturerId = new global::PlatformCertificateProto.PENTrait();
-        }
-        ComponentManufacturerId.MergeFrom(other.ComponentManufacturerId);
-      }
-      if (other.componentLocation_ != null) {
-        if (componentLocation_ == null) {
-          ComponentLocation = new global::PlatformCertificateProto.Location();
-        }
-        ComponentLocation.MergeFrom(other.ComponentLocation);
-      }
-      componentAddresses_.Add(other.componentAddresses_);
-      componentCertificates_.Add(other.componentCertificates_);
-      if (other.componentStatus_ != null) {
-        if (componentStatus_ == null) {
-          ComponentStatus = new global::PlatformCertificateProto.StatusTrait();
-        }
-        ComponentStatus.MergeFrom(other.ComponentStatus);
-      }
-      additionalTraits_.Add(other.additionalTraits_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (componentClass_ == null) {
-              ComponentClass = new global::PlatformCertificateProto.ComponentClassTrait();
-            }
-            input.ReadMessage(ComponentClass);
-            break;
-          }
-          case 18: {
-            if (componentManufacturer_ == null) {
-              ComponentManufacturer = new global::PlatformCertificateProto.Manufacturer();
-            }
-            input.ReadMessage(ComponentManufacturer);
-            break;
-          }
-          case 26: {
-            if (componentModel_ == null) {
-              ComponentModel = new global::PlatformCertificateProto.Model();
-            }
-            input.ReadMessage(ComponentModel);
-            break;
-          }
           case 34: {
-            if (componentSerial_ == null) {
-              ComponentSerial = new global::PlatformCertificateProto.Serial();
-            }
-            input.ReadMessage(ComponentSerial);
-            break;
-          }
-          case 42: {
-            if (componentRevision_ == null) {
-              ComponentRevision = new global::PlatformCertificateProto.Revision();
-            }
-            input.ReadMessage(ComponentRevision);
-            break;
-          }
-          case 50: {
-            if (componentFieldReplaceable_ == null) {
-              ComponentFieldReplaceable = new global::PlatformCertificateProto.FieldReplaceable();
-            }
-            input.ReadMessage(ComponentFieldReplaceable);
-            break;
-          }
-          case 66: {
-            if (componentManufacturerId_ == null) {
-              ComponentManufacturerId = new global::PlatformCertificateProto.PENTrait();
-            }
-            input.ReadMessage(ComponentManufacturerId);
-            break;
-          }
-          case 74: {
-            if (componentLocation_ == null) {
-              ComponentLocation = new global::PlatformCertificateProto.Location();
-            }
-            input.ReadMessage(ComponentLocation);
-            break;
-          }
-          case 82: {
-            componentAddresses_.AddEntriesFrom(input, _repeated_componentAddresses_codec);
-            break;
-          }
-          case 90: {
-            componentCertificates_.AddEntriesFrom(input, _repeated_componentCertificates_codec);
-            break;
-          }
-          case 98: {
-            if (componentStatus_ == null) {
-              ComponentStatus = new global::PlatformCertificateProto.StatusTrait();
-            }
-            input.ReadMessage(ComponentStatus);
-            break;
-          }
-          case 106: {
-            additionalTraits_.AddEntriesFrom(input, _repeated_additionalTraits_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (componentClass_ == null) {
-              ComponentClass = new global::PlatformCertificateProto.ComponentClassTrait();
-            }
-            input.ReadMessage(ComponentClass);
-            break;
-          }
-          case 18: {
-            if (componentManufacturer_ == null) {
-              ComponentManufacturer = new global::PlatformCertificateProto.Manufacturer();
-            }
-            input.ReadMessage(ComponentManufacturer);
-            break;
-          }
-          case 26: {
-            if (componentModel_ == null) {
-              ComponentModel = new global::PlatformCertificateProto.Model();
-            }
-            input.ReadMessage(ComponentModel);
-            break;
-          }
-          case 34: {
-            if (componentSerial_ == null) {
-              ComponentSerial = new global::PlatformCertificateProto.Serial();
-            }
-            input.ReadMessage(ComponentSerial);
-            break;
-          }
-          case 42: {
-            if (componentRevision_ == null) {
-              ComponentRevision = new global::PlatformCertificateProto.Revision();
-            }
-            input.ReadMessage(ComponentRevision);
-            break;
-          }
-          case 50: {
-            if (componentFieldReplaceable_ == null) {
-              ComponentFieldReplaceable = new global::PlatformCertificateProto.FieldReplaceable();
-            }
-            input.ReadMessage(ComponentFieldReplaceable);
-            break;
-          }
-          case 66: {
-            if (componentManufacturerId_ == null) {
-              ComponentManufacturerId = new global::PlatformCertificateProto.PENTrait();
-            }
-            input.ReadMessage(ComponentManufacturerId);
-            break;
-          }
-          case 74: {
-            if (componentLocation_ == null) {
-              ComponentLocation = new global::PlatformCertificateProto.Location();
-            }
-            input.ReadMessage(ComponentLocation);
-            break;
-          }
-          case 82: {
-            componentAddresses_.AddEntriesFrom(ref input, _repeated_componentAddresses_codec);
-            break;
-          }
-          case 90: {
-            componentCertificates_.AddEntriesFrom(ref input, _repeated_componentCertificates_codec);
-            break;
-          }
-          case 98: {
-            if (componentStatus_ == null) {
-              ComponentStatus = new global::PlatformCertificateProto.StatusTrait();
-            }
-            input.ReadMessage(ComponentStatus);
-            break;
-          }
-          case 106: {
-            additionalTraits_.AddEntriesFrom(ref input, _repeated_additionalTraits_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Manufacturer : pb::IMessage<Manufacturer>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Manufacturer> _parser = new pb::MessageParser<Manufacturer>(() => new Manufacturer());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Manufacturer> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[40]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Manufacturer() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Manufacturer(Manufacturer other) : this() {
-      switch (other.ManufacturerOneofCase) {
-        case ManufacturerOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case ManufacturerOneofOneofCase.Utf8:
-          Utf8 = other.Utf8.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Manufacturer Clone() {
-      return new Manufacturer(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) manufacturerOneof_ : null; }
-      set {
-        manufacturerOneof_ = value;
-        manufacturerOneofCase_ = value == null ? ManufacturerOneofOneofCase.None : ManufacturerOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "utf8" field.</summary>
-    public const int Utf8FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.UTF8StringTrait Utf8 {
-      get { return manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8 ? (global::PlatformCertificateProto.UTF8StringTrait) manufacturerOneof_ : null; }
-      set {
-        manufacturerOneof_ = value;
-        manufacturerOneofCase_ = value == null ? ManufacturerOneofOneofCase.None : ManufacturerOneofOneofCase.Utf8;
-      }
-    }
-
-    private object manufacturerOneof_;
-    /// <summary>Enum of possible cases for the "Manufacturer_oneof" oneof.</summary>
-    public enum ManufacturerOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Utf8 = 2,
-    }
-    private ManufacturerOneofOneofCase manufacturerOneofCase_ = ManufacturerOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ManufacturerOneofOneofCase ManufacturerOneofCase {
-      get { return manufacturerOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearManufacturerOneof() {
-      manufacturerOneofCase_ = ManufacturerOneofOneofCase.None;
-      manufacturerOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Manufacturer);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Manufacturer other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Utf8, other.Utf8)) return false;
-      if (ManufacturerOneofCase != other.ManufacturerOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) hash ^= Utf8.GetHashCode();
-      hash ^= (int) manufacturerOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Utf8);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Manufacturer other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.ManufacturerOneofCase) {
-        case ManufacturerOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case ManufacturerOneofOneofCase.Utf8:
-          if (Utf8 == null) {
-            Utf8 = new global::PlatformCertificateProto.UTF8StringTrait();
-          }
-          Utf8.MergeFrom(other.Utf8);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (manufacturerOneofCase_ == ManufacturerOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Model : pb::IMessage<Model>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Model> _parser = new pb::MessageParser<Model>(() => new Model());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Model> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[41]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Model() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Model(Model other) : this() {
-      switch (other.ModelOneofCase) {
-        case ModelOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case ModelOneofOneofCase.Utf8:
-          Utf8 = other.Utf8.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Model Clone() {
-      return new Model(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return modelOneofCase_ == ModelOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) modelOneof_ : null; }
-      set {
-        modelOneof_ = value;
-        modelOneofCase_ = value == null ? ModelOneofOneofCase.None : ModelOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "utf8" field.</summary>
-    public const int Utf8FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.UTF8StringTrait Utf8 {
-      get { return modelOneofCase_ == ModelOneofOneofCase.Utf8 ? (global::PlatformCertificateProto.UTF8StringTrait) modelOneof_ : null; }
-      set {
-        modelOneof_ = value;
-        modelOneofCase_ = value == null ? ModelOneofOneofCase.None : ModelOneofOneofCase.Utf8;
-      }
-    }
-
-    private object modelOneof_;
-    /// <summary>Enum of possible cases for the "Model_oneof" oneof.</summary>
-    public enum ModelOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Utf8 = 2,
-    }
-    private ModelOneofOneofCase modelOneofCase_ = ModelOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ModelOneofOneofCase ModelOneofCase {
-      get { return modelOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearModelOneof() {
-      modelOneofCase_ = ModelOneofOneofCase.None;
-      modelOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Model);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Model other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Utf8, other.Utf8)) return false;
-      if (ModelOneofCase != other.ModelOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (modelOneofCase_ == ModelOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (modelOneofCase_ == ModelOneofOneofCase.Utf8) hash ^= Utf8.GetHashCode();
-      hash ^= (int) modelOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (modelOneofCase_ == ModelOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (modelOneofCase_ == ModelOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (modelOneofCase_ == ModelOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (modelOneofCase_ == ModelOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (modelOneofCase_ == ModelOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (modelOneofCase_ == ModelOneofOneofCase.Utf8) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Utf8);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Model other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.ModelOneofCase) {
-        case ModelOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case ModelOneofOneofCase.Utf8:
-          if (Utf8 == null) {
-            Utf8 = new global::PlatformCertificateProto.UTF8StringTrait();
-          }
-          Utf8.MergeFrom(other.Utf8);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (modelOneofCase_ == ModelOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (modelOneofCase_ == ModelOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (modelOneofCase_ == ModelOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (modelOneofCase_ == ModelOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Location : pb::IMessage<Location>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Location> _parser = new pb::MessageParser<Location>(() => new Location());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Location> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[42]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Location() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Location(Location other) : this() {
-      switch (other.LocationOneofCase) {
-        case LocationOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case LocationOneofOneofCase.Utf8:
-          Utf8 = other.Utf8.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Location Clone() {
-      return new Location(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return locationOneofCase_ == LocationOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) locationOneof_ : null; }
-      set {
-        locationOneof_ = value;
-        locationOneofCase_ = value == null ? LocationOneofOneofCase.None : LocationOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "utf8" field.</summary>
-    public const int Utf8FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.UTF8StringTrait Utf8 {
-      get { return locationOneofCase_ == LocationOneofOneofCase.Utf8 ? (global::PlatformCertificateProto.UTF8StringTrait) locationOneof_ : null; }
-      set {
-        locationOneof_ = value;
-        locationOneofCase_ = value == null ? LocationOneofOneofCase.None : LocationOneofOneofCase.Utf8;
-      }
-    }
-
-    private object locationOneof_;
-    /// <summary>Enum of possible cases for the "Location_oneof" oneof.</summary>
-    public enum LocationOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Utf8 = 2,
-    }
-    private LocationOneofOneofCase locationOneofCase_ = LocationOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public LocationOneofOneofCase LocationOneofCase {
-      get { return locationOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearLocationOneof() {
-      locationOneofCase_ = LocationOneofOneofCase.None;
-      locationOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Location);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Location other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Utf8, other.Utf8)) return false;
-      if (LocationOneofCase != other.LocationOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (locationOneofCase_ == LocationOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (locationOneofCase_ == LocationOneofOneofCase.Utf8) hash ^= Utf8.GetHashCode();
-      hash ^= (int) locationOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (locationOneofCase_ == LocationOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (locationOneofCase_ == LocationOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (locationOneofCase_ == LocationOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (locationOneofCase_ == LocationOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (locationOneofCase_ == LocationOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (locationOneofCase_ == LocationOneofOneofCase.Utf8) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Utf8);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Location other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.LocationOneofCase) {
-        case LocationOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case LocationOneofOneofCase.Utf8:
-          if (Utf8 == null) {
-            Utf8 = new global::PlatformCertificateProto.UTF8StringTrait();
-          }
-          Utf8.MergeFrom(other.Utf8);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (locationOneofCase_ == LocationOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (locationOneofCase_ == LocationOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (locationOneofCase_ == LocationOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (locationOneofCase_ == LocationOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Serial : pb::IMessage<Serial>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Serial> _parser = new pb::MessageParser<Serial>(() => new Serial());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Serial> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[43]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Serial() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Serial(Serial other) : this() {
-      switch (other.SerialOneofCase) {
-        case SerialOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case SerialOneofOneofCase.Utf8:
-          Utf8 = other.Utf8.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Serial Clone() {
-      return new Serial(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return serialOneofCase_ == SerialOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) serialOneof_ : null; }
-      set {
-        serialOneof_ = value;
-        serialOneofCase_ = value == null ? SerialOneofOneofCase.None : SerialOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "utf8" field.</summary>
-    public const int Utf8FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.UTF8StringTrait Utf8 {
-      get { return serialOneofCase_ == SerialOneofOneofCase.Utf8 ? (global::PlatformCertificateProto.UTF8StringTrait) serialOneof_ : null; }
-      set {
-        serialOneof_ = value;
-        serialOneofCase_ = value == null ? SerialOneofOneofCase.None : SerialOneofOneofCase.Utf8;
-      }
-    }
-
-    private object serialOneof_;
-    /// <summary>Enum of possible cases for the "Serial_oneof" oneof.</summary>
-    public enum SerialOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Utf8 = 2,
-    }
-    private SerialOneofOneofCase serialOneofCase_ = SerialOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SerialOneofOneofCase SerialOneofCase {
-      get { return serialOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSerialOneof() {
-      serialOneofCase_ = SerialOneofOneofCase.None;
-      serialOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Serial);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Serial other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Utf8, other.Utf8)) return false;
-      if (SerialOneofCase != other.SerialOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (serialOneofCase_ == SerialOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (serialOneofCase_ == SerialOneofOneofCase.Utf8) hash ^= Utf8.GetHashCode();
-      hash ^= (int) serialOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (serialOneofCase_ == SerialOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (serialOneofCase_ == SerialOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (serialOneofCase_ == SerialOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (serialOneofCase_ == SerialOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (serialOneofCase_ == SerialOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (serialOneofCase_ == SerialOneofOneofCase.Utf8) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Utf8);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Serial other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.SerialOneofCase) {
-        case SerialOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case SerialOneofOneofCase.Utf8:
-          if (Utf8 == null) {
-            Utf8 = new global::PlatformCertificateProto.UTF8StringTrait();
-          }
-          Utf8.MergeFrom(other.Utf8);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (serialOneofCase_ == SerialOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (serialOneofCase_ == SerialOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (serialOneofCase_ == SerialOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (serialOneofCase_ == SerialOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class Revision : pb::IMessage<Revision>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Revision> _parser = new pb::MessageParser<Revision>(() => new Revision());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Revision> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[44]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Revision() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Revision(Revision other) : this() {
-      switch (other.RevisionOneofCase) {
-        case RevisionOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case RevisionOneofOneofCase.Utf8:
-          Utf8 = other.Utf8.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Revision Clone() {
-      return new Revision(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return revisionOneofCase_ == RevisionOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) revisionOneof_ : null; }
-      set {
-        revisionOneof_ = value;
-        revisionOneofCase_ = value == null ? RevisionOneofOneofCase.None : RevisionOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "utf8" field.</summary>
-    public const int Utf8FieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.UTF8StringTrait Utf8 {
-      get { return revisionOneofCase_ == RevisionOneofOneofCase.Utf8 ? (global::PlatformCertificateProto.UTF8StringTrait) revisionOneof_ : null; }
-      set {
-        revisionOneof_ = value;
-        revisionOneofCase_ = value == null ? RevisionOneofOneofCase.None : RevisionOneofOneofCase.Utf8;
-      }
-    }
-
-    private object revisionOneof_;
-    /// <summary>Enum of possible cases for the "Revision_oneof" oneof.</summary>
-    public enum RevisionOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Utf8 = 2,
-    }
-    private RevisionOneofOneofCase revisionOneofCase_ = RevisionOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public RevisionOneofOneofCase RevisionOneofCase {
-      get { return revisionOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearRevisionOneof() {
-      revisionOneofCase_ = RevisionOneofOneofCase.None;
-      revisionOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Revision);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Revision other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Utf8, other.Utf8)) return false;
-      if (RevisionOneofCase != other.RevisionOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) hash ^= Utf8.GetHashCode();
-      hash ^= (int) revisionOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Utf8);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Utf8);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Revision other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.RevisionOneofCase) {
-        case RevisionOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case RevisionOneofOneofCase.Utf8:
-          if (Utf8 == null) {
-            Utf8 = new global::PlatformCertificateProto.UTF8StringTrait();
-          }
-          Utf8.MergeFrom(other.Utf8);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (revisionOneofCase_ == RevisionOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.UTF8StringTrait subBuilder = new global::PlatformCertificateProto.UTF8StringTrait();
-            if (revisionOneofCase_ == RevisionOneofOneofCase.Utf8) {
-              subBuilder.MergeFrom(Utf8);
-            }
-            input.ReadMessage(subBuilder);
-            Utf8 = subBuilder;
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class FieldReplaceable : pb::IMessage<FieldReplaceable>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<FieldReplaceable> _parser = new pb::MessageParser<FieldReplaceable>(() => new FieldReplaceable());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<FieldReplaceable> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[45]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FieldReplaceable() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FieldReplaceable(FieldReplaceable other) : this() {
-      switch (other.FieldReplaceableOneofCase) {
-        case FieldReplaceableOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case FieldReplaceableOneofOneofCase.Bool:
-          Bool = other.Bool.Clone();
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FieldReplaceable Clone() {
-      return new FieldReplaceable(this);
-    }
-
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) fieldReplaceableOneof_ : null; }
-      set {
-        fieldReplaceableOneof_ = value;
-        fieldReplaceableOneofCase_ = value == null ? FieldReplaceableOneofOneofCase.None : FieldReplaceableOneofOneofCase.Generic;
-      }
-    }
-
-    /// <summary>Field number for the "bool" field.</summary>
-    public const int BoolFieldNumber = 2;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.BooleanTrait Bool {
-      get { return fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool ? (global::PlatformCertificateProto.BooleanTrait) fieldReplaceableOneof_ : null; }
-      set {
-        fieldReplaceableOneof_ = value;
-        fieldReplaceableOneofCase_ = value == null ? FieldReplaceableOneofOneofCase.None : FieldReplaceableOneofOneofCase.Bool;
-      }
-    }
-
-    private object fieldReplaceableOneof_;
-    /// <summary>Enum of possible cases for the "FieldReplaceable_oneof" oneof.</summary>
-    public enum FieldReplaceableOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Bool = 2,
-    }
-    private FieldReplaceableOneofOneofCase fieldReplaceableOneofCase_ = FieldReplaceableOneofOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FieldReplaceableOneofOneofCase FieldReplaceableOneofCase {
-      get { return fieldReplaceableOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearFieldReplaceableOneof() {
-      fieldReplaceableOneofCase_ = FieldReplaceableOneofOneofCase.None;
-      fieldReplaceableOneof_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as FieldReplaceable);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(FieldReplaceable other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Bool, other.Bool)) return false;
-      if (FieldReplaceableOneofCase != other.FieldReplaceableOneofCase) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) hash ^= Bool.GetHashCode();
-      hash ^= (int) fieldReplaceableOneofCase_;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Bool);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Generic);
-      }
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) {
-        output.WriteRawTag(18);
-        output.WriteMessage(Bool);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
-      }
-      if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Bool);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(FieldReplaceable other) {
-      if (other == null) {
-        return;
-      }
-      switch (other.FieldReplaceableOneofCase) {
-        case FieldReplaceableOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case FieldReplaceableOneofOneofCase.Bool:
-          if (Bool == null) {
-            Bool = new global::PlatformCertificateProto.BooleanTrait();
-          }
-          Bool.MergeFrom(other.Bool);
-          break;
-      }
-
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.BooleanTrait subBuilder = new global::PlatformCertificateProto.BooleanTrait();
-            if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) {
-              subBuilder.MergeFrom(Bool);
-            }
-            input.ReadMessage(subBuilder);
-            Bool = subBuilder;
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
-            break;
-          }
-          case 18: {
-            global::PlatformCertificateProto.BooleanTrait subBuilder = new global::PlatformCertificateProto.BooleanTrait();
-            if (fieldReplaceableOneofCase_ == FieldReplaceableOneofOneofCase.Bool) {
-              subBuilder.MergeFrom(Bool);
-            }
-            input.ReadMessage(subBuilder);
-            Bool = subBuilder;
+            platformComponents_.AddEntriesFrom(ref input, _repeated_platformComponents_codec);
             break;
           }
         }
@@ -19357,7 +8415,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[46]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19378,12 +8436,12 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ComponentIdentifierV11(ComponentIdentifierV11 other) : this() {
       componentClass_ = other.componentClass_ != null ? other.componentClass_.Clone() : null;
-      componentManufacturer_ = other.componentManufacturer_ != null ? other.componentManufacturer_.Clone() : null;
-      componentModel_ = other.componentModel_ != null ? other.componentModel_.Clone() : null;
-      componentSerial_ = other.componentSerial_ != null ? other.componentSerial_.Clone() : null;
-      componentRevision_ = other.componentRevision_ != null ? other.componentRevision_.Clone() : null;
-      componentManufacturerId_ = other.componentManufacturerId_ != null ? other.componentManufacturerId_.Clone() : null;
-      fieldReplaceable_ = other.fieldReplaceable_ != null ? other.fieldReplaceable_.Clone() : null;
+      componentManufacturer_ = other.componentManufacturer_;
+      componentModel_ = other.componentModel_;
+      componentSerial_ = other.componentSerial_;
+      componentRevision_ = other.componentRevision_;
+      componentManufacturerId_ = other.componentManufacturerId_;
+      fieldReplaceable_ = other.fieldReplaceable_;
       componentAddresses_ = other.componentAddresses_.Clone();
       componentPlatformCert_ = other.componentPlatformCert_ != null ? other.componentPlatformCert_.Clone() : null;
       componentPlatformCertUri_ = other.componentPlatformCertUri_ != null ? other.componentPlatformCertUri_.Clone() : null;
@@ -19411,70 +8469,70 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "componentManufacturer" field.</summary>
     public const int ComponentManufacturerFieldNumber = 2;
-    private global::UTF8String componentManufacturer_;
+    private string componentManufacturer_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String ComponentManufacturer {
+    public string ComponentManufacturer {
       get { return componentManufacturer_; }
       set {
-        componentManufacturer_ = value;
+        componentManufacturer_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "componentModel" field.</summary>
     public const int ComponentModelFieldNumber = 3;
-    private global::UTF8String componentModel_;
+    private string componentModel_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String ComponentModel {
+    public string ComponentModel {
       get { return componentModel_; }
       set {
-        componentModel_ = value;
+        componentModel_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "componentSerial" field.</summary>
     public const int ComponentSerialFieldNumber = 4;
-    private global::UTF8String componentSerial_;
+    private string componentSerial_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String ComponentSerial {
+    public string ComponentSerial {
       get { return componentSerial_; }
       set {
-        componentSerial_ = value;
+        componentSerial_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "componentRevision" field.</summary>
     public const int ComponentRevisionFieldNumber = 5;
-    private global::UTF8String componentRevision_;
+    private string componentRevision_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String ComponentRevision {
+    public string ComponentRevision {
       get { return componentRevision_; }
       set {
-        componentRevision_ = value;
+        componentRevision_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "componentManufacturerId" field.</summary>
     public const int ComponentManufacturerIdFieldNumber = 6;
-    private global::ObjectIdentifier componentManufacturerId_;
+    private string componentManufacturerId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier ComponentManufacturerId {
+    public string ComponentManufacturerId {
       get { return componentManufacturerId_; }
       set {
-        componentManufacturerId_ = value;
+        componentManufacturerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "fieldReplaceable" field.</summary>
     public const int FieldReplaceableFieldNumber = 7;
-    private global::Boolean fieldReplaceable_;
+    private bool fieldReplaceable_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Boolean FieldReplaceable {
+    public bool FieldReplaceable {
       get { return fieldReplaceable_; }
       set {
         fieldReplaceable_ = value;
@@ -19544,12 +8602,12 @@ namespace PlatformCertificateProto {
         return true;
       }
       if (!object.Equals(ComponentClass, other.ComponentClass)) return false;
-      if (!object.Equals(ComponentManufacturer, other.ComponentManufacturer)) return false;
-      if (!object.Equals(ComponentModel, other.ComponentModel)) return false;
-      if (!object.Equals(ComponentSerial, other.ComponentSerial)) return false;
-      if (!object.Equals(ComponentRevision, other.ComponentRevision)) return false;
-      if (!object.Equals(ComponentManufacturerId, other.ComponentManufacturerId)) return false;
-      if (!object.Equals(FieldReplaceable, other.FieldReplaceable)) return false;
+      if (ComponentManufacturer != other.ComponentManufacturer) return false;
+      if (ComponentModel != other.ComponentModel) return false;
+      if (ComponentSerial != other.ComponentSerial) return false;
+      if (ComponentRevision != other.ComponentRevision) return false;
+      if (ComponentManufacturerId != other.ComponentManufacturerId) return false;
+      if (FieldReplaceable != other.FieldReplaceable) return false;
       if(!componentAddresses_.Equals(other.componentAddresses_)) return false;
       if (!object.Equals(ComponentPlatformCert, other.ComponentPlatformCert)) return false;
       if (!object.Equals(ComponentPlatformCertUri, other.ComponentPlatformCertUri)) return false;
@@ -19562,12 +8620,12 @@ namespace PlatformCertificateProto {
     public override int GetHashCode() {
       int hash = 1;
       if (componentClass_ != null) hash ^= ComponentClass.GetHashCode();
-      if (componentManufacturer_ != null) hash ^= ComponentManufacturer.GetHashCode();
-      if (componentModel_ != null) hash ^= ComponentModel.GetHashCode();
-      if (componentSerial_ != null) hash ^= ComponentSerial.GetHashCode();
-      if (componentRevision_ != null) hash ^= ComponentRevision.GetHashCode();
-      if (componentManufacturerId_ != null) hash ^= ComponentManufacturerId.GetHashCode();
-      if (fieldReplaceable_ != null) hash ^= FieldReplaceable.GetHashCode();
+      if (ComponentManufacturer.Length != 0) hash ^= ComponentManufacturer.GetHashCode();
+      if (ComponentModel.Length != 0) hash ^= ComponentModel.GetHashCode();
+      if (ComponentSerial.Length != 0) hash ^= ComponentSerial.GetHashCode();
+      if (ComponentRevision.Length != 0) hash ^= ComponentRevision.GetHashCode();
+      if (ComponentManufacturerId.Length != 0) hash ^= ComponentManufacturerId.GetHashCode();
+      if (FieldReplaceable != false) hash ^= FieldReplaceable.GetHashCode();
       hash ^= componentAddresses_.GetHashCode();
       if (componentPlatformCert_ != null) hash ^= ComponentPlatformCert.GetHashCode();
       if (componentPlatformCertUri_ != null) hash ^= ComponentPlatformCertUri.GetHashCode();
@@ -19594,29 +8652,29 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(ComponentClass);
       }
-      if (componentManufacturer_ != null) {
+      if (ComponentManufacturer.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(ComponentManufacturer);
+        output.WriteString(ComponentManufacturer);
       }
-      if (componentModel_ != null) {
+      if (ComponentModel.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(ComponentModel);
+        output.WriteString(ComponentModel);
       }
-      if (componentSerial_ != null) {
+      if (ComponentSerial.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(ComponentSerial);
+        output.WriteString(ComponentSerial);
       }
-      if (componentRevision_ != null) {
+      if (ComponentRevision.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(ComponentRevision);
+        output.WriteString(ComponentRevision);
       }
-      if (componentManufacturerId_ != null) {
+      if (ComponentManufacturerId.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(ComponentManufacturerId);
+        output.WriteString(ComponentManufacturerId);
       }
-      if (fieldReplaceable_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(FieldReplaceable);
+      if (FieldReplaceable != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(FieldReplaceable);
       }
       componentAddresses_.WriteTo(output, _repeated_componentAddresses_codec);
       if (componentPlatformCert_ != null) {
@@ -19645,29 +8703,29 @@ namespace PlatformCertificateProto {
         output.WriteRawTag(10);
         output.WriteMessage(ComponentClass);
       }
-      if (componentManufacturer_ != null) {
+      if (ComponentManufacturer.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(ComponentManufacturer);
+        output.WriteString(ComponentManufacturer);
       }
-      if (componentModel_ != null) {
+      if (ComponentModel.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteMessage(ComponentModel);
+        output.WriteString(ComponentModel);
       }
-      if (componentSerial_ != null) {
+      if (ComponentSerial.Length != 0) {
         output.WriteRawTag(34);
-        output.WriteMessage(ComponentSerial);
+        output.WriteString(ComponentSerial);
       }
-      if (componentRevision_ != null) {
+      if (ComponentRevision.Length != 0) {
         output.WriteRawTag(42);
-        output.WriteMessage(ComponentRevision);
+        output.WriteString(ComponentRevision);
       }
-      if (componentManufacturerId_ != null) {
+      if (ComponentManufacturerId.Length != 0) {
         output.WriteRawTag(50);
-        output.WriteMessage(ComponentManufacturerId);
+        output.WriteString(ComponentManufacturerId);
       }
-      if (fieldReplaceable_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(FieldReplaceable);
+      if (FieldReplaceable != false) {
+        output.WriteRawTag(56);
+        output.WriteBool(FieldReplaceable);
       }
       componentAddresses_.WriteTo(ref output, _repeated_componentAddresses_codec);
       if (componentPlatformCert_ != null) {
@@ -19695,23 +8753,23 @@ namespace PlatformCertificateProto {
       if (componentClass_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentClass);
       }
-      if (componentManufacturer_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentManufacturer);
+      if (ComponentManufacturer.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentManufacturer);
       }
-      if (componentModel_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentModel);
+      if (ComponentModel.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentModel);
       }
-      if (componentSerial_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentSerial);
+      if (ComponentSerial.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentSerial);
       }
-      if (componentRevision_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentRevision);
+      if (ComponentRevision.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentRevision);
       }
-      if (componentManufacturerId_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentManufacturerId);
+      if (ComponentManufacturerId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentManufacturerId);
       }
-      if (fieldReplaceable_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FieldReplaceable);
+      if (FieldReplaceable != false) {
+        size += 1 + 1;
       }
       size += componentAddresses_.CalculateSize(_repeated_componentAddresses_codec);
       if (componentPlatformCert_ != null) {
@@ -19741,41 +8799,23 @@ namespace PlatformCertificateProto {
         }
         ComponentClass.MergeFrom(other.ComponentClass);
       }
-      if (other.componentManufacturer_ != null) {
-        if (componentManufacturer_ == null) {
-          ComponentManufacturer = new global::UTF8String();
-        }
-        ComponentManufacturer.MergeFrom(other.ComponentManufacturer);
+      if (other.ComponentManufacturer.Length != 0) {
+        ComponentManufacturer = other.ComponentManufacturer;
       }
-      if (other.componentModel_ != null) {
-        if (componentModel_ == null) {
-          ComponentModel = new global::UTF8String();
-        }
-        ComponentModel.MergeFrom(other.ComponentModel);
+      if (other.ComponentModel.Length != 0) {
+        ComponentModel = other.ComponentModel;
       }
-      if (other.componentSerial_ != null) {
-        if (componentSerial_ == null) {
-          ComponentSerial = new global::UTF8String();
-        }
-        ComponentSerial.MergeFrom(other.ComponentSerial);
+      if (other.ComponentSerial.Length != 0) {
+        ComponentSerial = other.ComponentSerial;
       }
-      if (other.componentRevision_ != null) {
-        if (componentRevision_ == null) {
-          ComponentRevision = new global::UTF8String();
-        }
-        ComponentRevision.MergeFrom(other.ComponentRevision);
+      if (other.ComponentRevision.Length != 0) {
+        ComponentRevision = other.ComponentRevision;
       }
-      if (other.componentManufacturerId_ != null) {
-        if (componentManufacturerId_ == null) {
-          ComponentManufacturerId = new global::ObjectIdentifier();
-        }
-        ComponentManufacturerId.MergeFrom(other.ComponentManufacturerId);
+      if (other.ComponentManufacturerId.Length != 0) {
+        ComponentManufacturerId = other.ComponentManufacturerId;
       }
-      if (other.fieldReplaceable_ != null) {
-        if (fieldReplaceable_ == null) {
-          FieldReplaceable = new global::Boolean();
-        }
-        FieldReplaceable.MergeFrom(other.FieldReplaceable);
+      if (other.FieldReplaceable != false) {
+        FieldReplaceable = other.FieldReplaceable;
       }
       componentAddresses_.Add(other.componentAddresses_);
       if (other.componentPlatformCert_ != null) {
@@ -19820,45 +8860,27 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (componentManufacturer_ == null) {
-              ComponentManufacturer = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentManufacturer);
+            ComponentManufacturer = input.ReadString();
             break;
           }
           case 26: {
-            if (componentModel_ == null) {
-              ComponentModel = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentModel);
+            ComponentModel = input.ReadString();
             break;
           }
           case 34: {
-            if (componentSerial_ == null) {
-              ComponentSerial = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentSerial);
+            ComponentSerial = input.ReadString();
             break;
           }
           case 42: {
-            if (componentRevision_ == null) {
-              ComponentRevision = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentRevision);
+            ComponentRevision = input.ReadString();
             break;
           }
           case 50: {
-            if (componentManufacturerId_ == null) {
-              ComponentManufacturerId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ComponentManufacturerId);
+            ComponentManufacturerId = input.ReadString();
             break;
           }
-          case 58: {
-            if (fieldReplaceable_ == null) {
-              FieldReplaceable = new global::Boolean();
-            }
-            input.ReadMessage(FieldReplaceable);
+          case 56: {
+            FieldReplaceable = input.ReadBool();
             break;
           }
           case 66: {
@@ -19910,45 +8932,27 @@ namespace PlatformCertificateProto {
             break;
           }
           case 18: {
-            if (componentManufacturer_ == null) {
-              ComponentManufacturer = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentManufacturer);
+            ComponentManufacturer = input.ReadString();
             break;
           }
           case 26: {
-            if (componentModel_ == null) {
-              ComponentModel = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentModel);
+            ComponentModel = input.ReadString();
             break;
           }
           case 34: {
-            if (componentSerial_ == null) {
-              ComponentSerial = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentSerial);
+            ComponentSerial = input.ReadString();
             break;
           }
           case 42: {
-            if (componentRevision_ == null) {
-              ComponentRevision = new global::UTF8String();
-            }
-            input.ReadMessage(ComponentRevision);
+            ComponentRevision = input.ReadString();
             break;
           }
           case 50: {
-            if (componentManufacturerId_ == null) {
-              ComponentManufacturerId = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ComponentManufacturerId);
+            ComponentManufacturerId = input.ReadString();
             break;
           }
-          case 58: {
-            if (fieldReplaceable_ == null) {
-              FieldReplaceable = new global::Boolean();
-            }
-            input.ReadMessage(FieldReplaceable);
+          case 56: {
+            FieldReplaceable = input.ReadBool();
             break;
           }
           case 66: {
@@ -19995,7 +8999,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[47]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20015,8 +9019,8 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ComponentClass(ComponentClass other) : this() {
-      componentClassRegistry_ = other.componentClassRegistry_ != null ? other.componentClassRegistry_.Clone() : null;
-      componentClassValue_ = other.componentClassValue_ != null ? other.componentClassValue_.Clone() : null;
+      componentClassRegistry_ = other.componentClassRegistry_;
+      componentClassValue_ = other.componentClassValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -20028,25 +9032,25 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "componentClassRegistry" field.</summary>
     public const int ComponentClassRegistryFieldNumber = 1;
-    private global::ObjectIdentifier componentClassRegistry_;
+    private string componentClassRegistry_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier ComponentClassRegistry {
+    public string ComponentClassRegistry {
       get { return componentClassRegistry_; }
       set {
-        componentClassRegistry_ = value;
+        componentClassRegistry_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "componentClassValue" field.</summary>
     public const int ComponentClassValueFieldNumber = 2;
-    private global::OctetString componentClassValue_;
+    private pb::ByteString componentClassValue_ = pb::ByteString.Empty;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OctetString ComponentClassValue {
+    public pb::ByteString ComponentClassValue {
       get { return componentClassValue_; }
       set {
-        componentClassValue_ = value;
+        componentClassValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -20065,8 +9069,8 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(ComponentClassRegistry, other.ComponentClassRegistry)) return false;
-      if (!object.Equals(ComponentClassValue, other.ComponentClassValue)) return false;
+      if (ComponentClassRegistry != other.ComponentClassRegistry) return false;
+      if (ComponentClassValue != other.ComponentClassValue) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -20074,8 +9078,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (componentClassRegistry_ != null) hash ^= ComponentClassRegistry.GetHashCode();
-      if (componentClassValue_ != null) hash ^= ComponentClassValue.GetHashCode();
+      if (ComponentClassRegistry.Length != 0) hash ^= ComponentClassRegistry.GetHashCode();
+      if (ComponentClassValue.Length != 0) hash ^= ComponentClassValue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -20094,13 +9098,13 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (componentClassRegistry_ != null) {
+      if (ComponentClassRegistry.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(ComponentClassRegistry);
+        output.WriteString(ComponentClassRegistry);
       }
-      if (componentClassValue_ != null) {
+      if (ComponentClassValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(ComponentClassValue);
+        output.WriteBytes(ComponentClassValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -20112,13 +9116,13 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (componentClassRegistry_ != null) {
+      if (ComponentClassRegistry.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(ComponentClassRegistry);
+        output.WriteString(ComponentClassRegistry);
       }
-      if (componentClassValue_ != null) {
+      if (ComponentClassValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(ComponentClassValue);
+        output.WriteBytes(ComponentClassValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -20130,11 +9134,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (componentClassRegistry_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentClassRegistry);
+      if (ComponentClassRegistry.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComponentClassRegistry);
       }
-      if (componentClassValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ComponentClassValue);
+      if (ComponentClassValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(ComponentClassValue);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -20148,17 +9152,11 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.componentClassRegistry_ != null) {
-        if (componentClassRegistry_ == null) {
-          ComponentClassRegistry = new global::ObjectIdentifier();
-        }
-        ComponentClassRegistry.MergeFrom(other.ComponentClassRegistry);
+      if (other.ComponentClassRegistry.Length != 0) {
+        ComponentClassRegistry = other.ComponentClassRegistry;
       }
-      if (other.componentClassValue_ != null) {
-        if (componentClassValue_ == null) {
-          ComponentClassValue = new global::OctetString();
-        }
-        ComponentClassValue.MergeFrom(other.ComponentClassValue);
+      if (other.ComponentClassValue.Length != 0) {
+        ComponentClassValue = other.ComponentClassValue;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -20180,17 +9178,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (componentClassRegistry_ == null) {
-              ComponentClassRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ComponentClassRegistry);
+            ComponentClassRegistry = input.ReadString();
             break;
           }
           case 18: {
-            if (componentClassValue_ == null) {
-              ComponentClassValue = new global::OctetString();
-            }
-            input.ReadMessage(ComponentClassValue);
+            ComponentClassValue = input.ReadBytes();
             break;
           }
         }
@@ -20213,17 +9205,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (componentClassRegistry_ == null) {
-              ComponentClassRegistry = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(ComponentClassRegistry);
+            ComponentClassRegistry = input.ReadString();
             break;
           }
           case 18: {
-            if (componentClassValue_ == null) {
-              ComponentClassValue = new global::OctetString();
-            }
-            input.ReadMessage(ComponentClassValue);
+            ComponentClassValue = input.ReadBytes();
             break;
           }
         }
@@ -20248,7 +9234,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[48]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20268,8 +9254,8 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ComponentAddress(ComponentAddress other) : this() {
-      addressType_ = other.addressType_ != null ? other.addressType_.Clone() : null;
-      addressValue_ = other.addressValue_ != null ? other.addressValue_.Clone() : null;
+      addressType_ = other.addressType_;
+      addressValue_ = other.addressValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -20281,28 +9267,28 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "addressType" field.</summary>
     public const int AddressTypeFieldNumber = 1;
-    private global::ObjectIdentifier addressType_;
+    private string addressType_ = "";
     /// <summary>
     /// tcg-address-ethernetmac, -wlanmac, -bluetoothmac
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::ObjectIdentifier AddressType {
+    public string AddressType {
       get { return addressType_; }
       set {
-        addressType_ = value;
+        addressType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "addressValue" field.</summary>
     public const int AddressValueFieldNumber = 2;
-    private global::UTF8String addressValue_;
+    private string addressValue_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String AddressValue {
+    public string AddressValue {
       get { return addressValue_; }
       set {
-        addressValue_ = value;
+        addressValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -20321,8 +9307,8 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(AddressType, other.AddressType)) return false;
-      if (!object.Equals(AddressValue, other.AddressValue)) return false;
+      if (AddressType != other.AddressType) return false;
+      if (AddressValue != other.AddressValue) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -20330,8 +9316,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (addressType_ != null) hash ^= AddressType.GetHashCode();
-      if (addressValue_ != null) hash ^= AddressValue.GetHashCode();
+      if (AddressType.Length != 0) hash ^= AddressType.GetHashCode();
+      if (AddressValue.Length != 0) hash ^= AddressValue.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -20350,13 +9336,13 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (addressType_ != null) {
+      if (AddressType.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(AddressType);
+        output.WriteString(AddressType);
       }
-      if (addressValue_ != null) {
+      if (AddressValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(AddressValue);
+        output.WriteString(AddressValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -20368,13 +9354,13 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (addressType_ != null) {
+      if (AddressType.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(AddressType);
+        output.WriteString(AddressType);
       }
-      if (addressValue_ != null) {
+      if (AddressValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(AddressValue);
+        output.WriteString(AddressValue);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -20386,11 +9372,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (addressType_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AddressType);
+      if (AddressType.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AddressType);
       }
-      if (addressValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AddressValue);
+      if (AddressValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AddressValue);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -20404,17 +9390,11 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.addressType_ != null) {
-        if (addressType_ == null) {
-          AddressType = new global::ObjectIdentifier();
-        }
-        AddressType.MergeFrom(other.AddressType);
+      if (other.AddressType.Length != 0) {
+        AddressType = other.AddressType;
       }
-      if (other.addressValue_ != null) {
-        if (addressValue_ == null) {
-          AddressValue = new global::UTF8String();
-        }
-        AddressValue.MergeFrom(other.AddressValue);
+      if (other.AddressValue.Length != 0) {
+        AddressValue = other.AddressValue;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -20436,17 +9416,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (addressType_ == null) {
-              AddressType = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(AddressType);
+            AddressType = input.ReadString();
             break;
           }
           case 18: {
-            if (addressValue_ == null) {
-              AddressValue = new global::UTF8String();
-            }
-            input.ReadMessage(AddressValue);
+            AddressValue = input.ReadString();
             break;
           }
         }
@@ -20469,17 +9443,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (addressType_ == null) {
-              AddressType = new global::ObjectIdentifier();
-            }
-            input.ReadMessage(AddressType);
+            AddressType = input.ReadString();
             break;
           }
           case 18: {
-            if (addressValue_ == null) {
-              AddressValue = new global::UTF8String();
-            }
-            input.ReadMessage(AddressValue);
+            AddressValue = input.ReadString();
             break;
           }
         }
@@ -20504,7 +9472,7 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[49]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20524,8 +9492,8 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Property(Property other) : this() {
-      propertyName_ = other.propertyName_ != null ? other.propertyName_.Clone() : null;
-      propertyValue_ = other.propertyValue_ != null ? other.propertyValue_.Clone() : null;
+      propertyName_ = other.propertyName_;
+      propertyValue_ = other.propertyValue_;
       status_ = other.status_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -20538,25 +9506,25 @@ namespace PlatformCertificateProto {
 
     /// <summary>Field number for the "propertyName" field.</summary>
     public const int PropertyNameFieldNumber = 1;
-    private global::UTF8String propertyName_;
+    private string propertyName_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String PropertyName {
+    public string PropertyName {
       get { return propertyName_; }
       set {
-        propertyName_ = value;
+        propertyName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "propertyValue" field.</summary>
     public const int PropertyValueFieldNumber = 2;
-    private global::UTF8String propertyValue_;
+    private string propertyValue_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::UTF8String PropertyValue {
+    public string PropertyValue {
       get { return propertyValue_; }
       set {
-        propertyValue_ = value;
+        propertyValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -20587,8 +9555,8 @@ namespace PlatformCertificateProto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(PropertyName, other.PropertyName)) return false;
-      if (!object.Equals(PropertyValue, other.PropertyValue)) return false;
+      if (PropertyName != other.PropertyName) return false;
+      if (PropertyValue != other.PropertyValue) return false;
       if (Status != other.Status) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -20597,8 +9565,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (propertyName_ != null) hash ^= PropertyName.GetHashCode();
-      if (propertyValue_ != null) hash ^= PropertyValue.GetHashCode();
+      if (PropertyName.Length != 0) hash ^= PropertyName.GetHashCode();
+      if (PropertyValue.Length != 0) hash ^= PropertyValue.GetHashCode();
       if (Status != global::PlatformCertificateProto.AttributeStatus.Added) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -20618,13 +9586,13 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (propertyName_ != null) {
+      if (PropertyName.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(PropertyName);
+        output.WriteString(PropertyName);
       }
-      if (propertyValue_ != null) {
+      if (PropertyValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(PropertyValue);
+        output.WriteString(PropertyValue);
       }
       if (Status != global::PlatformCertificateProto.AttributeStatus.Added) {
         output.WriteRawTag(24);
@@ -20640,13 +9608,13 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (propertyName_ != null) {
+      if (PropertyName.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(PropertyName);
+        output.WriteString(PropertyName);
       }
-      if (propertyValue_ != null) {
+      if (PropertyValue.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(PropertyValue);
+        output.WriteString(PropertyValue);
       }
       if (Status != global::PlatformCertificateProto.AttributeStatus.Added) {
         output.WriteRawTag(24);
@@ -20662,11 +9630,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (propertyName_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PropertyName);
+      if (PropertyName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PropertyName);
       }
-      if (propertyValue_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PropertyValue);
+      if (PropertyValue.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PropertyValue);
       }
       if (Status != global::PlatformCertificateProto.AttributeStatus.Added) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
@@ -20683,17 +9651,11 @@ namespace PlatformCertificateProto {
       if (other == null) {
         return;
       }
-      if (other.propertyName_ != null) {
-        if (propertyName_ == null) {
-          PropertyName = new global::UTF8String();
-        }
-        PropertyName.MergeFrom(other.PropertyName);
+      if (other.PropertyName.Length != 0) {
+        PropertyName = other.PropertyName;
       }
-      if (other.propertyValue_ != null) {
-        if (propertyValue_ == null) {
-          PropertyValue = new global::UTF8String();
-        }
-        PropertyValue.MergeFrom(other.PropertyValue);
+      if (other.PropertyValue.Length != 0) {
+        PropertyValue = other.PropertyValue;
       }
       if (other.Status != global::PlatformCertificateProto.AttributeStatus.Added) {
         Status = other.Status;
@@ -20718,17 +9680,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (propertyName_ == null) {
-              PropertyName = new global::UTF8String();
-            }
-            input.ReadMessage(PropertyName);
+            PropertyName = input.ReadString();
             break;
           }
           case 18: {
-            if (propertyValue_ == null) {
-              PropertyValue = new global::UTF8String();
-            }
-            input.ReadMessage(PropertyValue);
+            PropertyValue = input.ReadString();
             break;
           }
           case 24: {
@@ -20755,17 +9711,11 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (propertyName_ == null) {
-              PropertyName = new global::UTF8String();
-            }
-            input.ReadMessage(PropertyName);
+            PropertyName = input.ReadString();
             break;
           }
           case 18: {
-            if (propertyValue_ == null) {
-              PropertyValue = new global::UTF8String();
-            }
-            input.ReadMessage(PropertyValue);
+            PropertyValue = input.ReadString();
             break;
           }
           case 24: {
@@ -20780,21 +9730,21 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformConfigUri : pb::IMessage<PlatformConfigUri>
+  public sealed partial class EntityGeoLocation : pb::IMessage<EntityGeoLocation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<PlatformConfigUri> _parser = new pb::MessageParser<PlatformConfigUri>(() => new PlatformConfigUri());
+    private static readonly pb::MessageParser<EntityGeoLocation> _parser = new pb::MessageParser<EntityGeoLocation>(() => new EntityGeoLocation());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformConfigUri> Parser { get { return _parser; } }
+    public static pb::MessageParser<EntityGeoLocation> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[50]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20805,7 +9755,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformConfigUri() {
+    public EntityGeoLocation() {
       OnConstruction();
     }
 
@@ -20813,88 +9763,115 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformConfigUri(PlatformConfigUri other) : this() {
-      switch (other.PlatformConfigUriOneofCase) {
-        case PlatformConfigUriOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-        case PlatformConfigUriOneofOneofCase.Uri:
-          Uri = other.Uri.Clone();
-          break;
-      }
-
+    public EntityGeoLocation(EntityGeoLocation other) : this() {
+      countryCode_ = other.countryCode_;
+      stateOrProvince_ = other.stateOrProvince_;
+      localityName_ = other.localityName_;
+      streetAddress_ = other.streetAddress_;
+      locationCoords_ = other.locationCoords_;
+      postalCode_ = other.postalCode_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformConfigUri Clone() {
-      return new PlatformConfigUri(this);
+    public EntityGeoLocation Clone() {
+      return new EntityGeoLocation(this);
     }
 
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
+    /// <summary>Field number for the "countryCode" field.</summary>
+    public const int CountryCodeFieldNumber = 1;
+    private string countryCode_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) platformConfigUriOneof_ : null; }
+    public string CountryCode {
+      get { return countryCode_; }
       set {
-        platformConfigUriOneof_ = value;
-        platformConfigUriOneofCase_ = value == null ? PlatformConfigUriOneofOneofCase.None : PlatformConfigUriOneofOneofCase.Generic;
+        countryCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
-    /// <summary>Field number for the "uri" field.</summary>
-    public const int UriFieldNumber = 2;
+    /// <summary>Field number for the "stateOrProvince" field.</summary>
+    public const int StateOrProvinceFieldNumber = 2;
+    private string stateOrProvince_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.URITrait Uri {
-      get { return platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri ? (global::PlatformCertificateProto.URITrait) platformConfigUriOneof_ : null; }
+    public string StateOrProvince {
+      get { return stateOrProvince_; }
       set {
-        platformConfigUriOneof_ = value;
-        platformConfigUriOneofCase_ = value == null ? PlatformConfigUriOneofOneofCase.None : PlatformConfigUriOneofOneofCase.Uri;
+        stateOrProvince_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
-    private object platformConfigUriOneof_;
-    /// <summary>Enum of possible cases for the "PlatformConfigUri_oneof" oneof.</summary>
-    public enum PlatformConfigUriOneofOneofCase {
-      None = 0,
-      Generic = 1,
-      Uri = 2,
-    }
-    private PlatformConfigUriOneofOneofCase platformConfigUriOneofCase_ = PlatformConfigUriOneofOneofCase.None;
+    /// <summary>Field number for the "localityName" field.</summary>
+    public const int LocalityNameFieldNumber = 3;
+    private string localityName_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformConfigUriOneofOneofCase PlatformConfigUriOneofCase {
-      get { return platformConfigUriOneofCase_; }
+    public string LocalityName {
+      get { return localityName_; }
+      set {
+        localityName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
+    /// <summary>Field number for the "streetAddress" field.</summary>
+    public const int StreetAddressFieldNumber = 4;
+    private string streetAddress_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearPlatformConfigUriOneof() {
-      platformConfigUriOneofCase_ = PlatformConfigUriOneofOneofCase.None;
-      platformConfigUriOneof_ = null;
+    public string StreetAddress {
+      get { return streetAddress_; }
+      set {
+        streetAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "locationCoords" field.</summary>
+    public const int LocationCoordsFieldNumber = 5;
+    private string locationCoords_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string LocationCoords {
+      get { return locationCoords_; }
+      set {
+        locationCoords_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "postalCode" field.</summary>
+    public const int PostalCodeFieldNumber = 6;
+    private string postalCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string PostalCode {
+      get { return postalCode_; }
+      set {
+        postalCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as PlatformConfigUri);
+      return Equals(other as EntityGeoLocation);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformConfigUri other) {
+    public bool Equals(EntityGeoLocation other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (!object.Equals(Uri, other.Uri)) return false;
-      if (PlatformConfigUriOneofCase != other.PlatformConfigUriOneofCase) return false;
+      if (CountryCode != other.CountryCode) return false;
+      if (StateOrProvince != other.StateOrProvince) return false;
+      if (LocalityName != other.LocalityName) return false;
+      if (StreetAddress != other.StreetAddress) return false;
+      if (LocationCoords != other.LocationCoords) return false;
+      if (PostalCode != other.PostalCode) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -20902,9 +9879,12 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) hash ^= Uri.GetHashCode();
-      hash ^= (int) platformConfigUriOneofCase_;
+      if (CountryCode.Length != 0) hash ^= CountryCode.GetHashCode();
+      if (StateOrProvince.Length != 0) hash ^= StateOrProvince.GetHashCode();
+      if (LocalityName.Length != 0) hash ^= LocalityName.GetHashCode();
+      if (StreetAddress.Length != 0) hash ^= StreetAddress.GetHashCode();
+      if (LocationCoords.Length != 0) hash ^= LocationCoords.GetHashCode();
+      if (PostalCode.Length != 0) hash ^= PostalCode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -20923,13 +9903,29 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) {
+      if (CountryCode.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Generic);
+        output.WriteString(CountryCode);
       }
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) {
+      if (StateOrProvince.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(Uri);
+        output.WriteString(StateOrProvince);
+      }
+      if (LocalityName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(LocalityName);
+      }
+      if (StreetAddress.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(StreetAddress);
+      }
+      if (LocationCoords.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(LocationCoords);
+      }
+      if (PostalCode.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PostalCode);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -20941,13 +9937,29 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) {
+      if (CountryCode.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Generic);
+        output.WriteString(CountryCode);
       }
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) {
+      if (StateOrProvince.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(Uri);
+        output.WriteString(StateOrProvince);
+      }
+      if (LocalityName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(LocalityName);
+      }
+      if (StreetAddress.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(StreetAddress);
+      }
+      if (LocationCoords.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(LocationCoords);
+      }
+      if (PostalCode.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(PostalCode);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -20959,11 +9971,23 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
+      if (CountryCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CountryCode);
       }
-      if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Uri);
+      if (StateOrProvince.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StateOrProvince);
+      }
+      if (LocalityName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LocalityName);
+      }
+      if (StreetAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StreetAddress);
+      }
+      if (LocationCoords.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LocationCoords);
+      }
+      if (PostalCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PostalCode);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -20973,25 +9997,28 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformConfigUri other) {
+    public void MergeFrom(EntityGeoLocation other) {
       if (other == null) {
         return;
       }
-      switch (other.PlatformConfigUriOneofCase) {
-        case PlatformConfigUriOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
-        case PlatformConfigUriOneofOneofCase.Uri:
-          if (Uri == null) {
-            Uri = new global::PlatformCertificateProto.URITrait();
-          }
-          Uri.MergeFrom(other.Uri);
-          break;
+      if (other.CountryCode.Length != 0) {
+        CountryCode = other.CountryCode;
       }
-
+      if (other.StateOrProvince.Length != 0) {
+        StateOrProvince = other.StateOrProvince;
+      }
+      if (other.LocalityName.Length != 0) {
+        LocalityName = other.LocalityName;
+      }
+      if (other.StreetAddress.Length != 0) {
+        StreetAddress = other.StreetAddress;
+      }
+      if (other.LocationCoords.Length != 0) {
+        LocationCoords = other.LocationCoords;
+      }
+      if (other.PostalCode.Length != 0) {
+        PostalCode = other.PostalCode;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -21012,21 +10039,27 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
+            CountryCode = input.ReadString();
             break;
           }
           case 18: {
-            global::PlatformCertificateProto.URITrait subBuilder = new global::PlatformCertificateProto.URITrait();
-            if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) {
-              subBuilder.MergeFrom(Uri);
-            }
-            input.ReadMessage(subBuilder);
-            Uri = subBuilder;
+            StateOrProvince = input.ReadString();
+            break;
+          }
+          case 26: {
+            LocalityName = input.ReadString();
+            break;
+          }
+          case 34: {
+            StreetAddress = input.ReadString();
+            break;
+          }
+          case 42: {
+            LocationCoords = input.ReadString();
+            break;
+          }
+          case 50: {
+            PostalCode = input.ReadString();
             break;
           }
         }
@@ -21049,21 +10082,27 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
-            }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
+            CountryCode = input.ReadString();
             break;
           }
           case 18: {
-            global::PlatformCertificateProto.URITrait subBuilder = new global::PlatformCertificateProto.URITrait();
-            if (platformConfigUriOneofCase_ == PlatformConfigUriOneofOneofCase.Uri) {
-              subBuilder.MergeFrom(Uri);
-            }
-            input.ReadMessage(subBuilder);
-            Uri = subBuilder;
+            StateOrProvince = input.ReadString();
+            break;
+          }
+          case 26: {
+            LocalityName = input.ReadString();
+            break;
+          }
+          case 34: {
+            StreetAddress = input.ReadString();
+            break;
+          }
+          case 42: {
+            LocationCoords = input.ReadString();
+            break;
+          }
+          case 50: {
+            PostalCode = input.ReadString();
             break;
           }
         }
@@ -21074,21 +10113,21 @@ namespace PlatformCertificateProto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class PlatformOwnership : pb::IMessage<PlatformOwnership>
+  public sealed partial class OriginComposition : pb::IMessage<OriginComposition>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<PlatformOwnership> _parser = new pb::MessageParser<PlatformOwnership>(() => new PlatformOwnership());
+    private static readonly pb::MessageParser<OriginComposition> _parser = new pb::MessageParser<OriginComposition>(() => new OriginComposition());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PlatformOwnership> Parser { get { return _parser; } }
+    public static pb::MessageParser<OriginComposition> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[51]; }
+      get { return global::PlatformCertificateProto.PlatformCertificateIMReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21099,7 +10138,7 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformOwnership() {
+    public OriginComposition() {
       OnConstruction();
     }
 
@@ -21107,71 +10146,59 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformOwnership(PlatformOwnership other) : this() {
-      switch (other.PlatformOwnershipOneofCase) {
-        case PlatformOwnershipOneofOneofCase.Generic:
-          Generic = other.Generic.Clone();
-          break;
-      }
-
+    public OriginComposition(OriginComposition other) : this() {
+      location_ = other.location_ != null ? other.location_.Clone() : null;
+      hasComponents_ = other.hasComponents_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformOwnership Clone() {
-      return new PlatformOwnership(this);
+    public OriginComposition Clone() {
+      return new OriginComposition(this);
     }
 
-    /// <summary>Field number for the "generic" field.</summary>
-    public const int GenericFieldNumber = 1;
+    /// <summary>Field number for the "location" field.</summary>
+    public const int LocationFieldNumber = 1;
+    private global::PlatformCertificateProto.EntityGeoLocation location_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::PlatformCertificateProto.GenericTrait Generic {
-      get { return platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic ? (global::PlatformCertificateProto.GenericTrait) platformOwnershipOneof_ : null; }
+    public global::PlatformCertificateProto.EntityGeoLocation Location {
+      get { return location_; }
       set {
-        platformOwnershipOneof_ = value;
-        platformOwnershipOneofCase_ = value == null ? PlatformOwnershipOneofOneofCase.None : PlatformOwnershipOneofOneofCase.Generic;
+        location_ = value;
       }
     }
 
-    private object platformOwnershipOneof_;
-    /// <summary>Enum of possible cases for the "PlatformOwnership_oneof" oneof.</summary>
-    public enum PlatformOwnershipOneofOneofCase {
-      None = 0,
-      Generic = 1,
-    }
-    private PlatformOwnershipOneofOneofCase platformOwnershipOneofCase_ = PlatformOwnershipOneofOneofCase.None;
+    /// <summary>Field number for the "hasComponents" field.</summary>
+    public const int HasComponentsFieldNumber = 2;
+    private bool hasComponents_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PlatformOwnershipOneofOneofCase PlatformOwnershipOneofCase {
-      get { return platformOwnershipOneofCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearPlatformOwnershipOneof() {
-      platformOwnershipOneofCase_ = PlatformOwnershipOneofOneofCase.None;
-      platformOwnershipOneof_ = null;
+    public bool HasComponents {
+      get { return hasComponents_; }
+      set {
+        hasComponents_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as PlatformOwnership);
+      return Equals(other as OriginComposition);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PlatformOwnership other) {
+    public bool Equals(OriginComposition other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Generic, other.Generic)) return false;
-      if (PlatformOwnershipOneofCase != other.PlatformOwnershipOneofCase) return false;
+      if (!object.Equals(Location, other.Location)) return false;
+      if (HasComponents != other.HasComponents) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -21179,8 +10206,8 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) hash ^= Generic.GetHashCode();
-      hash ^= (int) platformOwnershipOneofCase_;
+      if (location_ != null) hash ^= Location.GetHashCode();
+      if (HasComponents != false) hash ^= HasComponents.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -21199,9 +10226,13 @@ namespace PlatformCertificateProto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) {
+      if (location_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(Generic);
+        output.WriteMessage(Location);
+      }
+      if (HasComponents != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(HasComponents);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -21213,9 +10244,13 @@ namespace PlatformCertificateProto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) {
+      if (location_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(Generic);
+        output.WriteMessage(Location);
+      }
+      if (HasComponents != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(HasComponents);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -21227,8 +10262,11 @@ namespace PlatformCertificateProto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Generic);
+      if (location_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Location);
+      }
+      if (HasComponents != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -21238,19 +10276,19 @@ namespace PlatformCertificateProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PlatformOwnership other) {
+    public void MergeFrom(OriginComposition other) {
       if (other == null) {
         return;
       }
-      switch (other.PlatformOwnershipOneofCase) {
-        case PlatformOwnershipOneofOneofCase.Generic:
-          if (Generic == null) {
-            Generic = new global::PlatformCertificateProto.GenericTrait();
-          }
-          Generic.MergeFrom(other.Generic);
-          break;
+      if (other.location_ != null) {
+        if (location_ == null) {
+          Location = new global::PlatformCertificateProto.EntityGeoLocation();
+        }
+        Location.MergeFrom(other.Location);
       }
-
+      if (other.HasComponents != false) {
+        HasComponents = other.HasComponents;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -21271,12 +10309,14 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
+            if (location_ == null) {
+              Location = new global::PlatformCertificateProto.EntityGeoLocation();
             }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
+            input.ReadMessage(Location);
+            break;
+          }
+          case 16: {
+            HasComponents = input.ReadBool();
             break;
           }
         }
@@ -21299,12 +10339,14 @@ namespace PlatformCertificateProto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            global::PlatformCertificateProto.GenericTrait subBuilder = new global::PlatformCertificateProto.GenericTrait();
-            if (platformOwnershipOneofCase_ == PlatformOwnershipOneofOneofCase.Generic) {
-              subBuilder.MergeFrom(Generic);
+            if (location_ == null) {
+              Location = new global::PlatformCertificateProto.EntityGeoLocation();
             }
-            input.ReadMessage(subBuilder);
-            Generic = subBuilder;
+            input.ReadMessage(Location);
+            break;
+          }
+          case 16: {
+            HasComponents = input.ReadBool();
             break;
           }
         }

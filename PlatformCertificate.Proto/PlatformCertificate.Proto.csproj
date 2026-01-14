@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.0.8</Version>
+    <Version>2.1.0</Version>
     <Authors>Andrew Medak</Authors>
     <PackageProjectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</PackageProjectUrl>
     <Description>This lightweight library offers a selection of sequences from the TCG Platform Certificate compiled as C# Objects. The sequences are compiled after I attempted to capture their ASN.1 definition into Google's Protobuf (Proto3) format.</Description>

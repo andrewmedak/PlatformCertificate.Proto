@@ -22,43 +22,44 @@ public static partial class Rfc5755Reflection {
   static Rfc5755Reflection() {
     byte[] descriptorData = global::System.Convert.FromBase64String(
         string.Concat(
-          "Cg1SZmM1NzU1LnByb3RvGgpBU04xLnByb3RvGg1SZmM1MjgwLnByb3RvIosB",
-          "ChRBdHRyaWJ1dGVDZXJ0aWZpY2F0ZRIpCgZhY2luZm8YASABKAsyGS5BdHRy",
-          "aWJ1dGVDZXJ0aWZpY2F0ZUluZm8SMAoSc2lnbmF0dXJlQWxnb3JpdGhtGAIg",
-          "ASgLMhQuQWxnb3JpdGhtSWRlbnRpZmllchIWCg5zaWduYXR1cmVWYWx1ZRgD",
-          "IAEoDCLBAgoYQXR0cmlidXRlQ2VydGlmaWNhdGVJbmZvEiAKB3ZlcnNpb24Y",
-          "ASABKA4yDy5BdHRDZXJ0VmVyc2lvbhIXCgZob2xkZXIYAiABKAsyBy5Ib2xk",
-          "ZXISHgoGaXNzdWVyGAMgASgLMg4uQXR0Q2VydElzc3VlchInCglzaWduYXR1",
-          "cmUYBCABKAsyFC5BbGdvcml0aG1JZGVudGlmaWVyEjYKFmF0dHJDZXJ0VmFs",
-          "aWRpdHlQZXJpb2QYBSABKAsyFi5BdHRDZXJ0VmFsaWRpdHlQZXJpb2QSHgoK",
-          "YXR0cmlidXRlcxgGIAMoCzIKLkF0dHJpYnV0ZRIpCg5pc3N1ZXJVbmlxdWVJ",
-          "RBgHIAEoCzIRLlVuaXF1ZUlkZW50aWZpZXISHgoKZXh0ZW5zaW9ucxgIIAMo",
-          "CzIKLkV4dGVuc2lvbiKBAQoGSG9sZGVyEigKEWJhc2VDZXJ0aWZpY2F0ZUlE",
-          "GAEgASgLMg0uSXNzdWVyU2VyaWFsEiAKCmVudGl0eU5hbWUYAiADKAsyDC5H",
-          "ZW5lcmFsTmFtZRIrChBvYmplY3REaWdlc3RJbmZvGAMgASgLMhEuT2JqZWN0",
-          "RGlnZXN0SW5mbyLCAQoQT2JqZWN0RGlnZXN0SW5mbxIvChJkaWdlc3RlZE9i",
-          "amVjdFR5cGUYASABKA4yEy5EaWdlc3RlZE9iamVjdFR5cGUSLAoRb3RoZXJP",
-          "YmplY3RUeXBlSUQYAiABKAsyES5PYmplY3RJZGVudGlmaWVyEi0KD2RpZ2Vz",
-          "dEFsZ29yaXRobRgDIAEoCzIULkFsZ29yaXRobUlkZW50aWZpZXISIAoMb2Jq",
-          "ZWN0RGlnZXN0GAQgASgLMgouQml0U3RyaW5nIkYKDUF0dENlcnRJc3N1ZXIS",
-          "HAoGdjFGb3JtGAEgAygLMgwuR2VuZXJhbE5hbWUSFwoGdjJGb3JtGAIgASgL",
-          "MgcuVjJGb3JtIoEBCgZWMkZvcm0SIAoKaXNzdWVyTmFtZRgBIAMoCzIMLkdl",
-          "bmVyYWxOYW1lEigKEWJhc2VDZXJ0aWZpY2F0ZUlEGAIgASgLMg0uSXNzdWVy",
-          "U2VyaWFsEisKEG9iamVjdERpZ2VzdEluZm8YAyABKAsyES5PYmplY3REaWdl",
-          "c3RJbmZvIn8KDElzc3VlclNlcmlhbBIfCgZpc3N1ZXIYASABKAsyDy5Jc3N1",
-          "ZXJTZXJpYWxEThIoCgZzZXJpYWwYAiABKAsyGC5DZXJ0aWZpY2F0ZVNlcmlh",
-          "bE51bWJlchIkCglpc3N1ZXJVSUQYAyABKAsyES5VbmlxdWVJZGVudGlmaWVy",
-          "IkkKDklzc3VlclNlcmlhbEROEiEKC2dlbmVyYWxOYW1lGAEgAygLMgwuR2Vu",
-          "ZXJhbE5hbWUSFAoMcmRuU2hvcnRoYW5kGAIgASgJImgKFUF0dENlcnRWYWxp",
-          "ZGl0eVBlcmlvZBInCg1ub3RCZWZvcmVUaW1lGAEgASgLMhAuR2VuZXJhbGl6",
-          "ZWRUaW1lEiYKDG5vdEFmdGVyVGltZRgCIAEoCzIQLkdlbmVyYWxpemVkVGlt",
-          "ZSowCg5BdHRDZXJ0VmVyc2lvbhIOCgpSRkM1NzU1X1YxEAASDgoKUkZDNTc1",
-          "NV9WMhABKoUBChJEaWdlc3RlZE9iamVjdFR5cGUSIAocRElHRVNURURPQkpF",
-          "Q1RUWVBFX1BVQkxJQ0tFWRAAEiQKIERJR0VTVEVET0JKRUNUVFlQRV9QVUJM",
-          "SUNLRVlDRVJUEAESJwojRElHRVNURURPQkpFQ1RUWVBFX09USEVST0JKRUNU",
-          "VFlQRVMQAmIGcHJvdG8z"));
+          "Cg1SZmM1NzU1LnByb3RvGgpBU04xLnByb3RvGg1SZmM1MjgwLnByb3RvIp0B",
+          "ChRBdHRyaWJ1dGVDZXJ0aWZpY2F0ZRIvCgZhY2luZm8YASABKAsyGS5BdHRy",
+          "aWJ1dGVDZXJ0aWZpY2F0ZUluZm9CBIi1GBASNgoSc2lnbmF0dXJlQWxnb3Jp",
+          "dGhtGAIgASgLMhQuQWxnb3JpdGhtSWRlbnRpZmllckIEiLUYEBIcCg5zaWdu",
+          "YXR1cmVWYWx1ZRgDIAEoDEIEiLUYAyLeAgoYQXR0cmlidXRlQ2VydGlmaWNh",
+          "dGVJbmZvEiYKB3ZlcnNpb24YASABKA4yDy5BdHRDZXJ0VmVyc2lvbkIEiLUY",
+          "AhIdCgZob2xkZXIYAiABKAsyBy5Ib2xkZXJCBIi1GBASJAoGaXNzdWVyGAMg",
+          "ASgLMg4uQXR0Q2VydElzc3VlckIEiLUYEBItCglzaWduYXR1cmUYBCABKAsy",
+          "FC5BbGdvcml0aG1JZGVudGlmaWVyQgSItRgQEjwKFmF0dHJDZXJ0VmFsaWRp",
+          "dHlQZXJpb2QYBSABKAsyFi5BdHRDZXJ0VmFsaWRpdHlQZXJpb2RCBIi1GBAS",
+          "JAoKYXR0cmlidXRlcxgGIAMoCzIKLkF0dHJpYnV0ZUIEiLUYEBIcCg5pc3N1",
+          "ZXJVbmlxdWVJRBgHIAEoDEIEiLUYAxIkCgpleHRlbnNpb25zGAggAygLMgou",
+          "RXh0ZW5zaW9uQgSItRgQIpMBCgZIb2xkZXISLgoRYmFzZUNlcnRpZmljYXRl",
+          "SUQYASABKAsyDS5Jc3N1ZXJTZXJpYWxCBIi1GBASJgoKZW50aXR5TmFtZRgC",
+          "IAMoCzIMLkdlbmVyYWxOYW1lQgSItRgQEjEKEG9iamVjdERpZ2VzdEluZm8Y",
+          "AyABKAsyES5PYmplY3REaWdlc3RJbmZvQgSItRgQIrsBChBPYmplY3REaWdl",
+          "c3RJbmZvEjUKEmRpZ2VzdGVkT2JqZWN0VHlwZRgBIAEoDjITLkRpZ2VzdGVk",
+          "T2JqZWN0VHlwZUIEiLUYChIfChFvdGhlck9iamVjdFR5cGVJRBgCIAEoCUIE",
+          "iLUYBhIzCg9kaWdlc3RBbGdvcml0aG0YAyABKAsyFC5BbGdvcml0aG1JZGVu",
+          "dGlmaWVyQgSItRgQEhoKDG9iamVjdERpZ2VzdBgEIAEoDEIEiLUYAyJSCg1B",
+          "dHRDZXJ0SXNzdWVyEiIKBnYxRm9ybRgBIAMoCzIMLkdlbmVyYWxOYW1lQgSI",
+          "tRgQEh0KBnYyRm9ybRgCIAEoCzIHLlYyRm9ybUIEiLUYECKTAQoGVjJGb3Jt",
+          "EiYKCmlzc3Vlck5hbWUYASADKAsyDC5HZW5lcmFsTmFtZUIEiLUYEBIuChFi",
+          "YXNlQ2VydGlmaWNhdGVJRBgCIAEoCzINLklzc3VlclNlcmlhbEIEiLUYEBIx",
+          "ChBvYmplY3REaWdlc3RJbmZvGAMgASgLMhEuT2JqZWN0RGlnZXN0SW5mb0IE",
+          "iLUYECJkCgxJc3N1ZXJTZXJpYWwSJQoGaXNzdWVyGAEgASgLMg8uSXNzdWVy",
+          "U2VyaWFsRE5CBIi1GBASFAoGc2VyaWFsGAIgASgSQgSItRgCEhcKCWlzc3Vl",
+          "clVJRBgDIAEoDEIEiLUYAyJVCg5Jc3N1ZXJTZXJpYWxEThInCgtnZW5lcmFs",
+          "TmFtZRgBIAMoCzIMLkdlbmVyYWxOYW1lQgSItRgQEhoKDHJkblNob3J0aGFu",
+          "ZBgCIAEoCUIEiLUYECJQChVBdHRDZXJ0VmFsaWRpdHlQZXJpb2QSGwoNbm90",
+          "QmVmb3JlVGltZRgBIAEoCUIEiLUYGBIaCgxub3RBZnRlclRpbWUYAiABKAlC",
+          "BIi1GBgqMAoOQXR0Q2VydFZlcnNpb24SDgoKUkZDNTc1NV9WMRAAEg4KClJG",
+          "QzU3NTVfVjIQASqFAQoSRGlnZXN0ZWRPYmplY3RUeXBlEiAKHERJR0VTVEVE",
+          "T0JKRUNUVFlQRV9QVUJMSUNLRVkQABIkCiBESUdFU1RFRE9CSkVDVFRZUEVf",
+          "UFVCTElDS0VZQ0VSVBABEicKI0RJR0VTVEVET0JKRUNUVFlQRV9PVEhFUk9C",
+          "SkVDVFRZUEVTEAJiBnByb3RvMw=="));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-        new pbr::FileDescriptor[] { global::ASN1Reflection.Descriptor, global::Rfc5280Reflection.Descriptor, },
+        new pbr::FileDescriptor[] { global::ASN1.ASN1Reflection.Descriptor, global::Rfc5280Reflection.Descriptor, },
         new pbr::GeneratedClrTypeInfo(new[] {typeof(global::AttCertVersion), typeof(global::DigestedObjectType), }, null, new pbr::GeneratedClrTypeInfo[] {
           new pbr::GeneratedClrTypeInfo(typeof(global::AttributeCertificate), global::AttributeCertificate.Parser, new[]{ "Acinfo", "SignatureAlgorithm", "SignatureValue" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::AttributeCertificateInfo), global::AttributeCertificateInfo.Parser, new[]{ "Version", "Holder", "Issuer", "Signature", "AttrCertValidityPeriod", "Attributes", "IssuerUniqueID", "Extensions" }, null, null, null, null),
@@ -423,7 +424,7 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
     signature_ = other.signature_ != null ? other.signature_.Clone() : null;
     attrCertValidityPeriod_ = other.attrCertValidityPeriod_ != null ? other.attrCertValidityPeriod_.Clone() : null;
     attributes_ = other.attributes_.Clone();
-    issuerUniqueID_ = other.issuerUniqueID_ != null ? other.issuerUniqueID_.Clone() : null;
+    issuerUniqueID_ = other.issuerUniqueID_;
     extensions_ = other.extensions_.Clone();
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -507,13 +508,16 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
 
   /// <summary>Field number for the "issuerUniqueID" field.</summary>
   public const int IssuerUniqueIDFieldNumber = 7;
-  private global::UniqueIdentifier issuerUniqueID_;
+  private pb::ByteString issuerUniqueID_ = pb::ByteString.Empty;
+  /// <summary>
+  /// UniqueIdentifier
+  /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::UniqueIdentifier IssuerUniqueID {
+  public pb::ByteString IssuerUniqueID {
     get { return issuerUniqueID_; }
     set {
-      issuerUniqueID_ = value;
+      issuerUniqueID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
@@ -549,7 +553,7 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
     if (!object.Equals(Signature, other.Signature)) return false;
     if (!object.Equals(AttrCertValidityPeriod, other.AttrCertValidityPeriod)) return false;
     if(!attributes_.Equals(other.attributes_)) return false;
-    if (!object.Equals(IssuerUniqueID, other.IssuerUniqueID)) return false;
+    if (IssuerUniqueID != other.IssuerUniqueID) return false;
     if(!extensions_.Equals(other.extensions_)) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
@@ -564,7 +568,7 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
     if (signature_ != null) hash ^= Signature.GetHashCode();
     if (attrCertValidityPeriod_ != null) hash ^= AttrCertValidityPeriod.GetHashCode();
     hash ^= attributes_.GetHashCode();
-    if (issuerUniqueID_ != null) hash ^= IssuerUniqueID.GetHashCode();
+    if (IssuerUniqueID.Length != 0) hash ^= IssuerUniqueID.GetHashCode();
     hash ^= extensions_.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
@@ -605,9 +609,9 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
       output.WriteMessage(AttrCertValidityPeriod);
     }
     attributes_.WriteTo(output, _repeated_attributes_codec);
-    if (issuerUniqueID_ != null) {
+    if (IssuerUniqueID.Length != 0) {
       output.WriteRawTag(58);
-      output.WriteMessage(IssuerUniqueID);
+      output.WriteBytes(IssuerUniqueID);
     }
     extensions_.WriteTo(output, _repeated_extensions_codec);
     if (_unknownFields != null) {
@@ -641,9 +645,9 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
       output.WriteMessage(AttrCertValidityPeriod);
     }
     attributes_.WriteTo(ref output, _repeated_attributes_codec);
-    if (issuerUniqueID_ != null) {
+    if (IssuerUniqueID.Length != 0) {
       output.WriteRawTag(58);
-      output.WriteMessage(IssuerUniqueID);
+      output.WriteBytes(IssuerUniqueID);
     }
     extensions_.WriteTo(ref output, _repeated_extensions_codec);
     if (_unknownFields != null) {
@@ -672,8 +676,8 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(AttrCertValidityPeriod);
     }
     size += attributes_.CalculateSize(_repeated_attributes_codec);
-    if (issuerUniqueID_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(IssuerUniqueID);
+    if (IssuerUniqueID.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeBytesSize(IssuerUniqueID);
     }
     size += extensions_.CalculateSize(_repeated_extensions_codec);
     if (_unknownFields != null) {
@@ -716,11 +720,8 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
       AttrCertValidityPeriod.MergeFrom(other.AttrCertValidityPeriod);
     }
     attributes_.Add(other.attributes_);
-    if (other.issuerUniqueID_ != null) {
-      if (issuerUniqueID_ == null) {
-        IssuerUniqueID = new global::UniqueIdentifier();
-      }
-      IssuerUniqueID.MergeFrom(other.IssuerUniqueID);
+    if (other.IssuerUniqueID.Length != 0) {
+      IssuerUniqueID = other.IssuerUniqueID;
     }
     extensions_.Add(other.extensions_);
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -779,10 +780,7 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
           break;
         }
         case 58: {
-          if (issuerUniqueID_ == null) {
-            IssuerUniqueID = new global::UniqueIdentifier();
-          }
-          input.ReadMessage(IssuerUniqueID);
+          IssuerUniqueID = input.ReadBytes();
           break;
         }
         case 66: {
@@ -845,10 +843,7 @@ public sealed partial class AttributeCertificateInfo : pb::IMessage<AttributeCer
           break;
         }
         case 58: {
-          if (issuerUniqueID_ == null) {
-            IssuerUniqueID = new global::UniqueIdentifier();
-          }
-          input.ReadMessage(IssuerUniqueID);
+          IssuerUniqueID = input.ReadBytes();
           break;
         }
         case 66: {
@@ -1177,9 +1172,9 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public ObjectDigestInfo(ObjectDigestInfo other) : this() {
     digestedObjectType_ = other.digestedObjectType_;
-    otherObjectTypeID_ = other.otherObjectTypeID_ != null ? other.otherObjectTypeID_.Clone() : null;
+    otherObjectTypeID_ = other.otherObjectTypeID_;
     digestAlgorithm_ = other.digestAlgorithm_ != null ? other.digestAlgorithm_.Clone() : null;
-    objectDigest_ = other.objectDigest_ != null ? other.objectDigest_.Clone() : null;
+    objectDigest_ = other.objectDigest_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -1203,13 +1198,13 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
 
   /// <summary>Field number for the "otherObjectTypeID" field.</summary>
   public const int OtherObjectTypeIDFieldNumber = 2;
-  private global::ObjectIdentifier otherObjectTypeID_;
+  private string otherObjectTypeID_ = "";
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::ObjectIdentifier OtherObjectTypeID {
+  public string OtherObjectTypeID {
     get { return otherObjectTypeID_; }
     set {
-      otherObjectTypeID_ = value;
+      otherObjectTypeID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
@@ -1227,13 +1222,13 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
 
   /// <summary>Field number for the "objectDigest" field.</summary>
   public const int ObjectDigestFieldNumber = 4;
-  private global::BitString objectDigest_;
+  private pb::ByteString objectDigest_ = pb::ByteString.Empty;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::BitString ObjectDigest {
+  public pb::ByteString ObjectDigest {
     get { return objectDigest_; }
     set {
-      objectDigest_ = value;
+      objectDigest_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
@@ -1253,9 +1248,9 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
       return true;
     }
     if (DigestedObjectType != other.DigestedObjectType) return false;
-    if (!object.Equals(OtherObjectTypeID, other.OtherObjectTypeID)) return false;
+    if (OtherObjectTypeID != other.OtherObjectTypeID) return false;
     if (!object.Equals(DigestAlgorithm, other.DigestAlgorithm)) return false;
-    if (!object.Equals(ObjectDigest, other.ObjectDigest)) return false;
+    if (ObjectDigest != other.ObjectDigest) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -1264,9 +1259,9 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
   public override int GetHashCode() {
     int hash = 1;
     if (DigestedObjectType != global::DigestedObjectType.Publickey) hash ^= DigestedObjectType.GetHashCode();
-    if (otherObjectTypeID_ != null) hash ^= OtherObjectTypeID.GetHashCode();
+    if (OtherObjectTypeID.Length != 0) hash ^= OtherObjectTypeID.GetHashCode();
     if (digestAlgorithm_ != null) hash ^= DigestAlgorithm.GetHashCode();
-    if (objectDigest_ != null) hash ^= ObjectDigest.GetHashCode();
+    if (ObjectDigest.Length != 0) hash ^= ObjectDigest.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -1289,17 +1284,17 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
       output.WriteRawTag(8);
       output.WriteEnum((int) DigestedObjectType);
     }
-    if (otherObjectTypeID_ != null) {
+    if (OtherObjectTypeID.Length != 0) {
       output.WriteRawTag(18);
-      output.WriteMessage(OtherObjectTypeID);
+      output.WriteString(OtherObjectTypeID);
     }
     if (digestAlgorithm_ != null) {
       output.WriteRawTag(26);
       output.WriteMessage(DigestAlgorithm);
     }
-    if (objectDigest_ != null) {
+    if (ObjectDigest.Length != 0) {
       output.WriteRawTag(34);
-      output.WriteMessage(ObjectDigest);
+      output.WriteBytes(ObjectDigest);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -1315,17 +1310,17 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
       output.WriteRawTag(8);
       output.WriteEnum((int) DigestedObjectType);
     }
-    if (otherObjectTypeID_ != null) {
+    if (OtherObjectTypeID.Length != 0) {
       output.WriteRawTag(18);
-      output.WriteMessage(OtherObjectTypeID);
+      output.WriteString(OtherObjectTypeID);
     }
     if (digestAlgorithm_ != null) {
       output.WriteRawTag(26);
       output.WriteMessage(DigestAlgorithm);
     }
-    if (objectDigest_ != null) {
+    if (ObjectDigest.Length != 0) {
       output.WriteRawTag(34);
-      output.WriteMessage(ObjectDigest);
+      output.WriteBytes(ObjectDigest);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -1340,14 +1335,14 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
     if (DigestedObjectType != global::DigestedObjectType.Publickey) {
       size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DigestedObjectType);
     }
-    if (otherObjectTypeID_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(OtherObjectTypeID);
+    if (OtherObjectTypeID.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(OtherObjectTypeID);
     }
     if (digestAlgorithm_ != null) {
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(DigestAlgorithm);
     }
-    if (objectDigest_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(ObjectDigest);
+    if (ObjectDigest.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeBytesSize(ObjectDigest);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -1364,11 +1359,8 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
     if (other.DigestedObjectType != global::DigestedObjectType.Publickey) {
       DigestedObjectType = other.DigestedObjectType;
     }
-    if (other.otherObjectTypeID_ != null) {
-      if (otherObjectTypeID_ == null) {
-        OtherObjectTypeID = new global::ObjectIdentifier();
-      }
-      OtherObjectTypeID.MergeFrom(other.OtherObjectTypeID);
+    if (other.OtherObjectTypeID.Length != 0) {
+      OtherObjectTypeID = other.OtherObjectTypeID;
     }
     if (other.digestAlgorithm_ != null) {
       if (digestAlgorithm_ == null) {
@@ -1376,11 +1368,8 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
       }
       DigestAlgorithm.MergeFrom(other.DigestAlgorithm);
     }
-    if (other.objectDigest_ != null) {
-      if (objectDigest_ == null) {
-        ObjectDigest = new global::BitString();
-      }
-      ObjectDigest.MergeFrom(other.ObjectDigest);
+    if (other.ObjectDigest.Length != 0) {
+      ObjectDigest = other.ObjectDigest;
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -1406,10 +1395,7 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
           break;
         }
         case 18: {
-          if (otherObjectTypeID_ == null) {
-            OtherObjectTypeID = new global::ObjectIdentifier();
-          }
-          input.ReadMessage(OtherObjectTypeID);
+          OtherObjectTypeID = input.ReadString();
           break;
         }
         case 26: {
@@ -1420,10 +1406,7 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
           break;
         }
         case 34: {
-          if (objectDigest_ == null) {
-            ObjectDigest = new global::BitString();
-          }
-          input.ReadMessage(ObjectDigest);
+          ObjectDigest = input.ReadBytes();
           break;
         }
       }
@@ -1450,10 +1433,7 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
           break;
         }
         case 18: {
-          if (otherObjectTypeID_ == null) {
-            OtherObjectTypeID = new global::ObjectIdentifier();
-          }
-          input.ReadMessage(OtherObjectTypeID);
+          OtherObjectTypeID = input.ReadString();
           break;
         }
         case 26: {
@@ -1464,10 +1444,7 @@ public sealed partial class ObjectDigestInfo : pb::IMessage<ObjectDigestInfo>
           break;
         }
         case 34: {
-          if (objectDigest_ == null) {
-            ObjectDigest = new global::BitString();
-          }
-          input.ReadMessage(ObjectDigest);
+          ObjectDigest = input.ReadBytes();
           break;
         }
       }
@@ -2025,8 +2002,8 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public IssuerSerial(IssuerSerial other) : this() {
     issuer_ = other.issuer_ != null ? other.issuer_.Clone() : null;
-    serial_ = other.serial_ != null ? other.serial_.Clone() : null;
-    issuerUID_ = other.issuerUID_ != null ? other.issuerUID_.Clone() : null;
+    serial_ = other.serial_;
+    issuerUID_ = other.issuerUID_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -2050,10 +2027,10 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
 
   /// <summary>Field number for the "serial" field.</summary>
   public const int SerialFieldNumber = 2;
-  private global::CertificateSerialNumber serial_;
+  private long serial_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::CertificateSerialNumber Serial {
+  public long Serial {
     get { return serial_; }
     set {
       serial_ = value;
@@ -2062,13 +2039,16 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
 
   /// <summary>Field number for the "issuerUID" field.</summary>
   public const int IssuerUIDFieldNumber = 3;
-  private global::UniqueIdentifier issuerUID_;
+  private pb::ByteString issuerUID_ = pb::ByteString.Empty;
+  /// <summary>
+  /// UniqueIdentifier
+  /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::UniqueIdentifier IssuerUID {
+  public pb::ByteString IssuerUID {
     get { return issuerUID_; }
     set {
-      issuerUID_ = value;
+      issuerUID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
@@ -2088,8 +2068,8 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
       return true;
     }
     if (!object.Equals(Issuer, other.Issuer)) return false;
-    if (!object.Equals(Serial, other.Serial)) return false;
-    if (!object.Equals(IssuerUID, other.IssuerUID)) return false;
+    if (Serial != other.Serial) return false;
+    if (IssuerUID != other.IssuerUID) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -2098,8 +2078,8 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
   public override int GetHashCode() {
     int hash = 1;
     if (issuer_ != null) hash ^= Issuer.GetHashCode();
-    if (serial_ != null) hash ^= Serial.GetHashCode();
-    if (issuerUID_ != null) hash ^= IssuerUID.GetHashCode();
+    if (Serial != 0L) hash ^= Serial.GetHashCode();
+    if (IssuerUID.Length != 0) hash ^= IssuerUID.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -2122,13 +2102,13 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
       output.WriteRawTag(10);
       output.WriteMessage(Issuer);
     }
-    if (serial_ != null) {
-      output.WriteRawTag(18);
-      output.WriteMessage(Serial);
+    if (Serial != 0L) {
+      output.WriteRawTag(16);
+      output.WriteSInt64(Serial);
     }
-    if (issuerUID_ != null) {
+    if (IssuerUID.Length != 0) {
       output.WriteRawTag(26);
-      output.WriteMessage(IssuerUID);
+      output.WriteBytes(IssuerUID);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -2144,13 +2124,13 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
       output.WriteRawTag(10);
       output.WriteMessage(Issuer);
     }
-    if (serial_ != null) {
-      output.WriteRawTag(18);
-      output.WriteMessage(Serial);
+    if (Serial != 0L) {
+      output.WriteRawTag(16);
+      output.WriteSInt64(Serial);
     }
-    if (issuerUID_ != null) {
+    if (IssuerUID.Length != 0) {
       output.WriteRawTag(26);
-      output.WriteMessage(IssuerUID);
+      output.WriteBytes(IssuerUID);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -2165,11 +2145,11 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
     if (issuer_ != null) {
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(Issuer);
     }
-    if (serial_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(Serial);
+    if (Serial != 0L) {
+      size += 1 + pb::CodedOutputStream.ComputeSInt64Size(Serial);
     }
-    if (issuerUID_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(IssuerUID);
+    if (IssuerUID.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeBytesSize(IssuerUID);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -2189,17 +2169,11 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
       }
       Issuer.MergeFrom(other.Issuer);
     }
-    if (other.serial_ != null) {
-      if (serial_ == null) {
-        Serial = new global::CertificateSerialNumber();
-      }
-      Serial.MergeFrom(other.Serial);
+    if (other.Serial != 0L) {
+      Serial = other.Serial;
     }
-    if (other.issuerUID_ != null) {
-      if (issuerUID_ == null) {
-        IssuerUID = new global::UniqueIdentifier();
-      }
-      IssuerUID.MergeFrom(other.IssuerUID);
+    if (other.IssuerUID.Length != 0) {
+      IssuerUID = other.IssuerUID;
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -2227,18 +2201,12 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
           input.ReadMessage(Issuer);
           break;
         }
-        case 18: {
-          if (serial_ == null) {
-            Serial = new global::CertificateSerialNumber();
-          }
-          input.ReadMessage(Serial);
+        case 16: {
+          Serial = input.ReadSInt64();
           break;
         }
         case 26: {
-          if (issuerUID_ == null) {
-            IssuerUID = new global::UniqueIdentifier();
-          }
-          input.ReadMessage(IssuerUID);
+          IssuerUID = input.ReadBytes();
           break;
         }
       }
@@ -2267,18 +2235,12 @@ public sealed partial class IssuerSerial : pb::IMessage<IssuerSerial>
           input.ReadMessage(Issuer);
           break;
         }
-        case 18: {
-          if (serial_ == null) {
-            Serial = new global::CertificateSerialNumber();
-          }
-          input.ReadMessage(Serial);
+        case 16: {
+          Serial = input.ReadSInt64();
           break;
         }
         case 26: {
-          if (issuerUID_ == null) {
-            IssuerUID = new global::UniqueIdentifier();
-          }
-          input.ReadMessage(IssuerUID);
+          IssuerUID = input.ReadBytes();
           break;
         }
       }
@@ -2547,8 +2509,8 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public AttCertValidityPeriod(AttCertValidityPeriod other) : this() {
-    notBeforeTime_ = other.notBeforeTime_ != null ? other.notBeforeTime_.Clone() : null;
-    notAfterTime_ = other.notAfterTime_ != null ? other.notAfterTime_.Clone() : null;
+    notBeforeTime_ = other.notBeforeTime_;
+    notAfterTime_ = other.notAfterTime_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -2560,25 +2522,31 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
 
   /// <summary>Field number for the "notBeforeTime" field.</summary>
   public const int NotBeforeTimeFieldNumber = 1;
-  private global::GeneralizedTime notBeforeTime_;
+  private string notBeforeTime_ = "";
+  /// <summary>
+  /// YYYYMMDDHHMMSSZ
+  /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::GeneralizedTime NotBeforeTime {
+  public string NotBeforeTime {
     get { return notBeforeTime_; }
     set {
-      notBeforeTime_ = value;
+      notBeforeTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
   /// <summary>Field number for the "notAfterTime" field.</summary>
   public const int NotAfterTimeFieldNumber = 2;
-  private global::GeneralizedTime notAfterTime_;
+  private string notAfterTime_ = "";
+  /// <summary>
+  /// YYYYMMDDHHMMSSZ
+  /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public global::GeneralizedTime NotAfterTime {
+  public string NotAfterTime {
     get { return notAfterTime_; }
     set {
-      notAfterTime_ = value;
+      notAfterTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
 
@@ -2597,8 +2565,8 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
     if (ReferenceEquals(other, this)) {
       return true;
     }
-    if (!object.Equals(NotBeforeTime, other.NotBeforeTime)) return false;
-    if (!object.Equals(NotAfterTime, other.NotAfterTime)) return false;
+    if (NotBeforeTime != other.NotBeforeTime) return false;
+    if (NotAfterTime != other.NotAfterTime) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -2606,8 +2574,8 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public override int GetHashCode() {
     int hash = 1;
-    if (notBeforeTime_ != null) hash ^= NotBeforeTime.GetHashCode();
-    if (notAfterTime_ != null) hash ^= NotAfterTime.GetHashCode();
+    if (NotBeforeTime.Length != 0) hash ^= NotBeforeTime.GetHashCode();
+    if (NotAfterTime.Length != 0) hash ^= NotAfterTime.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -2626,13 +2594,13 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     output.WriteRawMessage(this);
   #else
-    if (notBeforeTime_ != null) {
+    if (NotBeforeTime.Length != 0) {
       output.WriteRawTag(10);
-      output.WriteMessage(NotBeforeTime);
+      output.WriteString(NotBeforeTime);
     }
-    if (notAfterTime_ != null) {
+    if (NotAfterTime.Length != 0) {
       output.WriteRawTag(18);
-      output.WriteMessage(NotAfterTime);
+      output.WriteString(NotAfterTime);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -2644,13 +2612,13 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-    if (notBeforeTime_ != null) {
+    if (NotBeforeTime.Length != 0) {
       output.WriteRawTag(10);
-      output.WriteMessage(NotBeforeTime);
+      output.WriteString(NotBeforeTime);
     }
-    if (notAfterTime_ != null) {
+    if (NotAfterTime.Length != 0) {
       output.WriteRawTag(18);
-      output.WriteMessage(NotAfterTime);
+      output.WriteString(NotAfterTime);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -2662,11 +2630,11 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int CalculateSize() {
     int size = 0;
-    if (notBeforeTime_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(NotBeforeTime);
+    if (NotBeforeTime.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(NotBeforeTime);
     }
-    if (notAfterTime_ != null) {
-      size += 1 + pb::CodedOutputStream.ComputeMessageSize(NotAfterTime);
+    if (NotAfterTime.Length != 0) {
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(NotAfterTime);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -2680,17 +2648,11 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
     if (other == null) {
       return;
     }
-    if (other.notBeforeTime_ != null) {
-      if (notBeforeTime_ == null) {
-        NotBeforeTime = new global::GeneralizedTime();
-      }
-      NotBeforeTime.MergeFrom(other.NotBeforeTime);
+    if (other.NotBeforeTime.Length != 0) {
+      NotBeforeTime = other.NotBeforeTime;
     }
-    if (other.notAfterTime_ != null) {
-      if (notAfterTime_ == null) {
-        NotAfterTime = new global::GeneralizedTime();
-      }
-      NotAfterTime.MergeFrom(other.NotAfterTime);
+    if (other.NotAfterTime.Length != 0) {
+      NotAfterTime = other.NotAfterTime;
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -2712,17 +2674,11 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
         case 10: {
-          if (notBeforeTime_ == null) {
-            NotBeforeTime = new global::GeneralizedTime();
-          }
-          input.ReadMessage(NotBeforeTime);
+          NotBeforeTime = input.ReadString();
           break;
         }
         case 18: {
-          if (notAfterTime_ == null) {
-            NotAfterTime = new global::GeneralizedTime();
-          }
-          input.ReadMessage(NotAfterTime);
+          NotAfterTime = input.ReadString();
           break;
         }
       }
@@ -2745,17 +2701,11 @@ public sealed partial class AttCertValidityPeriod : pb::IMessage<AttCertValidity
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
         case 10: {
-          if (notBeforeTime_ == null) {
-            NotBeforeTime = new global::GeneralizedTime();
-          }
-          input.ReadMessage(NotBeforeTime);
+          NotBeforeTime = input.ReadString();
           break;
         }
         case 18: {
-          if (notAfterTime_ == null) {
-            NotAfterTime = new global::GeneralizedTime();
-          }
-          input.ReadMessage(NotAfterTime);
+          NotAfterTime = input.ReadString();
           break;
         }
       }

@@ -7,26 +7,22 @@ namespace OidsProto
     {
         // Considered using an extension method.
         // Found it would add the extension to any Enum value, and I thought that would be more confusing than helpful.
-        public static ObjectIdentifier Find(Enum oidsEnum)
+        public static string Find(Enum oidsEnum)
         {
-            ObjectIdentifier oid = new();
-
             string enumName = oidsEnum.GetType().Name;
             int enumValue = Convert.ToInt32(oidsEnum);
             EnumDescriptor enumDescriptor = OidsReflection.Descriptor.FindTypeByName<EnumDescriptor>(enumName);
             if (enumDescriptor == null) {
-                return oid;
+                return string.Empty;
             }
 
             EnumValueDescriptor enumValueDescriptor = enumDescriptor.FindValueByNumber(enumValue);
             if (enumValueDescriptor == null)
             {
-                return oid;
+                return string.Empty;
             }
 
-            oid = enumValueDescriptor.GetOptions().GetExtension<ObjectIdentifier>(OidsExtensions.Oid);
-            
-            return oid;
+            return enumValueDescriptor.GetOptions().GetExtension(OidsExtensions.Oid);
         }
     }
 }
