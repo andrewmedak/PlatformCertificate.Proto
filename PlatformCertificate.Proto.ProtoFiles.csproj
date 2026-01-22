@@ -12,10 +12,9 @@
     
     <PackageReadmeFile>README.md</PackageReadmeFile>
     
-    <!-- Ensure the project doesn't try to build a DLL if this is just a files package -->
-    <!-- Remove these 2 lines if you are adding this to your existing library project -->
     <TargetFramework>net8.0</TargetFramework>
-    <IncludeBuildOutput>false</IncludeBuildOutput> 
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+	<EnableDefaultItems>false</EnableDefaultItems>
   </PropertyGroup>
 
   <ItemGroup>
