@@ -22,11 +22,11 @@ jobs:
       with:
         global-json-file: global.json
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore PlatformCertificate.Proto.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build PlatformCertificate.Proto.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test PlatformCertificate.Proto.sln --no-build --verbosity normal
     - name: Proto files package
       run: |
         dotnet pack PlatformCertificate.Proto.ProtoFiles.csproj
