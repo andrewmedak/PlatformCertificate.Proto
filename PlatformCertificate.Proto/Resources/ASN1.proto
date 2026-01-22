@@ -1,94 +1,65 @@
 syntax = "proto3";
 
-message Boolean {
-  bool bool = 1;
+import "google/protobuf/descriptor.proto";
+
+package ASN1;
+
+/**
+Mapping strategy:
+| Simple ASN1 Type | Protobuf Type | Notes | 
+| ----- | ----- | ----- |
+| BOOLEAN | bool | |
+| INTEGER | sint64 | |
+| OBJECT IDENTIFIER | string | |
+| Strings | string | UTF8String<br/>IA5String<br/>etc |
+| OCTET STRING<br/>BIT STRING |	bytes | |
+| NULL | Null | |
+| Time Types | string | Format in inline comments |
+*/
+
+// Define the available ASN.1 types
+enum Asn1Type {
+  ASN1_UNSPECIFIED = 0;
+  ASN1_BOOLEAN = 1;
+  ASN1_INTEGER = 2;
+  ASN1_BIT_STRING = 3;
+  ASN1_OCTET_STRING = 4;
+  ASN1_NULL = 5;
+  ASN1_OBJECT_IDENTIFIER = 6;
+  ASN1_OBJECTDESCRIPTOR = 7;
+  ASN1_EXTERNAL = 8;
+  ASN1_REAL = 9;
+  ASN1_ENUMERATED = 10;
+  ASN1_EMBEDDED_PDV = 11;
+  ASN1_UTF8STRING = 12;
+  ASN1_RELATIVE_OID = 13;
+  ASN1_SEQUENCE = 16;
+  ASN1_SET = 17;
+  ASN1_NUMERICSTRING = 18;
+  ASN1_PRINTABLESTRING = 19;
+  ASN1_TELETEXSTRING = 20;
+  ASN1_VIDEOTEXSTRING = 21;
+  ASN1_IA5STRING = 22;
+  ASN1_UTCTIME = 23;
+  ASN1_GENERALIZEDTIME = 24;
+  ASN1_GRAPHICSTRING = 25;
+  ASN1_VISIBLESTRING = 26;
+  ASN1_GENERALSTRING = 27;
+  ASN1_UNIVERSALSTRING = 28;
+  ASN1_CHARACTER_STRING = 29;
+  ASN1_BMPSSTRING = 30;
+  ASN1_TAG_MASK = 31;
 }
 
-message Integer {
-  sint64 int = 1;
-}
-
-message BMPString {
-  string string = 1;
-}
-
-message GeneralString {
-  string string = 1;
-}
-
-message GraphicString {
-  string string = 1;
-}
-
-message IA5String {
-  string string = 1;
-}
-
-message ISO646String {
-  string string = 1;
-}
-
-message NumericString {
-  string string = 1;
-}
-
-message PrintableString {
-  string string = 1;
-}
-
-message TeletexString {
-  string string = 1;
-}
-
-message T61String {
-  string string = 1;
-}
-
-message UniversalString {
-  string string = 1;
-}
-
-message UTF8String {
-  string string = 1;
-}
-
-message VideotexString {
-  string string = 1;
-}
-
-message VisibleString {
-  string string = 1;
-}
-
-message ObjectIdentifier {
-  string oid = 1;
-}
-
-message BitString {
-  bytes base64 = 1;                                        // base64 encode the binary value
-}
-
-message OctetString {
-  bytes base64 = 1;                                        // base64 encode the binary value
+extend google.protobuf.FieldOptions {
+  Asn1Type asn1_type = 50001;
 }
 
 message Time {
-  oneof Time_oneof {
-    UtcTime utcTime = 1;
-    GeneralizedTime generalizedTime = 2;
+  oneof time {
+    string utcTime = 1 [(ASN1.asn1_type) = ASN1_UTCTIME];                 // YYMMDDHHMMSSZ
+    string generalizedTime = 2 [(ASN1.asn1_type) = ASN1_GENERALIZEDTIME]; // YYYYMMDDHHMMSSZ
   }
 }
 
-message UtcTime {
-  string time = 1;                                         // Example format: YYMMDDHHMMSSZ
-}
-
-message GeneralizedTime {
-  string time = 1;                                         // Example format: YYYYMMDDHHMMSSZ
-}
-
-message Null {}                                            // Intentionally empty
-
-// RFC5280
-
-
+message Null {}                                                           // Intentionally empty

@@ -4,20 +4,20 @@ import "ASN1.proto";
 import "Rfc5280.proto";
 
 message AttributeCertificate {
-  AttributeCertificateInfo acinfo = 1;
-  AlgorithmIdentifier signatureAlgorithm = 2;
-  bytes signatureValue = 3;                                // base64 encode the binary value
+  AttributeCertificateInfo acinfo = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signatureAlgorithm = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes signatureValue = 3 [(ASN1.asn1_type) = ASN1_BIT_STRING];           // base64 encode the binary value
 }
 
 message AttributeCertificateInfo {
-  AttCertVersion version = 1;
-  Holder holder = 2;
-  AttCertIssuer issuer = 3;
-  AlgorithmIdentifier signature = 4;
-  AttCertValidityPeriod attrCertValidityPeriod = 5;
-  repeated Attribute attributes = 6;
-  UniqueIdentifier issuerUniqueID = 7;
-  repeated Extension extensions = 8;
+  AttCertVersion version = 1 [(ASN1.asn1_type) = ASN1_INTEGER];
+  Holder holder = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AttCertIssuer issuer = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signature = 4 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AttCertValidityPeriod attrCertValidityPeriod = 5 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Attribute attributes = 6 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes issuerUniqueID = 7 [(ASN1.asn1_type) = ASN1_BIT_STRING];  // UniqueIdentifier
+  repeated Extension extensions = 8 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 enum AttCertVersion {
@@ -26,16 +26,16 @@ enum AttCertVersion {
 }
 
 message Holder {
-  IssuerSerial baseCertificateID = 1;
-  repeated GeneralName entityName = 2;
-  ObjectDigestInfo objectDigestInfo = 3;
+  IssuerSerial baseCertificateID = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated GeneralName entityName = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  ObjectDigestInfo objectDigestInfo = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message ObjectDigestInfo {
-  DigestedObjectType digestedObjectType = 1;
-  ObjectIdentifier otherObjectTypeID = 2;
-  AlgorithmIdentifier digestAlgorithm = 3;
-  BitString objectDigest = 4;
+  DigestedObjectType digestedObjectType = 1 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+  string otherObjectTypeID = 2 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  AlgorithmIdentifier digestAlgorithm = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes objectDigest = 4 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
 enum DigestedObjectType {
@@ -45,28 +45,28 @@ enum DigestedObjectType {
 }
 
 message AttCertIssuer {
-  repeated GeneralName v1Form = 1;
-  V2Form v2Form = 2;
+  repeated GeneralName v1Form = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  V2Form v2Form = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message V2Form {
-  repeated GeneralName issuerName = 1;
-  IssuerSerial baseCertificateID = 2;
-  ObjectDigestInfo objectDigestInfo = 3;
+  repeated GeneralName issuerName = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  IssuerSerial baseCertificateID = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  ObjectDigestInfo objectDigestInfo = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message IssuerSerial {
-  IssuerSerialDN issuer = 1;
-  CertificateSerialNumber serial = 2;
-  UniqueIdentifier issuerUID = 3;
+  IssuerSerialDN issuer = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  sint64 serial = 2 [(ASN1.asn1_type) = ASN1_INTEGER];
+  bytes issuerUID = 3 [(ASN1.asn1_type) = ASN1_BIT_STRING];  // UniqueIdentifier
 }
 
 message IssuerSerialDN {
-  repeated GeneralName generalName = 1;
-  string rdnShorthand = 2;
+  repeated GeneralName generalName = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  string rdnShorthand = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message AttCertValidityPeriod {
-  GeneralizedTime notBeforeTime = 1;
-  GeneralizedTime notAfterTime = 2;
+  string notBeforeTime = 1 [(ASN1.asn1_type) = ASN1_GENERALIZEDTIME]; // YYYYMMDDHHMMSSZ
+  string notAfterTime = 2 [(ASN1.asn1_type) = ASN1_GENERALIZEDTIME]; // YYYYMMDDHHMMSSZ
 }

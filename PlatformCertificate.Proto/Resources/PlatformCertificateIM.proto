@@ -7,362 +7,206 @@ import "Rfc5755.proto";
 package PlatformCertificateProto;
 
 message PlatformAttributeCertificate {
-  TcgCredentialType tCGCredentialType = 1;
-  DN issuer = 2;
-  AuthorityKeyIdentifier authorityKeyIdentifier = 3;
-  repeated AccessDescription authorityInfoAccess = 4;
-  TcgSpecificationVersion tCGCredentialSpecification = 5;
-  AttCertValidityPeriod attrCertValidityPeriod = 6;
-  AlgorithmIdentifier signature = 7;
-  AlgorithmIdentifier signatureAlgorithm = 8;
-  BitString signatureValue = 9;
-  repeated PolicyInformation certificatePolicies = 10;
-  repeated CertificateIdentifierTrait previousPlatformCertificates = 11;
-  repeated DistributionPoint cRLDistributionPoints = 12;
-  IssuerSerial holder = 13;
-  repeated CertificateIdentifierTrait cryptographicAnchors = 14;
-  PlatformIdentifierOtherName platformIdentifier = 15;
-  TcgPlatformSpecification tCGPlatformSpecification = 16;
-  TbbSecurityAssertions tBBSecurityAssertions = 17;
-  PlatformConfiguration platformConfiguration = 18;
-  repeated PlatformConfigUri platformConfigUri = 19;
-  repeated PlatformOwnership platformOwnership = 20;
+  TcgCredentialType tCGCredentialType = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  DN issuer = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AuthorityKeyIdentifier authorityKeyIdentifier = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated AccessDescription authorityInfoAccess = 4 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  TcgSpecificationVersion tCGCredentialSpecification = 5 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AttCertValidityPeriod attrCertValidityPeriod = 6 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signature = 7 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signatureAlgorithm = 8 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes signatureValue = 9 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+  repeated PolicyInformation certificatePolicies = 10 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait previousPlatformCertificates = 11 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated DistributionPoint cRLDistributionPoints = 12 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  IssuerSerial holder = 13 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait cryptographicAnchors = 14 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformIdentifier = 15 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  TcgPlatformSpecification tCGPlatformSpecification = 16 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait tBBSecurityAssertions = 17 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  PlatformConfiguration platformConfiguration = 18 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformConfigUri = 19 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformOwnership = 20 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait manufacturingAssertions = 21 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message PlatformKeyCertificate {
-  TcgCredentialType tCGCredentialType = 1;
-  DN issuer = 2;
-  AuthorityKeyIdentifier authorityKeyIdentifier = 3;
-  repeated AccessDescription authorityInfoAccess = 4;
-  TcgSpecificationVersion tCGCredentialSpecification = 5;
-  Validity validity = 6;
-  AlgorithmIdentifier signature = 7;
-  AlgorithmIdentifier signatureAlgorithm = 8;
-  BitString signatureValue = 9;
-  repeated PolicyInformation certificatePolicies = 10;
-  repeated CertificateIdentifierTrait previousPlatformCertificates = 11;
-  repeated DistributionPoint cRLDistributionPoints = 12;
-  SubjectPublicKeyInfo subjectPublicKeyInfo = 13;
-  DN subject = 14;
-  SubjectKeyIdentifier subjectKeyIdentifier = 15;
-  repeated CertificateIdentifierTrait cryptographicAnchors = 16;
-  PlatformIdentifierOtherName platformIdentifier = 17;
-  TcgPlatformSpecification tCGPlatformSpecification = 18;
-  TbbSecurityAssertions tBBSecurityAssertions = 19;
-  PlatformConfiguration platformConfiguration = 20;
-  repeated PlatformConfigUri platformConfigUri = 21;
-  repeated PlatformOwnership platformOwnership = 22;
+  TcgCredentialType tCGCredentialType = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  DN issuer = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AuthorityKeyIdentifier authorityKeyIdentifier = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated AccessDescription authorityInfoAccess = 4 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  TcgSpecificationVersion tCGCredentialSpecification = 5 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  Validity validity = 6 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signature = 7 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AlgorithmIdentifier signatureAlgorithm = 8 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes signatureValue = 9 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+  repeated PolicyInformation certificatePolicies = 10 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait previousPlatformCertificates = 11 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated DistributionPoint cRLDistributionPoints = 12 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  SubjectPublicKeyInfo subjectPublicKeyInfo = 13 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  DN subject = 14 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  SubjectKeyIdentifier subjectKeyIdentifier = 15 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait cryptographicAnchors = 16 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformIdentifier = 17 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  TcgPlatformSpecification tCGPlatformSpecification = 18 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait tBBSecurityAssertions = 19 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  PlatformConfiguration platformConfiguration = 20 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformConfigUri = 21 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait platformOwnership = 22 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Trait manufacturingAssertions = 23 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message TcgCredentialType {
   // certificateType values: tcg-kp-PlatformAttributeCertificate, -PlatformKeyCertificate,
   //                               -AdditionalPlatformAttributeCertificate, -AdditionalPlatformKeyCertificate,
   //                               -DeltaPlatformAttributeCertificate, -DeltaPlatformKeyCertificate
-  ObjectIdentifier certificateType = 1;
+  string certificateType = 1 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
 }
 
 message TcgSpecificationVersion {
-  int32 majorVersion = 1;
-  int32 minorVersion = 2;
-  int32 revision = 3;
+  sint64 majorVersion = 1 [(ASN1.asn1_type) = ASN1_INTEGER];
+  sint64 minorVersion = 2 [(ASN1.asn1_type) = ASN1_INTEGER];
+  sint64 revision = 3 [(ASN1.asn1_type) = ASN1_INTEGER];
 }
 
 message TcgPlatformSpecification {
-  TcgSpecificationVersion version = 1;
-  OctetString platformClass = 2;
+  TcgSpecificationVersion version = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes platformClass = 2 [(ASN1.asn1_type) = ASN1_OCTET_STRING];
 }
 
-message GenericTrait {
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  OctetString traitValue = 6;
+message TraitList {
+  repeated Trait traits = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
-message BooleanTrait {
-  // traitId: tcg-tr-ID-Boolean
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  Boolean traitValue = 6;
+message Trait {
+  string traitId = 1 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  string traitCategory = 2 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  string traitRegistry = 3 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  string description = 4 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string descriptionURI = 5 [(ASN1.asn1_type) = ASN1_IA5STRING];
+  oneof traitValue {
+    // Generic buckets to pass data. Trait ID, category, and registry will determine how to interpret any traitValue.
+    bytes asn1 = 6;
+    sint64 intValue = 7;
+    string stringValue = 8;
+    // traitId: tcg-tr-ID-Boolean
+    bool booleanValue = 9 [(ASN1.asn1_type) = ASN1_BOOLEAN];
+    // traitId: tcg-tr-ID-certificateIdentifier
+    // traitCategory values: tcg-tr-cat-EKCertificate, -IAKCertificate, -IDevIDCertificate, -DICECertificate,
+    //                                 -SPDMCertificate, -PlatformCertificate, -DeltaPlatformCertificate,
+    //                                 -RebasePlatformCertificate, -genericCertificate
+    CertificateIdentifier certificateIdentifier = 10 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-CommonCriteria
+    // traitCategory: tcg-tr-cat-CommonCriteria
+    CommonCriteriaEvaluation commonCriteria = 11 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-componentClass
+    // traitCategory: tcg-tr-cat-componentClass
+    bytes componentClassValue = 12 [(ASN1.asn1_type) = ASN1_OCTET_STRING];
+    // traitId: tcg-tr-ID-componentIdentifierV11
+    // traitCategory: tcg-tr-cat-componentIdentifierV11
+    ComponentIdentifierV11 componentIdentifierV11 = 13 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-FIPSLevel
+    // traitCategory: tcg-tr-cat-FIPSLevel
+    FipsLevel fipsLevel = 14 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-ISO9000
+    // traitCategory: tcg-tr-cat-ISO9000
+    Iso9000Certification iso9000 = 15 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-networkMAC
+    // traitCategory: tcg-tr-cat-networkMAC
+    ComponentAddress networkMAC = 16 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-OID
+    // traitCategory: tcg-tr-cat-OID
+    string oid = 17 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+    // traitId: tcg-tr-ID-PEN
+    // traitCategory: tcg-tr-cat-PEN
+    string pen = 18 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+    // traitId: tcg-tr-ID-platformFirmwareCapabilities
+    // traitCategory: tcg-tr-cat-platformFirmwareCapabilities
+    PlatformFirmwareCapabilitiesList platformFirmwareCapabilities = 19 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+    // traitId: tcg-tr-ID-platformFirmwareSignatureVerification
+    // traitCategory: tcg-tr-cat-platformFirmwareSignatureVerification
+    PlatformFirmwareSignatureVerificationList platformFirmwareSignatureVerification = 20 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+    // traitId: tcg-tr-ID-platformFirmwareUpdateCompliance
+    // traitCategory: tcg-tr-cat-platformFirmwareUpdateCompliance
+    PlatformFirmwareUpdateComplianceList platformFirmwareUpdateCompliance = 21 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+    // traitId: tcg-tr-ID-platformHardwareCapabilities
+    // traitCategory: tcg-tr-cat-platformHardwareCapabilities
+    PlatformHardwareCapabilitiesList platformHardwareCapabilities = 22 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+    // traitId: tcg-tr-ID-RTM
+    // traitCategory: tcg-tr-cat-RTM
+    RTMTypesList rTMTypes = 23 [(ASN1.asn1_type) = ASN1_BIT_STRING];
+    // traitId: tcg-tr-ID-status
+    AttributeStatus status = 24 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+    // traitId: tcg-tr-ID-URI
+    URIReference uri = 25 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-UTF8String
+    string utf8 = 26 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+    // traitId: tcg-tr-ID-IA5String
+    string ia5 = 27 [(ASN1.asn1_type) = ASN1_IA5STRING];
+    // traitId: tcg-tr-ID-PEMCertString
+    // traitCategory: tcg-tr-cat-PEMCertificate
+    string pem = 28 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+    // traitId: tcg-tr-ID-PublicKey
+    // traitCategory: tcg-tr-cat-PublicKey
+    SubjectPublicKeyInfo publicKey = 29 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-entGeoLocation
+    // traitCategory: tcg-tr-cat-entGeoLocation
+    EntityGeoLocation entGeoLocation = 30 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+    // traitId: tcg-tr-ID-countryOfOrigin
+    // traitCategory: tcg-tr-cat-countryOfOrigin
+    OriginComposition countryOfOrigin = 31 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  }
 }
 
-message CertificateIdentifierTrait {
-  // traitId: tcg-tr-ID-certificateIdentifier
-  // traitCategory values: tcg-tr-cat-EKCertificate, -IAKCertificate, -IDevIDCertificate, -DICECertificate,
-  //                                 -SPDMCertificate, -PlatformCertificate, -DeltaPlatformCertificate,
-  //                                 -RebasePlatformCertificate, -genericCertificate
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  CertificateIdentifier traitValue = 6;
+message PlatformFirmwareCapabilitiesList {
+  repeated PlatformFirmwareCapabilities values = 6 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
-message CommonCriteriaTrait {
-  // traitId: tcg-tr-ID-CommonCriteria
-  // traitCategory: tcg-tr-cat-CommonCriteria
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  CommonCriteriaEvaluation traitValue = 6;
+message PlatformFirmwareSignatureVerificationList {
+  repeated PlatformFirmwareSignatureVerification values = 6 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
-message ComponentClassTrait {
-  // traitId: tcg-tr-ID-componentClass
-  // traitCategory: tcg-tr-cat-componentClass
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  OctetString traitValue = 6;                              // traitValue is exactly 4 bytes
-}
-message ComponentIdentifierV11Trait {
-  // traitId: tcg-tr-ID-componentIdentifierV11
-  // traitCategory: tcg-tr-cat-componentIdentifierV11
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  ComponentIdentifierV11 traitValue = 6;
+message PlatformFirmwareUpdateComplianceList {
+  repeated PlatformFirmwareUpdateCompliance values = 6 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
-message FipsLevelTrait {
-  // traitId: tcg-tr-ID-FIPSLevel
-  // traitCategory: tcg-tr-cat-FIPSLevel
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  FipsLevel traitValue = 6;
+message PlatformHardwareCapabilitiesList {
+  repeated PlatformHardwareCapabilities values = 6 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
-message Iso9000Trait {
-  // traitId: tcg-tr-ID-ISO9000
-  // traitCategory: tcg-tr-cat-ISO9000
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  Iso9000Certification traitValue = 6;
-}
-
-message NetworkMACTrait {
-  // traitId: tcg-tr-ID-networkMAC
-  // traitCategory: tcg-tr-cat-networkMAC
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  ComponentAddress traitValue = 6;
-}
-
-message OIDTrait {
-  // traitId: tcg-tr-ID-OID
-  // traitCategory: tcg-tr-cat-attestationProtocol
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  ObjectIdentifier traitValue = 6;
-}
-
-message PENTrait {
-  // traitId: tcg-tr-ID-PEN
-  // traitCategory: tcg-tr-cat-PEN
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  ObjectIdentifier traitValue = 6;
-}
-
-message PlatformFirmwareCapabilitiesTrait {
-  // traitId: tcg-tr-ID-platformFirmwareCapabilities
-  // traitCategory: tcg-tr-cat-platformFirmwareCapabilities
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  repeated PlatformFirmwareCapabilities traitValue = 6;
-}
-
-message PlatformFirmwareSignatureVerificationTrait {
-  // traitId: tcg-tr-ID-platformFirmwareSignatureVerification
-  // traitCategory: tcg-tr-cat-platformFirmwareSignatureVerification
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  repeated PlatformFirmwareSignatureVerification traitValue = 6;
-}
-
-message PlatformFirmwareUpdateComplianceTrait {
-  // traitId: tcg-tr-ID-platformFirmwareUpdateCompliance
-  // traitCategory: tcg-tr-cat-platformFirmwareUpdateCompliance
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  repeated PlatformFirmwareUpdateCompliance traitValue = 6;
-}
-
-message PlatformHardwareCapabilitiesTrait {
-  // traitId: tcg-tr-ID-platformHardwareCapabilities
-  // traitCategory: tcg-tr-cat-platformHardwareCapabilities
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  repeated PlatformHardwareCapabilities traitValue = 6;
-}
-
-message RTMTrait {
-  // traitId: tcg-tr-ID-RTM
-  // traitCategory: tcg-tr-cat-RTM
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  repeated RTMTypes traitValue = 6;
-}
-
-message StatusTrait {
-  // traitId: tcg-tr-ID-status
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  AttributeStatus traitValue = 6;
-}
-
-message URITrait {
-  // traitId: tcg-tr-ID-URI
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  URIReference traitValue = 6;
-}
-
-message UTF8StringTrait {
-  // traitId: tcg-tr-ID-UTF8String
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  UTF8String traitValue = 6;
-}
-
-message IA5StringTrait {
-  // traitId: tcg-tr-ID-IA5String
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  IA5String traitValue = 6;
-}
-
-message PEMCertString {
-  // traitId: tcg-tr-ID-PEMCertString
-  // traitCategory: tcg-tr-cat-PEMCertificate
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  UTF8String traitValue = 6;
-}
-
-message PublicKeyTrait {
-  // traitId: tcg-tr-ID-PublicKey
-  // traitCategory: tcg-tr-cat-PublicKey
-  ObjectIdentifier traitId = 1;
-  ObjectIdentifier traitCategory = 2;
-  ObjectIdentifier traitRegistry = 3;
-  UTF8String description = 4;
-  IA5String descriptionURI = 5;
-  SubjectPublicKeyInfo traitValue = 6;
+message RTMTypesList {
+  repeated RTMTypes values = 6 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
 message CertificateIdentifier {
-  HashedCertificateIdentifier hashedCertIdentifier = 1;
-  IssuerSerial genericCertIdentifier = 2;
+  HashedCertificateIdentifier hashedCertIdentifier = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  IssuerSerial genericCertIdentifier = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message HashedCertificateIdentifier {
-  AlgorithmIdentifier hashAlgorithm = 1;
-  OctetString hashOverSignatureValue = 2;
-}
-
-message PlatformIdentifierOtherName {
-  // Default type-id: tcg-at-platformIdentifier
-  ObjectIdentifier type_id = 1;
-  PlatformIdentifier value = 2;
-}
-
-message PlatformIdentifier {
-  Manufacturer platformManufacturer = 1;                   // traitCategory: tcg-tr-cat-platformManufacturer
-  Model platformModel = 2;                                 // traitCategory: tcg-tr-cat-platformModel
-  Revision platformVersion = 3;                            // traitCategory: tcg-tr-cat-platformVersion
-  Serial platformSerial = 4;                               // traitCategory: tcg-tr-cat-platformSerial
-  PENTrait platformManufacturerIdentifier = 5;             // traitCategory: tcg-tr-cat-platformManufacturerIdentifier
-}
-
-message TbbSecurityAssertions {
-  CommonCriteriaTrait commonCriteria = 1;
-  FipsLevelTrait fipsLevel = 2;
-  Iso9000Trait iso9000 = 3;
-  PlatformFirmwareCapabilitiesTrait platformFirmwareCapabilities = 4;
-  PlatformFirmwareSignatureVerificationTrait platformFirmwareSignatureVerificationTrait = 5;
-  PlatformFirmwareUpdateComplianceTrait platformFirmwareUpdateComplianceTrait = 6;
-  PlatformHardwareCapabilitiesTrait platformHardwareCapabilitiesTrait = 7;
-  RTMTrait rTMTrait = 8;
-  URITrait uRITrait = 9;
+  AlgorithmIdentifier hashAlgorithm = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes hashOverSignatureValue = 2 [(ASN1.asn1_type) = ASN1_OCTET_STRING];
 }
 
 message CommonCriteriaEvaluation {
-  CommonCriteriaMeasures commonCriteriaMeasures = 1;
-  UTF8String cCCertificateNumber = 2;
-  UTF8String cCCertificateAuthority = 3;
-  UTF8String evaluationScheme = 4;
-  GeneralizedTime cCCertificateIssuanceDate = 5;
-  GeneralizedTime cCCertificateExpiryDate = 6;
+  CommonCriteriaMeasures commonCriteriaMeasures = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  string cCCertificateNumber = 2 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string cCCertificateAuthority = 3 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string evaluationScheme = 4 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string cCCertificateIssuanceDate = 5 [(ASN1.asn1_type) = ASN1_GENERALIZEDTIME];
+  string cCCertificateExpiryDate = 6 [(ASN1.asn1_type) = ASN1_GENERALIZEDTIME];
 }
 
 message CommonCriteriaMeasures {
-  IA5String version = 1;
-  EvaluationAssuranceLevel assuranceLevel = 2;
-  EvaluationStatus evaluationStatus = 3;
-  Boolean plus = 4;
-  StrengthOfFunction strengthOfFunction = 5;
-  ObjectIdentifier profileOid = 6;
-  URIReference profileUri = 7;
-  ObjectIdentifier targetOid = 8;
-  URIReference targetUri = 9;
+  string version = 1 [(ASN1.asn1_type) = ASN1_IA5STRING];
+  EvaluationAssuranceLevel assuranceLevel = 2 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+  EvaluationStatus evaluationStatus = 3 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+  bool plus = 4 [(ASN1.asn1_type) = ASN1_BOOLEAN];
+  StrengthOfFunction strengthOfFunction = 5 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+  string profileOid = 6 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  URIReference profileUri = 7 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  string targetOid = 8 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  URIReference targetUri = 9 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 enum EvaluationAssuranceLevel {
@@ -389,15 +233,15 @@ enum StrengthOfFunction {
 }
 
 message URIReference {
-  IA5String uniformResourceIdentifier = 1;
-  AlgorithmIdentifier hashAlgorithm = 2;
-  BitString hashValue = 3;
+  string uniformResourceIdentifier = 1 [(ASN1.asn1_type) = ASN1_IA5STRING];
+  AlgorithmIdentifier hashAlgorithm = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bytes hashValue = 3 [(ASN1.asn1_type) = ASN1_BIT_STRING];
 }
 
 message FipsLevel {
-  IA5String version = 1;
-  SecurityLevel level = 2;
-  Boolean plus = 3;
+  string version = 1 [(ASN1.asn1_type) = ASN1_IA5STRING];
+  SecurityLevel level = 2 [(ASN1.asn1_type) = ASN1_ENUMERATED];
+  bool plus = 3 [(ASN1.asn1_type) = ASN1_BOOLEAN];
 }
 
 enum SecurityLevel {
@@ -409,8 +253,8 @@ enum SecurityLevel {
 }
 
 message Iso9000Certification {
-  Boolean iso9000Certified = 1;
-  IA5String iso9000Uri = 2;
+  bool iso9000Certified = 1 [(ASN1.asn1_type) = ASN1_BOOLEAN];
+  string iso9000Uri = 2 [(ASN1.asn1_type) = ASN1_IA5STRING];
 }
 
 enum PlatformFirmwareCapabilities {
@@ -450,102 +294,38 @@ enum RTMTypes {
 }
 
 message PlatformConfiguration {
-  repeated ComponentIdentifierTrait platformComponents = 1;
-  repeated Property platformProperties = 2;
-}
-
-message ComponentIdentifierTrait {
-  oneof ComponentIdentifierTrait_oneof {
-    ComponentIdentifier componentIdentifier = 1;
-    ComponentIdentifierV11Trait componentIdentifierV11 = 2;
-  }
-}
-
-message ComponentIdentifier {
-  ComponentClassTrait componentClass = 1;
-  Manufacturer componentManufacturer = 2;
-  Model componentModel = 3;
-  Serial componentSerial = 4;
-  Revision componentRevision = 5;
-  FieldReplaceable componentFieldReplaceable = 6;
-  PENTrait componentManufacturerId = 8;
-  Location componentLocation = 9;
-  repeated NetworkMACTrait componentAddresses = 10;
-  repeated CertificateIdentifier componentCertificates = 11;
-  StatusTrait componentStatus = 12;
-  repeated GenericTrait additionalTraits = 13;
-}
-
-message Manufacturer {
-  oneof Manufacturer_oneof {
-    GenericTrait generic = 1;
-    UTF8StringTrait utf8 = 2;
-  }
-}
-
-message Model {
-  oneof Model_oneof {
-    GenericTrait generic = 1;
-    UTF8StringTrait utf8 = 2;
-  }
-}
-
-message Location {
-  oneof Location_oneof {
-    GenericTrait generic = 1;
-    UTF8StringTrait utf8 = 2;
-  }
-}
-
-message Serial {
-  oneof Serial_oneof {
-    GenericTrait generic = 1;
-    UTF8StringTrait utf8 = 2;
-  }
-}
-
-message Revision {
-  oneof Revision_oneof {
-    GenericTrait generic = 1;
-    UTF8StringTrait utf8 = 2;
-  }
-}
-
-message FieldReplaceable {
-  oneof FieldReplaceable_oneof {
-    GenericTrait generic = 1;
-    BooleanTrait bool = 2;
-  }
+  repeated TraitList platformComponents = 4 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  repeated Property platformProperties = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
 }
 
 message ComponentIdentifierV11 {
-  ComponentClass componentClass = 1;
-  UTF8String componentManufacturer = 2;
-  UTF8String componentModel = 3;
-  UTF8String componentSerial = 4;
-  UTF8String componentRevision = 5;
-  ObjectIdentifier componentManufacturerId = 6;
-  Boolean fieldReplaceable = 7;
-  repeated ComponentAddress componentAddresses = 8;
-  CertificateIdentifier componentPlatformCert = 9;
-  URIReference componentPlatformCertUri = 10;
-  AttributeStatus status = 11;
+  ComponentClass componentClass = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  string componentManufacturer = 2 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string componentModel = 3 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string componentSerial = 4 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string componentRevision = 5 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string componentManufacturerId = 6 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  bool fieldReplaceable = 7 [(ASN1.asn1_type) = ASN1_BOOLEAN];
+  repeated ComponentAddress componentAddresses = 8 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  CertificateIdentifier componentPlatformCert = 9 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  URIReference componentPlatformCertUri = 10 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  AttributeStatus status = 11 [(ASN1.asn1_type) = ASN1_ENUMERATED];
 }
 
 message ComponentClass {
-  ObjectIdentifier componentClassRegistry = 1;
-  OctetString componentClassValue = 2;
+  string componentClassRegistry = 1 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];
+  bytes componentClassValue = 2 [(ASN1.asn1_type) = ASN1_OCTET_STRING];
 }
 
 message ComponentAddress {
-  ObjectIdentifier addressType = 1;                        // tcg-address-ethernetmac, -wlanmac, -bluetoothmac
-  UTF8String addressValue = 2;
+  string addressType = 1 [(ASN1.asn1_type) = ASN1_OBJECT_IDENTIFIER];                        // tcg-address-ethernetmac, -wlanmac, -bluetoothmac
+  string addressValue = 2 [(ASN1.asn1_type) = ASN1_UTF8STRING];
 }
 
 message Property {
-  UTF8String propertyName = 1;
-  UTF8String propertyValue = 2;
-  AttributeStatus status = 3;
+  string propertyName = 1 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string propertyValue = 2 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  AttributeStatus status = 3 [(ASN1.asn1_type) = ASN1_ENUMERATED];
 }
 
 enum AttributeStatus {
@@ -554,15 +334,17 @@ enum AttributeStatus {
   ATTRIBUTESTATUS_REMOVED = 2;
 }
 
-message PlatformConfigUri {
-  oneof PlatformConfigUri_oneof {
-    GenericTrait generic = 1;
-    URITrait uri = 2;
-  }
+message EntityGeoLocation {
+  string countryCode = 1 [(ASN1.asn1_type) = ASN1_PRINTABLESTRING];
+  string stateOrProvince = 2 [(ASN1.asn1_type) = ASN1_PRINTABLESTRING];
+  string localityName = 3 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string streetAddress = 4 [(ASN1.asn1_type) = ASN1_UTF8STRING];
+  string locationCoords = 5 [(ASN1.asn1_type) = ASN1_PRINTABLESTRING];
+  string postalCode = 6 [(ASN1.asn1_type) = ASN1_UTF8STRING];
 }
 
-message PlatformOwnership {
-  oneof PlatformOwnership_oneof {
-    GenericTrait generic = 1;
-  }
+message OriginComposition {
+  EntityGeoLocation location = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
+  bool hasComponents = 2 [(ASN1.asn1_type) = ASN1_BOOLEAN];
 }
+

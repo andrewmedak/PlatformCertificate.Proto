@@ -14,16 +14,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Create .NET global json file
+      run: |
+        echo '{"sdk": {"version": "8.0.416","rollForward": "latestFeature"}}' > global.json
     - name: Setup .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: 8.0.x
+        global-json-file: global.json
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore PlatformCertificate.Proto.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build PlatformCertificate.Proto.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test PlatformCertificate.Proto.sln --no-build --verbosity normal
     - name: Proto files package
       run: |
-        nuget pack PlatformCertificate.Proto.ProtoFiles.nuspec
+        dotnet pack PlatformCertificate.Proto.ProtoFiles.csproj
