@@ -13,6 +13,9 @@
     <RepositoryUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</RepositoryUrl>
     <PackageTags>platform; certificate; platform certificate; tcg; proto; protobuf;</PackageTags>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
