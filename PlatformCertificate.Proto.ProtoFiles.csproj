@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>PlatformCertificate.Proto.ProtoFiles</PackageId>
+    <Version>2.1.0</Version>
+    <Authors>Andrew Medak</Authors>
+    <PackageProjectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</PackageProjectUrl>
+    <Description>This package contains the original proto files so that other projects can import them.</Description>
+    <PackageTags>platform; certificate; platform certificate; tcg; proto; protobuf;</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <!-- Ensure the project doesn't try to build a DLL if this is just a files package -->
+    <!-- Remove these 2 lines if you are adding this to your existing library project -->
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include README in root -->
+    <None Include="README.md" Pack="true" PackagePath="\" />
+
+    <!-- Include .proto files into specific target directory -->
+    <None Include="PlatformCertificate.Proto\Resources\*.proto" Pack="true" PackagePath="platformcertificate\protos" />
+
+    <!-- Include .targets file into the build folder -->
+    <None Include="PlatformCertificate.Proto.ProtoFiles.targets" Pack="true" PackagePath="build" />
+  </ItemGroup>
+</Project>
