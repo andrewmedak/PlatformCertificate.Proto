@@ -57,7 +57,7 @@ message V2Form {
 
 message IssuerSerial {
   IssuerSerialDN issuer = 1 [(ASN1.asn1_type) = ASN1_SEQUENCE];
-  sint64 serial = 2 [(ASN1.asn1_type) = ASN1_INTEGER];
+  string serial = 2 [(ASN1.asn1_type) = ASN1_INTEGER]; // decimal
   bytes issuerUID = 3 [(ASN1.asn1_type) = ASN1_BIT_STRING];  // UniqueIdentifier
 }
 

@@ -61,5 +61,20 @@ namespace PlatformCertificate.ProtoTests {
             Assert.That(result, Is.Not.Null);
             Assert.That(result, Is.EqualTo("2.23.133.17.3"));
         }
+
+        [Test]
+        public void TestBigSerialNumbers()
+        {
+            const string serial = "1461501637330902918203684832716283019655932542975";
+
+            IssuerSerial issuerSerial = IssuerSerial.Parser.ParseJson("{ \"serial\": \"" + serial + "\" }");
+            TBSCertificate tbsCertificate = TBSCertificate.Parser.ParseJson("{ \"serialNumber\": \"" + serial + "\" }");
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(issuerSerial.Serial, Is.EqualTo(serial));
+                Assert.That(tbsCertificate.SerialNumber, Is.EqualTo(serial));
+            });
+        }
     }
 }

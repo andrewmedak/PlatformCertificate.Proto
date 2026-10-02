@@ -10,7 +10,7 @@ message Certificate {
 
 message TBSCertificate {
   Rfc5280Version version = 1 [(ASN1.asn1_type) = ASN1_INTEGER];
-  sint64 serialNumber = 2 [(ASN1.asn1_type) = ASN1_INTEGER];
+  string serialNumber = 2 [(ASN1.asn1_type) = ASN1_INTEGER]; // decimal
   AlgorithmIdentifier signature = 3 [(ASN1.asn1_type) = ASN1_SEQUENCE];
   Name issuer = 4 [(ASN1.asn1_type) = ASN1_SEQUENCE];
   Validity validity = 5 [(ASN1.asn1_type) = ASN1_SEQUENCE];
@@ -229,7 +229,7 @@ message AuthorityKeyIdentifierExtension {
 message AuthorityKeyIdentifier {
   bytes keyIdentifier = 1 [(ASN1.asn1_type) = ASN1_OCTET_STRING];  // KeyIdentifier
   repeated GeneralName authorityCertIssuer = 2 [(ASN1.asn1_type) = ASN1_SEQUENCE];
-  sint64 authoritySerialNumber = 3 [(ASN1.asn1_type) = ASN1_INTEGER];
+  string authoritySerialNumber = 3 [(ASN1.asn1_type) = ASN1_INTEGER]; // decimal
 }
 
 message SubjectKeyIdentifier {

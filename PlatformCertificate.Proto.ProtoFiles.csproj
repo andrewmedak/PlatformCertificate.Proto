@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>PlatformCertificate.Proto.ProtoFiles</PackageId>
-    <Version>2.1.0</Version>
+    <Version>2.2.0</Version>
     <Authors>Andrew Medak</Authors>
     <PackageProjectUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</PackageProjectUrl>
     <Description>This package contains the original proto files so that other projects can import them.</Description>
@@ -9,12 +9,11 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/andrewmedak/PlatformCertificate.Proto</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
-	<EnableDefaultItems>false</EnableDefaultItems>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <EnableDefaultItems>false</EnableDefaultItems>
   </PropertyGroup>
 
   <ItemGroup>
