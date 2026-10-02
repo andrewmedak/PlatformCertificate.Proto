@@ -10,6 +10,7 @@ Mapping strategy:
 | ----- | ----- | ----- |
 | BOOLEAN | bool | |
 | INTEGER | sint64 | |
+| INTEGER | string | decimal, for values that can exceed 64 bits |
 | OBJECT IDENTIFIER | string | |
 | Strings | string | UTF8String<br/>IA5String<br/>etc |
 | OCTET STRING<br/>BIT STRING |	bytes | |

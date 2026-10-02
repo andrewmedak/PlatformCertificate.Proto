@@ -72,7 +72,7 @@
     "issuer": {
       "rdnShorthand": "/C=US/ST=CA/L=Santa Clara/O=Intel Corporation/OU=EK Certificate Issuer/CN=www.intel.com"
     },
-    "serial": 926974836
+    "serial": "926974836"
   },
   "platformIdentifier": [
     {
@@ -209,7 +209,7 @@
                   "issuer": {
                     "rdnShorthand": "/C=US/ST=AZ/L=Phoenix/O=XYZ Company/OU=Platform Certificate Issuer/CN=www.xyz.com"
                   },
-                  "serial": 938928
+                  "serial": "938928"
                 }
               },
               "componentPlatformCertUri": {
